@@ -29,7 +29,7 @@ function Hubspotcms() {
               <div className="hbstexprtsinr left">
                 <div className="hbperfrm right">
                   <div className="hbperfimg">
-                    <Image src={Arrwcheck} className="img-fluid" />
+                    <Image src={Arrwcheck} className="img-fluid"  alt="Image" />
                   </div>
                   <h5>Extensive HubSpot Expertise</h5>
                   <p>
@@ -39,7 +39,7 @@ function Hubspotcms() {
                 </div>
                 <div className="hbperfrm right">
                   <div className="hbperfimg">
-                    <Image src={Arrwcheck} className="img-fluid" />
+                    <Image src={Arrwcheck} className="img-fluid"  alt="Image" />
                   </div>
                   <h5>Enhanced Performance and Speed</h5>
                   <p>
@@ -49,7 +49,7 @@ function Hubspotcms() {
                 </div>
                 <div className="hbperfrm right lst">
                   <div className="hbperfimg">
-                    <Image src={Arrwcheck} className="img-fluid" />
+                    <Image src={Arrwcheck} className="img-fluid"  alt="Image" />
                   </div>
                   <h5>Mobile-Optimized and Responsive Designs</h5>
                   <p>
@@ -60,13 +60,13 @@ function Hubspotcms() {
               </div>
               <div className="hbstexprtsinr center">
                 <div className="hbbtmgs">
-                  <Image src={Hbstcntr} className="img-fluid" />
+                  <Image src={Hbstcntr} className="img-fluid"  alt="Image" />
                 </div>
               </div>
               <div className="hbstexprtsinr right">
                 <div className="hbperfrm left">
                   <div className="hbperfimg">
-                    <Image src={Arrwcheck} className="img-fluid" />
+                    <Image src={Arrwcheck} className="img-fluid"  alt="Image" />
                   </div>
                   <h5>Customized Website Solutions</h5>
                   <p>
@@ -76,7 +76,7 @@ function Hubspotcms() {
                 </div>
                 <div className="hbperfrm left">
                   <div className="hbperfimg">
-                    <Image src={Arrwcheck} className="img-fluid" />
+                    <Image src={Arrwcheck} className="img-fluid"  alt="Image" />
                   </div>
                   <h5>Seamless Integration with HubSpot Tools</h5>
                   <p>
@@ -87,7 +87,7 @@ function Hubspotcms() {
                 </div>
                 <div className="hbperfrm left lst">
                   <div className="hbperfimg">
-                    <Image src={Arrwcheck} className="img-fluid" />
+                    <Image src={Arrwcheck} className="img-fluid"  alt="Image" />
                   </div>
                   <h5>Customized Website Solutions</h5>
                   <p>

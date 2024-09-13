@@ -10,7 +10,7 @@ import './style.css'
 import '@/app/services/digital-marketing/services.css'
 import CustomizeHome from '@/components/homeComponents/06CustomizeHome'
 import ServiceFaq from '@/components/serviceComponent/12ServiceFaq'
-import Featuredblog from '@/components/homeComponents/09Featuredblog'
+// import Featuredblog from '@/components/homeComponents/09Featuredblog'
 import WebStation from '@/components/otherServices/webDevelopment/07WebStation'
 import WebDevBanner from '@/components/otherServices/webDevelopment/00WebDevBanner'
 
@@ -29,7 +29,7 @@ const page = () => {
       <OurSuccessStories/>
       <ServiceFaq/>
       <Webpartnering/>
-      <Featuredblog/>
+      {/* <Featuredblog/> */}
     </>
   )
 }

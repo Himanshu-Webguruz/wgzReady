@@ -34,7 +34,7 @@ function Addresshome() {
           {addressdata.map((addressconst, index) => (
             <div className="col col-sm-4 col-xs-12" key={index}>
               <div className="address-card">
-                <Image src={addressconst.img} alt="" />
+                <Image src={addressconst.img}  alt="Image"/>
                 <div className="content">
                   <h5>{addressconst.title}</h5>
                   <p>{addressconst.para}</p>

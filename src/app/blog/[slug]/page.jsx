@@ -197,13 +197,13 @@ const page = async ({ params }) => {
           <div className="row">
             <div className="col-sm-12 col-xs-12">
               <div className="singleblog-img-content d-flex align-items-center">
-                <Image src={logowhite} />
+                <Image src={logowhite} alt="Image" />
                 <h3>
                   Bring Your Brand to Life With
                   <span>Innersive & Interactive Storytelling</span>
                 </h3>
-                <Image src={crossarow} />
-                <Image src={system} />
+                <Image src={crossarow}  alt="Image1" />
+                <Image src={system} alt="Imag2e" />
               </div>
             </div>
           </div>

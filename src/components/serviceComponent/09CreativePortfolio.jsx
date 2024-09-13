@@ -97,7 +97,7 @@ const CreativePortfolio = () => {
                   <div className="creativeprtflinr" key={index}>
                     <div className="crportflio">
                       <Link href={item.link}>
-                        <Image src={item.src} className="img-fluid" />
+                        <Image src={item.src} className="img-fluid"  alt="Image"/>
                         <p>
                           <strong>{item.title}</strong>
                         </p>

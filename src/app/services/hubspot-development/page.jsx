@@ -11,7 +11,7 @@ import '../digital-marketing/services.css'
 import ContactLogo from '@/components/contactComponents/07ContactLogo'
 import ServiceFaq from '@/components/serviceComponent/12ServiceFaq'
 import AddsPartner from '@/components/serviceComponent/11AddsPartner'
-import Featuredblog from '@/components/homeComponents/09Featuredblog'
+// import Featuredblog from '@/components/homeComponents/09Featuredblog'
 import BoostHubRank from '@/components/otherServices/hubspotDev/BoostHubRank'
 import HubServiceDisplay from '@/components/otherServices/hubspotDev/HubServiceDisplay'
 import WhyHubspot from '@/components/otherServices/hubspotDev/WhyHubspot'
@@ -31,7 +31,7 @@ const page = () => {
       <OurTeamhubspot/>
       <ServiceFaq/>
       <AddsPartner/>
-      <Featuredblog/>
+      {/* <Featuredblog/> */}
     </>
   )
 }

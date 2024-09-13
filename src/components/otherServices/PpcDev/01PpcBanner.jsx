@@ -25,25 +25,25 @@ const PpcBanner = () => {
                 <li>
                   <button className="seaservice">
                     Seo Services
-                    <Image src={whitearrow} />
+                    <Image src={whitearrow}  alt="Image" />
                   </button>
                 </li>
                 <li>
                   <button className="mediamarketing">
                     Social Media Marketing
-                    <Image src={whitearrow} />
+                    <Image src={whitearrow}  alt="Image" />
                   </button>
                 </li>
                 <li>
                   <button className="contentmrkteing">
                     Content Marketing
-                    <Image src={whitearrow} />
+                    <Image src={whitearrow}  alt="Image" />
                   </button>
                 </li>
                 <li>
                   <button className="contentwrting">
                     Content Writing
-                    <Image src={whitearrow} />
+                    <Image src={whitearrow}  alt="Image" />
                   </button>
                 </li>
               </ul>

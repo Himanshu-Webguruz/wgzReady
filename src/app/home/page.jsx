@@ -5,7 +5,7 @@ import HomeTab from "@/components/homeComponents/03HomeTabber";
 import TechnicalHome from "@/components/homeComponents/05TechnicalHome";
 import CustomizeHome from "@/components/homeComponents/06CustomizeHome";
 import FeaturedProject from "@/components/homeComponents/08FeaturedProject";
-import Featuredblog from "@/components/homeComponents/09Featuredblog";
+// import Featuredblog from "@/components/homeComponents/09Featuredblog";
 import HomeTestimonial from "@/components/homeComponents/07HomeTestimonial";
 import Webguruzwe from "@/components/homeComponents/10WgzLogoZoom";
 import Homeaward from "@/components/homeComponents/Homeaward";
@@ -21,7 +21,7 @@ export default function Home() {
     <CustomizeHome/>
     <FeaturedProject/>
     <HomeTestimonial/>
-    <Featuredblog/>
+    {/* <Featuredblog/> */}
     <Homeaward/>
     <Webguruzwe/>
     </>

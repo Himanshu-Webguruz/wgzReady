@@ -11,35 +11,35 @@ const Webguruzwe = () => {
   let easedScrollProgress = 0;
 
   useEffect(() => {
-    const animate = () => {
-      if (stickyMask.current && container.current) {
-        const maskSizeProgress = targetMaskSize * getScrollProgress();
-        stickyMask.current.style.webkitMaskSize =
-          (initialMaskSize + maskSizeProgress) * 100 + "%";
-        requestAnimationFrame(animate);
-      }
-    };
-
-    const getScrollProgress = () => {
-      const scrollProgress =
-        stickyMask.current.offsetTop /
-        (container.current.getBoundingClientRect().height - window.innerHeight);
-      const delta = scrollProgress - easedScrollProgress;
-      easedScrollProgress += delta * easing;
-      return easedScrollProgress;
-    };
-
     if (container.current && stickyMask.current) {
       requestAnimationFrame(animate);
     }
   }, []);
+
+  const animate = () => {
+    if (stickyMask.current && container.current) {
+      const maskSizeProgress = targetMaskSize * getScrollProgress();
+      stickyMask.current.style.webkitMaskSize =
+        (initialMaskSize + maskSizeProgress) * 100 + "%";
+      requestAnimationFrame(animate);
+    }
+  };
+
+  const getScrollProgress = () => {
+    const scrollProgress =
+      stickyMask.current.offsetTop /
+      (container.current.getBoundingClientRect().height - window.innerHeight);
+    const delta = scrollProgress - easedScrollProgress;
+    easedScrollProgress += delta * easing;
+    return easedScrollProgress;
+  };
 
   return (
     <main>
       <div ref={container} className="mask-container">
         <div ref={stickyMask} className="stickyMask">
           <video autoPlay muted loop>
-            <source src="/video/baner-video.webm" type="video/mp4" />
+            <source src="/video/baner-video.mp4" type="video/mp4" />
           </video>
         </div>
       </div>

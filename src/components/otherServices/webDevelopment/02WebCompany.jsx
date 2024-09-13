@@ -64,7 +64,7 @@ const WebCompany = () => {
                 ></textarea>
                 <label className="fileupload">
                   <input type="file" id="myFile" name="filename" />
-                  <Image src={upload} />
+                  <Image src={upload}  alt="Image" />
                   (Attach Files (doc, xls, pdf, txt and ppt files only, Max Size
                   2MB))
                 </label>

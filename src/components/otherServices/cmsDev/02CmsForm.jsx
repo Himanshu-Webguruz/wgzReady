@@ -47,7 +47,7 @@ const CmsForm = () => {
                   {devOptions.map((option, index) => (
                     <li key={index}>
                       <a href="#">
-                        <Image src={option.icon} className="img-fluid" alt="" />{" "}
+                        <Image src={option.icon} className="img-fluid"  alt="Image" />
                         {option.text}
                       </a>
                     </li>
@@ -59,7 +59,7 @@ const CmsForm = () => {
                   {clientLogos.map((logo, index) => (
                     <li key={index}>
                       <div className="climg">
-                        <Image src={logo} className="img-fluid" alt="" />
+                        <Image src={logo} className="img-fluid"  alt="Image" />
                       </div>
                     </li>
                   ))}

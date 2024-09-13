@@ -15,11 +15,11 @@ const ExploreList = () => {
     <div className="row mt-4">
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={ExploreIcon} />
+          <Image src={ExploreIcon} alt="Image" />
           <div className="content_explore_wrap">
             <Link href="#">
               {" "}
-              Marketing <Image src={ExploreArrow} />
+              Marketing <Image src={ExploreArrow}  alt="Image"/>
             </Link>
             <p>
               {" "}
@@ -32,11 +32,11 @@ const ExploreList = () => {
 
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={Leftseo} />
+          <Image src={Leftseo} alt="Image" />
           <div className="content_explore_wrap">
             <Link href="#">
               {" "}
-              Seo <Image src={ExploreArrow} />
+              Seo <Image src={ExploreArrow} alt="Image" />
             </Link>
             <p>
               {" "}
@@ -49,11 +49,11 @@ const ExploreList = () => {
 
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={Leftppc} />
+          <Image src={Leftppc}  alt="Image" />
           <div className="content_explore_wrap">
             <Link href="#">
               {" "}
-              PPC <Image src={ExploreArrow} />
+              PPC <Image src={ExploreArrow} alt="Image" />
             </Link>
             <p>
               {" "}
@@ -66,11 +66,11 @@ const ExploreList = () => {
 
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={Leftsocialmedia} />
+          <Image src={Leftsocialmedia} alt="Image" />
           <div className="content_explore_wrap">
             <Link href="#">
               {" "}
-              Social Media <Image src={ExploreArrow} />
+              Social Media <Image src={ExploreArrow} alt="Image" />
             </Link>
             <p>
               {" "}
@@ -83,11 +83,11 @@ const ExploreList = () => {
 
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={Leftwebdesign} />
+          <Image src={Leftwebdesign} alt="Image" />
           <div className="content_explore_wrap">
             <Link href="#">
               {" "}
-              Web Design <Image src={ExploreArrow} />
+              Web Design <Image src={ExploreArrow} alt="Image" />
             </Link>
             <p>
               {" "}
@@ -100,11 +100,11 @@ const ExploreList = () => {
 
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={Leftinternet} />
+          <Image src={Leftinternet}  alt="Image"/>
           <div className="content_explore_wrap">
             <Link href="#">
               {" "}
-              Internet <Image src={ExploreArrow} />
+              Internet <Image src={ExploreArrow} alt="Image" />
             </Link>
             <p>
               {" "}

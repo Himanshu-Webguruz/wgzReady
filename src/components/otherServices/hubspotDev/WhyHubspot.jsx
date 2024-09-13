@@ -32,7 +32,7 @@ const WhyHubspot = () => {
             <div className="col-sm-6 col-xs-12 content">
               <h5 className="mb-3">Maximize Benefits From HubSpot Integrations</h5>
               <p>
-              We help you create a feature-rich website packed with functionalities built by combining HubSpot's third-party integrations.
+              We help you create a feature-rich website packed with functionalities built by combining HubSpot&apos;s third-party integrations.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
@@ -54,7 +54,7 @@ const WhyHubspot = () => {
             <div className="col-sm-6 col-xs-12 content">
               <h5 className="mb-3">Maximize Benefits From HubSpot Integrations</h5>
               <p>
-              We help you create a feature-rich website packed with functionalities built by combining HubSpot's third-party integrations.
+              We help you create a feature-rich website packed with functionalities built by combining HubSpot&apos;s third-party integrations.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">

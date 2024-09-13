@@ -81,7 +81,7 @@ const CreativePortfolio = () => {
             <div className="ppc-slideing" key={index}>
               <div className="card-name">
                 <Link href={item.link}>
-                  <Image src={item.src} />
+                  <Image src={item.src} alt="Image" />
                   <h4>{item.title}</h4>
                 </Link>
               </div>

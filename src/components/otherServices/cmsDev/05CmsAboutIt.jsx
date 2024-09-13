@@ -9,7 +9,7 @@ const CmsAboutIt = () => {
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <div className="abtimg">
-                <Image src={Abtimg} className="img-fluid" alt="" />
+                <Image src={Abtimg} className="img-fluid"  alt="Image" />
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">

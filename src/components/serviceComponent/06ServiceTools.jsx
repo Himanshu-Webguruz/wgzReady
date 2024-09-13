@@ -38,7 +38,7 @@ const ServiceTools = () => {
               As a renowned digital marketing company, we utilize
               top-of-the-line tools to design an inbound marketing plan for our
               customers. Our customized strategies and tools ensure we deliver
-              the best results to meet the client's requirements.
+              the best results to meet the client&apos;s requirements.
             </p>
             <ul className="toolsicon-list d-flex align-items-center">
               {tools.map((tool, index) => (

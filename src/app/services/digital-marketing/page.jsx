@@ -10,7 +10,7 @@ import CreativePortfolio from '@/components/serviceComponent/09CreativePortfolio
 import AddsPartner from '@/components/serviceComponent/11AddsPartner'
 import TeamService from '@/components/serviceComponent/10TeamService'
 import ServiceFaq from '@/components/serviceComponent/12ServiceFaq'
-import Featuredblog from '@/components/homeComponents/09Featuredblog'
+// import Featuredblog from '@/components/homeComponents/09Featuredblog'
 import ServicesDisplay from '@/components/serviceComponent/13servicesDisplay'
 
 const page = () => {
@@ -29,7 +29,7 @@ const page = () => {
       <TeamService/>
       <ServiceFaq/>
       <AddsPartner/>
-      <Featuredblog/>
+      {/* <Featuredblog/> */}
     </>
   )
 }

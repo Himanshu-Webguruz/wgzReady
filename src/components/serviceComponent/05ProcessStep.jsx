@@ -40,7 +40,7 @@ const ProcessStep = () => {
                     <h5>Analyze Opportunities</h5>
                     <p>
                       Conduct consumer and market research to understand target
-                      consumers' mindsets, preferences, and buying patterns.
+                      consumers&apos; mindsets, preferences, and buying patterns.
                     </p>
                   </li>
                   <li>

@@ -21,7 +21,7 @@ function OurTeamhubspot() {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="hbstsct">
               <div className="hbstm">
-                <Image src={Hbteam} className="img-fluid" />
+                <Image src={Hbteam} className="img-fluid"  alt="Image" />
               </div>
               <div className="svypmng">
                 <div className="svypmnginr">

@@ -9,7 +9,7 @@ const BlogNewsletter = () => {
             <div className="col-md-12">
               <div className="newletter-wrap-section">
                 <div className="news-letter-left">
-                  <Image src={NewLetterLogo} />
+                  <Image src={NewLetterLogo}  alt="Image3" />
                   <div className="content-news-letter-wrap">
                     <h4> Subscribe to Webguruz Bulletin </h4>
                     <p>
