@@ -11,7 +11,7 @@ import AddsPartner from '@/components/serviceComponent/11AddsPartner'
 import TeamService from '@/components/serviceComponent/10TeamService'
 import ServiceFaq from '@/components/serviceComponent/12ServiceFaq'
 // import Featuredblog from '@/components/homeComponents/09Featuredblog'
-import ServicesDisplay from '@/components/serviceComponent/13servicesDisplay'
+// import ServicesDisplay from '@/components/serviceComponent/13servicesDisplay'
 
 const page = () => {
   return (
@@ -25,7 +25,7 @@ const page = () => {
       <WhyChoose/>
       <IndustriesServe/>
       <CreativePortfolio/>
-      <ServicesDisplay/>
+      {/* <ServicesDisplay/> */}
       <TeamService/>
       <ServiceFaq/>
       <AddsPartner/>
