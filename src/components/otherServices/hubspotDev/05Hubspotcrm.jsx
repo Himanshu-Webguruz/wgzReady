@@ -27,7 +27,7 @@ function Hubspotcrm() {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <div className="heading-main">
+            <div className="heading-main mb-3">
               <h3>
                 Are you facing these challenges with your
                 <br />

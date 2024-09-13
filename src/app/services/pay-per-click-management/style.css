@@ -188,8 +188,9 @@ ul.ppctab-main {
     left: 0;
     right: 0;
     width: 100%;
-    height: 483px;
+    height: 327px;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 .card-process::before {
     content: "";
@@ -209,11 +210,11 @@ ul.ppctab-main {
 }
 .process-card-main >div:first-child, .process-card-main >div:nth-child(3) {
     position: relative;
-    bottom: -30px;
+    bottom: -50px;
 }
 .process-card-main >div:last-child {                                         
     position: relative;
-    top: 20px;
+    top: 0;
 }
 .ppc-card img {
     width: 43px;
@@ -283,22 +284,33 @@ ul.ppctab-main {
 .process-card-main >div:nth-child(3) {
     bottom: -74px;
 }
+.card-process {
+    margin-bottom: 146px;
+}
+.processppc .row .col-sm-3:nth-child(2) .card-process {
+    bottom: -46px;
+}
+.processppc .row .col-sm-3:nth-child(4) .card-process {
+    bottom: 22px;
+}
 /* media query start */
-@media(min-width: 1200px){
-    .processppc::before {
-        bottom: -64px;
-        height: 483px;
-        background-position: center center;
-        background-size: 100% 100%;
-    }
-    .card-process {
-        margin-bottom: 146px;
+@media(max-width: 1400px){
+    .process-card-main >div:first-child {
+        bottom: -33px;
     }
     .processppc .row .col-sm-3:nth-child(2) .card-process {
-        bottom: -46px;
+        bottom: -79px;
     }
     .processppc .row .col-sm-3:nth-child(4) .card-process {
-        bottom: 22px;
+        bottom: 2px;
+    }
+}
+@media(max-width :1199px){
+    .processppc::before{
+        display: none;
+    }
+    .processppc .row .col-sm-3 .card-process {
+        bottom: 0 !important;
     }
 }
 @media(max-width: 767px)
@@ -307,7 +319,7 @@ ul.ppctab-main {
         padding-bottom: 30px;
     }
     .ppc-slider .card-name {
-        margin: 0px 0px 20px;
+        margin: 0px 20px;
         position: relative;
     }
     .ppc-slider{
@@ -341,7 +353,17 @@ ul.ppctab-main {
     }
     .process-card-main >div {
         position: static !important;
-        margin-bottom: 52px;
+        margin-bottom: 92px;
+    }
+    .card-process span.step1 {
+        bottom: -53px;
+    }
+    .ppc-cater .row {
+        flex-direction: column;
+    }
+    .ppc-cater .row >div{
+        flex: auto;
+        width: 100%;
     }
 
 }

@@ -1620,6 +1620,9 @@ form.web-connect label.submit {
   .hbstexprts .hbstexprtsinr {
       padding: 0px 0 30px;
   }
+  .indrngservimg {
+    margin-bottom: 10px;
+}
 }
 
 @media(max-width: 575px){

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import earnings from "../../../public/images/serviceImages/Earning.png";
+import earnings from "../../../public/images/serviceImages/earning.png";
 import conversion from "../../../public/images/serviceImages/conversion.png";
 import competitor from "../../../public/images/serviceImages/competitors.png";
 import businessaudit from "../../../public/images/serviceImages/business-audit.png";
