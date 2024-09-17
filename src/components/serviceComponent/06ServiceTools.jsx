@@ -1,11 +1,17 @@
 import Image from "next/image";
-import semrush from "../../../public/images/serviceImages/semrush.png";
-import hubspot from "../../../public/images/serviceImages/hubspot.png";
-import alexa from "../../../public/images/serviceImages/alexa.png";
-import graph from "../../../public/images/serviceImages/graph.png";
-import robot from "../../../public/images/serviceImages/robot.png";
-import fire from "../../../public/images/serviceImages/fire.png";
-import block from "../../../public/images/serviceImages/block.png";
+import semrush from "../../../public/images/serviceImages/toolsservice/semrush.svg";
+import hubspot from "../../../public/images/serviceImages/toolsservice/hubspot.svg";
+import alexa from "../../../public/images/serviceImages/toolsservice/Alexa-logo.svg";
+import graph from "../../../public/images/serviceImages/toolsservice/sps-vertical.svg";
+import robot from "../../../public/images/serviceImages/toolsservice/sitecheckup.svg";
+import fire from "../../../public/images/serviceImages/toolsservice/fire.svg";
+import rankmath from "../../../public/images/serviceImages/toolsservice/rank-math-logo.svg";
+import mojpro from "../../../public/images/serviceImages/toolsservice/mojpro.svg";
+import surfer from "../../../public/images/serviceImages/toolsservice/surfer.svg";
+import keywordtool from "../../../public/images/serviceImages/toolsservice/keyword-tool.svg";
+import seooptimize from "../../../public/images/serviceImages/toolsservice/seo-optimize.svg";
+import clickdata from "../../../public/images/serviceImages/toolsservice/clickdata.svg";
+import channable from "../../../public/images/serviceImages/toolsservice/channable.svg";
 
 // Array of tools
 const tools = [
@@ -13,16 +19,16 @@ const tools = [
   { image: graph, alt: "graph", name: "SEO PowerSuite" },
   { image: fire, alt: "justuno", name: "Justuno" },
   { image: robot, alt: "robot", name: "SEO Site Checkup" },
-  { image: fire, alt: "mozpro", name: "Moz Pro" },
-  { image: block, alt: "block", name: "Surfer" },
-  { image: fire, alt: "rankmath", name: "Rank Math" },
-  { image: graph, alt: "marketgoo", name: "Marketgoo" },
-  { image: robot, alt: "keywordtool", name: "Keyword Tool" },
+  { image: mojpro, alt: "mozpro", name: "Moz Pro" },
+  { image: surfer, alt: "block", name: "Surfer" },
+  { image: rankmath, alt: "rankmath", name: "Rank Math" },
+  { image: robot, alt: "marketgoo", name: "Marketgoo" },
+  { image: keywordtool, alt: "keywordtool", name: "Keyword Tool" },
   { image: alexa, alt: "alexa", name: "Alexa" },
   { image: hubspot, alt: "hubspot", name: "Hubspot" },
-  { image: fire, alt: "seoptimer", name: "SEOptimer" },
-  { image: fire, alt: "clicdata", name: "Clicdata" },
-  { image: fire, alt: "channable", name: "Channable" },
+  { image: seooptimize, alt: "seoptimer", name: "SEOptimer" },
+  { image: clickdata, alt: "clicdata", name: "Clicdata" },
+  { image: channable, alt: "channable", name: "Channable" },
 ];
 
 const ServiceTools = () => {
