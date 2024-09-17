@@ -744,14 +744,16 @@ form.web-connect label.submit {
     justify-content: space-between;
 }
 .dev-stories-succes-title {
-    font-size: 34px;
-    line-height: 46px;
-    display: block;
-    margin: 0 0 15px 0;
-    font-weight: 600;
+  font-size: 34px;
+  line-height: 46px;
+  display: block;
+  margin: 0 0 15px 0;
+  font-weight: 400;
 }
 .dev-stories-succes-title span {
-    position: relative;
+  position: relative;
+  font-weight: 800;
+  color: #168B9A;
 }
 .dev-stories-succes-title span::before {
     content: "";
@@ -1418,6 +1420,24 @@ form.web-connect label.submit {
 .webqstinnr.left .qstbox.left {
   display: none;
 }
+.webdev-process .icon-content span.number {
+  background-color: #168B9A;
+  top: -10px;
+  color: #fff;
+  left: -10px;
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 6px solid #fff;
+}
+
+
+
+
  /* hubspot development end */
   /* media query */
   @media(max-width: 1400px){
