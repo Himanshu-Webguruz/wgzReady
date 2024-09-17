@@ -1194,6 +1194,9 @@ form.web-connect label.submit {
     padding-top: 50px;
     align-items: center;
   }
+  .hbstexprts h5 {
+    font-weight: 500;
+}
   
   .hbstexprts .hbstexprtsinr {
     display: flex;

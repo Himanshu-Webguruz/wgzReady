@@ -171,7 +171,8 @@ const Header = () => {
                         <li
                           onClick={closeDropdown}
                           className={
-                            activeService === "/services/pay-per-click-management"
+                            activeService ===
+                            "/services/pay-per-click-management"
                               ? "active-service"
                               : ""
                           }
@@ -183,7 +184,8 @@ const Header = () => {
                         <li
                           onClick={closeDropdown}
                           className={
-                            activeService === "/services/search-engine-optimization"
+                            activeService ===
+                            "/services/search-engine-optimization"
                               ? "active-service"
                               : ""
                           }

@@ -481,13 +481,13 @@ a.about--btn:hover svg {
 .number-main .card h4 {
     font-size: 32px;
     line-height: 42px;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0px;
 }
 
 .number-main .card h3 {
     font-size: 54px;
-    font-weight: 800;
+    font-weight: 700;
     color: #26C6DA;
 }
 .number-main .card a.btn-link {

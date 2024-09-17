@@ -13,9 +13,11 @@ import SeoAdvertising from "@/components/otherServices/seoManagement/06SeoAdvert
 import SeoDisplayCards from "@/components/otherServices/seoManagement/07SeoDisplayCards";
 import OurTeamhubspot from "@/components/otherServices/hubspotDev/06Ourteam";
 import AddsPartner from "@/components/serviceComponent/11AddsPartner";
-// import Featuredblog from "@/components/homeComponents/09Featuredblog";
+import Featuredblog from "@/components/homeComponents/09Featuredblog";
 import ServiceFaq from "@/components/serviceComponent/12ServiceFaq";
 import SeoSliderContent from "@/components/otherServices/seoManagement/SeoSliderContent";
+export const dynamic = 'force-dynamic'
+
 const page = () => {
   return (
     <>
@@ -31,7 +33,7 @@ const page = () => {
       <OurTeamhubspot />
       <ServiceFaq />
       <AddsPartner />
-      {/* <Featuredblog /> */}
+      <Featuredblog />
     </>
   );
 };

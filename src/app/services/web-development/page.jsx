@@ -6,13 +6,14 @@ import WebScalable from '@/components/otherServices/webDevelopment/05WebScalable
 import Webpillar from '@/components/otherServices/webDevelopment/06Webpillar'
 import OurSuccessStories from '@/components/otherServices/webDevelopment/08OurSuccessStories'
 import Webpartnering from '@/components/otherServices/webDevelopment/09Webpartnering'
-import './style.css'
 import '@/app/services/digital-marketing/services.css'
 import CustomizeHome from '@/components/homeComponents/06CustomizeHome'
 import ServiceFaq from '@/components/serviceComponent/12ServiceFaq'
-// import Featuredblog from '@/components/homeComponents/09Featuredblog'
+import Featuredblog from '@/components/homeComponents/09Featuredblog'
+export const dynamic = 'force-dynamic'
 import WebStation from '@/components/otherServices/webDevelopment/07WebStation'
 import WebDevBanner from '@/components/otherServices/webDevelopment/00WebDevBanner'
+import AddsPartner from '@/components/contactComponents/06AddsPartner'
 
 const page = () => {
   return (
@@ -27,9 +28,10 @@ const page = () => {
       <WebStation/>
       <CustomizeHome/>
       <OurSuccessStories/>
-      <ServiceFaq/>
       <Webpartnering/>
-      {/* <Featuredblog/> */}
+      <ServiceFaq/>
+      <AddsPartner/>
+      <Featuredblog/>
     </>
   )
 }

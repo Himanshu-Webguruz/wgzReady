@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import Service from '@/components/serviceComponent/01ServiceBanner'
 import ExpertManaged from '@/components/serviceComponent/02ExpertManaged'
 import BoostRanking from '@/components/serviceComponent/03BoostRanking'
@@ -10,8 +12,8 @@ import CreativePortfolio from '@/components/serviceComponent/09CreativePortfolio
 import AddsPartner from '@/components/serviceComponent/11AddsPartner'
 import TeamService from '@/components/serviceComponent/10TeamService'
 import ServiceFaq from '@/components/serviceComponent/12ServiceFaq'
-// import Featuredblog from '@/components/homeComponents/09Featuredblog'
-// import ServicesDisplay from '@/components/serviceComponent/13servicesDisplay'
+import CounterHome from '@/components/homeComponents/02CounterHome'
+import Featuredblog from '@/components/homeComponents/09Featuredblog'
 
 const page = () => {
   return (
@@ -25,11 +27,11 @@ const page = () => {
       <WhyChoose/>
       <IndustriesServe/>
       <CreativePortfolio/>
-      {/* <ServicesDisplay/> */}
+      <CounterHome/>
       <TeamService/>
       <ServiceFaq/>
       <AddsPartner/>
-      {/* <Featuredblog/> */}
+      <Featuredblog/>
     </>
   )
 }

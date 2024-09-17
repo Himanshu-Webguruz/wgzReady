@@ -1,4 +1,5 @@
 import '../hubspot-development/style.css'
+export const dynamic = 'force-dynamic'
 import './cms.css';
 import '../../contact-us/contact.css'
 import CmsBanner from '@/components/otherServices/cmsDev/01CmsBanner'
@@ -11,7 +12,7 @@ import CmsDisplay from '@/components/otherServices/cmsDev/07CmsDisplay'
 import CmsHireUsPage from '@/components/otherServices/cmsDev/08CmsHireUsPage'
 import ProminentPrtnr from '@/components/otherServices/cmsDev/09ProminentPrtnr'
 import ContactLogo from '@/components/contactComponents/07ContactLogo'
-// import Featuredblog from '@/components/homeComponents/09Featuredblog';
+import Featuredblog from '@/components/homeComponents/09Featuredblog';
 const page = () => {
   return (
     <>
@@ -25,7 +26,7 @@ const page = () => {
      <CmsHireUsPage/>
      <ProminentPrtnr/>
      <ContactLogo/>
-     {/* <Featuredblog/> */}
+     <Featuredblog/>
     </>
   )
 }

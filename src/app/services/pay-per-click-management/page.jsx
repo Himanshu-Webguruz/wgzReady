@@ -15,7 +15,8 @@ import ContactLogo from "@/components/contactComponents/07ContactLogo";
 import ServiceFaq from "@/components/serviceComponent/12ServiceFaq";
 import OurTeamhubspot from "@/components/otherServices/hubspotDev/06Ourteam";
 import AddsPartner from "@/components/contactComponents/06AddsPartner";
-// import Featuredblog from "@/components/homeComponents/09Featuredblog";
+import Featuredblog from "@/components/homeComponents/09Featuredblog";
+export const dynamic = 'force-dynamic'
 
 const page = () => {
   return (
@@ -31,7 +32,7 @@ const page = () => {
       <OurTeamhubspot />
       <ServiceFaq />
       <AddsPartner />
-      {/* <Featuredblog /> */}
+      <Featuredblog />
     </>
   );
 };

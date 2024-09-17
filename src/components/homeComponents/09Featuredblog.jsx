@@ -7,7 +7,7 @@ const Featuredblog = async () => {
     `${process.env.NEXTAUTH_URL}/api/getdata?limit=1000`
   );
   const {data} = await posts.json();
-  console.log(data);
+  // console.log(data);
   
   if (!posts || posts.length === 0) {
     
