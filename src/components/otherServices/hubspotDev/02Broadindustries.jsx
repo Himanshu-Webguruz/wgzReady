@@ -1,10 +1,10 @@
 
 
 import Image from "next/image";
-import Icnbroad1 from "../../../../public/images/hubspotimages/icn1.png";
-import Icnbroad2 from "../../../../public/images/hubspotimages/icn2.png";
-import Icnbroad3 from "../../../../public/images/hubspotimages/icn3.png";
-import Icnbroad4 from "../../../../public/images/hubspotimages/icn4.png";
+import Icnbroad1 from "../../../../public/images/hubspotimages/fintech.svg";
+import Icnbroad2 from "../../../../public/images/hubspotimages/retail-ecoomerce.svg";
+import Icnbroad3 from "../../../../public/images/hubspotimages/healthcare.svg";
+import Icnbroad4 from "../../../../public/images/hubspotimages/educaate.svg";
 
 function Broadindustries() {
   const industries = [

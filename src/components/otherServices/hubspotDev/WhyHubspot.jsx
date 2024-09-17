@@ -1,10 +1,8 @@
 import Image from "next/image";
-import optimized from "../../../../public/images/serviceImages/seo.png";
-import socialmarketing from "../../../../public/images/serviceImages/Social-Media-Marketing.webp";
-import automation from "../../../../public/images/serviceImages/Marketing-Automation.webp";
-import paid from "../../../../public/images/serviceImages/paid-markeitng.webp";
-import emailmarket from "../../../../public/images/serviceImages/email-marketing.webp";
-import contentmarkt from "../../../../public/images/serviceImages/content-marketing.webp";
+import optimized from "../../../../public/images/hubspotimages/huboptimised.svg";
+import socialmarketing from "../../../../public/images/hubspotimages/hubspotbenefit.svg";
+import automation from "../../../../public/images/hubspotimages/hubspoteffeciency.svg";
+import contentmarkt from "../../../../public/images/hubspotimages/hubspotbenefit4.svg";
 const WhyHubspot = () => {
   return (
     <>

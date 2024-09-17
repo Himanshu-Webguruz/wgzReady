@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Arrwcheck from "../../../../public/images/hubspotimages/arrow-check.png";
-import Hbstcntr from "../../../../public/images/hubspotimages/hubdev.png";
+import Hbstcntr from "../../../../public/images/hubspotimages/hubdev.svg";
 
 function Hubspotcms() {
   return (
