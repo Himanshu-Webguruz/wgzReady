@@ -16,6 +16,7 @@ import ServiceFaq from "@/components/serviceComponent/12ServiceFaq";
 import OurTeamhubspot from "@/components/otherServices/hubspotDev/06Ourteam";
 import AddsPartner from "@/components/contactComponents/06AddsPartner";
 import Featuredblog from "@/components/homeComponents/09Featuredblog";
+import PpcLogos from "@/components/otherServices/PpcDev/PpcLogos";
 export const dynamic = 'force-dynamic'
 
 const page = () => {
@@ -29,6 +30,7 @@ const page = () => {
       <PpcManagement />
       <PpcLeads />
       <ContactLogo />
+      <PpcLogos/>
       <OurTeamhubspot />
       <ServiceFaq />
       <AddsPartner />

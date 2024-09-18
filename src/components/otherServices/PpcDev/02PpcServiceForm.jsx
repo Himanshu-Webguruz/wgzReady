@@ -1,5 +1,7 @@
 import Image from "next/image";
-import logoppc from "../../../../public/images/ppcimages/logoImageaward.svg";
+import logoppc from "../../../../public/images/ppcimages/ppcform1.svg";
+import logoppc2 from "../../../../public/images/ppcimages/ppcform2.svg";
+import logoppc3 from "../../../../public/images/ppcimages/ppcform3.svg";
 import HubspotForm from "../hubspotDev/clientHubForm/HubspotForm";
 
 const PpcServiceForm = () => {
@@ -11,7 +13,7 @@ const PpcServiceForm = () => {
     "Result Oriented",
   ];
 
-  const logos = [logoppc, logoppc, logoppc]; // List of logo images
+  const logos = [logoppc, logoppc2, logoppc3]; // List of logo images
 
   return (
     <>

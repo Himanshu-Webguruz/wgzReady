@@ -7,6 +7,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from "next/link";
 import ppcserviceOne from "../../../../public/images/ppcimages/ppcservice-one.svg";
+import ppcservice2 from "../../../../public/images/ppcimages/ppcsliderimg2.svg";
+import ppcservice3 from "../../../../public/images/ppcimages/ppcsliderimg3.svg";
 
 const portfolioItems = [
   {
@@ -15,12 +17,12 @@ const portfolioItems = [
     link: "#",
   },
   {
-    src: ppcserviceOne,
+    src: ppcservice2,
     title: "Education",
     link: "#",
   },
   {
-    src: ppcserviceOne,
+    src: ppcservice3,
     title: "Learning",
     link: "#",
   },
