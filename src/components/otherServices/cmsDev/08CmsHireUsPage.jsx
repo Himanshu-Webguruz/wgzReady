@@ -22,14 +22,14 @@ const CmsHireUsPage = () => {
             <div className="col-lg-7 col-md-7 col-sm-12 col-12">
               <div className="heading-main">
                 <h3>
-                  Why Hire Us As Your Drupal Website
+                  Why Hire Us As Your CMS Website
                   <br />
                   <span>Development Company?</span>
                 </h3>
                 <p>
-                  Webguruz is dedicated to delivering world-class Drupal web
+                  Webguruz is dedicated to delivering world-class CMS web
                   development solutions to global clients. Our team of certified
-                  Drupal web developers has years of experience in handling
+                  CMS web developers has years of experience in handling
                   complex projects and offering innovative, scalable, and
                   high-quality solutions.
                 </p>

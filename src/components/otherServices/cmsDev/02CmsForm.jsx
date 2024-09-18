@@ -13,11 +13,11 @@ import HubspotForm from "../hubspotDev/clientHubForm/HubspotForm";
 
 // Data arrays for development options and client logos
 const devOptions = [
-  { icon: icn1, text: "Drupal 8 Development" },
-  { icon: icn2, text: "Drupal 10 Development" },
-  { icon: icn3, text: "Drupal UI/UX" },
-  { icon: icn4, text: "Drupal Theme Development" },
-  { icon: icn5, text: "Drupal Migration" },
+  { icon: icn1, text: "CMS 8 Development" },
+  { icon: icn2, text: "CMS 10 Development" },
+  { icon: icn3, text: "CMS UI/UX" },
+  { icon: icn4, text: "CMS Theme Development" },
+  { icon: icn5, text: "CMS Migration" },
 ];
 
 const clientLogos = [cl1, cl2, cl3, cl4, cl5];
@@ -32,13 +32,13 @@ const CmsForm = () => {
               <div className="heading-main">
                 <h3 className="text-white">
                   <strong>
-                    Get Secure and Flexible Solutions with Drupal Development
+                    Get Secure and Flexible Solutions with CMS Development
                     Company
                   </strong>
                 </h3>
                 <p className="text-white">
                   Leverage OrangeMantra expertise to get a customised solution.
-                  Our Drupal development services offer an end-to-end solution
+                  Our CMS development services offer an end-to-end solution
                   for your every need.
                 </p>
               </div>
@@ -46,10 +46,8 @@ const CmsForm = () => {
                 <ul>
                   {devOptions.map((option, index) => (
                     <li key={index}>
-                      <a href="#">
                         <Image src={option.icon} className="img-fluid"  alt="Image" />
-                        {option.text}
-                      </a>
+                        <p>{option.text}</p>
                     </li>
                   ))}
                 </ul>

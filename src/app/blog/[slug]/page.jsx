@@ -7,7 +7,6 @@ import crossarow from "../../../../public/images/singleblogimages/crossarow.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import ServiceFaq from "@/components/serviceComponent/12ServiceFaq";
-import "../../services/digital-marketing/services.css";
 import ContentBlogClient from "../../../components/blogComponents/ContentBlogClient";
 
 const page = async ({ params }) => {

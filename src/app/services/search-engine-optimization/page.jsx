@@ -1,10 +1,6 @@
 import SeoBanner from "@/components/otherServices/seoManagement/01SeoBanner";
 import PpcServiceForm from "@/components/otherServices/PpcDev/02PpcServiceForm";
-import "./style.css";
 import "../pay-per-click-management/style.css";
-import "../web-development/style.css";
-import "../hubspot-development/style.css";
-import "../digital-marketing/services.css";
 import SeoCounter from "@/components/otherServices/seoManagement/02SeoCounter";
 import SeoProfessional from "@/components/otherServices/seoManagement/03SeoProfessional";
 import SeoStation from "@/components/otherServices/seoManagement/04SeoStation";
@@ -16,13 +12,13 @@ import AddsPartner from "@/components/serviceComponent/11AddsPartner";
 import Featuredblog from "@/components/homeComponents/09Featuredblog";
 import ServiceFaq from "@/components/serviceComponent/12ServiceFaq";
 import SeoSliderContent from "@/components/otherServices/seoManagement/SeoSliderContent";
-export const dynamic = 'force-dynamic'
+// export const dynamic = 'force-dynamic'
 
 const page = () => {
   return (
     <>
       <SeoBanner />
-      <PpcServiceForm />
+      <PpcServiceForm heading={"SEO Services"}/>
       <SeoCounter />
       <SeoProfessional />
       <SeoSliderContent/>

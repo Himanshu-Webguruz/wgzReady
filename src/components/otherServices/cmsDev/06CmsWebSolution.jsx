@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Drpl from "../../../../public/images/drupalimg/drpl.png";
+import Drpl from "../../../../public/images/drupalimg/cmsdevsol.svg";
 
 // Array to store Drupal solution data
 const drupalSolutions = [
@@ -34,7 +34,7 @@ const CmsWebSolution = () => {
             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
               <div className="heading-main text-center">
                 <h3>
-                  Drupal Development <span>Solutions</span>
+                  CMS Development <span>Solutions</span>
                 </h3>
                 <p>
                   Proin euismod dictum facilisis. Donec nulla orci, suscipit ac
@@ -47,7 +47,7 @@ const CmsWebSolution = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <div className="ddrpl">
-                <Image src={Drpl} className="img-fluid" alt="Drupal Development Solutions" />
+                <Image src={Drpl} className="img-fluid" alt="CMS Development Solutions" />
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">

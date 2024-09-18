@@ -164,9 +164,10 @@ button.explore-btn {
 }
 .logo-card img {
     width: 100%;
-    max-width: 143px;
-    height: 120px;
+    max-width: 203px;
+    height: 102px;
     object-fit: contain;
+    padding: 12px;
 }
 .logo-card {
     border: 1px solid #F0F0F0;
@@ -224,7 +225,13 @@ button.explore-btn {
         width: 50%;
         flex: auto;
     }
-
+    .contact-logo .container >.row:nth-child(2) >div {
+        width: 50%;
+    }
+    .contact-logo .container >.row:nth-child(2) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 @media(max-width: 575px){
     .connect-level .col-sm-4 {
@@ -240,5 +247,8 @@ button.explore-btn {
     }
     .contact-banner .content {
         padding-bottom: 30px;
+    }
+    .contact-logo .container >.row:nth-child(2) >div {
+        width: 100%;
     }
 }

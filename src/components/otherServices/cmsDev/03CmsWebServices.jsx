@@ -4,12 +4,12 @@ import drplleft from "../../../../public/images/drupalimg/drupal1.png";
 // Array to store Drupal services data
 const drupalServices = [
   {
-    title: "Drupal CMS Development",
+    title: "CMS CMS Development",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
   },
   {
-    title: "Drupal Commerce",
+    title: "CMS Commerce",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
   },
@@ -19,12 +19,12 @@ const drupalServices = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
   },
   {
-    title: "Drupal Theme Development",
+    title: "CMS Theme Development",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
   },
   {
-    title: "Drupal Responsive Design",
+    title: "CMS Responsive Design",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
   },
@@ -39,7 +39,7 @@ const drupalServices = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
   },
   {
-    title: "PSD to Drupal Development",
+    title: "PSD to CMS Development",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
   },
@@ -55,14 +55,14 @@ const CmsWebServices = () => {
               <div className="lftbg"></div>
               <div className="heading-main">
                 <h3 className="text-white">
-                  Drupal Web <br />
+                  CMS Web <br />
                   Development Services
                 </h3>
                 <div className="drplimg">
                   <Image
                     src={drplleft}
                     className="img-fluid"
-                    alt="Drupal Development Image"
+                    alt="CMS Development Image"
                   />
                 </div>
               </div>

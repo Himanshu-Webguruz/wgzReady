@@ -1,7 +1,5 @@
 import Image from "next/image";
-import Icnbroad1 from "../../../../public/images/drupalimg/topdrupal.png";
-import Lnkdn from "../../../../public/images/drupalimg/linkedin.png";
-import smrsh from "../../../../public/images/drupalimg/semrush.png";
+import Icnbroad1 from "../../../../public/images/drupalimg/cmsbanner.svg";
 
 const CmsBanner = () => {
   return (
@@ -12,7 +10,7 @@ const CmsBanner = () => {
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <div className="heading-main">
                 <h2>
-                  <span>Drupal Development</span>
+                  <span>CMS Development</span>
                   <br />
                   Services
                 </h2>
@@ -30,14 +28,8 @@ const CmsBanner = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="dplrtimg">
-                <div className="lnkdn">
-                  <Image src={Lnkdn} className="img-fluid"  alt="Image" />
-                </div>
-                <Image src={Icnbroad1} className="img-fluid"  alt="Image" />
-                <div className="smrsh">
-                  <Image src={smrsh} className="img-fluid"  alt="Image" />
-                </div>
+              <div className="banner-image-right">
+                <Image src={Icnbroad1} className="img-fluid" alt="Image" />
               </div>
             </div>
           </div>

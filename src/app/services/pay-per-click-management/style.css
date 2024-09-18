@@ -134,6 +134,9 @@ ul.ppctab-main {
 .ppc-card p {
     margin: 0px;
 }
+.ppc-card:hover .image img {
+    filter: invert(1);
+}
 .card-process {
     text-align: center;
     background-color: #FFFFFF;

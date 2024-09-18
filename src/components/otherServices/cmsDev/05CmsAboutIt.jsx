@@ -15,7 +15,7 @@ const CmsAboutIt = () => {
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <div className="heading-main">
                 <h3>
-                  About Drupal <span>Web Development</span>
+                  About CMS <span>Web Development</span>
                 </h3>
               </div>
               <p>

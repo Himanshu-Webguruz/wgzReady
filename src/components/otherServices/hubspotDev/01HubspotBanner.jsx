@@ -29,7 +29,7 @@ function Hubspotbanner() {
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-            <div className="hbsptbnrimg">
+            <div className="banner-image-right">
               <Image src={Hbstptimg} className="img-fluid" alt="" />
             </div>
           </div>

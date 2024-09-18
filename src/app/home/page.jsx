@@ -1,4 +1,4 @@
-export const dynamic = 'force-dynamic'
+// export const dynamic = 'force-dynamic'
 import HomeNumbers from "@/components/homeComponents/04HomeNumbers";
 import HomeBanner from "@/components/homeComponents/01HomeBanner";
 import CounterHome from "@/components/homeComponents/02CounterHome";

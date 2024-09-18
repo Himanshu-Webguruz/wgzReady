@@ -250,11 +250,9 @@ span.tags, span.name, span.date {
     align-items: center;
     padding: 10px 20px;
     background: rgb(255, 255, 255);
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
     border-image: initial;
     border-radius: 8px;
+    border: 0px;
 }
 .news-form-right form button {
     width: 100%;
@@ -268,9 +266,7 @@ span.tags, span.name, span.date {
     align-items: center;
     padding: 10px 20px;
     background: rgb(38, 198, 218);
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
+    border: 0px;
     border-image: initial;
     border-radius: 8px;
 }

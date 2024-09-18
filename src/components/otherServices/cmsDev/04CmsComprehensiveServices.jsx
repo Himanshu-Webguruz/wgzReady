@@ -1,30 +1,38 @@
 import Image from "next/image";
-import Drp1 from "../../../../public/images/drupalimg/drp1.png";
+import Drp1 from "../../../../public/images/drupalimg/cms-dev1.svg";
+import Drp2 from "../../../../public/images/drupalimg/cms-dev2.svg";
+import Drp3 from "../../../../public/images/drupalimg/cms-dev3.svg";
 
 // Array to store comprehensive service data
 const drupalComprehensiveServices = [
   {
-    title: "Drupal 9 Development",
+    image:Drp1,
+    title: "CMS 9 Development",
     description: "From payment processing to investing and beyond, mobile app services make it easier than ever to access financial services on the go.",
   },
   {
-    title: "Drupal 9 Development",
+    image:Drp2,
+    title: "CMS 9 Development",
     description: "From payment processing to investing and beyond, mobile app services make it easier than ever to access financial services on the go.",
   },
   {
-    title: "Drupal 9 Development",
+    image:Drp3,
+    title: "CMS 9 Development",
     description: "From payment processing to investing and beyond, mobile app services make it easier than ever to access financial services on the go.",
   },
   {
-    title: "Drupal 9 Development",
+    image:Drp1,
+    title: "CMS 9 Development",
     description: "From payment processing to investing and beyond, mobile app services make it easier than ever to access financial services on the go.",
   },
   {
-    title: "Drupal 9 Development",
+    image:Drp2,
+    title: "CMS 9 Development",
     description: "From payment processing to investing and beyond, mobile app services make it easier than ever to access financial services on the go.",
   },
   {
-    title: "Drupal 9 Development",
+    image:Drp3,
+    title: "CMS 9 Development",
     description: "From payment processing to investing and beyond, mobile app services make it easier than ever to access financial services on the go.",
   },
 ];
@@ -38,7 +46,7 @@ const CmsComprehensiveServices = () => {
             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
               <div className="heading-main text-center">
                 <h3>
-                  Our Comprehensive Drupal <span>Development Services</span>
+                  Our Comprehensive CMS <span>Development Services</span>
                 </h3>
                 <p>
                   Proin euismod dictum facilisis. Donec nulla orci, suscipit ac
@@ -50,7 +58,7 @@ const CmsComprehensiveServices = () => {
                 {drupalComprehensiveServices.map((service, index) => (
                   <div className="cmssctinr" key={index}>
                     <div className="cmslimg">
-                      <Image src={Drp1} className="img-fluid" alt={service.title} />
+                      <Image src={service.image} className="img-fluid" alt={service.title} />
                     </div>
                     <div className="cmslcnt">
                       <h5>{service.title}</h5>

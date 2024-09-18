@@ -29,7 +29,7 @@ const SeoBanner = () => {
                 </button>
               </div>
             </div>
-            <div className="col-sm-6 col-xs-12 bannerimage">
+            <div className="col-sm-6 col-xs-12 banner-image-right">
               <Image src={seobannertop} alt="seobannertop" />
             </div>
           </div>

@@ -1,4 +1,4 @@
-export const dynamic = 'force-dynamic'
+// export const dynamic = 'force-dynamic'
 
 import Service from '@/components/serviceComponent/01ServiceBanner'
 import ExpertManaged from '@/components/serviceComponent/02ExpertManaged'

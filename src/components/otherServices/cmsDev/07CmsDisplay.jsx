@@ -43,7 +43,7 @@ const CmsDisplay = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-5">
               <h3>
-                Drupal Development Expertise In{" "}
+                CMS Development Expertise In{" "}
                 <span>Different Industries</span>
               </h3>
               <p>

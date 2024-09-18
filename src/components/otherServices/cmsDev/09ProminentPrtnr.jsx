@@ -6,22 +6,22 @@ const features = [
   {
     title: "Higher Quality",
     description:
-      "With superior Drupal development services, our experts deliver qualitatively rich and quantifiable viable solutions for all types of industry domains.",
+      "With superior CMS development services, our experts deliver qualitatively rich and quantifiable viable solutions for all types of industry domains.",
   },
   {
     title: "Competitive Costs",
     description:
-      "Get real value for your investment with fair-priced Drupal website development services that are strategized by their reliability, stability, and robustness.",
+      "Get real value for your investment with fair-priced CMS website development services that are strategized by their reliability, stability, and robustness.",
   },
   {
     title: "Proven Methodologies",
     description:
-      "As an experienced Drupal consultant, we combine innovation with tried and tested methodologies that equip you with the required expertise to stay competitive.",
+      "As an experienced CMS consultant, we combine innovation with tried and tested methodologies that equip you with the required expertise to stay competitive.",
   },
   {
     title: "Flexibility",
     description:
-      "Using the flexibility of the Drupal platform, we create all kinds of web solutions, including blogs, business websites, and even a network of several sites.",
+      "Using the flexibility of the CMS platform, we create all kinds of web solutions, including blogs, business websites, and even a network of several sites.",
   },
 ];
 
@@ -33,7 +33,7 @@ function ProminentPrtnr() {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main text-center">
               <h3>
-                What Makes Us a Prominent Drupal Web
+                What Makes Us a Prominent CMS Web
                 <br />
                 <span>Development Partner?</span>
               </h3>

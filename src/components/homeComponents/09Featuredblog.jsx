@@ -1,16 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 // import { fetchPosts } from "../../../lib/mongodb";
+import { fetchPosts } from "../../../lib/fetchData";
+
+// import { fetchPosts } from "../../../lib/mongodb";
 
 const Featuredblog = async () => {
-  const posts = await fetch(
-    `${process.env.NEXTAUTH_URL}/api/getdata?limit=1000`
-  );
-  const {data} = await posts.json();
-  // console.log(data);
-  
-  if (!posts || posts.length === 0) {
-    
+  const posts = await fetchPosts();
+
+  if (posts.length === 0) {
     return <p>No posts available</p>;
   }
   return (
@@ -31,7 +29,7 @@ const Featuredblog = async () => {
           </div>
           <div className="row blog-card-content">
             <div className="col-sm-6 col-xs-12 blog-sub left">
-              {data.slice(0,2).map((post, index) => (
+              {posts.slice(0,2).map((post, index) => (
                 <div className="blog-card" key={index}>
                   <div className="blogimage">
                     <Image
@@ -58,7 +56,7 @@ const Featuredblog = async () => {
                 <div className="blogimage">
                   <Image
                     src={
-                      data[2].yoast_head_json.schema["@graph"][0].thumbnailUrl
+                      posts[2].yoast_head_json.schema["@graph"][0].thumbnailUrl
                     }
                     alt="img"
                     width={700}
@@ -67,8 +65,8 @@ const Featuredblog = async () => {
                 </div>
                 <div className="blog-content">
                   <span>Blog </span>
-                  <h6> {data[2].title.rendered}</h6>
-                  <Link className="explore-btn" href={`/blog/${data[2].slug}`}>
+                  <h6> {posts[2].title.rendered}</h6>
+                  <Link className="explore-btn" href={`/blog/${posts[2].slug}`}>
                     Read More
                   </Link>
                 </div>

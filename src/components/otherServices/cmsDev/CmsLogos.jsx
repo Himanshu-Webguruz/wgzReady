@@ -1,25 +1,22 @@
 
 import Image from "next/image";
-import logo1 from "../../../public/images/contactimages/logo1.svg";
-import logo2 from "../../../public/images/contactimages/logo2.svg";
-import logo3 from "../../../public/images/contactimages/logo3.svg";
-import logo4 from "../../../public/images/contactimages/logo4.svg";
-import logo5 from "../../../public/images/contactimages/logo5.svg";
-import logo6 from "../../../public/images/contactimages/logo6.svg";
-import logo7 from "../../../public/images/contactimages/logo7.svg";
+import logo1 from "../../../../public/images/hubspotimages/hubspotclient1.svg";
+import logo2 from "../../../../public/images/hubspotimages/hubspotclient2.svg";
+import logo3 from "../../../../public/images/hubspotimages/hubspotclient3.svg";
+import logo4 from "../../../../public/images/hubspotimages/hubspotclient4.svg";
 
 const logos = [
   { src: logo1, alt: "logo1" },
   { src: logo2, alt: "logo2" },
   { src: logo3, alt: "logo3" },
   { src: logo4, alt: "logo4" },
-  { src: logo5, alt: "logo5" },
-  { src: logo6, alt: "logo6" },
-  { src: logo7, alt: "logo7" },
-  { src: logo2, alt: "logo8" }
+  { src: logo1, alt: "logo5" },
+  { src: logo2, alt: "logo6" },
+  { src: logo3, alt: "logo7" },
+  { src: logo4, alt: "logo8" }
 ];
 
-const ContactLogo = () => {
+const CmsLogos = () => {
   return (
     <section className="contact-logo py-5">
       <div className="container">
@@ -48,4 +45,4 @@ const ContactLogo = () => {
   );
 };
 
-export default ContactLogo;
+export default CmsLogos;
