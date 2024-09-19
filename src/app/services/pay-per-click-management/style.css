@@ -368,7 +368,9 @@ ul.ppctab-main {
         flex: auto;
         width: 100%;
     }
-
+    .ppc-cater .ppc-slider .row >div {
+        padding: 0px;
+    }
 }
 
 
