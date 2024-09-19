@@ -486,7 +486,7 @@ a.about--btn:hover svg {
     font-size: 32px;
     line-height: 42px;
     font-weight: 700;
-    margin: 0px;
+    margin: 0px 0px 12px 0px;
 }
 
 .number-main .card h3 {
@@ -495,8 +495,13 @@ a.about--btn:hover svg {
     color: #26C6DA;
 }
 .number-main .card a.btn-link {
-    color: #26C6DA;
+    color: #26c6da;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.number-main .card p {
+    min-height: 54px;
 }
 form.website-label {
     position: relative;
