@@ -66,7 +66,7 @@ const Footer = () => {
                 <Link href="#">Artificial Intelligence</Link>
               </li>
               <li>
-                <Link href="#">AR and VR</Link>
+                <Link href="#">AR and VRs</Link>
               </li>
               <li>
                 <Link href="#">Cloud Computing</Link>
