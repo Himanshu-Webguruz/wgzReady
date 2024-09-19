@@ -431,6 +431,8 @@ ul#uncontrolled-tab-example {
 }
 a.about--btn svg {
     width: 14px;
+    position: relative;
+    top: 5px;
 }
 .tab-main .image-content .image img {
     width: 100%;
