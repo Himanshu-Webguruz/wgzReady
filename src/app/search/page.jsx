@@ -14,7 +14,7 @@ const SearchPage = async ({ searchTerms }) => {
   const searchTerm = searchTerms || "";
 
   // Fetch posts from your API
-  const res = await fetch(`${process.env.NEXTAUTH_URL}/api/getdata?limit=1000`);
+  const res = await fetch(`${process.env.NEXTAUTH_URL}/api/getdata?&limit=1000`);
   const { data } = await res.json(); // Replace with your API URL
 
   // Filter posts based on searchTerm

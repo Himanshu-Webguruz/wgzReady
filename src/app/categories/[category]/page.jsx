@@ -11,7 +11,7 @@ function normalizeString(str) {
 
 // Fetch posts from the API
 async function getPost(selectedCategory) {
-  const res = await fetch(`${process.env.NEXTAUTH_URL}/api/getdata?limit=1000`);
+  const res = await fetch(`${process.env.NEXTAUTH_URL}/api/getdata?&limit=1000`);
   const { data } = await res.json();
 
   if (!data || data.length === 0) {

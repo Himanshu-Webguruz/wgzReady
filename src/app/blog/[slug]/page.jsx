@@ -13,7 +13,7 @@ const page = async ({ params }) => {
   const { slug } = params;
   // console.log('my slug is >>',slug)
   const response = await fetch(
-    `${process.env.NEXTAUTH_URL}/api/getdata?limit=1000`
+    `${process.env.NEXTAUTH_URL}/api/getdata?&limit=1000`
   );
   if (!response.ok) {
     throw new Error("Failed to fetch posts");
