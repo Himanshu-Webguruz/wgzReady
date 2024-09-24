@@ -111,7 +111,7 @@ const Header = () => {
               <li className="px-3 py-2 mx-2">
                 <Link href="/about">About</Link>
               </li>
-              <li className="px-3 py-2 mx-2" onClick={toggleDropdown}>
+              <li className="px-3 py-2 mx-2 sub-menu" onClick={toggleDropdown}>
                 <Link href="#" onClick={(e) => e.preventDefault()}>
                   Services
                 </Link>

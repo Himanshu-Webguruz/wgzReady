@@ -82,12 +82,10 @@ const CreativePortfolio = () => {
           <div className="col-sm-12 col-xs-12">
             <div className="heading-main text-center pb-2 heading-content">
               <h3>
-                Our Creative <span>Portfolio</span>
+                Our <span>Portfolio</span>
               </h3>
               <p>
-                Signity, a leading digital marketing services provider, delivers
-                online marketing solutions to various businesses across
-                industries to widen their business reach and profitability.
+              Don&apos;t just take our word for it. Check out our portfolio to see examples of our work.
               </p>
             </div>
 

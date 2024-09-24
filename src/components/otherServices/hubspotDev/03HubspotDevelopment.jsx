@@ -6,9 +6,9 @@ function Hubspotdevelopment() {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main text-center pb-5">
               <h3>
-                A streamlined process to meet your
+              A Streamlined 
                 <br />
-                <span>HubSpot development needs</span>
+                <span>HubSpot Development Process</span>
               </h3>
             </div>
 
@@ -21,11 +21,9 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Website questionnaire</h5>
+                  <h5>Discovery and Planning</h5>
                   <p>
-                    So that we can firmly grasp your unique goals and
-                    objectives, we request you to fill out a comprehensive
-                    questionnaire during the discovery phase of our journey.
+                  Our team will gather information about your target audience, competitors, and industry trends to develop a comprehensive strategy that aligns with your business objectives. We'll work closely with you to identify areas for improvement and define the specific outcomes you want to achieve with HubSpot. 
                   </p>
                 </div>
                 <div className="qstbox left">
@@ -35,11 +33,9 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Requirement analysis</h5>
+                  <h5>Design and Development</h5>
                   <p>
-                    In order to deliver hyper-personalized solutions, we
-                    carefully scope out all the requirements necessary to
-                    fulfill your end goal.
+                  Our designers and HubSpot developers will work together to create a visually appealing and user-friendly interface that reflects your brand identity. We'll configure HubSpot's various tools and features to optimize your workflows, automate tasks, and streamline your processes. 
                   </p>
                 </div>
                 <div className="qstbox right wrfm">
@@ -49,11 +45,9 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Wireframing & designing</h5>
+                  <h5>Testing and Quality Assurance</h5>
                   <p>
-                    A detailed plan of action catering to every single one of
-                    your requirements is chalked out and is sent across to
-                    youfor approval.
+                  We'll test your website, forms, landing pages, and other components to ensure they function properly and provide a seamless user experience. The QA team will conduct comprehensive testing to identify and address any issues or bugs before launch.
                   </p>
                 </div>
                 <div className="qstbox left wrfm">
@@ -63,11 +57,9 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Programming development</h5>
+                  <h5>Implementation and Launch</h5>
                   <p>
-                    Upon receiving the greenlight from you, we commence the
-                    development process, taking care to keep you involved at all
-                    stages.
+                  Our team will assist you with the final steps of implementation, including data migration, user training, and launch planning. We'll ensure a smooth transition and provide ongoing support to help you get the most out of your HubSpot solution.
                   </p>
                 </div>
                 <div className="qstbox right">
@@ -77,11 +69,9 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Testing & debugging</h5>
+                  <h5>Training and Support</h5>
                   <p>
-                    After wrapping up development, the asset is subjected to
-                    rigorous testing and debugging to ensure flawless
-                    functionality.
+                  Our experts will conduct training sessions to familiarize your team with HubSpot's features and functionalities. We'll also provide ongoing support to address any questions or issues that may arise.
                   </p>
                 </div>
                 <div className="qstbox left">
@@ -91,11 +81,9 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Deployment & maintenace</h5>
+                  <h5>Optimization and Maintenance</h5>
                   <p>
-                    Besides deploying the developed assets, we also provide
-                    post-launch support and maintenance, exercising a vigilant
-                    eye to keep all inconsistencies at bay.
+                    We will provide ongoing maintenance and support to keep your HubSpot platform up-to-date and functioning optimally. We'll also analyze your performance data to identify areas for improvement and make recommendations for optimization.
                   </p>
                 </div>
               </div>
@@ -110,11 +98,9 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Requirement analysis</h5>
+                  <h5>Design and Development</h5>
                   <p>
-                    In order to deliver hyper-personalized solutions, we
-                    carefully scope out all the requirements necessary to
-                    fulfill your end goal.
+                  Our designers and HubSpot developers will work together to create a visually appealing and user-friendly interface that reflects your brand identity. We'll configure HubSpot's various tools and features to optimize your workflows, automate tasks, and streamline your processes. 
                   </p>
                 </div>
 
@@ -125,11 +111,9 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Programming development</h5>
+                  <h5>Implementation and Launch</h5>
                   <p>
-                    Upon receiving the greenlight from you, we commence the
-                    development process, taking care to keep you involved at all
-                    stages.
+                  Our team will assist you with the final steps of implementation, including data migration, user training, and launch planning. We'll ensure a smooth transition and provide ongoing support to help you get the most out of your HubSpot solution.
                   </p>
                 </div>
                 <div className="qstbox left">
@@ -139,11 +123,9 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Deployment & maintenace</h5>
+                  <h5>Optimization and Maintenance</h5>
                   <p>
-                    Besides deploying the developed assets, we also provide
-                    post-launch support and maintenance, exercising a vigilant
-                    eye to keep all inconsistencies at bay.
+                    We will provide ongoing maintenance and support to keep your HubSpot platform up-to-date and functioning optimally. We'll also analyze your performance data to identify areas for improvement and make recommendations for optimization.
                   </p>
                 </div>
               </div>

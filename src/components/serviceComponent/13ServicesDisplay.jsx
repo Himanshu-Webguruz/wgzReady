@@ -9,37 +9,34 @@ const ServicesDisplay = () => {
             <h3>
               Our <span>Expertise</span>
             </h3>
-            <p>Ready to grow with Digital Marketing Agency you can trust?</p>
+            <p>Work with the Best Digital Marketing Agency in Chandigarh</p>
           </div>
         </div>
         <div className="row">
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["1", "8", "0", "0", "+"]} />
+              <SlotCounter value={["2", "3", "0", "0", "+"]} />
               <p>Projects Launched</p>
             </label>
           </div>
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["1", "4", "+"]} />
-              <p>Years of Experience</p>
+              <SlotCounter value={["5", "0", "+"]} />
+              <p>Experienced Marketers</p>
             </label>
           </div>
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["5", "7", "5", "+"]} />
-              <p>Dedicated Developers</p>
+              <SlotCounter value={["1", "6", "+"]} />
+              <p>Years of Expertise</p>
             </label>
           </div>
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["9", "2", "%"]} />
-              <p>Client Retention</p>
+              <SlotCounter value={["9", "6", "%"]} />
+              <p>Client Retention Rate</p>
             </label>
           </div>
-        </div>
-        <div className="row">
-          <button className="explore-btn">Get Your Proposal Now!</button>
         </div>
       </div>
     </section>

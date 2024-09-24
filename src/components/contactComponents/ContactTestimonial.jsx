@@ -4,12 +4,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Image from "next/image";
-import Quotes from "../../../public/images/quote-left.png";
-import { testimonialData } from "@/utils/07utilhomtestim";
+import Quotes from "/public/images/quote-left.png";
+import { CntctTestimonial } from "@/utils/07utilhomtestim";
 
-const HomeTestimonial = () => {
-  const slider1Ref = useRef(null); // Ref for main slider
-  const slider2Ref = useRef(null); // Ref for navigation slider
+const ContactTestimonial = () => {
+  const slider1Ref = useRef(null); 
+  const slider2Ref = useRef(null); 
 
   const [nav1, setNav1] = useState(null);
   const [nav2, setNav2] = useState(null);
@@ -31,7 +31,7 @@ const HomeTestimonial = () => {
   };
 
   const settingsNav = {
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     asNavFor: nav1, // Sync with main slider
     dots: false,
@@ -40,39 +40,39 @@ const HomeTestimonial = () => {
     arrows: true,
     responsive: [
       {
-        breakpoint: 1024, // Below 991px width
+        breakpoint: 1024, 
         settings: {
-          slidesToShow: 4, // Show 3 slides
+          slidesToShow: 4, 
           arrows: true,
           centerMode: true,
         },
       },
       {
-        breakpoint: 991, // Below 991px width
+        breakpoint: 991, 
         settings: {
-          slidesToShow: 3, // Show 3 slides
+          slidesToShow: 3, 
           arrows: true,
           centerMode: true,
         },
       },
       {
-        breakpoint: 768, // Below 768px width
+        breakpoint: 768, 
         settings: {
-          slidesToShow: 3, // Show 2 slides
+          slidesToShow: 3, 
           arrows: true,
           centerMode: true,
         },
       },
       {
-        breakpoint: 668, // Below 768px width
+        breakpoint: 668, 
         settings: {
-          slidesToShow: 2, // Show 2 slides
+          slidesToShow: 2, 
           arrows: true,
           centerMode: true,
         },
       },
       {
-        breakpoint: 375, // Below 375px width
+        breakpoint: 375, 
         settings: {
           slidesToShow: 2,
           arrows: true,
@@ -83,13 +83,13 @@ const HomeTestimonial = () => {
   };
 
   return (
-    <section className="testimonial-main py-5">
+    <section className="testimonial-main cntct-test py-5">
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12">
             <div className="heading-main text-center pb-5">
               <h3>
-             Client <span>Testimonials</span>
+              Here&apos;s What <span>They Have to Say</span>
               </h3>
               <p>
               Hear from Satisfied Clients about their Experience Working with WebGuruz.
@@ -100,7 +100,7 @@ const HomeTestimonial = () => {
               ref={slider1Ref}
               className="testimonial-top"
             >
-              {testimonialData.map((testimonial) => (
+              {CntctTestimonial.map((testimonial) => (
                 <div key={testimonial.id}>
                   <div className="row align-items-center">
                     <div className="col-sm-6 col-xs-12">
@@ -135,7 +135,7 @@ const HomeTestimonial = () => {
                 ref={slider2Ref}
                 className="slider-thumbnail"
               >
-                {testimonialData.map((testimonial) => (
+                {CntctTestimonial.map((testimonial) => (
                   <div key={testimonial.id}>
                     <Image
                       src={testimonial.image}
@@ -154,4 +154,4 @@ const HomeTestimonial = () => {
   );
 };
 
-export default HomeTestimonial;
+export default ContactTestimonial;

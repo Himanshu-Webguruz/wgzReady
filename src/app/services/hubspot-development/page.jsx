@@ -7,12 +7,13 @@ import OurTeamhubspot from '@/components/otherServices/hubspotDev/06Ourteam'
 import Serviceprovide from '@/components/otherServices/hubspotDev/07Serviceprovide'
 import '../../contact-us/contact.css'
 import ServiceFaq from '@/components/serviceComponent/12ServiceFaq'
-import AddsPartner from '@/components/serviceComponent/11AddsPartner'
+import AddsPartner from "@/components/contactComponents/06AddsPartner";
 import Featuredblog from '@/components/homeComponents/09Featuredblog'
 import BoostHubRank from '@/components/otherServices/hubspotDev/BoostHubRank'
 import HubServiceDisplay from '@/components/otherServices/hubspotDev/HubServiceDisplay'
 import WhyHubspot from '@/components/otherServices/hubspotDev/WhyHubspot'
 import HubspotClients from '@/components/otherServices/hubspotDev/HubspotClients'
+import { hubspotData} from '@/utils/accordionData'
 // export const dynamic = 'force-dynamic'
 
 const page = () => {
@@ -29,8 +30,13 @@ const page = () => {
       <Hubspotcms/>
       <HubspotClients/>
       <OurTeamhubspot/>
-      <ServiceFaq/>
-      <AddsPartner/>
+      <ServiceFaq  accordionData={hubspotData}/>
+      <AddsPartner
+        heading="Ready to transform your business with HubSpot?"
+        paragraph="Leverage the potential of the world&apos;s most loved CMS platform for your business growth!"
+        linkHref="/contact-us"
+        linkText="Connect with Us Today!"
+      />
       <Featuredblog/>
     </>
   )

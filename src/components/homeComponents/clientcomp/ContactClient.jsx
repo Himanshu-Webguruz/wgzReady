@@ -80,7 +80,7 @@ const ContactClient = () => {
           className="contact-right-form"
           onSubmit={(e) => e.preventDefault()}
         >
-          <h3>Let&apos;s Get to know you</h3>
+          <h3>Got a Question? Fill in the details below.</h3>
           <label>
             <input
               type="text"

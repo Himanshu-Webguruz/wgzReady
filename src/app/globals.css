@@ -86,6 +86,9 @@
         position: relative;
         display: inline-block;
     }
+    .navigation-main ul.navbar-nav li ul .col {
+        padding: 0px;
+    }
     .heading-main h3 span::before, 
     .technical-main .content h4 span::before,
     .heading-main h2 span::before {
@@ -201,6 +204,7 @@
     .menu ul li a {
         color: #fff;
         transition: 0.3s ease-in-out 0s;
+        cursor: pointer;
     }
     .menu ul li:hover a{
         color: #168B9A;
@@ -356,10 +360,13 @@
         padding: 12px 0px;
         position: relative;
     }
-    .counter-main label span {
-        font-size: 77px;
-        font-weight: 800;
+    .home-page .counter-main label span {
         color: #25C1D5;
+     
+    }
+    .counter-main label span{
+        font-size: 60px;
+        font-weight: 600;
         line-height: 64px;
         font-family: var(--font-outfit);
     }
@@ -441,6 +448,7 @@
     .tab-main .image-content .image img {
         width: 100%;
         object-fit: cover;
+        height: 420px !important;
     }
     .tab-main .image-content .image {
         width: 50%;
@@ -505,6 +513,7 @@
         text-decoration: none;
         display: flex;
         justify-content: center;
+        font-weight: 700;
     }
     .number-main .card p {
         min-height: 54px;
@@ -675,7 +684,7 @@
         object-fit: contain;
     }
     .customized-approach .heading-main h3 {
-        max-width: 490px;
+        max-width: 560px;
         margin: auto;
     }
 
@@ -683,15 +692,15 @@
         stroke-dasharray: 450;
         stroke-dashoffset: 450;
         animation: draw 2s linear forwards infinite;
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 45px;
     }
     .customized-approach .icon-content p {
         margin: 18px 0px 0px;
     }
     .featured-right-content li svg {
-        width: 30px;
-        height: 30px;
+        width: 42px;
+        height: 42px;
     }
     .featured-main .heading-main p {
         max-width: 920px;
@@ -884,7 +893,7 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-    mask-image: url('/images/header-logo-one.svg');
+    mask-image: url(/images/header-logo-one.svg);
     mask-position: center center;
     mask-repeat: no-repeat;
     mask-size: 12%;
@@ -943,6 +952,13 @@
         transform: translateX(80px);
         opacity: 0.11;
     }
+    .menu ul li.sub-menu {
+        background-image: url(/images/expand-arrow-white.svg);
+        background-repeat: no-repeat;
+        background-size: 12px;
+        background-position: right 17px;
+    }
+
     .testimonial-main button.slick-arrow::before{
         display: none !important
     }
@@ -1058,7 +1074,7 @@
         overflow: hidden;
     }
     .contact-sub.left h2 {
-        font-size: 80px;
+        font-size: 60px;
         font-weight: 800;
         color: #26C6DA;
     }
@@ -1108,6 +1124,9 @@
     }
     .contact-info-sub .content a {
         font-size: 14px;
+    }
+    .contact-info-sub .content a:hover{
+        color: #1ab6ca;
     }
     img.center-img {
         max-width: 400px;
@@ -1871,6 +1890,18 @@
         animation-direction: alternate-reverse;
         position: relative;
     }
+    .cntct-test .content-right p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-clamp: 8;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+    }
+    .hub-icons ul li p {
+        font-size: 14px;
+    }
+
     /* animations */
     @keyframes tilt-shaking {
         0% { transform: rotate(0deg); }
@@ -1970,6 +2001,66 @@
         ul#uncontrolled-tab-example li {
             margin: 0px 6px;
         }
+        p{
+            font-size: 16px;
+            line-height: 28px;
+            margin-top:12px;
+        }
+        a{
+            font-size: 16px;
+        }
+        h6 {
+            font-size: 18px;
+            margin-top:10px;
+        }
+        h4, h3{
+            font-size: 28px;
+        }
+        h2{
+            font-size: 34px;
+        }
+        h1{
+            font-size: 48px;
+        }
+        h5 {
+            font-size: 22px;
+        }
+        .banner-content p{
+            font-size: 20px;
+        }
+        .counter-main label span {
+            font-size: 60px;}
+            .number-main .card h4{
+                font-size: 24px;
+            }
+            .number-main .card h3{
+                font-size: 54px;
+            }
+            .number-main .card p {
+                min-height: unset;
+            }
+            .contact-sub.left h2{
+                font-size: 54px;
+            }
+            .contact-info-sub .icon {
+                width: 34px;
+                height: 34px;
+                left: 6px;
+            }
+                .contact-info-sub .icon svg {
+                    font-size: 16px !important;
+                    width: 16px;
+                    height: 16px;
+                }
+                .contact-info-sub {
+                    padding: 10px 6px 11px 46px;
+                }
+                .contact-info h4{
+                    font-size: 28px;
+                }
+                form.contact-right-form h3 {
+                    font-size: 24px;
+                }
     }
     @media(max-width: 1199px){
         h5 {
@@ -2121,10 +2212,35 @@
                 left: 0;
                 right: 0;
                 z-index: 99;
-                padding: 11px 12px 20px;
+                padding: 11px 0px 20px;
+            }
+            .menu ul li.sub-menu {
+                background-position: 96% 12px;
+            }
+            .menu ul li{
+                margin: 0px !important;
+            }
+            .other-page .navbar-collapse {
+                top: 131px;
             }
             .navbar-collapse ul.navbar-nav li {
                 padding: 7px 0px 9px 0px !important;
+            }
+            .navbar-collapse ul.navbar-nav >li a{
+                padding: 0px 15px;
+            }
+            .navbar-collapse ul.navbar-nav li.contactMain a {
+                padding: 12px 32px;
+                margin: 0px 0px 0px 15px;
+            }
+            .navbar-collapse ul.navbar-nav li ul li {
+                padding: 0px 0px 8px !important;
+            }
+            .navigation-main ul.navbar-nav li ul .row{
+                margin: 0px;
+            }
+            .navbar-collapse ul.navbar-nav li ul {
+                padding: 15px 0px;
             }
             .navbar-collapse ul.navbar-nav {
                 align-items: flex-start !important;
@@ -2167,8 +2283,11 @@
             .singleblog-img-content {
                 padding: 20px;
             }
+            form.contact-right-form h3 {
+                font-size: 20px;}
         }
     @media(max-width: 767px){
+        
         .footer-sub h5 {
             margin: 12px 0px 10px;
         }
@@ -2242,7 +2361,7 @@
         margin: 0px;
     }
     .contact-sub.left h2 {
-        font-size: 48px;}
+        font-size: 28px;}
     .right-privacy ul  li a{
         padding: 0px;
     }
@@ -2253,8 +2372,7 @@
         font-size: 14px;
         padding: 18px 12px;
     }
-    .counter-main label span {
-        font-size: 50px;}
+
         ul#uncontrolled-tab-example li {
             width: 47%;
         }
@@ -2304,7 +2422,7 @@
     }
     ul.logos-main img {
         max-width: 60px;
-        height: 50px;}
+        height: 50px !important;}
     ul.logos-main li {
         min-height: 80px;}
 
@@ -2463,6 +2581,9 @@
     }
     .faq-content .accordionNew .according-heading {
         font-size: 18px;}
+        .ppc-card img {
+            width: 26px;
+        }
     /*end*/
 
     }
@@ -2497,7 +2618,7 @@
             margin-left: 8px;
         }
         .blog-card-content .blogimage img {
-            height: auto;
+            height: auto !important;
         }
         form.website-label button {
             position: relative;

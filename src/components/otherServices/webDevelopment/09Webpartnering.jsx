@@ -12,68 +12,54 @@ const Webpartnering = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-sm-6 col-xs-12 partnering-left">
-              <h4 className="color-wt">
-                Advantage of partnering with webguruz
-              </h4>
+              <h4 className="color-wt">Benefits of Partnering with WebGuruz</h4>
               <p className="color-wt">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                ut ultrices arcu. Maecenas sagittis, felis sed gravida pulvinar.
+                When you choose WebGuruz, you&apos;re not just getting a website;
+                you&apos;re gaining a trusted partner who is dedicated to your
+                success. Let&apos;s work together to build a digital presence that
+                sets you apart.
               </p>
               <ul>
                 <li>
-                  <h6 className="color-wt">Truly Your Own Teams</h6>
+                  <h6 className="color-wt">Enhanced Online Visibility</h6>
                   <p className="color-wt">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam ut ultrices arcu. Maecenas sagittis, felis sed gravida
-                    pulvinar.
+                    Our SEO expertise will help your website rank higher in
+                    search engine results.
                   </p>
                 </li>
                 <li>
-                  <h6 className="color-wt">Truly Your Own Teams</h6>
+                  <h6 className="color-wt">Improved User Experience</h6>
                   <p className="color-wt">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam ut ultrices arcu. Maecenas sagittis, felis sed gravida
-                    pulvinar.
+                    We create websites that are easy to navigate and visually
+                    appealing.
                   </p>
                 </li>
                 <li>
-                  <h6 className="color-wt">Truly Your Own Teams</h6>
+                  <h6 className="color-wt">Boosted Conversions</h6>
                   <p className="color-wt">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam ut ultrices arcu. Maecenas sagittis, felis sed gravida
-                    pulvinar.
+                    Our optimized designs and calls to action drive more leads
+                    and sales.
                   </p>
                 </li>
                 <li>
-                  <h6 className="color-wt">Truly Your Own Teams</h6>
+                  <h6 className="color-wt">Scalability</h6>
                   <p className="color-wt">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam ut ultrices arcu. Maecenas sagittis, felis sed gravida
-                    pulvinar.
+                    Our solutions can grow with your business, ensuring
+                    long-term success.
                   </p>
                 </li>
                 <li>
-                  <h6 className="color-wt">Truly Your Own Teams</h6>
+                  <h6 className="color-wt">Competitive Advantage</h6>
                   <p className="color-wt">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam ut ultrices arcu. Maecenas sagittis, felis sed gravida
-                    pulvinar.
-                  </p>
-                </li>
-                <li>
-                  <h6 className="color-wt">Truly Your Own Teams</h6>
-                  <p className="color-wt">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam ut ultrices arcu. Maecenas sagittis, felis sed gravida
-                    pulvinar.
+                    A well-designed website sets you apart from your
+                    competitors.
                   </p>
                 </li>
               </ul>
             </div>
             <div className="col-sm-6 col-xs-12 partnering-right heading-main">
               <h3>
-                Why Choose Webguruz for offshore
-                <span>Software Development</span>
+              Partner with the <span>Experts in Web Development</span>
               </h3>
               <ul className="mt-5">
                 <li>
@@ -81,8 +67,8 @@ const Webpartnering = () => {
                     <Image src={experience} alt="experience" />
                   </div>
                   <div className="content-icon">
-                    <h6>14+</h6>
-                    <p>Years of Experience</p>
+                    <h6>16+ Years</h6>
+                    <p>of Experience delivering exceptional web solutions.</p>
                   </div>
                 </li>
                 <li>
@@ -90,8 +76,8 @@ const Webpartnering = () => {
                     <Image src={certified} alt="certified" />
                   </div>
                   <div className="content-icon">
-                    <h6>200+</h6>
-                    <p>Certified Professionals</p>
+                    <h6>Innovative Approach</h6>
+                    <p>We embrace cutting-edge technologies and design trends.</p>
                   </div>
                 </li>
                 <li>
@@ -99,8 +85,8 @@ const Webpartnering = () => {
                     <Image src={successful} alt="successful" />
                   </div>
                   <div className="content-icon">
-                    <h6>1000+</h6>
-                    <p>Successful Projects</p>
+                    <h6>Customer Focus</h6>
+                    <p>Your satisfaction is our top priority.</p>
                   </div>
                 </li>
                 <li>
@@ -108,8 +94,8 @@ const Webpartnering = () => {
                     <Image src={clients} alt="clients" />
                   </div>
                   <div className="content-icon">
-                    <h6>500+</h6>
-                    <p>Clients</p>
+                    <h6>Quality Assurance</h6>
+                    <p>We adhere to strict quality standards to ensure a flawless product.</p>
                   </div>
                 </li>
                 <li>
@@ -117,8 +103,8 @@ const Webpartnering = () => {
                     <Image src={presence} alt="presence" />
                   </div>
                   <div className="content-icon">
-                    <h6>Global Presence</h6>
-                    <p>Offices in USA, New Zealand & India</p>
+                    <h6>Timely Delivery</h6>
+                    <p>We deliver projects on time and within budget.</p>
                   </div>
                 </li>
               </ul>

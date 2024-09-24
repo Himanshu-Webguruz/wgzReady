@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Icnbroad1 from "../../../../public/images/drupalimg/cmsbanner.svg";
+import Link from "next/link";
 
 const CmsBanner = () => {
   return (
@@ -22,9 +23,9 @@ const CmsBanner = () => {
                 </p>
               </div>
               <div className="getintchbtn">
-                <a className="explore-btn" href="/">
+                <Link className="explore-btn" href="/">
                   Get In Touch
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">

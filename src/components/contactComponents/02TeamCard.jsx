@@ -11,10 +11,9 @@ const TeamCard = () => {
           <div className="row align-items-center">
             <div className="col-sm-6 col-xs-12">
               <div className="team-sub-card">
-                <h4>At Your Team in India</h4>
+                <h4>WebGuruz as your Service Provider of Choice</h4>
                 <p>
-                  We strive to make it as effortless as possible for our clients
-                  to get in touch with us and have their problems solved.
+                We&apos;ve proudly served clients seeking digital excellence for over 16 years. Let&apos;s transform your digital front now. Connect with us to get started today!
                 </p>
               </div>
             </div>
@@ -25,11 +24,9 @@ const TeamCard = () => {
                 </div>
                 <div className="content">
                   <span className="tag">Step 1</span>
-                  <h5>Put Forward Your Requirement</h5>
+                  <h5>Understanding Your Digital Presence</h5>
                   <p>
-                    Fill out the form to send us your inquiry, and our experts
-                    will reach out within 24 hours to discuss your requirements
-                    in detail.
+                  We&apos;ll conduct a thorough examination of your current online presence, identifying strengths, weaknesses, and opportunities.
                   </p>
                 </div>
               </div>
@@ -38,12 +35,10 @@ const TeamCard = () => {
                   <Image src={steptwo} alt="step1" />
                 </div>
                 <div className="content">
-                  <span className="tag">Step 1</span>
-                  <h5>Put Forward Your Requirement</h5>
+                  <span className="tag">Step 2</span>
+                  <h5>Building a Digital Success Strategy</h5>
                   <p>
-                    Fill out the form to send us your inquiry, and our experts
-                    will reach out within 24 hours to discuss your requirements
-                    in detail.
+                  Based on our diagnosis, we&apos;ll craft a tailored digital strategy that aligns with your business goals. This is your roadmap to success in the digital world.
                   </p>
                 </div>
               </div>
@@ -52,12 +47,10 @@ const TeamCard = () => {
                   <Image src={stepthree} alt="step1" />
                 </div>
                 <div className="content">
-                  <span className="tag">Step 1</span>
-                  <h5>Put Forward Your Requirement</h5>
+                  <span className="tag">Step 3</span>
+                  <h5>Execution & Analysis</h5>
                   <p>
-                    Fill out the form to send us your inquiry, and our experts
-                    will reach out within 24 hours to discuss your requirements
-                    in detail.
+                  Our team will meticulously execute your strategy, ensuring a seamless and effective digital transformation. We&apos;ll continuously monitor and optimize your online presence for maximum results.
                   </p>
                 </div>
               </div>

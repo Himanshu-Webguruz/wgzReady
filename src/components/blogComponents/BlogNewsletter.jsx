@@ -11,10 +11,9 @@ const BlogNewsletter = () => {
                 <div className="news-letter-left">
                   <Image src={NewLetterLogo}  alt="Image3" />
                   <div className="content-news-letter-wrap">
-                    <h4> Subscribe to Webguruz Bulletin </h4>
+                    <h4>Stay in the Loop! </h4>
                     <p>
-                      Join our growing community at webguruz and receive
-                      exclusive monthly updates directly from us!{" "}
+                    Subscribe to our email newsletter and stay up to date with the latest in the digital world.
                     </p>
                   </div>
                 </div>

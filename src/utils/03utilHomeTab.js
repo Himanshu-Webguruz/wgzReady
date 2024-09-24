@@ -1,50 +1,41 @@
 // 03utilHomeTab.js
 const homeTabData = [
-    {
-      eventKey: "experts",
-      title: "500+ digital experts",
-      content: [
-        "At Webguruz, we don\u2019t settle for ordinary. We are on a pursuit to redefine excellence through unparalleled, unique, dynamic, and scalable solutions that are tailor-made for your business. We go above and beyond to understand your brans DNA and ensure that each solution we deliver embodies your essence.",
-        "Every digital journey we embark on is an adventure. We blend design, cutting-edge technology and data-driven insights to craft websites and apps that are a true masterpiece. From captivating visuals to seamless user experiences, we can help you create digital solutions that captivate and convert visitors into loyal customers.",
-        "Scalability is not an afterthought rather a strategic advantage. Our solutions are built to grow with you- from the early stages of a startup to the expansion of an enterprise. We future-proof your success, thus keeping you agile and adaptable in an ever-evolving digital landscape."
-      ],
-      imageSrc: "/images/expert.webp",
-      link: { href: "#", text: "About Us" }
-    },
-    {
-      eventKey: "Records",
-      title: "10+ Years Track Records",
-      content: [
-        "Finest Digital Solutions to Power your Business",
-        "Every digital journey we embark on is an adventure. We blend design, cutting-edge technology and data-driven insights to craft websites and apps that are a true masterpiece. From captivating visuals to seamless user experiences, we can help you create digital solutions that captivate and convert visitors into loyal customers.",
-        "Scalability is not an afterthought rather a strategic advantage. Our solutions are built to grow with you- from the early stages of a startup to the expansion of an enterprise. We future-proof your success, thus keeping you agile and adaptable in an ever-evolving digital landscape."
-      ],
-      imageSrc: "/images/expert.webp",
-      link: { href: "#", text: "About Us" }
-    },
-    {
-      eventKey: "Reviews",
-      title: "500+ of Reviews",
-      content: [
-        "At Webguruz, we don\u2019t settle for ordinary. We are on a pursuit to redefine excellence through unparalleled, unique, dynamic, and scalable solutions that are tailor-made for your business. We go above and beyond to understand your brans DNA and ensure that each solution we deliver embodies your essence.",
-        "Every digital journey we embark on is an adventure. We blend design, cutting-edge technology and data-driven insights to craft websites and apps that are a true masterpiece. From captivating visuals to seamless user experiences, we can help you create digital solutions that captivate and convert visitors into loyal customers.",
-        "Scalability is not an afterthought rather a strategic advantage. Our solutions are built to grow with you- from the early stages of a startup to the expansion of an enterprise. We future-proof your success, thus keeping you agile and adaptable in an ever-evolving digital landscape."
-      ],
-      imageSrc: "/images/expert.webp",
-      link: { href: "#", text: "About Us" }
-    },
-    {
-      eventKey: "Technology",
-      title: "More Than Technology",
-      content: [
-        "At Webguruz, we don\u2019t settle for ordinary. We are on a pursuit to redefine excellence through unparalleled, unique, dynamic, and scalable solutions that are tailor-made for your business. We go above and beyond to understand your brans DNA and ensure that each solution we deliver embodies your essence.",
-        "Every digital journey we embark on is an adventure. We blend design, cutting-edge technology and data-driven insights to craft websites and apps that are a true masterpiece. From captivating visuals to seamless user experiences, we can help you create digital solutions that captivate and convert visitors into loyal customers.",
-        "Scalability is not an afterthought rather a strategic advantage. Our solutions are built to grow with you- from the early stages of a startup to the expansion of an enterprise. We future-proof your success, thus keeping you agile and adaptable in an ever-evolving digital landscape."
-      ],
-      imageSrc: "/images/expert.webp",
-      link: { href: "#", text: "About Us" }
-    }
-  ];
-  
-  export default homeTabData;
-  
+  {
+    eventKey: "experts",
+    title: "Proven Track Record",
+    content: [
+      "With over a decade of experience in the digital landscape, WebGuruz has a proven track record of delivering successful projects for clients across various industries. Our extensive portfolio showcases our ability to navigate complex challenges and consistently exceed expectations. Our team of seasoned professionals has honed their skills through years of hands-on experience, ensuring that we bring the highest level of expertise to every project we undertake."
+    ],
+    imageSrc: "/images/tabberimg1.webp",
+    link: { href: "#", text: "About Us" }
+  },
+  {
+    eventKey: "Records",
+    title: "Customized Solutions",
+    content: [
+      "We understand that no two businesses are alike, and therefore, a one-size-fits-all approach is not effective. At WebGuruz, we believe in tailoring our strategies to meet your specific business needs and objectives. Our team will work closely with you to understand your unique goals, target audience, and industry challenges. We then develop a customized plan that aligns with your vision and leverages the latest digital marketing techniques to drive maximum impact."
+    ],
+    imageSrc: "/images/tabberimg2.webp",
+    link: { href: "#", text: "About Us" }
+  },
+  {
+    eventKey: "Reviews",
+    title: "Innovative Approach",
+    content: [
+      "In the fast-paced world of digital marketing, staying ahead of the curve is essential. WebGuruz is committed to embracing innovation and staying at the forefront of industry trends. Our team continuously invests in learning and development to ensure that we are equipped with the latest tools, techniques, and technologies. We leverage cutting-edge platforms and strategies to deliver creative and effective solutions that help our clients stand out in the competitive marketplace."
+    ],
+    imageSrc: "/images/tabberimg3.webp",
+    link: { href: "#", text: "About Us" }
+  },
+  {
+    eventKey: "Technology",
+    title: "Dedicated Support",
+    content: [
+      "We believe that our partnership with you extends beyond the initial project delivery. At WebGuruz, we are dedicated to providing ongoing support and maintenance to ensure that your digital presence remains strong and effective. Our team is always available to assist you with any questions, concerns, or requests. We offer regular updates, maintenance services, and ongoing optimization to help you achieve your long-term digital marketing goals"
+    ],
+    imageSrc: "/images/tabberimg4.webp",
+    link: { href: "#", text: "About Us" }
+  }
+];
+
+export default homeTabData;

@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "react-phone-input-2/lib/style.css";
-import Link from "next/link";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import ContactClient from "./clientcomp/ContactClient";
 
 const Contact = () => {
@@ -11,29 +9,14 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-6 col-xs-12 contact-sub left">
-            <p>Get in Touch with</p>
-            <h2>Our Experts</h2>
+            <p>Get in Touch with the</p>
+            <h2>Experts in Digital Transformation</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
-              nunc feugiat, malesuada sapien a, aliquet diam. Vivamus ex nisi,
-              pharetra nec ultricie.
+            Drive more leads, maximize your RoI, and grow your business with digital solutions built specifically for your business.
             </p>
-            <p>Integrate Towards Innovation</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
-              nunc feugiat, malesuada sapien a, aliquet diam. Vivamus ex nisi,
-              pharetra nec ultricie.
-            </p>
-            <Link href="/" className="partner-btn about--btn">
-              Become a Partner&nbsp;
-              <FontAwesomeIcon
-                icon={faArrowRight}
-                role="img"
-                aria-label="Arrow Right"
-              />
-            </Link>
+           
             <div className="contact-info">
-              <h4>Contact Info:</h4>
+              <h4>Contact Webguruz:</h4>
               <div className="row">
                 <div className="col-sm-6 col-xs-12">
                   <div className="contact-info-sub">

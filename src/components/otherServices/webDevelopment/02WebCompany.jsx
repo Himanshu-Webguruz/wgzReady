@@ -1,5 +1,5 @@
 import Image from "next/image";
-import upload from "../../../../public/images/webimages/upload.svg";
+import upload from "/public/images/webimages/upload.svg";
 import Link from "next/link";
 
 const WebCompany = () => {
@@ -10,26 +10,28 @@ const WebCompany = () => {
           <div className="row align-items-center">
             <div className="col-sm-6 col-xs-12 content color-wt">
               <h4 className="color-wt mb-4">
-                No.1 Web Development Company In India
+                Work with the No.1 Web Development Company in India
               </h4>
               <p className="color-wt">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                ut ultrices arcu. Maecenas sagittis, felis sed gravida pulvinar,
-                eros ligula condimentum magna, a malesuada ex dolor sit amet
-                magna. Vivamus vitae vestibulum dui, in interdum augue. Nulla
-                vitae aliquam lectus, ac porttitor lacus. Praesent rhoncus nisl
-                mi, ac laoreet.
+                At WebGuruz, we&apos;re more than just a web development company.
+                We&apos;re a vibrant community of passionate individuals who believe
+                in the transformative power of the digital world. Our mission is
+                to create exceptional web experiences that not only captivate
+                audiences but also drive tangible business results.
               </p>
               <p className="color-wt">
-                Ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut
-                ultrices arcu. Maecenas sagittis, felis sed gravida pulvinar,
-                eros ligula condimentum magna, a malesuada ex dolor sit amet
-                magna.
+                From small startups to large enterprises, we&apos;ve helped countless
+                clients achieve their online goals. Our team of skilled
+                developers, designers, and digital strategists brings a unique
+                blend of creativity, technical expertise, and industry knowledge
+                to every project. We&apos;re committed to staying at the forefront of
+                web technology trends, ensuring that your website is always
+                cutting-edge and optimized for performance.
               </p>
               <ul>
-                <li>Quick and easy quote process</li>
-                <li>Quick and easy quote process</li>
-                <li>Quick and easy quote process</li>
+                <li>Unmatched Quality</li>
+                <li>Proven Expertise</li>
+                <li>Client-Centric Approach</li>
               </ul>
               <Link href="" className="explore-btn">
                 View Our Portfolio
@@ -64,7 +66,7 @@ const WebCompany = () => {
                 ></textarea>
                 <label className="fileupload">
                   <input type="file" id="myFile" name="filename" />
-                  <Image src={upload}  alt="Image" />
+                  <Image src={upload} alt="Image" />
                   (Attach Files (doc, xls, pdf, txt and ppt files only, Max Size
                   2MB))
                 </label>

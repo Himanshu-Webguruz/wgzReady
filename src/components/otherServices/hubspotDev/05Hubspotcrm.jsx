@@ -1,24 +1,24 @@
 function Hubspotcrm() {
   const challenges = [
     {
-      title: "Creating a scalable architecture",
+      title: "Inefficient Lead Generation",
       description:
-        "You need support with the creation and distribution of website content at scale and keep up with your dynamic content as it evolves.",
+        "HubSpot's marketing automation tools can help you streamline your lead generation efforts and nurture leads more effectively. By automating tasks like email marketing, social media campaigns, and content distribution, you can focus on creating valuable content and building relationships with potential customers.",
     },
     {
-      title: "Code editability",
+      title: "Poor Customer Engagement",
       description:
-        "You want your HubSpot pages to have an editable code so you can make any changes whenever needed in the future.",
+        "HubSpot's CRM and customer service features can help you improve customer engagement and satisfaction. By tracking customer interactions, providing personalized support, and addressing issues promptly, you can build stronger relationships and foster loyalty.",
     },
     {
-      title: "Setting up correct automation",
+      title: "Limited Data Insights",
       description:
-        "While it’s essential to set up flawless automation for your HubSpot email workflows, you’re not really on top of the game.",
+        "HubSpot's reporting and analytics tools can provide valuable insights into your business performance. Track key metrics, analyze customer behavior, and identify areas for improvement to optimize your marketing and sales strategies.",
     },
     {
-      title: "Page speed optimization",
+      title: "Complex Sales Processes",
       description:
-        "Your HubSpot pages are slower to load and you are worried you are losing visitors because of the slow loading time.",
+        "HubSpot's sales automation tools can help you streamline your sales pipeline and improve sales productivity. By automating tasks like lead scoring, opportunity management, and reporting, you can focus on closing deals and building relationships with customers.",
     },
   ];
 
@@ -29,9 +29,9 @@ function Hubspotcrm() {
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
             <div className="heading-main mb-3">
               <h3>
-                Are you facing these challenges with your
+              Common Challenges and
                 <br />
-                <span>HubSpot CRM?</span>
+                <span>How HubSpot Can Help</span>
               </h3>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import serviceright from "../../../public/images/digital-marketing.svg";
+import Link from "next/link";
 
 const Service = () => {
   return (
@@ -10,15 +11,14 @@ const Service = () => {
             <div className="col-sm-6 col-xs-12 heading-main">
               <h6 className="dot">Digital Marketing Services</h6>
               <h2>
-                Build An Impactful<span> Online Presence</span>
+              You can buy Likes,<span>  But not Hearts</span>
               </h2>
               <p>
-                Improve your site visits with powerful digital marketing
-                strategies.
+              Let WebGuruz help you cultivate market leadership from the inside out.
               </p>
-              <a className="explore-btn" href="#">
-                Get Started
-              </a>
+              <Link className="explore-btn" href="#">
+                Get Started Now!
+              </Link>
             </div>
             <div className="col-sm-6 col-xs-12 service-right-banner text-center">
               <Image src={serviceright} alt="service-right" />

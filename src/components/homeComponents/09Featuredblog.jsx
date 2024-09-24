@@ -18,12 +18,10 @@ const Featuredblog = async () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-5">
               <h3 className="pb-3">
-                Featured <span>Blog</span>{" "}
+                <span>Latest</span> From Us
               </h3>
               <p>
-                Using the latest technology and industry expertise, we built
-                top-end Android and iOS-based applications that add value to the
-                business and user experience.
+              Know what&apos;s latest in Digital Marketing and Web Development Technologies.
               </p>
             </div>
           </div>

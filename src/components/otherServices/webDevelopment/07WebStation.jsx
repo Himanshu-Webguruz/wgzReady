@@ -1,10 +1,10 @@
 import Image from "next/image";
-import StationIcon1 from "../../../../public/images/webimages/station-icon-1.svg";
-import StationIcon2 from "../../../../public/images/webimages/station-icon-2.svg";
-import StationIcon3 from "../../../../public/images/webimages/station-icon-3.svg";
-import StationIcon4 from "../../../../public/images/webimages/station-icon-4.svg";
-import StationIcon5 from "../../../../public/images/webimages/station-icon-5.svg";
-import StationIcon6 from "../../../../public/images/webimages/station-icon-6.svg";
+import StationIcon1 from "/public/images/webimages/station-icon-1.svg";
+import StationIcon2 from "/public/images/webimages/station-icon-2.svg";
+import StationIcon3 from "/public/images/webimages/station-icon-3.svg";
+import StationIcon4 from "/public/images/webimages/station-icon-4.svg";
+import StationIcon5 from "/public/images/webimages/station-icon-5.svg";
+import StationIcon6 from "/public/images/webimages/station-icon-6.svg";
 const WebStation = () => {
   return (
     <div className="web-scalable py-5">
@@ -12,14 +12,11 @@ const WebStation = () => {
         <div className="row justify-content-md-center">
           <div className="col-sm-9 col-xs-12 heading-main text-center pb-5">
             <h3>
-              Webguruz is Your One-Stop Station for
-              <br />
-              <span>Web Development Service</span>
+              Why <span>WebGuruz?</span>
             </h3>
             <p>
-              From concept ideation to product development and launch in the
-              market, we help you in every stage of the development lifecycle to
-              build high-performing and scalable web applications.
+              We&apos;re your one-stop destination for all your web development
+              needs.
             </p>
           </div>
         </div>
@@ -34,21 +31,17 @@ const WebStation = () => {
                   Cost-Effective Process{" "}
                 </h5>
                 <p className="station-develop-peragraph">
-                  {" "}
-                  At Apptunix, our web app development services are designed for
-                  cost-effectiveness, ensuring your project is executed
-                  efficiently without compromising quality.{" "}
+                  We work closely with you to understand your budget constraints
+                  and tailor our services accordingly, ensuring that you get the
+                  most value for your investment.
                 </p>
               </div>
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon2} alt="stations1" />
-                <h5 className="station-develop-title"> All Under One Roof </h5>
+                <h5 className="station-develop-title"> All Services Under One Roof </h5>
                 <p className="station-develop-peragraph">
-                  {" "}
-                  We are a one-stop web application development company,
-                  offering a comprehensive range of services, from concept to
-                  deployment, all conveniently available under one roof.{" "}
+                By partnering with WebGuruz, you can streamline your project management process and enjoy the convenience of having a single point of contact.
                 </p>
               </div>
 
@@ -56,10 +49,7 @@ const WebStation = () => {
                 <Image src={StationIcon3} alt="stations1" />
                 <h5 className="station-develop-title"> Creative Team </h5>
                 <p className="station-develop-peragraph">
-                  {" "}
-                  Creative web app developers at Apptunix are committed to
-                  turning your vision into innovative web solutions, infusing
-                  creativity into every aspect of your project.{" "}
+                Our creative experts will work closely with you to understand your brand identity and target audience, and then develop a unique and engaging online presence that sets you apart from the competition.
                 </p>
               </div>
 
@@ -67,10 +57,7 @@ const WebStation = () => {
                 <Image src={StationIcon4} alt="stations1" />
                 <h5 className="station-develop-title"> 24/7 Help Desk </h5>
                 <p className="station-develop-peragraph">
-                  {" "}
-                  With a commitment to assistance, Apptunix ensures that you
-                  have support whenever you need it, guaranteeing a seamless
-                  development experience.{" "}
+                Whether you need help troubleshooting a technical issue or simply have a query about your website&apos;s performance, we&apos;re here to provide prompt assistance.
                 </p>
               </div>
 
@@ -81,11 +68,7 @@ const WebStation = () => {
                   New Technology Integration{" "}
                 </h5>
                 <p className="station-develop-peragraph">
-                  {" "}
-                  Being one of the top web application development companies
-                  Apptunix stays at the forefront of technology, integrating new
-                  advancements into your web apps, keeping you ahead of the
-                  curve.{" "}
+                We leverage innovative tools and techniques to enhance your website&apos;s functionality, performance, and user experience.
                 </p>
               </div>
 
@@ -96,10 +79,7 @@ const WebStation = () => {
                   Post-Deployment Services{" "}
                 </h5>
                 <p className="station-develop-peragraph">
-                  {" "}
-                  Our web development services go beyond launch by ensuring the
-                  ongoing success of your web application with regular updates,
-                  maintenance, and support.{" "}
+                Our commitment to your success doesn&apos;t end once your website goes live. We offer ongoing maintenance and support services to ensure that your website remains optimized, secure, and up-to-date, always.
                 </p>
               </div>
             </div>

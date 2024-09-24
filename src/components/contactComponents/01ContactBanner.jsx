@@ -1,5 +1,4 @@
-
-import Contact from "../homeComponents/11HomeContact";
+import Link from "next/link";
 import ContactClient from "../homeComponents/clientcomp/ContactClient";
 
 const ContactBanner = () => {
@@ -10,21 +9,20 @@ const ContactBanner = () => {
           <div className="row align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h2 className="color-wt">
-                Kickstart Your
+                Have
                 <br />
-                <strong> Journey Today</strong>
+                <strong> Questions?</strong>
               </h2>
               <p className="color-wt">
-                Get all your questions answered by our business development
-                team.
+                Get prompt support from our expert support team, now!
               </p>
               <div className="btn-merge">
-                <a className="explore-btn me-3" href="/">
+                <Link className="explore-btn me-3" href="/">
                   For Business
-                </a>
-                <a className="explore-btn no-color" href="/">
+                </Link>
+                <Link className="explore-btn no-color" href="/">
                   For Career
-                </a>
+                </Link>
               </div>
             </div>
             <ContactClient />

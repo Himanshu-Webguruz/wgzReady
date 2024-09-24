@@ -19,10 +19,9 @@ const DigitalMarketing = () => {
           </div>
           <div className="row d-flex align-items-center py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Search Engine Optimization</h5>
+              <h5 className="mb-3">SEO (Search Engine Optimization Services)</h5>
               <p>
-                Optimize your ranking in search results for the most competitive
-                keywords. Drive traffic and boost conversion rates by 2x.
+              Our search engine optimization consultants optimize your website to improve its ranking on search engines like Google. We focus on keyword research, on-page optimization, link building, technical SEO, and more to ensure maximum visibility.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
@@ -31,10 +30,9 @@ const DigitalMarketing = () => {
           </div>
           <div className="row d-flex align-items-center reverse py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Social Media Marketing</h5>
+              <h5 className="mb-3">SMM (Social Media Marketing Services)</h5>
               <p>
-                Implement comprehensive social media strategies to optimize your
-                site&apos;s brand visibility and improve customer engagement.
+              We create and manage engaging social media campaigns to build brand awareness and connect with your target audience. Our SMM services include content creation, community management, advertising, and analytics.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
@@ -43,11 +41,9 @@ const DigitalMarketing = () => {
           </div>
           <div className="row d-flex align-items-center py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Content Marketing</h5>
+              <h5 className="mb-3">Content Marketing Services</h5>
               <p>
-                We create high-performing content that grows your business by
-                reaching out to the target audience and ensuring more
-                conversions.
+              High-quality content is essential for attracting and retaining customers. Our content marketing services include blog writing, article creation, infographics, and video production.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
@@ -58,9 +54,7 @@ const DigitalMarketing = () => {
             <div className="col-sm-6 col-xs-12 content">
               <h5 className="mb-3">Marketing Automation</h5>
               <p>
-                Leverage our marketing automation cost-effective solutions and
-                identify potential customers by automating the process of
-                translating those leads to sales-readiness.
+              Streamline your marketing processes and improve efficiency with our marketing automation solutions. As a leading digital marketing agency, we help you automate tasks like email marketing, lead nurturing, and social media management.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
@@ -69,11 +63,9 @@ const DigitalMarketing = () => {
           </div>
           <div className="row d-flex align-items-center py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Paid Marketing</h5>
+              <h5 className="mb-3">PPC Management Services</h5>
               <p>
-                Enlist our paid search marketing services to improve your
-                ranking and impression share. Scale your business growth within
-                your budget.
+              Reach a wider audience with targeted paid advertising campaigns. Our paid marketing services include Google Ads, social media advertising, and display advertising.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
@@ -82,10 +74,9 @@ const DigitalMarketing = () => {
           </div>
           <div className="row d-flex align-items-center reverse py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Email Marketing</h5>
+              <h5 className="mb-3">Email Marketing Services</h5>
               <p>
-                Invest in our email marketing campaigns that will enable you to
-                achieve reliable, stream of quality traffic.
+              Build relationships with your customers and drive conversions with a leading email marketing company. We create personalized email content and optimize your email campaigns for maximum results.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">

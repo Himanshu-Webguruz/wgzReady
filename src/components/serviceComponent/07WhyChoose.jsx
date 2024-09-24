@@ -10,45 +10,45 @@ import reatltime from "../../../public/images/serviceImages/real-time.png";
 const sections = [
   {
     image: earnings,
-    alt: "Earning Traffic",
-    title: "Earning Traffic",
+    alt: "Proven Expertise",
+    title: "Proven Expertise",
     description:
-      "Drive 10X traffic to your website with customized and comprehensive digital marketing services.",
+      "With 16+ years of experience in the digital marketing industry, we have a proven track record of success.",
   },
   {
     image: conversion,
-    alt: "Better Conversion Rates",
-    title: "Better Conversion Rates",
+    alt: "Data-Driven Approach",
+    title: "Data-Driven Approach",
     description:
-      "Boost your conversion rate by 2X with our rigorous tested conversion rate optimization strategies.",
+      "We use data-driven insights to optimize your campaigns and achieve measurable results.",
   },
   {
     image: competitor,
-    alt: "In-Depth Competitor Analysis",
-    title: "In-Depth Competitor Analysis",
+    alt: "Transparent Communication",
+    title: "Transparent Communication",
     description:
-      "We evaluate opportunities and threats with in-depth competitor analysis to create up-to-date metrics and generate actionable insights.",
+      "We maintain open and transparent communication throughout the process.",
   },
   {
     image: businessaudit,
-    alt: "Complete Business Audit",
-    title: "Complete Business Audit",
+    alt: "Customized Solutions",
+    title: "Customized Solutions",
     description:
-      "We do comprehensive business audits to incorporate your customer experience in all stages of strategy development.",
+      "We tailor our digital marketing strategies to meet your unique business needs.",
   },
   {
     image: roi,
-    alt: "ROI Projections",
-    title: "ROI Projections",
+    alt: "Dedicated Team",
+    title: "Dedicated Team",
     description:
-      "We help you measure the performance of your marketing campaigns which can influence your marketing investment, strategy, and more. You can achieve a 44% average increase in conversions with accurate projection.",
+      "Our team of experienced digital marketing professionals is committed to your success.",
   },
   {
     image: reatltime,
-    alt: "Real-Time Results",
-    title: "Real-Time Results",
+    alt: "Affordable Pricing",
+    title: "Affordable Pricing",
     description:
-      "As an experienced digital marketing company, we take a 360-degree approach to online marketing and deliver real-time results.",
+      "We offer competitive pricing without compromising on the quality of services we provide.",
   },
 ];
 
@@ -60,15 +60,8 @@ const WhyChoose = () => {
           <div className="col-sm-12 col-xs-12">
             <div className="heading-main text-center pb-2 heading-content">
               <h3>
-                Why Choose Signity For
-                <br /> <span>Digital Marketing Services?</span>
+              Why Choose <span>WebGuruz?</span>
               </h3>
-              <p>
-                As a renowned digital marketing company, we utilize
-                top-of-the-line tools to design an inbound marketing plan for
-                our customers. Our customized strategies and tools ensure we
-                deliver the best results to meet the client&apos;s requirements.
-              </p>
             </div>
 
             <div className="earntraffic">

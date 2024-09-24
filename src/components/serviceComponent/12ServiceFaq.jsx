@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-import accordionData from "../../utils/accordionData"; // Import the data
-const AccordionItem = ({ id, title, content, isOpen, onClick }) => (
+
+const AccordionItem = ({ title, content, isOpen, onClick }) => (
   <div className={`accordionNew ${isOpen ? "active" : ""}`}>
     <div
       onClick={onClick}
@@ -10,11 +10,14 @@ const AccordionItem = ({ id, title, content, isOpen, onClick }) => (
     >
       {title} <span>{isOpen ? "-" : "+"}</span>
     </div>
-    {isOpen && <div className="accContentMain">{content}</div>}
+    {isOpen && (
+      <div className="accContentMain" dangerouslySetInnerHTML={{ __html: content }} />
+    )}
   </div>
 );
 
-const ServiceFaq = () => {
+
+const ServiceFaq = ({ accordionData }) => { // Accept accordionData as a prop
   const [openIndex, setOpenIndex] = useState(0); // Set the first accordion to be open by default
 
   const handleItemClick = (index) => {

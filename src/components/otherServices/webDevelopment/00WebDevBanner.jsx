@@ -1,5 +1,6 @@
 import Image from "next/image";
-import serviceright from "../../../../public/images/webimages/hbsptban.webp";
+import serviceright from "/public/images/webimages/hbsptban.webp";
+import Link from "next/link";
 
 const WebDevBanner = () => {
   return (
@@ -9,20 +10,18 @@ const WebDevBanner = () => {
           <div className="row align-items-center">
             <div className="col-sm-6 col-xs-12 heading-main">
               <h2 className="mb-3">
-                Custom Web Application<span> Development Services</span>
+              Crafting Digital Masterpieces<span> Your Vision, Our Expertise.</span>
               </h2>
               <p className="fw-bold">
-                Unlock Quality-Assured Custom Coding with Webguruz Solutions
+              Experience the power of exceptional Web Design and Development.
+
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                ut ultrices arcu. Maecenas sagittis, felis sed gravida pulvinar,
-                eros ligula condimentum magna, a malesuada ex dolor sit amet
-                magna.
+              Your website is your online storefront. At WebGuruz, we understand the importance of a visually appealing, user-friendly, and functional website. Our team of skilled developers is dedicated to crafting custom web solutions that not only captivate your audience but also drive business growth.
               </p>
-              <a className="explore-btn" href="#">
+              <Link className="explore-btn" href="#">
                 Get Your Custom Web App
-              </a>
+              </Link>
             </div>
             <div className="col-sm-6 col-xs-12 service-right-banner text-center">
               <Image src={serviceright} alt="service-right" />

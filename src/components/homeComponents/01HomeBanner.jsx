@@ -20,14 +20,10 @@ const HomeBanner = () => {
           </div>
           <div className="col col-sm-8 col-xs-12 banner-content">
             <h1>
-              A{" "}
-              <span className="animate-charcter">
-                Website & Mobile App Development Company
-              </span>{" "}
-              with You in Mind
+            Crafting <span className="animate-charcter"> Websites & Digital Marketing Strategies</span>{" "}
+              that Convert
             </h1>
-            <p className="mt-4">Innovative Digital Solutions to Fuel your Growth</p>
-            {/* Client component to handle form */}
+            <p className="mt-4">Your Digital Vision, Our Technical Brilliance</p>
             <HomeClient />
           </div>
         </div>

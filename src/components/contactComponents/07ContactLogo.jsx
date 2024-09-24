@@ -1,12 +1,12 @@
 
 import Image from "next/image";
-import logo1 from "../../../public/images/contactimages/logo1.svg";
-import logo2 from "../../../public/images/contactimages/logo2.svg";
-import logo3 from "../../../public/images/contactimages/logo3.svg";
-import logo4 from "../../../public/images/contactimages/logo4.svg";
-import logo5 from "../../../public/images/contactimages/logo5.svg";
-import logo6 from "../../../public/images/contactimages/logo6.svg";
-import logo7 from "../../../public/images/contactimages/logo7.svg";
+import logo1 from "/public/images/contactimages/logo1.svg";
+import logo2 from "/public/images/contactimages/logo2.svg";
+import logo3 from "/public/images/contactimages/logo3.svg";
+import logo4 from "/public/images/contactimages/logo4.svg";
+import logo5 from "/public/images/contactimages/logo5.svg";
+import logo6 from "/public/images/contactimages/logo6.svg";
+import logo7 from "/public/images/contactimages/logo7.svg";
 
 const logos = [
   { src: logo1, alt: "logo1" },
@@ -26,11 +26,10 @@ const ContactLogo = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-3">
             <h3>
-              Our <span>Clients</span>
+              Our <span>Clientele</span>
             </h3>
             <p>
-              Clients of immense value guide our commitment to exceptional
-              service
+            The team at WebGuruz is trusted by high-value businesses across the globe.
             </p>
           </div>
         </div>

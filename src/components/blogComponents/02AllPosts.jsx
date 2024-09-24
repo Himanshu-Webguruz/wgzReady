@@ -1,59 +1,56 @@
 "use client";
 
-
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import SearchBar from "./SearchBar";
-import '../../app/blogs/blogs.css'
-
-
+import "../../app/blogs/blogs.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretLeft,faCaretRight } from "@fortawesome/free-solid-svg-icons";
+import { faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
 
-const AllPost = ({ posts, currentPage, totalPages,pageNumber }) => {
+const AllPost = ({ posts, currentPage, totalPages, pageNumber }) => {
   const router = useRouter();
   const categoryLinks = {
     "artificial-intelligence": "/categories/artificial-intelligence",
-    "blogging": "/categories/blogging",
+    blogging: "/categories/blogging",
     "brand-marketing": "/categories/brand-marketing",
     "content-marketing": "/categories/content-marketing",
     "digital-marketing": "/categories/digital-marketing",
-    'ecommerce': "/categories/ecommerce",
+    ecommerce: "/categories/ecommerce",
     "email-marketing": "/categories/email-marketing",
     "facebook-marketing": "/categories/facebook-marketing",
-    'frameworks': "/categories/frameworks",
+    frameworks: "/categories/frameworks",
     "full-stack-javascript-development":
       "/categories/full-stack-javascript-development",
     "google-remarketing": "/categories/google-remarketing",
-    'hubspot': "/categories/hubspot",
-    'infographic': "/categories/infographic",
-    'infusionsoft': "/categories/infusionsoft",
+    hubspot: "/categories/hubspot",
+    infographic: "/categories/infographic",
+    infusionsoft: "/categories/infusionsoft",
     "internet-marketing": "/categories/internet-marketing",
     "ios-app": "/categories/ios-app",
     "iphone-app-development": "/categories/iphone-app-development",
     "java-development": "/categories/java-development",
-    'joomla': "/categories/joomla",
+    joomla: "/categories/joomla",
     "linkedin-marketing": "/categories/linkedin-marketing",
     "logo-design": "/categories/logo-design",
-    'magento': "/categories/magento",
+    magento: "/categories/magento",
     "main-post": "/categories/main-post",
     "mobile-application-development":
       "/categories/mobile-application-development",
     "office-culture": "/categories/office-culture",
     "online-reputation-management": "/categories/online-reputation-management",
-    'orm': "/categories/orm",
+    orm: "/categories/orm",
     "paid-marketing": "/categories/paid-marketing",
-    'php': "/categories/php",
-    'seo': "/categories/seo",
-    'shopify': "/categories/shopify",
+    php: "/categories/php",
+    seo: "/categories/seo",
+    shopify: "/categories/shopify",
     "social-media-marketing": "/categories/social-media-marketing",
     "titanium-development": "/categories/titanium-development",
     "web-application-development": "/categories/web-application-development",
     "web-design": "/categories/web-design",
     "web-developments": "/categories/web-developments",
-    'wordpress': "/categories/wordpress",
+    wordpress: "/categories/wordpress",
   };
 
   const handlePageChange = (newPage) => {
@@ -73,12 +70,17 @@ const AllPost = ({ posts, currentPage, totalPages,pageNumber }) => {
 
   // Adjust start and end pages to fit within total pages and page buttons range
   const adjustedStartPage = Math.max(1, endPage - pageButtons + 1);
-  const adjustedEndPage = Math.min(totalPages, adjustedStartPage + pageButtons - 1);
+  const adjustedEndPage = Math.min(
+    totalPages,
+    adjustedStartPage + pageButtons - 1
+  );
   return (
     <>
       <div className="row bog-post-main">
         <div className="col-sm-12 col-xs-12 heading-main mb-4">
-          <h3>Latest <span>Posts</span></h3>
+          <h3>
+            Latest <span>Posts</span>
+          </h3>
         </div>
         <div className="col-sm-8 col-xs-12 bog-post bottom">
           {posts.length > 0 ? (
@@ -93,7 +95,9 @@ const AllPost = ({ posts, currentPage, totalPages,pageNumber }) => {
                   />
                 </div>
                 <div className="content">
-                <span className="technology text-capitalize">{post.acf.list_all_category}</span>
+                  <span className="technology text-capitalize">
+                    {post.acf.list_all_category}
+                  </span>
                   <h4>
                     <Link href={`/blog/${post.slug}`}>
                       {post.title.rendered}
@@ -107,12 +111,14 @@ const AllPost = ({ posts, currentPage, totalPages,pageNumber }) => {
                     }}
                   />
                   <span className="name">
-  {post.yoast_head_json.schema["@graph"][4].image?.caption || "No caption available"}{" "}
-  <span className="date">
-    {post.yoast_head_json.schema["@graph"][0].datePublished.slice(0, 10)}
-  </span>
-</span>
-
+                    {post.yoast_head_json.schema["@graph"][4].image?.caption ||
+                      "No caption available"}{" "}
+                    <span className="date">
+                      {post.yoast_head_json.schema[
+                        "@graph"
+                      ][0].datePublished.slice(0, 10)}
+                    </span>
+                  </span>
                 </div>
               </div>
             ))
@@ -122,19 +128,19 @@ const AllPost = ({ posts, currentPage, totalPages,pageNumber }) => {
         </div>
         <div className="col-sm-4 col-xs-12">
           <div className="categories-main">
-          <SearchBar/>
-          <div className="categories">
-            <h4>Categories</h4>
-            <ul>
-              {Object.keys(categoryLinks).map((category) => (
-                <li key={category}>
-                  <Link href={categoryLinks[category]}>
-                    {category.replace(/-/g, " ")}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+            <SearchBar />
+            <div className="categories">
+              <h4>Categories</h4>
+              <ul>
+                {Object.keys(categoryLinks).map((category) => (
+                  <li key={category}>
+                    <Link href={categoryLinks[category]}>
+                      {category.replace(/-/g, " ")}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
 
@@ -154,24 +160,39 @@ const AllPost = ({ posts, currentPage, totalPages,pageNumber }) => {
                   <li>
                     <button onClick={() => handlePageChange(1)}>1</button>
                   </li>
-                  {adjustedStartPage > 2 && <li className="btn-no-color">...</li>}
+                  {adjustedStartPage > 2 && (
+                    <li className="btn-no-color">...</li>
+                  )}
                 </>
               )}
-              {Array.from({ length: adjustedEndPage - adjustedStartPage + 1 }, (_, index) => (
-                <li key={adjustedStartPage + index}>
-                  <button
-                    onClick={() => handlePageChange(adjustedStartPage + index)}
-                    className={adjustedStartPage + index === currentPage ? "active" : ""}
-                  >
-                    {adjustedStartPage + index}
-                  </button>
-                </li>
-              ))}
+              {Array.from(
+                { length: adjustedEndPage - adjustedStartPage + 1 },
+                (_, index) => (
+                  <li key={adjustedStartPage + index}>
+                    <button
+                      onClick={() =>
+                        handlePageChange(adjustedStartPage + index)
+                      }
+                      className={
+                        adjustedStartPage + index === currentPage
+                          ? "active"
+                          : ""
+                      }
+                    >
+                      {adjustedStartPage + index}
+                    </button>
+                  </li>
+                )
+              )}
               {adjustedEndPage < totalPages && (
                 <>
-                  {adjustedEndPage < totalPages - 1 && <li className="btn-no-color">...</li>}
+                  {adjustedEndPage < totalPages - 1 && (
+                    <li className="btn-no-color">...</li>
+                  )}
                   <li>
-                    <button onClick={() => handlePageChange(totalPages)}>{totalPages}</button>
+                    <button onClick={() => handlePageChange(totalPages)}>
+                      {totalPages}
+                    </button>
                   </li>
                 </>
               )}
@@ -185,11 +206,10 @@ const AllPost = ({ posts, currentPage, totalPages,pageNumber }) => {
               </li>
             </ul>
           </div>
-        </div> 
+        </div>
       </div>
     </>
   );
 };
 
 export default AllPost;
-

@@ -11,7 +11,7 @@ function OurTeamhubspot() {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main text-center">
               <h3>
-                Our Team Is <span>Your Team</span>
+              Why Choose <span> HubSpot?</span>
               </h3>
             </div>
           </div>
@@ -25,43 +25,33 @@ function OurTeamhubspot() {
               </div>
               <div className="svypmng">
                 <div className="svypmnginr">
-                  <h5>Tech savvy project managers</h5>
+                  <h5>All-in-one platform</h5>
                   <p>
-                    Mavlers’ project managers are fluent with diverse
-                    technologies which enables them to configure the tech stack
-                    most suitable for a particular project.
+                  HubSpot offers a comprehensive suite of tools for marketing, sales, and customer service.
                   </p>
                 </div>
                 <div className="svypmnginr">
-                  <h5>Variety of engagement models</h5>
+                  <h5>User-friendly interface</h5>
                   <p>
-                    Choose from engagement models carefully designed to
-                    accommodate a wide range of requirements and businesses of
-                    all sizes.
+                  HubSpot is easy to learn and use.
                   </p>
                 </div>
                 <div className="svypmnginr">
-                  <h5>CRM expertise</h5>
+                  <h5>Scalability</h5>
                   <p>
-                    Being a HubSpot solutions partner and having served global
-                    clients spanning diverse industries, our developers are
-                    well-equipped to tackle any problem statement.
+                  HubSpot can grow with your business.
                   </p>
                 </div>
                 <div className="svypmnginr">
-                  <h5>Growth driven approach</h5>
+                  <h5>Integration with other tools</h5>
                   <p>
-                    Our HubSpot developers align their processes with yours to
-                    facilitate a smooth collaboration and work singularly
-                    towards securing the growth of your brand.
+                  HubSpot can be integrated with your existing systems.
                   </p>
                 </div>
                 <div className="svypmnginr">
-                  <h5>Flexible pricing</h5>
+                  <h5>Strong community and support</h5>
                   <p>
-                    Find pricing models that aim to give you the most bang for
-                    your buck, irrespective of your budget! You can onboard our
-                    resources both long-term as well as on a contractual basis.
+                  HubSpot has a large and active community of users.
                   </p>
                 </div>
               </div>

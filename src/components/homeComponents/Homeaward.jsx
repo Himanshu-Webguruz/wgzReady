@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import awards from "../../../public/images/awards.webp";
+import awards from "/public/images/awards.webp";
 
 const awardsData = [
   { src: awards, alt: "Award 1", text: "APPFUTURA" },
@@ -21,9 +21,7 @@ const Homeaward = () => {
               Award & <span>Recognition</span>
             </h3>
             <p>
-              Using the latest technology and industry expertise, we built
-              top-end Android and IOS-based applications that add value to the
-              business and user experience.
+            Our services are proven to help clients achieve success. And the awards we have won stand testament to this fact.
             </p>
           </div>
         </div>

@@ -3,10 +3,10 @@ import TeamCard from "@/components/contactComponents/02TeamCard";
 import ContactTalent from "@/components/contactComponents/03ContactTalent";
 import ContactConnect from "@/components/contactComponents/04ContactConnect";
 import ContactMap from "@/components/contactComponents/05ContactMap";
-import AddsPartner from "@/components/serviceComponent/11AddsPartner";
+import AddsPartner from "@/components/contactComponents/06AddsPartner";
 import "./contact.css";
-import HomeTestimonial from "@/components/homeComponents/07HomeTestimonial";
 import ContactLogo from "@/components/contactComponents/07ContactLogo";
+import ContactTestimonial from "@/components/contactComponents/ContactTestimonial";
 
 const page = () => {
   return (
@@ -16,8 +16,13 @@ const page = () => {
       <ContactTalent />
       <ContactLogo />
       <ContactConnect />
-      <AddsPartner />
-      <HomeTestimonial />
+      <AddsPartner
+        heading="Ready to unlock the full potential of your digital presence?"
+        paragraph="Let WebGuruz help you in the journey."
+        linkHref="/contact-us"
+        linkText="Connect Now!"
+      />
+      <ContactTestimonial/>
       <ContactMap />
     </>
   );

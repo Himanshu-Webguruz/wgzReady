@@ -10,27 +10,27 @@ function Broadindustries() {
   const industries = [
     {
       img: Icnbroad1,
-      title: "Fintech.",
+      title: "Technology.",
       description:
-        "From payment processing to investing and beyond, mobile app services make it easier than ever to access financial services on the go.",
+        "Drive lead generation, nurture leads, and close deals more effectively with HubSpot's sales and marketing tools.",
     },
     {
       img: Icnbroad2,
-      title: "Retail & Ecommerce.",
+      title: "E-commerce.",
       description:
-        "By developing a mobile app, businesses can provide their customers with a convenient, user-friendly way to shop for products and services.",
+        "Boost online sales and improve customer experiences with HubSpot's marketing automation and CRM features.",
     },
     {
       img: Icnbroad3,
       title: "Healthcare.",
       description:
-        "With mobile apps, healthcare providers can give their patients the tools they need to live healthier lives, like tracking their health goals or medical information.",
+        "Enhance patient satisfaction and streamline operations with HubSpot's patient management tools.",
     },
     {
       img: Icnbroad4,
       title: "Education.",
       description:
-        "Mobile apps are a powerful tool for a variety of purposes, from keeping track of assignments and grades to providing a platform for distance learning.",
+        "Engage students, streamline enrollment, and improve campus operations with HubSpot's education-specific solutions.",
     },
   ];
 
@@ -41,18 +41,16 @@ function Broadindustries() {
           <div className="col-lg-5 col-md-5 col-sm-12 col-12">
             <div className="heading-main">
               <h3>
-                Experienced across a
+              Solutions for a 
                 <br />
-                <span>broad range of industries</span>
+                <span>Broad Range of Industries</span>
               </h3>
             </div>
           </div>
           <div className="col-lg-7 col-md-7 col-sm-12 col-12">
             <div className="brdighdtxt">
               <p>
-                At WebOccult, we have experienced HubSpot website developers who
-                can utilize the cutting-edge tools to build a customized
-                business solutions with HubSpot.
+              Our Hubspot solutions cater to a wide range of industries including, but not limited to:
               </p>
             </div>
           </div>

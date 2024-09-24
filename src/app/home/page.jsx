@@ -14,17 +14,21 @@ import Homeaward from "@/components/homeComponents/Homeaward";
 export default function Home() {
   return (
     <>
-    <HomeBanner/>
-    <CounterHome/>
-    <HomeTab/>
-    <HomeNumbers/>
-    <TechnicalHome/>
-    <CustomizeHome/>
-    <FeaturedProject/>
-    <HomeTestimonial/>
-    <Featuredblog/>
-    <Homeaward/>
-    <Webguruzwe/>
+      <HomeBanner />
+      <CounterHome />
+      <HomeTab />
+      <HomeNumbers />
+      <TechnicalHome />
+      <CustomizeHome
+        heading="Industries We "
+        subheading="Cater To"
+        paragraph="From startups to established enterprises, we serve businesses across a wide range of industries."
+      />
+      <FeaturedProject />
+      <HomeTestimonial />
+      <Featuredblog />
+      <Homeaward />
+      <Webguruzwe />
     </>
   );
 }

@@ -6,16 +6,10 @@ const ExpertManaged = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center content heading-content">
               <h3>
-                Maximize Your ROI With Expert-Managed{" "}
-                <span>digital marketing Services</span>
+              Digital Marketing Strategy that <span>Works for You</span>
               </h3>
               <p>
-                Get everything you need (and nothing you don&apos;t) with WebFX&apos;s PPC
-                services. From building to implementing to managing, WebFX
-                provides a turn-key solution to pay-per-click management.
-                Discover how our customizable services can drive significant
-                revenue for your business, just as they have driven more than
-                $10 billion in revenue for our clients.
+              WebGuruz offers a comprehensive range of digital marketing services tailored to your specific needs. As a leading digital marketing company, we provide innovative digital marketing strategies to drive online visibility and generate leads. 
               </p>
             </div>
           </div>

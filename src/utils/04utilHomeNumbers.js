@@ -1,26 +1,26 @@
 const numbercards = [
     {
-      title: "Centrak",
-      para: "Decrease in PPC cost per lead",
-      percentage: "90%",
+      title: "ECom Tushar",
+      para: "ROAS on ad campaigns",
+      percentage: "6.68+",
       anchor: "Read Fully Case Study",
     },
     {
-      title: "HydroWorx",
-      para: "Increase in organic sessions",
-      percentage: "236%",
+      title: "Monica Jewelers",
+      para: "Growth in Traffic",
+      percentage: "60%",
       anchor: "Read Fully Case Study",
     },
     {
-      title: "Net Friends",
-      para: "Increase in website traffic and leads",
-      percentage: "2X",
+      title: "Minus The Agent",
+      para: "Jump in Website Traffic",
+      percentage: "100%",
       anchor: "Read Fully Case Study",
     },
     {
-      title: "KOA",
-      para: "Increase in organic transactions",
-      percentage: "198%",
+      title: "Crystal Tones",
+      para: "CTR in 3 months",
+      percentage: "7.95%",
       anchor: "Read Fully Case Study",
     },
   ];

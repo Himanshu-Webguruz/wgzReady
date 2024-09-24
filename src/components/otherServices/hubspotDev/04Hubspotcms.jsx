@@ -10,14 +10,10 @@ function Hubspotcms() {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main text-center">
               <h3>
-                Why Choose Our HubSpot CMS
-                <br />
-                <span>Development Services?</span>
+              What&apos;s <span>More?</span>
               </h3>
               <p>
-                With our expertise, customized solutions, and ongoing support,
-                we help you
-                <br /> create a powerful online presence that drives results.
+              Our HubSpot Developers ensure that the solutions they deliver are on par with the industry standards.
               </p>
             </div>
           </div>
@@ -31,30 +27,27 @@ function Hubspotcms() {
                   <div className="hbperfimg">
                     <Image src={Arrwcheck} className="img-fluid"  alt="Image" />
                   </div>
-                  <h5>Extensive HubSpot Expertise</h5>
+                  <h5>Scalability</h5>
                   <p>
-                    We specialize in HubSpot CMS development, bringing in-depth
-                    knowledge and expertise to deliver exceptional solutions.
+                  Our HubSpot solutions are designed to grow with your business. As your needs evolve, we can easily scale your HubSpot implementation to accommodate your expanding operations.
                   </p>
                 </div>
                 <div className="hbperfrm right">
                   <div className="hbperfimg">
                     <Image src={Arrwcheck} className="img-fluid"  alt="Image" />
                   </div>
-                  <h5>Enhanced Performance and Speed</h5>
+                  <h5>Cost-effective</h5>
                   <p>
-                    Our expertise optimizes your website for fast load times,
-                    smooth navigation, and improved performance.
+                  We offer competitive pricing for our HubSpot development services, ensuring you get the best value for your investment. Our goal is to provide high-quality solutions without breaking the bank.
                   </p>
                 </div>
                 <div className="hbperfrm right lst">
                   <div className="hbperfimg">
                     <Image src={Arrwcheck} className="img-fluid"  alt="Image" />
                   </div>
-                  <h5>Mobile-Optimized and Responsive Designs</h5>
+                  <h5>Integration with other tools</h5>
                   <p>
-                    We ensure your website looks and performs flawlessly on all
-                    devices, maximizing user experience.
+                  We understand that your business may already have existing systems in place. Our team can seamlessly integrate HubSpot with your current tools, creating a cohesive and efficient workflow.
                   </p>
                 </div>
               </div>
@@ -68,31 +61,27 @@ function Hubspotcms() {
                   <div className="hbperfimg">
                     <Image src={Arrwcheck} className="img-fluid"  alt="Image" />
                   </div>
-                  <h5>Customized Website Solutions</h5>
+                  <h5>Data security</h5>
                   <p>
-                    Our HubSpot CMS development creates fully customized
-                    websites tailored to your brand and goals.
+                  Data security is a top priority at WebGuruz. We implement robust security measures to protect your sensitive data and ensure compliance with industry regulations.
                   </p>
                 </div>
                 <div className="hbperfrm left">
                   <div className="hbperfimg">
                     <Image src={Arrwcheck} className="img-fluid"  alt="Image" />
                   </div>
-                  <h5>Seamless Integration with HubSpot Tools</h5>
+                  <h5>Continuous improvement</h5>
                   <p>
-                    We integrate your website with HubSpot tools for
-                    synchronized data, personalized experiences, and streamlined
-                    workflows.
+                  We are dedicated to staying up-to-date with the latest HubSpot advancements and industry trends. We strive to improve our services and processes to deliver the best possible value to our clients.
                   </p>
                 </div>
                 <div className="hbperfrm left lst">
                   <div className="hbperfimg">
                     <Image src={Arrwcheck} className="img-fluid"  alt="Image" />
                   </div>
-                  <h5>Customized Website Solutions</h5>
+                  <h5>Dedicated project manager</h5>
                   <p>
-                    Our HubSpot CMS development creates fully customized
-                    websites tailored to your brand and goals.
+                  We assign a dedicated project manager to oversee your HubSpot development project. This ensures that your project stays on track, and your needs are met throughout the process.
                   </p>
                 </div>
               </div>

@@ -1,26 +1,26 @@
 import Image from "next/image";
-import servTeam from "../../../public/images/serviceImages/Our-Team-is-Your-Team.webp";
+import servTeam from "/public/images/serviceImages/Our-Team-is-Your-Team.webp";
 
 const teamQualities = [
   {
-    title: "Quality",
+    title: "Client-Centric Approach",
     description:
-      "We aim to deliver high-quality products. Hence, we take care of everything at the granular level.",
+      "We put your needs first and work closely with you to understand your business objectives.",
   },
   {
-    title: "Reliability",
+    title: "Innovative Solutions",
     description:
-      "Our teams are made up of highly-skilled and certified engineers with industry-specific domain knowledge.",
+      "We stay up-to-date with the latest digital marketing trends and implement innovative strategies.",
   },
   {
-    title: "Flexibility",
+    title: "Measurable Results",
     description:
-      "Our team keeps the requirements of our clients on priority & the development process transparent.",
+      "We focus on delivering tangible results that drive your business growth.",
   },
   {
-    title: "Competence",
+    title: "Strong Team Culture",
     description:
-      "Our team consists of expert developers who have knowledge of domain expertise for all business industries.",
+      "Our team is collaborative, dedicated, and passionate about what they do.",
   },
 ];
 
@@ -31,12 +31,12 @@ const TeamService = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center heading-content">
             <h3>
-              Our Team is <span>Your Team</span>
+            More than <span>Just Numbers…</span>
             </h3>
             <p>
-              More the years, the better the solutions! We have been partnering
+            We are passionate about digital marketing and dedicated to helping our clients achieve their goals. 
               <br />
-              with brands and offering our expertise for more than a decade.
+              Here&apos;s what sets us apart:
             </p>
           </div>
         </div>

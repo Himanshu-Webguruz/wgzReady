@@ -11,15 +11,15 @@ const WhyHubspot = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
               <h3>
-              Why Choose Webguruz for <span> Hubspot Development ?</span>
-              </h3><p>As a renowned digital marketing company, we utilize top-of-the-line tools to design an inbound marketing plan for our customers.</p>
+              Reasons to Choose <span> WebGuruz as Your HubSpot Development Partner</span>
+              </h3>
             </div>
           </div>
           <div className="row d-flex align-items-center py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Create a Unique Brand Presence</h5>
+              <h5 className="mb-3">Proven track record of success</h5>
               <p>
-              Give your brand an impressive online presence with our HubSpot web development solutions. Create unique experiences that reverberate your brand value and deliver results.
+              We have a history of delivering successful HubSpot projects across various industries, demonstrating our expertise and ability to drive results.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
@@ -28,9 +28,9 @@ const WhyHubspot = () => {
           </div>
           <div className="row d-flex align-items-center reverse py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Maximize Benefits From HubSpot Integrations</h5>
+              <h5 className="mb-3">Experienced and skilled team</h5>
               <p>
-              We help you create a feature-rich website packed with functionalities built by combining HubSpot&apos;s third-party integrations.
+              Our team consists of highly skilled developers and marketers with in-depth knowledge of HubSpot's features and best practices. They are dedicated to providing exceptional service and delivering tailored solutions.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
@@ -39,9 +39,9 @@ const WhyHubspot = () => {
           </div>
           <div className="row d-flex align-items-center py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Efficient & Effective</h5>
+              <h5 className="mb-3">Customized solutions</h5>
               <p>
-              Enjoy the freedom of building distinctive solutions with zero developer dependency. Drag & drop your custom-built templates, themes, and modules to create digital assets on the go.
+              We work closely with our clients to understand their specific requirements and tailor our services accordingly, ensuring that our solutions align perfectly with their goals.  
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
@@ -50,9 +50,9 @@ const WhyHubspot = () => {
           </div>
           <div className="row d-flex align-items-center reverse py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Maximize Benefits From HubSpot Integrations</h5>
+              <h5 className="mb-3">Excellent customer support</h5>
               <p>
-              We help you create a feature-rich website packed with functionalities built by combining HubSpot&apos;s third-party integrations.
+              Our dedicated team is always available to assist you with any questions or issues that may arise, ensuring a smooth and hassle-free experience.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">

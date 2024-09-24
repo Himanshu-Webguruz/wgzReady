@@ -100,12 +100,11 @@ const HomeNumbers = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-5">
             <h3>
-              By the <span>numbers</span>
+              Our <span>Portfolio</span>
             </h3>
             <p>
-              Our best-in-class digital marketing agency impresses customers
-              with impactful results and wows them with stellar customer
-              service.
+              Explore our diverse range of projects and see how we&apos;ve helped
+              businesses of all sizes achieve their goals.
             </p>
             <form
               className="website-label btn-main srchfrm"
@@ -133,7 +132,11 @@ const HomeNumbers = () => {
                 />
                 {errors.email && <p style={{ color: "red" }}>{errors.email}</p>}
               </div>
-              <button type="submit" value="Get a proposal" className="btn-submit">
+              <button
+                type="submit"
+                value="Get a proposal"
+                className="btn-submit"
+              >
                 Get a proposal
                 <FontAwesomeIcon
                   style={{ height: "1em" }}
@@ -145,7 +148,8 @@ const HomeNumbers = () => {
               </button>
             </form>
             {serverMessage && (
-              <p className="error-msg"
+              <p
+                className="error-msg"
                 style={{
                   color: serverMessage.includes("error") ? "red" : "green",
                 }}

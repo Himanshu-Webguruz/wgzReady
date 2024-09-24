@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-import ExploreIcon from "../../../public/images/marketing-left.png";
-import ExploreArrow from "../../../public/images/explore-next-icons.png";
+import ExploreIcon from "/public/images/marketing-left.png";
+import ExploreArrow from "/public/images/explore-next-icons.png";
 
-import Leftseo from "../../../public/images/left-seo.png";
-import Leftppc from "../../../public/images/left-ppc.png";
-import Leftsocialmedia from "../../../public/images/left-social-media.png";
-import Leftwebdesign from "../../../public/images/left-web-design.png";
-import Leftinternet from "../../../public/images/left-internet.png";
+import Leftseo from "/public/images/left-seo.png";
+import Leftppc from "/public/images/left-ppc.png";
+import Leftsocialmedia from "/public/images/left-social-media.png";
+import Leftwebdesign from "/public/images/left-web-design.png";
+import Leftinternet from "/public/images/left-internet.png";
 
 import Image from "next/image";
 const ExploreList = () => {
@@ -18,13 +18,10 @@ const ExploreList = () => {
           <Image src={ExploreIcon} alt="Image" />
           <div className="content_explore_wrap">
             <Link href="#">
-              {" "}
-              Marketing <Image src={ExploreArrow}  alt="Image"/>
+              Marketing <Image src={ExploreArrow} alt="Image" />
             </Link>
             <p>
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit Quisque
-              aliquam tristique.{" "}
+            Expert insights and strategies inside.
             </p>
           </div>
         </div>
@@ -35,13 +32,10 @@ const ExploreList = () => {
           <Image src={Leftseo} alt="Image" />
           <div className="content_explore_wrap">
             <Link href="#">
-              {" "}
-              Seo <Image src={ExploreArrow} alt="Image" />
+              SEO <Image src={ExploreArrow} alt="Image" />
             </Link>
             <p>
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit Quisque
-              aliquam tristique.{" "}
+            Climb the SERPs with these proven SEO tactics.
             </p>
           </div>
         </div>
@@ -49,16 +43,13 @@ const ExploreList = () => {
 
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={Leftppc}  alt="Image" />
+          <Image src={Leftppc} alt="Image" />
           <div className="content_explore_wrap">
             <Link href="#">
-              {" "}
               PPC <Image src={ExploreArrow} alt="Image" />
             </Link>
             <p>
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit Quisque
-              aliquam tristique.{" "}
+            Maximize your RoI with PPC optimization tips.
             </p>
           </div>
         </div>
@@ -69,13 +60,10 @@ const ExploreList = () => {
           <Image src={Leftsocialmedia} alt="Image" />
           <div className="content_explore_wrap">
             <Link href="#">
-              {" "}
               Social Media <Image src={ExploreArrow} alt="Image" />
             </Link>
             <p>
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit Quisque
-              aliquam tristique.{" "}
+            Explore strategies for social media growth.
             </p>
           </div>
         </div>
@@ -86,13 +74,10 @@ const ExploreList = () => {
           <Image src={Leftwebdesign} alt="Image" />
           <div className="content_explore_wrap">
             <Link href="#">
-              {" "}
               Web Design <Image src={ExploreArrow} alt="Image" />
             </Link>
             <p>
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit Quisque
-              aliquam tristique.{" "}
+            Tips for effective and responsive web design.
             </p>
           </div>
         </div>
@@ -100,16 +85,13 @@ const ExploreList = () => {
 
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={Leftinternet}  alt="Image"/>
+          <Image src={Leftinternet} alt="Image" />
           <div className="content_explore_wrap">
             <Link href="#">
-              {" "}
               Internet <Image src={ExploreArrow} alt="Image" />
             </Link>
             <p>
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit Quisque
-              aliquam tristique.{" "}
+            Essential internet marketing tips for success in the online world.
             </p>
           </div>
         </div>

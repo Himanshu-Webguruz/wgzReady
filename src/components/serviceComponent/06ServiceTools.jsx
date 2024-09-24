@@ -38,13 +38,13 @@ const ServiceTools = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center heading-content">
             <h3>
-              <span>Digital Marketing</span> Tools We Use
+              <span>Harnessing the Latest </span> Digital Marketing Tools For
+              Your Brand
             </h3>
             <p className="pt-2 pb-3">
-              As a renowned digital marketing company, we utilize
-              top-of-the-line tools to design an inbound marketing plan for our
-              customers. Our customized strategies and tools ensure we deliver
-              the best results to meet the client&apos;s requirements.
+              As a leading digital marketing company, we leverage the latest
+              digital marketing tools to deliver effective results. Our toolset
+              includes:
             </p>
             <ul className="toolsicon-list d-flex align-items-center">
               {tools.map((tool, index) => (

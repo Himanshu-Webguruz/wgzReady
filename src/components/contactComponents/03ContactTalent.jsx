@@ -13,10 +13,10 @@ const ContactTalent = () => {
             <div className="col-sm-4 col-xs- 12 talent-btn ">
               <div className="btn-merge pe-4 me-4">
                 <button className="explore-btn hire-talent mb-3">
-                  Hire A Talent
+                Hire Us Now!
                 </button>
                 <button className="explore-btn job-apply no-color">
-                  Apply For a Job
+                Start your Career with us!
                 </button>
               </div>
             </div>

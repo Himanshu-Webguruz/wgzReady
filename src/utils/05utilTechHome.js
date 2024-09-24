@@ -22,7 +22,7 @@ const techMain = [
     {
       img: tech,
       title: "Marketing <span>Automation</span>",
-      para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim facilisis ornare.Suspendisse commodo, ipsum nec pellentesque vulputate, velit nisl interdum tellus, in mollis lectus tortor ut neque. Cras faucibus arcu in sem scelerisque euismod. Integer non efficitur erat.",
+      para: "Streamline your marketing efforts and maximize efficiency with our expert marketing automation services. By automating repetitive tasks, you can save time, improve lead nurturing, and personalize your campaigns. From email marketing and lead scoring to customer segmentation and personalized content delivery, our automation solutions empower you to deliver targeted messages at scale.",
       img1: hubspot,
       img2: klavio,
       img3: salesforce,
@@ -33,7 +33,7 @@ const techMain = [
     {
       img: tech2,
       title: "Marketing <span> Analitics & Optimization</span>",
-      para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim facilisis ornare.Suspendisse commodo, ipsum nec pellentesque vulputate, velit nisl interdum tellus, in mollis lectus tortor ut neque. Cras faucibus arcu in sem scelerisque euismod. Integer non efficitur erat.",
+      para: "Data-driven insights are crucial for optimizing your marketing campaigns and achieving better results. Our experts use powerful analytics tools to track key performance indicators, analyze campaign effectiveness, and identify areas for improvement. By leveraging data-driven insights, we can optimize your website, content, and marketing strategies to attract, engage, and convert your target audience.",
       img1: expert7,
       img2: expert8,
       img3: expert9,
@@ -43,8 +43,8 @@ const techMain = [
     },
     {
       img: tech3,
-      title: "Digital  <span>Marketing and Engagment</span>",
-      para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim facilisis ornare.Suspendisse commodo, ipsum nec pellentesque vulputate, velit nisl interdum tellus, in mollis lectus tortor ut neque. Cras faucibus arcu in sem scelerisque euismod. Integer non efficitur erat.",
+      title: "Digital  <span>Marketing</span>",
+      para: "Reach your target audience and drive conversions through effective digital marketing strategies. We help you develop a tailored digital marketing plan that aligns with your business objectives and leverages the latest trends and technologies. From optimizing your website for search engines to creating engaging content and running targeted advertising campaigns, our team has the expertise to help you achieve your online marketing goals.",
       img1: expert12,
       img2: expert13,
       img3: salesforce,
@@ -54,8 +54,8 @@ const techMain = [
     },
     {
       img: tech4,
-      title: "Website  <span>& Mobile Applications</span>",
-      para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim facilisis ornare.Suspendisse commodo, ipsum nec pellentesque vulputate, velit nisl interdum tellus, in mollis lectus tortor ut neque. Cras faucibus arcu in sem scelerisque euismod. Integer non efficitur erat.",
+      title: "Website  <span>Development & Design</span>",
+      para: "Create stunning websites that are both visually appealing and user-friendly. Our skilled web developers and designers collaborate to craft websites that not only look great but also provide a seamless user experience. We utilize popular frameworks to build responsive, scalable, and high-performing websites. Our focus on user-centered design ensures that your website is easy to navigate, loads quickly, and effectively communicates your brand message.",
       img1: hubspot,
       img2: klavio,
       img3: salesforce,

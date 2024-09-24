@@ -15,8 +15,7 @@ const HomeTab = () => {
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-5">
             <p>Your Vision, Our Expertise - Boundless Possibilities</p>
             <h3>
-              Unique, Dynamic & Scalable - is
-              <span> how we craft our solutions</span>
+              Four Reasons to <span> Choose WebGuruz</span>
             </h3>
           </div>
         </div>

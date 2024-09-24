@@ -1,39 +1,57 @@
+"use client";
+import SlotCounter from "react-slot-counter";
+
 const DevBusiness = () => {
+  const counters = [
+    {
+      value: ["1", "6", "+"],
+      label: "Years of Excellence",
+      description:
+        "Our extensive experience ensures that we deliver cutting-edge solutions tailored to your unique needs.",
+    },
+    {
+      value: ["5", "0", "+"],
+      label: "Talented Developers",
+      description:
+        "Our team of skilled professionals brings a diverse range of expertise to every project.",
+    },
+    {
+      value: ["1", "5", "0", "0", "+"],
+      label: "Successful Projects",
+      description:
+        "We've helped countless businesses achieve their online goals through our proven track record.",
+    },
+  ];
+
   return (
-    <>
-      <section className="devbusiness pt-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
-              <h3>
-                Expedite Business Growth{" "}
-                <span>With Our Development Services</span>
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                ut ultrices arcu. Maecenas sagittis, felis sed gravida pulvinar,
-                eros ligula condimentum magna, a malesuada ex dolor sit amet
-                magna.
-              </p>
-            </div>
-          </div>
-          <div className="row counter-min">
-            <div className="col-sm-4 col-xs-12 counter-sub">
-              <h4>100+</h4>
-              <p>Years of Industry Experience</p>
-            </div>
-            <div className="col-sm-4 col-xs-12 counter-sub">
-              <h4>45%</h4>
-              <p>Increase in Inbound Leads</p>
-            </div>
-            <div className="col-sm-4 col-xs-12 counter-sub">
-              <h4>3X</h4>
-              <p>ROI from Paid Traffic</p>
-            </div>
+    <section className="devbusiness pt-5">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
+            <h3>
+              Expedite Business Growth with{" "}
+              <span>Our Expert Web Development Services</span>
+            </h3>
+            <p>
+              From concept to execution, we&apos;re your trusted partner for
+              innovative web solutions.
+            </p>
           </div>
         </div>
-      </section>
-    </>
+        <div className="row counter-min">
+          {counters.map((counter, index) => (
+            <div
+              key={index}
+              className="col-sm-4 col-xs-12 counter-sub text-center hub-counting"
+            >
+              <SlotCounter value={counter.value} />
+              <h5>{counter.label}</h5>
+              <p>{counter.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 

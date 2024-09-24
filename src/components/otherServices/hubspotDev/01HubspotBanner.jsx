@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Hbstptimg from "../../../../public/images/hubspotimages/hbsptban.png";
+import Link from "next/link";
 
 function Hubspotbanner() {
   return (
@@ -9,22 +10,20 @@ function Hubspotbanner() {
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
             <div className="heading-main">
               <h2>
-                <span>HubSpot Development</span>
+                <span>Expert HubSpot Development</span>
                 <br />
                 Services
               </h2>
               <p className="unls">
-                <strong>Unleash the Full Potential of HubSpot</strong>
+                <strong>Leverage the Power of HubSpot to Drive Growth and Efficiency</strong>
               </p>
               <p>
-                Accelerate growth with the help of our expert HubSpot
-                developers, delivering growth-driven, fully optimized, and
-                secure solutions.
+              HubSpot, the leading CRM and marketing platform, offers a comprehensive suite of tools to help you attract, engage, and delight customers. At WebGuruz, we deliver top-notch HubSpot development services tailored to your unique needs. Our team of skilled Hubspot developers and marketers will work closely with you to create a customized HubSpot solution that drives results.
               </p>
               <div className="gtintchbtn">
-                <a className="explore-btn" href="/">
+                <Link className="explore-btn" href="/">
                   Get In Touch
-                </a>
+                </Link>
               </div>
             </div>
           </div>

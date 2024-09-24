@@ -1,6 +1,6 @@
 import Image from "next/image";
-import webimage from "../../../../public/images/webimages/serviceimg.svg";
-import webicon from "../../../../public/images/webimages/webicon.svg";
+import webimage from "/public/images/webimages/serviceimg.svg";
+import webicon from "/public/images/webimages/webicon.svg";
 
 const WebFrameworks = () => {
   return (
@@ -10,12 +10,11 @@ const WebFrameworks = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center pt-2 pb-4">
               <h3>
-                Scalable Web Application <span>Development Frameworks</span>
+                <span> Website Development Services</span> We Offer
               </h3>
               <p>
-                From concept ideation to product development and launch in the
-                market, we help you in every stage ofthe development lifecycle
-                to build high-performing and scalable web applications.
+                From simple websites to complex e-commerce platforms, web apps,
+                and more, we&apos;ve got you covered.
               </p>
             </div>
           </div>
@@ -31,9 +30,7 @@ const WebFrameworks = () => {
                       <div className="contentimg">
                         <Image src={webicon} alt="webimage" />
                       </div>
-                      <p className="color-wt">
-                        Custom Web Applications Development
-                      </p>
+                      <p className="color-wt">Front-end Development</p>
                     </div>
                   </div>
                 </div>
@@ -46,9 +43,7 @@ const WebFrameworks = () => {
                       <div className="contentimg">
                         <Image src={webicon} alt="webimage" />
                       </div>
-                      <p className="color-wt">
-                        Custom Web Applications Development
-                      </p>
+                      <p className="color-wt">E-Commerce Development</p>
                     </div>
                   </div>
                 </div>
@@ -63,9 +58,7 @@ const WebFrameworks = () => {
                       <div className="contentimg">
                         <Image src={webicon} alt="webimage" />
                       </div>
-                      <p className="color-wt">
-                        Custom Web Applications Development
-                      </p>
+                      <p className="color-wt">Back-end Development</p>
                     </div>
                   </div>
                 </div>
@@ -80,9 +73,7 @@ const WebFrameworks = () => {
                   <div className="contentimg">
                     <Image src={webicon} alt="webimage" />
                   </div>
-                  <p className="color-wt">
-                    Custom Web Applications Development
-                  </p>
+                  <p className="color-wt">CMS Development</p>
                 </div>
               </div>
             </div>
@@ -100,7 +91,7 @@ const WebFrameworks = () => {
                         <Image src={webicon} alt="webimage" />
                       </div>
                       <p className="color-wt">
-                        Custom Web Applications Development
+                        Open Source Platform Development
                       </p>
                     </div>
                   </div>
@@ -114,9 +105,7 @@ const WebFrameworks = () => {
                       <div className="contentimg">
                         <Image src={webicon} alt="webimage" />
                       </div>
-                      <p className="color-wt">
-                        Custom Web Applications Development
-                      </p>
+                      <p className="color-wt">PWAs Development</p>
                     </div>
                   </div>
                 </div>
@@ -131,9 +120,7 @@ const WebFrameworks = () => {
                       <div className="contentimg">
                         <Image src={webicon} alt="webimage" />
                       </div>
-                      <p className="color-wt">
-                        Custom Web Applications Development
-                      </p>
+                      <p className="color-wt">Custom Web Development</p>
                     </div>
                   </div>
                 </div>
@@ -148,9 +135,7 @@ const WebFrameworks = () => {
                   <div className="contentimg">
                     <Image src={webicon} alt="webimage" />
                   </div>
-                  <p className="color-wt">
-                    Custom Web Applications Development
-                  </p>
+                  <p className="color-wt">Magento Development</p>
                 </div>
               </div>
             </div>

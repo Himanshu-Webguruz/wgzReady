@@ -2,32 +2,32 @@ const industries = [
   {
     title: "Healthcare",
     description:
-      "As a digital marketing company, we help healthcare brands increase awareness through comprehensive SEO (search engine optimization) and social media marketing.",
-  },
-  {
-    title: "Finance",
-    description:
-      "Leverage cost-effective digital marketing services, and implement digital strategies to gain visibility, reach more potential customers, and generate leads and sales.",
-  },
-  {
-    title: "eCommerce",
-    description:
-      "The eCommerce sector can boost its physical or online store presence with our internet marketing services. In addition, it drives sales and resolves shopping cart abandonment issues.",
-  },
-  {
-    title: "Lifestyle",
-    description:
-      "Stay ahead of the competition in a competitive digital world with our digital marketing services and boost your search engine ranking and sales without any hassle.",
+      "We help healthcare providers attract new patients, manage online reputation, and promote telehealth services.",
   },
   {
     title: "Education",
     description:
-      "Our dedicated team of Internet marketing experts and project managers can help you build your brand identity and promote your services by implementing tailor-made content marketing strategies.",
+      "The team at WebGuruz helps educational institutions recruit students, promote online courses, and establish a positive brand reputation.",
   },
   {
-    title: "Travel",
+    title: "Lifestyle",
     description:
-      "Our certified online marketing services provider enables businesses in the traveling domain to compete and lead in the top searches on the google search engine.",
+      "WebGuruz is helping lifestyle brands increase visibility, engage with customers, and leverage influencer marketing.",
+  },
+  {
+    title: "eCommerce",
+    description:
+      "Our experts assist eCommerce businesses in driving traffic, optimizing conversions, and building a strong brand identity.",
+  },
+  {
+    title: "Finance",
+    description:
+      "We assist financial institutions in generating leads, ensuring compliance, and improving customer retention.",
+  },
+  {
+    title: "Real Estate",
+    description:
+      "Experts at our digital marketing agency assist real estate agents and agencies in promoting property listings, generating leads, and building a strong brand reputation.",
   },
 ];
 
@@ -39,12 +39,10 @@ const IndustriesServe = () => {
           <div className="col-sm-12 col-xs-12">
             <div className="heading-main text-center pb-2 heading-content">
               <h3>
-                Industries <span>We Serve</span>
+              Industries We <span>Cater To</span>
               </h3>
               <p>
-                Signity, a leading digital marketing services provider, delivers
-                online marketing solutions to various businesses across
-                industries to widen their business reach and profitability.
+              WebGuruz as a leading digital marketing agency, holds extensive experience working with clients across various industries, including:
               </p>
             </div>
 

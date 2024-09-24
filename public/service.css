@@ -220,7 +220,7 @@ h6.dot {
 .quote-content ul li {
   padding: 0px 0px 10px 22px;
   position: relative;
-  background-image: url(images/serviceImages/Checkmark.png);
+  background-image: url(/images/serviceImages/Checkmark.png);
   background-repeat: no-repeat;
   background-size: 17px;
   background-position: left 5px;
@@ -516,12 +516,20 @@ form.web-connect label.submit {
   box-shadow: 0px 4px 30px rgb(0 0 0 / 20%);
   margin-bottom: -102px;
 }
-.counter-sub h4 {
+
+.hub-counting span.index-module_slot_wrap__ZT-DX >span {
   font-weight: 700;
   font-size: 60px;
-  margin-bottom: 30px;
-  color: #168B9A;
+  margin-bottom: 10px;
+  font-family: var(--font-outfit);
 }
+.hub-counting span.index-module_slot_wrap__ZT-DX {
+  min-height: 90px;
+}
+.hub-counting span.index-module_slot_wrap__ZT-DX span{
+  color: #168B9A !important;
+}
+
 .counter-sub {
   border-right: 1px solid #DDDDDD;
 }
@@ -981,7 +989,7 @@ color: #168B9A;
 }
 .linecenter {
   width: 1px;
-  height: 750px;
+  height: 960px;
   border: 1px dashed #000;
   margin: 0 auto;
 }
@@ -1725,9 +1733,8 @@ padding-bottom: 40px;
 }
 .prmntmg img {
 max-width: max-content;
-}
-.prmntmg img {
-max-width: max-content;
+text-align: center;
+animation: zoom 3s alternate-reverse infinite;
 }
 .hquality {
 width: 94%;
@@ -2041,7 +2048,9 @@ box-shadow: 0px 2px 3px rgb(0 0 0 / 25%);
 transition: 0.3s ease-in-out 0s;
 position: absolute;
 }
-
+span.nmmb p {
+  margin: 0px;
+}
 /* seo page end */
 
 /* media query */
@@ -2057,6 +2066,16 @@ position: absolute;
           width: 110px;
           left: -111px;
       }
+      .hbstexprts .hbstexprtsinr.left .hbperfrm.right .hbperfimg {
+        top: 0px;
+        right: 14px;
+    }
+    .hbstexprts .hbstexprtsinr.right .hbperfrm.left .hbperfimg {
+      top: 0;
+      left: 14px;
+  }
+
+    
 }
 @media(max-width: 1199px){
   ul.toolsicon-list li {
@@ -2157,40 +2176,11 @@ margin: 20px 0px;
   right: auto;
   left: 0;
 } 
+.exphrs ul{
+  align-items: flex-start;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-.drupaltp .dplrtimg .lnkdn {
-  padding: 12px 30px;
-  top: 60px;
-  border-radius: 6px;
 }
 
-.drupaltp .dplrtimg .smrsh {
-  padding: 12px 30px;
-  border-radius: 8px;
-  right: 30px;
-  bottom: -20px;
-}
-.dvlpsrvc .lftbg {
-  max-width: 560px;
-}
-
-.drplcmsct .drplcmsctinnr {
-  flex-basis: 40%;
-}
-
-.drplcmsct {
-  max-height: 690px;
-}
-.hquality .hqualitinr.ctnt {
-  flex-basis: 65%;
-}
-.exphrs ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-}
 @media(max-width: 767px){
 .service-banner .heading-main h2 {
   font-size: 30px;
@@ -2235,6 +2225,9 @@ width: 47%;}
 .creativeprtfl .slick-arrow {
 width: 35px;
 height: 35px;
+}
+#hubsptcrmsct:before {
+  background-position: right center;
 }
 .creativeprtfl {
 padding: 0px 30px;
@@ -2338,7 +2331,7 @@ font-size: 14px;
     flex-direction: column;
 }
 .qstbox.right, .qstbox.left{
-    padding-left: 96px;
+    padding-left: 60px;
 }
 .indrngserv {
     flex-wrap: wrap;
@@ -2382,9 +2375,6 @@ flex-direction: column-reverse;
 .digital-marketing .container .row {
   flex-direction: column-reverse;
 }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-
 .drupaltp .heading-main {
   padding-top: 30px;
 }
@@ -2438,8 +2428,8 @@ flex-direction: column-reverse;
 }
 
 .hquality {
-  flex-wrap: wrap;
   width: 100%;
+  text-align: center;
 }
 
 .hquality .hqualitinr.imgc {
@@ -2449,6 +2439,19 @@ flex-direction: column-reverse;
 .hquality .hqualitinr.imgc .prmntmg {
   text-align: center;
   padding: 20px 0px;
+}
+.hub-counting span.index-module_slot_wrap__ZT-DX >span {
+  font-size: 60px;
+}
+.hub-counting span.index-module_slot_wrap__ZT-DX {
+  min-height: 90px;
+}
+.nmbrlft span.nmmb, .nmbrght span.nmmb {
+  width: 50px;
+  height: 50px;
+}
+.nmbrlft span.nmmb p, .nmbrght span.nmmb p{
+  font-size: 14px;
 }
 }
 

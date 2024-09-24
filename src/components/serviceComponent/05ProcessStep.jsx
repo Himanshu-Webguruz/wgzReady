@@ -9,13 +9,10 @@ const ProcessStep = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center heading-content">
               <h3>
-                <span>Our 4 Steps </span> Process
+              We are <span> Intelligence in Action</span>
               </h3>
               <p className="pt-3 pb-5">
-                Drive best results by executing our online marketing process
-                with proven strategies. Our four steps will enable you to
-                optimize your online marketing strategies and help you achieve
-                pre-defined marketing goals.
+              We follow a proven process to deliver exceptional digital marketing solutions. Our process involves:
               </p>
             </div>
           </div>
@@ -28,35 +25,30 @@ const ProcessStep = () => {
                 <ul>
                   <li>
                     <span className="number">1</span>
-                    <h5>Understand Client Business</h5>
+                    <h5>Understanding Your Requirements</h5>
                     <p>
-                      The first and foremost step is understanding client
-                      business needs and requirements by evaluating their
-                      products and services in-depth.
+                    We work closely with you to understand your business goals and target audience.
                     </p>
                   </li>
                   <li>
                     <span className="number">2</span>
-                    <h5>Analyze Opportunities</h5>
+                    <h5>Analyzing Opportunities</h5>
                     <p>
-                      Conduct consumer and market research to understand target
-                      consumers&apos; mindsets, preferences, and buying patterns.
+                    We conduct a thorough analysis of your current online presence and identify areas for improvement.
                     </p>
                   </li>
                   <li>
                     <span className="number">3</span>
-                    <h5>Execute Strategy</h5>
+                    <h5>Strategizing</h5>
                     <p>
-                      The third step is to execute the planned custom strategy
-                      and evaluate the outcome.
+                    We develop a customized digital marketing strategy tailored to your specific needs.
                     </p>
                   </li>
                   <li>
                     <span className="number">4</span>
-                    <h5>Update Progress Report</h5>
+                    <h5>Updating Progress</h5>
                     <p>
-                      In this step, we regularly update the progress report and
-                      share it with the client.
+                    We provide regular updates and make adjustments as needed to ensure your campaign is on track.
                     </p>
                   </li>
                 </ul>

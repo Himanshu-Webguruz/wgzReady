@@ -7,22 +7,22 @@ const HubServiceDisplay = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-4">
             <h3>
-              Fast Track Your Business Growth <span>with our Hubspot Expertise</span>
+            Partner with the Experts in <span>Hubspot Development</span>
             </h3>
-            <p>From workflows to analytics to reporting, grow your business with our HubSpot services. We have:</p>
+            <p>Discover how HubSpot can transform your business with its powerful features and capabilities. Backed by a team of over 40 HubSpot experts and a proven track record of success, we've helped countless businesses achieve significant growth and ROI.</p>
           </div>
         </div>
         <div className="row">
           <div className="col col-xs-12">
             <label>
               <SlotCounter value={["8", "0", "+"]} />
-              <p>Hubspot Customers</p>
+              <p>Hubspot Clients</p>
             </label>
           </div>
           <div className="col col-xs-12">
             <label>
               <SlotCounter value={["4", "0", "+"]} />
-              <p>Certified HUbspot Experts</p>
+              <p> Hubspot Experts</p>
             </label>
           </div>
           <div className="col col-xs-12">

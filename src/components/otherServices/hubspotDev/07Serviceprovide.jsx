@@ -5,37 +5,37 @@ const services = [
     id: "01",
     title: "HubSpot Website Development",
     description:
-      "Our website development HubSpot services will provide you to get a visually appealing website. Utilize our HubSpot developers expertise to build your website for growth-driven results.",
+      "Create stunning, responsive websites that not only look great but also drive conversions. We specialize in building HubSpot websites that are optimized for search engines, mobile devices, and user experience, ensuring your business stands out online.",
   },
   {
     id: "02",
     title: "HubSpot API & Integrations",
     description:
-      "Our experts provide help in HubSpot API & integrations to serve the specific needs in line with your business. We drill down to your need to help you to identify & set up the right integrations efficiently!",
+      "Our HubSpot developers can integrate HubSpot with your email marketing software, CRM, accounting system, and more, streamlining your workflows and providing a unified view of your customer data. By leveraging the power of HubSpot's API, we can create custom integrations that meet your specific business needs and enhance your productivity.",
   },
   {
     id: "03",
-    title: "Landing Page & Email Template",
+    title: "HubSpot CRM Development",
     description:
-      "Our HubSpot Certified Experts will help in the design and development of Landing Pages & Email Templates aligned with the requirement of delivering more value to your marketing campaigns efficiently.",
+      "We'll work with you to understand your specific needs and tailor HubSpot's CRM to your exact specifications. With a customized HubSpot CRM, you can streamline your sales and customer service processes, improve lead management, and drive growth.",
   },
   {
     id: "04",
     title: "HubSpot Migration",
     description:
-      "Our experts provide services to migrate assets & data from the existing platform to HubSpot. Let our experts help you to enrich your business, making an easy shift to HubSpot.",
+      "Our experienced team will carefully migrate your contacts, deals, tasks, and other essential information, ensuring a smooth transition. We'll also configure HubSpot to match your current processes, minimizing disruption and maximizing efficiency. ",
   },
   {
     id: "05",
-    title: "HubDB and Knowledge Base Builder",
+    title: "HubSpot CMS Module Development",
     description:
-      "Maximize acceleration with rich resources & growth-driven results for your business with HubDB and HubSpot Knowledge Base Builder, leading to delivering value.",
+      "Build custom modules and extensions to enhance the functionality of your HubSpot website. By extending the capabilities of HubSpot's CMS, we can create a truly unique and engaging website that meets your specific business objectives.",
   },
   {
     id: "06",
-    title: "HubSpot Blog Development",
+    title: "HubSpot Inbound Marketing & Reporting",
     description:
-      "Our website development HubSpot services will provide you to get a visually appealing website. Utilize our HubSpot developers expertise to build your website for growth-driven results.",
+      "Develop effective inbound marketing strategies and track your results with HubSpot's powerful analytics tools. With HubSpot's comprehensive reporting capabilities, you can track the performance of your campaigns and make data-driven decisions to optimize your marketing efforts.",
   },
 ];
 
@@ -47,14 +47,11 @@ function Serviceprovide() {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main pb-5">
               <h3>
-                <span>Service</span> We Provide
+                <span>HubSpot Services</span> We Provide
               </h3>
               <p>
-                At WebOccult, we have experienced HubSpot website developers who
-                can utilize the
-                <br />
-                cutting-edge tools to build a customized business solution with
-                HubSpot.
+              From website development to CRM integration, our comprehensive HubSpot services can help you achieve your business goals.
+                
               </p>
             </div>
 

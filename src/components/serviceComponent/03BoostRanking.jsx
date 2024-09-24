@@ -10,11 +10,10 @@ const BoostRanking = () => {
           <div className="row">
             <div className="col-sm-6 col-xs-12 content-left heading-main">
               <h3>
-                <span>Boost Rankings</span> with On-Page SEO Optimization
+                <span>Marketing Strategies </span> to Get You Growing
               </h3>
               <p className="mt-3 mb-4">
-                Enhance your <b>business’s SERP rankings</b> with our expert
-                on-page SEO optimization
+              People don&apos;t buy what you do, they buy why you do it. We&apos;ve got the right digital strategy to make the world talk about you.
               </p>
               <video
                 autoPlay
@@ -34,16 +33,16 @@ const BoostRanking = () => {
               <div className="quote-content ">
                 <h5>
                   <Image src={dollar} alt="dollar-sign" />
-                  Starting from<span>$1000</span>
+                  Affordable Digital Marketing Services
                 </h5>
                 <p>
-                  <b>Start your project</b> with a custom quote designed to fit
-                  your needs!
+                  <b>Start your project</b>  with a custom quote designed to fit your requirements!
+
                 </p>
                 <ul className="mb-4">
-                  <li>Quick and easy quote process</li>
-                  <li>No-obligation, transparent pricing</li>
-                  <li>Customized to your project requirements</li>
+                  <li>Transparent Pricing</li>
+                  <li>Efficient Resource Allocation</li>
+                  <li>Scalable Solutions</li>
                 </ul>
                 <ServiceFormCl />
               </div>

@@ -48,7 +48,7 @@ ul.ppcbutton li button:hover {
     display: inline-block;
 }
 .ppcbannerservice {
-    background-image: url(../../../../public/images/ppcimages/scalebanner.svg);
+    background-image: url(/images/ppcimages/scalebanner.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -97,7 +97,7 @@ ul.ppctab-main {
     border: 1px solid #e5e5e5;
 }
 .processppc {
-    background-image: url(../../../../public/images/ppcimages/processbanner.svg);
+    background-image: url(/images/ppcimages/processbanner.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -186,7 +186,7 @@ ul.ppctab-main {
 .processppc::before {
     content: "";
     position: absolute;
-    background-image: url(../../../../public/images/ppcimages/our_prcs_rockt.svg);
+    background-image: url(/images/ppcimages/our_prcs_rockt.svg);
     bottom: 0;
     left: 0;
     right: 0;
