@@ -23,7 +23,7 @@ function Hubspotdevelopment() {
                   </div>
                   <h5>Discovery and Planning</h5>
                   <p>
-                  Our team will gather information about your target audience, competitors, and industry trends to develop a comprehensive strategy that aligns with your business objectives. We'll work closely with you to identify areas for improvement and define the specific outcomes you want to achieve with HubSpot. 
+                  Our team will gather information about your target audience, competitors, and industry trends to develop a comprehensive strategy that aligns with your business objectives. We&apos;ll work closely with you to identify areas for improvement and define the specific outcomes you want to achieve with HubSpot. 
                   </p>
                 </div>
                 <div className="qstbox left">
@@ -35,7 +35,7 @@ function Hubspotdevelopment() {
                   </div>
                   <h5>Design and Development</h5>
                   <p>
-                  Our designers and HubSpot developers will work together to create a visually appealing and user-friendly interface that reflects your brand identity. We'll configure HubSpot's various tools and features to optimize your workflows, automate tasks, and streamline your processes. 
+                  Our designers and HubSpot developers will work together to create a visually appealing and user-friendly interface that reflects your brand identity. We&apos;ll configure HubSpot&apos;s various tools and features to optimize your workflows, automate tasks, and streamline your processes. 
                   </p>
                 </div>
                 <div className="qstbox right wrfm">
@@ -47,7 +47,7 @@ function Hubspotdevelopment() {
                   </div>
                   <h5>Testing and Quality Assurance</h5>
                   <p>
-                  We'll test your website, forms, landing pages, and other components to ensure they function properly and provide a seamless user experience. The QA team will conduct comprehensive testing to identify and address any issues or bugs before launch.
+                  We&apos;ll test your website, forms, landing pages, and other components to ensure they function properly and provide a seamless user experience. The QA team will conduct comprehensive testing to identify and address any issues or bugs before launch.
                   </p>
                 </div>
                 <div className="qstbox left wrfm">
@@ -59,7 +59,7 @@ function Hubspotdevelopment() {
                   </div>
                   <h5>Implementation and Launch</h5>
                   <p>
-                  Our team will assist you with the final steps of implementation, including data migration, user training, and launch planning. We'll ensure a smooth transition and provide ongoing support to help you get the most out of your HubSpot solution.
+                  Our team will assist you with the final steps of implementation, including data migration, user training, and launch planning. We&apos;ll ensure a smooth transition and provide ongoing support to help you get the most out of your HubSpot solution.
                   </p>
                 </div>
                 <div className="qstbox right">
@@ -71,7 +71,7 @@ function Hubspotdevelopment() {
                   </div>
                   <h5>Training and Support</h5>
                   <p>
-                  Our experts will conduct training sessions to familiarize your team with HubSpot's features and functionalities. We'll also provide ongoing support to address any questions or issues that may arise.
+                  Our experts will conduct training sessions to familiarize your team with HubSpot&apos;s features and functionalities. We&apos;ll also provide ongoing support to address any questions or issues that may arise.
                   </p>
                 </div>
                 <div className="qstbox left">
@@ -83,7 +83,7 @@ function Hubspotdevelopment() {
                   </div>
                   <h5>Optimization and Maintenance</h5>
                   <p>
-                    We will provide ongoing maintenance and support to keep your HubSpot platform up-to-date and functioning optimally. We'll also analyze your performance data to identify areas for improvement and make recommendations for optimization.
+                    We will provide ongoing maintenance and support to keep your HubSpot platform up-to-date and functioning optimally. We&apos;ll also analyze your performance data to identify areas for improvement and make recommendations for optimization.
                   </p>
                 </div>
               </div>
@@ -100,7 +100,7 @@ function Hubspotdevelopment() {
                   </div>
                   <h5>Design and Development</h5>
                   <p>
-                  Our designers and HubSpot developers will work together to create a visually appealing and user-friendly interface that reflects your brand identity. We'll configure HubSpot's various tools and features to optimize your workflows, automate tasks, and streamline your processes. 
+                  Our designers and HubSpot developers will work together to create a visually appealing and user-friendly interface that reflects your brand identity. We&apos;ll configure HubSpot&apos;s various tools and features to optimize your workflows, automate tasks, and streamline your processes. 
                   </p>
                 </div>
 
@@ -113,7 +113,7 @@ function Hubspotdevelopment() {
                   </div>
                   <h5>Implementation and Launch</h5>
                   <p>
-                  Our team will assist you with the final steps of implementation, including data migration, user training, and launch planning. We'll ensure a smooth transition and provide ongoing support to help you get the most out of your HubSpot solution.
+                  Our team will assist you with the final steps of implementation, including data migration, user training, and launch planning. We&apos;ll ensure a smooth transition and provide ongoing support to help you get the most out of your HubSpot solution.
                   </p>
                 </div>
                 <div className="qstbox left">
@@ -125,7 +125,7 @@ function Hubspotdevelopment() {
                   </div>
                   <h5>Optimization and Maintenance</h5>
                   <p>
-                    We will provide ongoing maintenance and support to keep your HubSpot platform up-to-date and functioning optimally. We'll also analyze your performance data to identify areas for improvement and make recommendations for optimization.
+                    We will provide ongoing maintenance and support to keep your HubSpot platform up-to-date and functioning optimally. We&apos;ll also analyze your performance data to identify areas for improvement and make recommendations for optimization.
                   </p>
                 </div>
               </div>

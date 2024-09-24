@@ -9,7 +9,7 @@ const HubServiceDisplay = () => {
             <h3>
             Partner with the Experts in <span>Hubspot Development</span>
             </h3>
-            <p>Discover how HubSpot can transform your business with its powerful features and capabilities. Backed by a team of over 40 HubSpot experts and a proven track record of success, we've helped countless businesses achieve significant growth and ROI.</p>
+            <p>Discover how HubSpot can transform your business with its powerful features and capabilities. Backed by a team of over 40 HubSpot experts and a proven track record of success, we&apos;ve helped countless businesses achieve significant growth and ROI.</p>
           </div>
         </div>
         <div className="row">

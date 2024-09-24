@@ -30,7 +30,7 @@ const WhyHubspot = () => {
             <div className="col-sm-6 col-xs-12 content">
               <h5 className="mb-3">Experienced and skilled team</h5>
               <p>
-              Our team consists of highly skilled developers and marketers with in-depth knowledge of HubSpot's features and best practices. They are dedicated to providing exceptional service and delivering tailored solutions.
+              Our team consists of highly skilled developers and marketers with in-depth knowledge of HubSpot&apos;s features and best practices. They are dedicated to providing exceptional service and delivering tailored solutions.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">

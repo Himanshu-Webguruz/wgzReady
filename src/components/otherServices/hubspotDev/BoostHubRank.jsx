@@ -16,7 +16,7 @@ const BoostHubRank = () => {
                 <span>Fast-Track Business Growth</span> with Hubspot
               </h3>
               <p className="mt-3 mb-4">
-              HubSpot offers a wide range of benefits for businesses of all sizes. By leveraging HubSpot's powerful features, you can streamline your sales and marketing processes, improve customer relationships, and drive growth. Some of the key benefits include:
+              HubSpot offers a wide range of benefits for businesses of all sizes. By leveraging HubSpot&apos;s powerful features, you can streamline your sales and marketing processes, improve customer relationships, and drive growth. Some of the key benefits include:
               </p>
               <div className="py-4 hub-icons">
                 <ul>
