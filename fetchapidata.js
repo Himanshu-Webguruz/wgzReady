@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 // const cron = require('node-cron');
 
 // MongoDB connection
-const mongoURI = "mongodb://admin:QCkm96wlf346ffVIC4Oedf@103.163.58.156:20456/"; // Replace with your MongoDB URI
+const mongoURI = process.env.MONGODB_URI; // Replace with your MongoDB URI
 // mongodb://wgzadmin:QCkm96wlffVIC4Oedf@216.10.245.120:20456/
 mongoose
   .connect(mongoURI)
