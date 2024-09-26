@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */
+/* @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
         remotePatterns: [
@@ -10,6 +10,10 @@ const nextConfig = {
             protocol: "https",
             hostname: "secure.gravatar.com",
           },
+          {
+            protocol:"https",
+            hostname:"api.webguruz.in"
+          }
         ],
       },
 };

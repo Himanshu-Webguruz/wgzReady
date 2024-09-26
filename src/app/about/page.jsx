@@ -1,8 +1,9 @@
+import HomeTab from "@/components/homeComponents/03HomeTabber"
 
 const page = () => {
   return (
     <div>
-      About us Webguruz
+      <HomeTab/>
     </div>
   )
 }
