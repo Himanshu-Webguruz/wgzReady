@@ -135,7 +135,6 @@ span.tags, span.name, span.date {
 .blog-page-banner-title {
     font-weight: 600;
     margin-bottom: 20px;
-    font-size: 44px;
 }
 .blog-page-banner-title span {
     position: relative;
@@ -177,7 +176,7 @@ span.tags, span.name, span.date {
     margin: 0px;
 }
 .card-flex_explore img {
-    width: 150px;
+    width: 100px;
     display: block;
 }
 .card-flex_explore {

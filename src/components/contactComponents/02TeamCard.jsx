@@ -13,44 +13,53 @@ const TeamCard = () => {
               <div className="team-sub-card">
                 <h4>WebGuruz as your Service Provider of Choice</h4>
                 <p>
-                We&apos;ve proudly served clients seeking digital excellence for over 16 years. Let&apos;s transform your digital front now. Connect with us to get started today!
+                  We&apos;ve proudly served clients seeking digital excellence
+                  for over 16 years. Let&apos;s transform your digital front
+                  now. Connect with us to get started today!
                 </p>
               </div>
             </div>
             <div className="col-sm-6 col-xs-12">
               <div className="icon-content forward d-flex align-items-center">
                 <div className="icon">
-                  <Image src={stepone} alt="step1" />
+                  <Image src={stepone} alt="Marketing Icon" />
                 </div>
                 <div className="content">
                   <span className="tag">Step 1</span>
-                  <h5>Understanding Your Digital Presence</h5>
+                  <h3>Understanding Your Digital Presence</h3>
                   <p>
-                  We&apos;ll conduct a thorough examination of your current online presence, identifying strengths, weaknesses, and opportunities.
+                    We&apos;ll conduct a thorough examination of your current
+                    online presence, identifying strengths, weaknesses, and
+                    opportunities.
                   </p>
                 </div>
               </div>
               <div className="icon-content forward d-flex align-items-center">
                 <div className="icon">
-                  <Image src={steptwo} alt="step1" />
+                  <Image src={steptwo} alt="SEO Icon" />
                 </div>
                 <div className="content">
                   <span className="tag">Step 2</span>
-                  <h5>Building a Digital Success Strategy</h5>
+                  <h3>Building a Digital Success Strategy</h3>
                   <p>
-                  Based on our diagnosis, we&apos;ll craft a tailored digital strategy that aligns with your business goals. This is your roadmap to success in the digital world.
+                    Based on our diagnosis, we&apos;ll craft a tailored digital
+                    strategy that aligns with your business goals. This is your
+                    roadmap to success in the digital world.
                   </p>
                 </div>
               </div>
               <div className="icon-content forward d-flex align-items-center">
                 <div className="icon">
-                  <Image src={stepthree} alt="step1" />
+                  <Image src={stepthree} alt="PPC Icon" />
                 </div>
                 <div className="content">
                   <span className="tag">Step 3</span>
-                  <h5>Execution & Analysis</h5>
+                  <h3>Execution & Analysis</h3>
                   <p>
-                  Our team will meticulously execute your strategy, ensuring a seamless and effective digital transformation. We&apos;ll continuously monitor and optimize your online presence for maximum results.
+                    Our team will meticulously execute your strategy, ensuring a
+                    seamless and effective digital transformation. We&apos;ll
+                    continuously monitor and optimize your online presence for
+                    maximum results.
                   </p>
                 </div>
               </div>

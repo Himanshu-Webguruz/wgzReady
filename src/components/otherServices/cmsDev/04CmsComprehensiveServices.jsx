@@ -61,7 +61,7 @@ const CmsComprehensiveServices = () => {
                       <Image src={service.image} className="img-fluid" alt={service.title} />
                     </div>
                     <div className="cmslcnt">
-                      <h5>{service.title}</h5>
+                      <h3>{service.title}</h3>
                       <p>{service.description}</p>
                     </div>
                   </div>

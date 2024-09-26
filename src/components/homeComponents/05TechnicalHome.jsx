@@ -2,15 +2,16 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import techMain from "@/utils/05utilTechHome";
+import Link from "next/link";
 
 const splitTitle = (title) => {
   const parts = title.split(/<span>(.*?)<\/span>/);
   return (
-    <h4>
+    <h3>
       {parts.map((part, index) =>
         index % 2 === 1 ? <span key={index}>{part}</span> : part
       )}
-    </h4>
+    </h3>
   );
 };
 
@@ -21,7 +22,7 @@ const animationVariants = {
 
 const TechnicalHome = () => {
   return (
-    <section className="technical-main py-5">
+    <section className="technical-main pt-5">
       <div className="container">
         <motion.div
           className="row py-0"
@@ -64,15 +65,16 @@ const TechnicalHome = () => {
                   {Array.from({ length: 6 }, (_, i) => (
                     <li key={i}>
                       <Image
-                        src={techmain[`img${i + 1}`]}
-                        alt={`logo-${i + 1}`}
+                         src={techmain[`img${i + 1}`].src}
+                         alt={techmain[`img${i + 1}`].alt}
                         style={{ height: "auto", width: "auto" }}
                         loading="lazy"
                       />
                     </li>
                   ))}
                 </ul>
-              </div>
+                <Link class="explore-btn" href={techmain.link}>Learn More <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" className="svg-inline--fa fa-arrow-right ms-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-label="Arrow Right"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></Link>
+               </div>
             </div>
           </motion.div>
         ))}

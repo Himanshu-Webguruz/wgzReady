@@ -17,7 +17,7 @@ const WhyHubspot = () => {
           </div>
           <div className="row d-flex align-items-center py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Proven track record of success</h5>
+              <h3 className="mb-3">Proven track record of success</h3>
               <p>
               We have a history of delivering successful HubSpot projects across various industries, demonstrating our expertise and ability to drive results.
               </p>
@@ -28,7 +28,7 @@ const WhyHubspot = () => {
           </div>
           <div className="row d-flex align-items-center reverse py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Experienced and skilled team</h5>
+              <h3 className="mb-3">Experienced and skilled team</h3>
               <p>
               Our team consists of highly skilled developers and marketers with in-depth knowledge of HubSpot&apos;s features and best practices. They are dedicated to providing exceptional service and delivering tailored solutions.
               </p>
@@ -39,7 +39,7 @@ const WhyHubspot = () => {
           </div>
           <div className="row d-flex align-items-center py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Customized solutions</h5>
+              <h3 className="mb-3">Customized solutions</h3>
               <p>
               We work closely with our clients to understand their specific requirements and tailor our services accordingly, ensuring that our solutions align perfectly with their goals.  
               </p>
@@ -50,7 +50,7 @@ const WhyHubspot = () => {
           </div>
           <div className="row d-flex align-items-center reverse py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Excellent customer support</h5>
+              <h3 className="mb-3">Excellent customer support</h3>
               <p>
               Our dedicated team is always available to assist you with any questions or issues that may arise, ensuring a smooth and hassle-free experience.
               </p>

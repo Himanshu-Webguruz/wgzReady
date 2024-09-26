@@ -22,7 +22,7 @@ const PpcLeads = () => {
           </div>
           <div className="row d-flex align-items-center py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Planing & Initiating PPC Campaign Setup</h5>
+              <h3 className="mb-3">Planing & Initiating PPC Campaign Setup</h3>
               <p>
                 PPC is a form of paid advertising where you pay per click. With
                 PPC services India, you can quickly appear on page one and be
@@ -36,7 +36,7 @@ const PpcLeads = () => {
           </div>
           <div className="row d-flex align-items-center reverse py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">PPC Services Increase Your Sales</h5>
+              <h3 className="mb-3">PPC Services Increase Your Sales</h3>
               <p>
                 At EZ Rankings, a team of experts first creates personalized PPC
                 Management Services that aids in your goal-achieving. PPC
@@ -50,7 +50,7 @@ const PpcLeads = () => {
           </div>
           <div className="row d-flex align-items-center py-3">
             <div className="col-sm-6 col-xs-12 content">
-              <h5 className="mb-3">Efficient & Effective</h5>
+              <h3 className="mb-3">Efficient & Effective</h3>
               <p>
                 Enjoy the freedom of building distinctive solutions with zero
                 developer dependency. Drag & drop your custom-built templates,

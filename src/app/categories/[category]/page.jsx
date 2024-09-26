@@ -66,3 +66,14 @@ const Page = async ({ params }) => {
 };
 
 export default Page;
+export async function generateMetadata({ params }) {
+  const { category } = params;
+
+  const title =
+    normalizeString(category)[0].toUpperCase() +
+    normalizeString(category).slice(1);
+  return {
+    title: title + " - " + "WebGuruz Technologies Pvt Ltd",
+    description: "What We Say, We Deliver",
+  };
+}

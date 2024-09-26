@@ -1,19 +1,19 @@
 import Image from "next/image";
-import Hbstptimg from "../../../../public/images/hubspotimages/hbsptban.png";
+import Hbstptimg from "../../../../public/images/hubspotimages/hubbanner.svg";
 import Link from "next/link";
 
 function Hubspotbanner() {
   return (
-    <section className="hubsptbanner service-banner py-5">
+    <section className="hubsptbanner service-banner py-5 inner-page">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
             <div className="heading-main">
-              <h2>
+              <h1>
                 <span>Expert HubSpot Development</span>
                 <br />
                 Services
-              </h2>
+              </h1>
               <p className="unls">
                 <strong>Leverage the Power of HubSpot to Drive Growth and Efficiency</strong>
               </p>
@@ -29,7 +29,7 @@ function Hubspotbanner() {
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
             <div className="banner-image-right">
-              <Image src={Hbstptimg} className="img-fluid" alt="" />
+              <Image src={Hbstptimg} className="img-fluid" alt="HubSpot Development Services" />
             </div>
           </div>
         </div>

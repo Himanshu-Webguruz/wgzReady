@@ -4,13 +4,13 @@ import seobannertop from "../../../../public/images/seoimages/seobannertop.svg";
 const SeoBanner = () => {
   return (
     <>
-      <section className="seobanner-main py-5 service-banner">
+      <section className="seobanner-main py-5 service-banner inner-page">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-sm-6 col-xs-12 heading-main">
-              <h2>
+              <h1>
                 <span>SEO SERVICES:</span> Result Driven & Affordable
-              </h2>
+              </h1>
               <p className="strong-contnt">
                 Enhance organic traffic flow to your website like never before
                 with our top-notch SEO strategy.

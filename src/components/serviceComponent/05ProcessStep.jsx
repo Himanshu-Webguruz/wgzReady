@@ -25,28 +25,28 @@ const ProcessStep = () => {
                 <ul>
                   <li>
                     <span className="number">1</span>
-                    <h5>Understanding Your Requirements</h5>
+                    <h3>Understanding Your Requirements</h3>
                     <p>
                     We work closely with you to understand your business goals and target audience.
                     </p>
                   </li>
                   <li>
                     <span className="number">2</span>
-                    <h5>Analyzing Opportunities</h5>
+                    <h3>Analyzing Opportunities</h3>
                     <p>
                     We conduct a thorough analysis of your current online presence and identify areas for improvement.
                     </p>
                   </li>
                   <li>
                     <span className="number">3</span>
-                    <h5>Strategizing</h5>
+                    <h3>Strategizing</h3>
                     <p>
                     We develop a customized digital marketing strategy tailored to your specific needs.
                     </p>
                   </li>
                   <li>
                     <span className="number">4</span>
-                    <h5>Updating Progress</h5>
+                    <h3>Updating Progress</h3>
                     <p>
                     We provide regular updates and make adjustments as needed to ensure your campaign is on track.
                     </p>

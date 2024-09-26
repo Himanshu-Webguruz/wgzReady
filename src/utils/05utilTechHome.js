@@ -23,53 +23,58 @@ import tech2 from "/public/images/homecompany2.webp";
 import tech3 from "/public/images/homecompany3.webp";
 import tech4 from "/public/images/homecompany4.webp";
 const techMain = [
-    {
-      img: tech,
-      alt:"Marketing Automation",
-      title: "Marketing <span>Automation</span>",
-      para: "Streamline your marketing efforts and maximize efficiency with our expert marketing automation services. By automating repetitive tasks, you can save time, improve lead nurturing, and personalize your campaigns. From email marketing and lead scoring to customer segmentation and personalized content delivery, our automation solutions empower you to deliver targeted messages at scale.",
-      img1: hubspot,
-      img2: klavio,
-      img3: salesforce,
-      img4: marketo,
-      img5: servicemax,
-      img6: constrant,
-    },
-    {
-      img: tech2,
-      title: "Marketing <span> Analytics & Optimization </span>",
-      alt:"Marketing Analytics & Optimization",
-      para: "Data-driven insights are crucial for optimizing your marketing campaigns and achieving better results. Our experts use powerful analytics tools to track key performance indicators, analyze campaign effectiveness, and identify areas for improvement. By leveraging data-driven insights, we can optimize your website, content, and marketing strategies to attract, engage, and convert your target audience.",
-      img1: expert13,
-      img2: expert8,
-      img3: expert9,
-      img4: expert15,
-      img5: expert10,
-      img6: expert12,
-    },
-    {
-      img: tech3,
-      title: "Digital  <span>Marketing</span>",
-      alt:"Digital Marketing Services",
-      para: "Reach your target audience and drive conversions through effective digital marketing strategies. We help you develop a tailored digital marketing plan that aligns with your business objectives and leverages the latest trends and technologies. From optimizing your website for search engines to creating engaging content and running targeted advertising campaigns, our team has the expertise to help you achieve your online marketing goals.",
-      img1: expert11,
-      img2: expert13,
-      img3: expert14,
-      img4: expert15,
-      img5: expert16,
-      img6: hubspot,
-    },
-    {
-      img: tech4,
-      alt:"Web Development & Design Services",
-      title: "Website  <span>Development & Design</span>",
-      para: "Create stunning websites that are both visually appealing and user-friendly. Our skilled web developers and designers collaborate to craft websites that not only look great but also provide a seamless user experience. We utilize popular frameworks to build responsive, scalable, and high-performing websites. Our focus on user-centered design ensures that your website is easy to navigate, loads quickly, and effectively communicates your brand message.",
-      img1: hubspot,
-      img2: expert20,
-      img3: expert21,
-      img4: expert22,
-      img5: expert23,
-      img6: expert24,
-    },
-  ];
-  export default techMain
+  {
+    img: tech,
+    alt: "Marketing Automation",
+    title: "Marketing <span>Automation</span>",
+    para: "Streamline your marketing efforts and maximize efficiency with our expert marketing automation services. By automating repetitive tasks, you can save time, improve lead nurturing, and personalize your campaigns. From email marketing and lead scoring to customer segmentation and personalized content delivery, our automation solutions empower you to deliver targeted messages at scale.",
+    img1: { src: hubspot, alt: "Hubspot Icon" },
+    img2: { src: klavio, alt: "Marketo Icon" },
+    img3: { src: salesforce, alt: "Pardot Icon" },
+    img4: { src: marketo, alt: "Mailchimp Icon" },
+    img5: { src: servicemax, alt: "ActiveCampaign Icon" },
+    img6: { src: constrant, alt: "Omnisend Icon" },
+    link:"/services/marketing-automation"
+  },
+  {
+    img: tech2,
+    title: "Marketing <span> Analytics & Optimization </span>",
+    alt: "Marketing Analytics & Optimization",
+    para: "Data-driven insights are crucial for optimizing your marketing campaigns and achieving better results. Our experts use powerful analytics tools to track key performance indicators, analyze campaign effectiveness, and identify areas for improvement. By leveraging data-driven insights, we can optimize your website, content, and marketing strategies to attract, engage, and convert your target audience.",
+    img1: { src: expert13, alt: "Google Analytics Icon" },
+    img2: { src: expert8, alt: "Adobe Analytics Icon" },
+    img3: { src: expert9, alt: "Ahrefs Icon" },
+    img4: { src: expert15, alt: "SEMrush Icon" },
+    img5: { src: expert10, alt: "Hotjar Icon" },
+    img6: { src: expert12, alt: "Singular Icon" },
+    link:"/services/marketing-analytics"
+  },
+  {
+    img: tech3,
+    title: "Digital  <span>Marketing</span>",
+    alt: "Digital Marketing Services",
+    para: "Reach your target audience and drive conversions through effective digital marketing strategies. We help you develop a tailored digital marketing plan that aligns with your business objectives and leverages the latest trends and technologies. From optimizing your website for search engines to creating engaging content and running targeted advertising campaigns, our team has the expertise to help you achieve your online marketing goals.",
+    img1: { src: expert11, alt: "Google Trends Icon" },
+    img2: { src: expert13, alt: "Google Analytics Icon" },
+    img3: { src: expert14, alt: "Moz Icon" },
+    img4: { src: expert15, alt: "SEMrush Icon" },
+    img5: { src: expert16, alt: "Google Search Console Icon" },
+    img6: { src: hubspot, alt: "HubSpot Icon" },
+    link:"/services/digital-marketing"
+
+  },
+  {
+    img: tech4,
+    alt: "Web Development & Design Services",
+    title: "Website  <span>Development & Design</span>",
+    para: "Create stunning websites that are both visually appealing and user-friendly. Our skilled web developers and designers collaborate to craft websites that not only look great but also provide a seamless user experience. We utilize popular frameworks to build responsive, scalable, and high-performing websites. Our focus on user-centered design ensures that your website is easy to navigate, loads quickly, and effectively communicates your brand message.",
+    img1: { src: hubspot, alt: "HubSpot Icon" },
+    img2: { src: expert20, alt: "PHP Icon" },
+    img3: { src: expert21, alt: "JavaScript Icon" },
+    img4: { src: expert22, alt: "Wordpress Icon" },
+    img5: { src: expert23, alt: "Visual Studio Code Icon" },
+    img6: { src: expert24, alt: "CSS Icon" },
+    link:"/services/web-development"
+  },
+];
+export default techMain

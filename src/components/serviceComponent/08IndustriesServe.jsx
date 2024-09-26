@@ -49,7 +49,7 @@ const IndustriesServe = () => {
             <div className="indstrsrv">
               {industries.map((industry, index) => (
                 <div key={index} className="indstrsrvinr">
-                  <h5>{industry.title}</h5>
+                  <h3>{industry.title}</h3>
                   <p>{industry.description}</p>
                 </div>
               ))}

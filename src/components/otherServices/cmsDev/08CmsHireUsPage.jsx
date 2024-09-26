@@ -21,7 +21,7 @@ const CmsHireUsPage = () => {
           <div className="row align-items-center">
             <div className="col-lg-7 col-md-7 col-sm-12 col-12">
               <div className="heading-main">
-                <h2>
+                <h2 className="mb-2">
                   Why Hire Us As Your CMS Website
                   <span>Development Company?</span>
                 </h2>

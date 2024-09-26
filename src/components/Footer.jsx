@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-2 col-xs-12 footer-sub one">
-            <h5>About</h5>
+            <h3>About</h3>
             <ul>
               <li>
                 <Link href="#">Our company</Link>
@@ -37,7 +37,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-sm-2 col-xs-12 footer-sub two">
-            <h5>Services</h5>
+            <h3>Services</h3>
             <ul>
               <li>
                 <Link href="#">Web Design</Link>
@@ -57,7 +57,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-sm-2 col-xs-12 footer-sub">
-            <h5>Technologies</h5>
+            <h3>Technologies</h3>
             <ul>
               <li>
                 <Link href="#">Blockchain</Link>
@@ -77,7 +77,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-sm-2 col-xs-12 footer-sub">
-            <h5>Industries</h5>
+            <h3>Industries</h3>
             <ul>
               <li>
                 <Link href="#">Our company</Link>
@@ -97,7 +97,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-sm-2 col-xs-12 footer-sub">
-            <h5>About</h5>
+            <h3>About</h3>
             <ul>
               <li>
                 <Link href="#">Our company</Link>
@@ -117,7 +117,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-sm-2 col-xs-12 footer-sub">
-            <h5>About</h5>
+            <h3>About</h3>
             <ul>
               <li>
                 <Link href="#">Our company</Link>

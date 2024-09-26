@@ -67,7 +67,7 @@ function Broadindustries() {
                     />
                   </div>
                   <div className="indrngservcnnct">
-                    <h5>{industry.title}</h5>
+                    <h3>{industry.title}</h3>
                     <p>{industry.description}</p>
                   </div>
                 </div>

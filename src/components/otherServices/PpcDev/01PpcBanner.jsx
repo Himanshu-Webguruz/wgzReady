@@ -4,13 +4,13 @@ import whitearrow from '../../../../public/images/ppcimages/white-arrow.svg'
 const PpcBanner = () => {
   return (
     <>
-      <section className="ppcbanner py-5 service-banner">
+      <section className="ppcbanner py-5 service-banner inner-page">
         <div className="container">
           <div className="row">
             <div className="col-sm-7 col-xs-12 banner-content-left heading-main">
-              <h2>
+              <h1>
                 PPC <span>Management Services</span>
-              </h2>
+              </h1>
               <p className='mb-5'>
                 Looking for the quickest way to bring ready-to-buy customers to
                 your website and mobile app? PPC (Pay-per-Click) offers the

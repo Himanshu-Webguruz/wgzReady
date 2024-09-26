@@ -5,9 +5,9 @@ const ContactMap = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center pb-4">
-              <h3>
+              <h2>
                 Find Us <span>On Map</span>
-              </h3>
+              </h2>
             </div>
           </div>
           <div className="row">

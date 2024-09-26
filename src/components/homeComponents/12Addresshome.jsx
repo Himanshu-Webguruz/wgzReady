@@ -36,7 +36,7 @@ function Addresshome() {
               <div className="address-card">
                 <Image src={addressconst.img}  alt="Image"/>
                 <div className="content">
-                  <h5>{addressconst.title}</h5>
+                  <h3>{addressconst.title}</h3>
                   <p>{addressconst.para}</p>
                 </div>
               </div>

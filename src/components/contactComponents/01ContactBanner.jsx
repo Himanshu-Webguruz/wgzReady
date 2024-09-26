@@ -5,15 +5,15 @@ import HubSpotFormV2 from "@/utils/formsHubspot/hubform";
 const ContactBanner = () => {
   return (
     <>
-      <section className="contact-banner py-5">
+      <section className="contact-banner py-5 inner-page">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-sm-6 col-xs-12 content">
-              <h2 className="color-wt">
+              <h1 className="color-wt">
                 Have
                 <br />
                 <strong> Questions?</strong>
-              </h2>
+              </h1>
               <p className="color-wt">
                 Get prompt support from our expert support team, now!
               </p>

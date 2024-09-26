@@ -64,7 +64,7 @@ const SeoAdvertising = () => {
               <div key={index} className="col-sm-4 col-xs-12 mb-4">
                 <div className="adverticingcard text-center">
                   <Image src={service.src} alt={service.title} />
-                  <h5>{service.title}</h5>
+                  <h3>{service.title}</h3>
                   <p>{service.description}</p>
                 </div>
               </div>

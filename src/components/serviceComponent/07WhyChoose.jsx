@@ -75,7 +75,7 @@ const WhyChoose = () => {
                     />
                   </div>
                   <div className="earntrfcnt">
-                    <h5>{section.title}</h5>
+                    <h3 className="mt-3">{section.title}</h3>
                     <p>{section.description}</p>
                   </div>
                 </div>

@@ -16,9 +16,9 @@ const AddsPartner = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center heading-content">
-            <h3 className="color-wt mb-3">
+            <h2 className="color-wt mb-3">
               Maximize Your Reach and Conversions with Trusted PPC Ads Partner
-            </h3>
+            </h2>
             <p className="color-wt">
               Run paid advertising campaigns that put your business on the
               growth curve. Let our team make every dollar

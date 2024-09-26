@@ -10,9 +10,9 @@ const ContactConnect = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
-              <h3>
+              <h2>
                 <span>Get Started </span> on Your Transformation Journey
-              </h3>
+              </h2>
             </div>
           </div>
           <div className="row">
@@ -20,7 +20,7 @@ const ContactConnect = () => {
             <div className="col-sm-4 col-xs-12">
               <div className="connect-card text-center p-4">
                 <Image src={bloging} alt="bloging" />
-                <h5>Blog</h5>
+                <h3>Blog</h3>
                 <p>
                 Discover the latest insights, trends, and expert advice on digital technologies.
                 </p>
@@ -30,7 +30,7 @@ const ContactConnect = () => {
             <div className="col-sm-4 col-xs-12">
               <div className="connect-card text-center p-4">
                 <Image src={success} alt="success" />
-                <h5>Success Stories</h5>
+                <h3>Success Stories</h3>
                 <p>
                 See how we have helped businesses build success stories that inspire.
                 </p>

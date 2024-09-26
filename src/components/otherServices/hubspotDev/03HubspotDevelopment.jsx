@@ -19,7 +19,7 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Discovery and Planning</h5>
+                  <h3>Discovery and Planning</h3>
                   <p>
                   Our team will gather information about your target audience, competitors, and industry trends to develop a comprehensive strategy that aligns with your business objectives. We&apos;ll work closely with you to identify areas for improvement and define the specific outcomes you want to achieve with HubSpot. 
                   </p>
@@ -31,7 +31,7 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Design and Development</h5>
+                  <h3>Design and Development</h3>
                   <p>
                   Our designers and HubSpot developers will work together to create a visually appealing and user-friendly interface that reflects your brand identity. We&apos;ll configure HubSpot&apos;s various tools and features to optimize your workflows, automate tasks, and streamline your processes. 
                   </p>
@@ -43,7 +43,7 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Testing and Quality Assurance</h5>
+                  <h3>Testing and Quality Assurance</h3>
                   <p>
                   We&apos;ll test your website, forms, landing pages, and other components to ensure they function properly and provide a seamless user experience. The QA team will conduct comprehensive testing to identify and address any issues or bugs before launch.
                   </p>
@@ -55,7 +55,7 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Implementation and Launch</h5>
+                  <h3>Implementation and Launch</h3>
                   <p>
                   Our team will assist you with the final steps of implementation, including data migration, user training, and launch planning. We&apos;ll ensure a smooth transition and provide ongoing support to help you get the most out of your HubSpot solution.
                   </p>
@@ -67,7 +67,7 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Training and Support</h5>
+                  <h3>Training and Support</h3>
                   <p>
                   Our experts will conduct training sessions to familiarize your team with HubSpot&apos;s features and functionalities. We&apos;ll also provide ongoing support to address any questions or issues that may arise.
                   </p>
@@ -79,7 +79,7 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Optimization and Maintenance</h5>
+                  <h3>Optimization and Maintenance</h3>
                   <p>
                     We will provide ongoing maintenance and support to keep your HubSpot platform up-to-date and functioning optimally. We&apos;ll also analyze your performance data to identify areas for improvement and make recommendations for optimization.
                   </p>
@@ -96,7 +96,7 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Design and Development</h5>
+                  <h3>Design and Development</h3>
                   <p>
                   Our designers and HubSpot developers will work together to create a visually appealing and user-friendly interface that reflects your brand identity. We&apos;ll configure HubSpot&apos;s various tools and features to optimize your workflows, automate tasks, and streamline your processes. 
                   </p>
@@ -109,7 +109,7 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Implementation and Launch</h5>
+                  <h3>Implementation and Launch</h3>
                   <p>
                   Our team will assist you with the final steps of implementation, including data migration, user training, and launch planning. We&apos;ll ensure a smooth transition and provide ongoing support to help you get the most out of your HubSpot solution.
                   </p>
@@ -121,7 +121,7 @@ function Hubspotdevelopment() {
                     </span>
                     <span className="line"></span>
                   </div>
-                  <h5>Optimization and Maintenance</h5>
+                  <h3>Optimization and Maintenance</h3>
                   <p>
                     We will provide ongoing maintenance and support to keep your HubSpot platform up-to-date and functioning optimally. We&apos;ll also analyze your performance data to identify areas for improvement and make recommendations for optimization.
                   </p>

@@ -61,7 +61,7 @@ const Contact = () => {
                         </a>
                       </p>
                       <p>
-                        Jobs -
+                        Jobs -{" "}
                         <a
                           href="mailto:careers@webguruz.in"
                           target="_blank"

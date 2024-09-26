@@ -45,7 +45,7 @@ const DevBusiness = () => {
               className="col-sm-4 col-xs-12 counter-sub text-center hub-counting"
             >
               <SlotCounter value={counter.value} />
-              <h5>{counter.label}</h5>
+              <h3>{counter.label}</h3>
               <p>{counter.description}</p>
             </div>
           ))}

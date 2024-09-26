@@ -45,7 +45,7 @@ const PpcProcess = () => {
             {steps.map((step, index) => (
               <div key={index} className="col-sm-3 col-xs-12">
                 <div className="card-process">
-                  <h5>{step.title}</h5>
+                  <h3>{step.title}</h3>
                   <p>{step.description}</p>
                   <span className="step1">{step.step}</span>
                 </div>

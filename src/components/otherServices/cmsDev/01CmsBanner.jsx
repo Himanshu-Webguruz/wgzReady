@@ -5,16 +5,16 @@ import Link from "next/link";
 const CmsBanner = () => {
   return (
     <>
-      <section className="drupaltp service-banner web-banner">
+      <section className="drupaltp service-banner web-banner inner-page">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <div className="heading-main">
-                <h2>
+                <h1>
                   <span>CMS Development</span>
                   <br />
                   Services
-                </h2>
+                </h1>
                 <h5>Unleash the Full Potential of Drupal</h5>
                 <p>
                   Accelerate growth with the help of our expert Drupal

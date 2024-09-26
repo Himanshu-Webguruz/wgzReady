@@ -88,9 +88,9 @@ const ContactTestimonial = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12">
             <div className="heading-main text-center pb-5">
-              <h3>
+              <h2>
               Here&apos;s What <span>They Have to Say</span>
-              </h3>
+              </h2>
               <p>
               Hear from Satisfied Clients about their Experience Working with WebGuruz.
               </p>

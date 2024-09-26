@@ -38,7 +38,7 @@ function Hubspotcrm() {
             <div className="sclbarchtct">
               {challenges.map((challenge, index) => (
                 <div className="sclbarchtctinr" key={index}>
-                  <h5>{challenge.title}</h5>
+                  <h3>{challenge.title}</h3>
                   <p>{challenge.description}</p>
                 </div>
               ))}

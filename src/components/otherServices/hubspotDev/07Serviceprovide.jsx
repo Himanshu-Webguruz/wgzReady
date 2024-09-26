@@ -58,7 +58,7 @@ function Serviceprovide() {
               {services.map((service) => (
                 <div key={service.id} className="serdvinnr">
                   <div className="servcntr">{service.id}</div>
-                  <h5>{service.title}</h5>
+                  <h3>{service.title}</h3>
                   <p>{service.description}</p>
                 </div>
               ))}

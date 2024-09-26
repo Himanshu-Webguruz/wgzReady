@@ -10,9 +10,9 @@ const WebCompany = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-sm-6 col-xs-12 content color-wt">
-              <h3 className="color-wt mb-4">
+              <h2 className="color-wt mb-4">
                 Work with the No.1 Web Development Company in India
-              </h3>
+              </h2>
               <p className="color-wt">
                 At WebGuruz, we&apos;re more than just a web development company.
                 We&apos;re a vibrant community of passionate individuals who believe
@@ -40,7 +40,7 @@ const WebCompany = () => {
             </div>
             <div className="col-sm-6 col-xs-12 web-form">
               <form className="web-connect text-center">
-                <h3 className="color-wt">Connect With Our Experts</h3>
+                <h2 className="color-wt">Connect With Our Experts</h2>
                 <p className="color-wt mb-4">
                   We respond to 97% of messages within 1-2 business hour(s),
                   really!

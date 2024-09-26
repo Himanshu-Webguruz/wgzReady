@@ -132,9 +132,9 @@ const page = async ({ params }) => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
-              <h3>
+              <h2>
                 Our Latest <span>Blog</span>
-              </h3>
+              </h2>
             </div>
             {data.slice(0, 3).map((post, index) => (
               <div className="col-sm-4 col-xs-12" key={index}>
@@ -215,3 +215,19 @@ const page = async ({ params }) => {
 };
 
 export default page;
+export async function generateMetadata({ params }) {
+  const { slug } = params;
+  const response = await fetch(
+    `${process.env.NEXTAUTH_URL}/api/getdata?&limit=1000`
+  );
+  if (!response.ok) {
+    throw new Error("Failed to fetch posts");
+  }
+  const { data } = await response.json();
+  const post = data.find((p) => p.slug === slug);
+
+  return {
+    title: post.yoast_head_json.title,
+    description: post.yoast_head_json.description
+  };
+}

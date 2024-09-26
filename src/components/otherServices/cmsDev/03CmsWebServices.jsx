@@ -54,10 +54,10 @@ const CmsWebServices = () => {
             <div className="col-lg-5 col-md-5 col-sm-12 col-12">
               <div className="lftbg"></div>
               <div className="heading-main">
-                <h3 className="text-white">
+                <h2 className="text-white">
                   CMS Web <br />
                   Development Services
-                </h3>
+                </h2>
                 <div className="drplimg">
                   <Image
                     src={drplleft}
@@ -71,7 +71,7 @@ const CmsWebServices = () => {
               <div className="drplcmsct">
                 {drupalServices.map((service, index) => (
                   <div className={`drplcmsctinnr dr${index + 1}`} key={index}>
-                    <h5>{service.title}</h5>
+                    <h3>{service.title}</h3>
                     <p>{service.description}</p>
                   </div>
                 ))}

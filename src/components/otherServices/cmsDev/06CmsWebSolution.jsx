@@ -57,7 +57,7 @@ const CmsWebSolution = () => {
                     <div className="cmsnmbr">
                       <span className="nmbr">{solution.number}</span>
                     </div>
-                    <h5>{solution.title}</h5>
+                    <h3>{solution.title}</h3>
                     <p>{solution.description}</p>
                   </div>
                 ))}

@@ -26,10 +26,10 @@ const WebStation = () => {
             <div className="web-development-stations-wrap">
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon1} alt="stations1" />
-                <h5 className="station-develop-title">
+                <h3 className="station-develop-title">
                   {" "}
                   Cost-Effective Process{" "}
-                </h5>
+                </h3>
                 <p className="station-develop-peragraph">
                   We work closely with you to understand your budget constraints
                   and tailor our services accordingly, ensuring that you get the
@@ -39,7 +39,7 @@ const WebStation = () => {
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon2} alt="stations1" />
-                <h5 className="station-develop-title"> All Services Under One Roof </h5>
+                <h3 className="station-develop-title"> All Services Under One Roof </h3>
                 <p className="station-develop-peragraph">
                 By partnering with WebGuruz, you can streamline your project management process and enjoy the convenience of having a single point of contact.
                 </p>
@@ -47,7 +47,7 @@ const WebStation = () => {
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon3} alt="stations1" />
-                <h5 className="station-develop-title"> Creative Team </h5>
+                <h3 className="station-develop-title"> Creative Team </h3>
                 <p className="station-develop-peragraph">
                 Our creative experts will work closely with you to understand your brand identity and target audience, and then develop a unique and engaging online presence that sets you apart from the competition.
                 </p>
@@ -55,7 +55,7 @@ const WebStation = () => {
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon4} alt="stations1" />
-                <h5 className="station-develop-title"> 24/7 Help Desk </h5>
+                <h3 className="station-develop-title"> 24/7 Help Desk </h3>
                 <p className="station-develop-peragraph">
                 Whether you need help troubleshooting a technical issue or simply have a query about your website&apos;s performance, we&apos;re here to provide prompt assistance.
                 </p>
@@ -63,10 +63,10 @@ const WebStation = () => {
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon5} alt="stations1" />
-                <h5 className="station-develop-title">
+                <h3 className="station-develop-title">
                   {" "}
                   New Technology Integration{" "}
-                </h5>
+                </h3>
                 <p className="station-develop-peragraph">
                 We leverage innovative tools and techniques to enhance your website&apos;s functionality, performance, and user experience.
                 </p>
@@ -74,10 +74,10 @@ const WebStation = () => {
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon6} alt="stations1" />
-                <h5 className="station-develop-title">
+                <h3 className="station-develop-title">
                   {" "}
                   Post-Deployment Services{" "}
-                </h5>
+                </h3>
                 <p className="station-develop-peragraph">
                 Our commitment to your success doesn&apos;t end once your website goes live. We offer ongoing maintenance and support services to ensure that your website remains optimized, secure, and up-to-date, always.
                 </p>

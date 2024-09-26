@@ -78,9 +78,9 @@ const AllPost = ({ posts, currentPage, totalPages, pageNumber }) => {
     <>
       <div className="row bog-post-main">
         <div className="col-sm-12 col-xs-12 heading-main mb-4">
-          <h3>
+          <h2>
             Latest <span>Posts</span>
-          </h3>
+          </h2>
         </div>
         <div className="col-sm-8 col-xs-12 bog-post bottom">
           {posts.length > 0 ? (

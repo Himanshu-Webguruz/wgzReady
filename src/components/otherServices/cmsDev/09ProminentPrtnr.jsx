@@ -33,8 +33,7 @@ function ProminentPrtnr() {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main text-center">
               <h2>
-                What Makes Us a Prominent CMS Web
-                <span>Development Partner?</span>
+                What Makes Us a Prominent CMS Web <span>Development Partner?</span>
               </h2>
               <span className="d-inline-block mb-4">
                 With our expertise, customized solutions, and ongoing support,
@@ -49,7 +48,7 @@ function ProminentPrtnr() {
                 <div className="hqlt">
                   {features.slice(0, 2).map((feature, index) => (
                     <div key={index} className="hqltinr">
-                      <h5>{feature.title}</h5>
+                      <h3>{feature.title}</h3>
                       <p>{feature.description}</p>
                     </div>
                   ))}
@@ -70,7 +69,7 @@ function ProminentPrtnr() {
                 <div className="hqlt">
                   {features.slice(2).map((feature, index) => (
                     <div key={index} className="hqltinr">
-                      <h5>{feature.title}</h5>
+                      <h3>{feature.title}</h3>
                       <p>{feature.description}</p>
                     </div>
                   ))}

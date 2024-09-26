@@ -25,31 +25,31 @@ function OurTeamhubspot() {
               </div>
               <div className="svypmng">
                 <div className="svypmnginr">
-                  <h5>All-in-one platform</h5>
+                  <h3>All-in-one platform</h3>
                   <p>
                   HubSpot offers a comprehensive suite of tools for marketing, sales, and customer service.
                   </p>
                 </div>
                 <div className="svypmnginr">
-                  <h5>User-friendly interface</h5>
+                  <h3>User-friendly interface</h3>
                   <p>
                   HubSpot is easy to learn and use.
                   </p>
                 </div>
                 <div className="svypmnginr">
-                  <h5>Scalability</h5>
+                  <h3>Scalability</h3>
                   <p>
                   HubSpot can grow with your business.
                   </p>
                 </div>
                 <div className="svypmnginr">
-                  <h5>Integration with other tools</h5>
+                  <h3>Integration with other tools</h3>
                   <p>
                   HubSpot can be integrated with your existing systems.
                   </p>
                 </div>
                 <div className="svypmnginr">
-                  <h5>Strong community and support</h5>
+                  <h3>Strong community and support</h3>
                   <p>
                   HubSpot has a large and active community of users.
                   </p>

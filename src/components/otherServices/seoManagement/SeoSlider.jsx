@@ -61,49 +61,49 @@ const SwiperSlider = () => {
       <SwiperSlide>
         <div className="card-seo-process mb-5">
           <span className="number">01</span>
-          <h5>Discovery</h5>
+          <h3>Discovery</h3>
           <p>Let sit down and examine your current online positioning and discuss your business goals and targets.</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className="card-seo-process mb-5">
           <span className="number">02</span>
-          <h5>Discovery</h5>
+          <h3>Discovery</h3>
           <p>Let sit down and examine your current online positioning and discuss your business goals and targets.</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className="card-seo-process mb-5">
           <span className="number">03</span>
-          <h5>Discovery</h5>
+          <h3>Discovery</h3>
           <p>Let sit down and examine your current online positioning and discuss your business goals and targets.</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className="card-seo-process mb-5">
           <span className="number">04</span>
-          <h5>Discovery</h5>
+          <h3>Discovery</h3>
           <p>Let sit down and examine your current online positioning and discuss your business goals and targets.</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className="card-seo-process mb-5">
           <span className="number">05</span>
-          <h5>Discovery</h5>
+          <h3>Discovery</h3>
           <p>Let sit down and examine your current online positioning and discuss your business goals and targets.</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className="card-seo-process mb-5">
           <span className="number">06</span>
-          <h5>Discovery</h5>
+          <h3>Discovery</h3>
           <p>Let sit down and examine your current online positioning and discuss your business goals and targets.</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className="card-seo-process mb-5">
           <span className="number">01</span>
-          <h5>Discovery</h5>
+          <h3>Discovery</h3>
           <p>Let sit down and examine your current online positioning and discuss your business goals and targets.</p>
         </div>
       </SwiperSlide>

@@ -38,17 +38,19 @@ background-color: #168B9A;
 ul.ppcbutton li button:hover {
     background-color: #25c1d5;
 }
-.service-banner .heading-main h2 {
+.service-banner .heading-main h1 {
     font-size: 44px;
     margin-bottom: 20px;
 }
-.service-banner .heading-main h2 span {
+.service-banner .heading-main h1 span {
     font-size: 44px;
+    margin-top: 0px;
 }
 .heading-main h2 span {
     color: #168B9A;
     position: relative;
     display: inline-block;
+    margin-top: 0px;
 }
 .ppcbannerservice {
     background-image: url(/images/ppcimages/scalebanner.svg);
@@ -331,7 +333,7 @@ ul.ppctab-main {
     .ppc-slider{
         flex-direction: column;
     }
-    .service-banner .heading-main h2, .service-banner .heading-main h2 span {
+    .service-banner .heading-main h1, .service-banner .heading-main h1 span {
         font-size: 34px;
     }
     ul.ppcbutton li button {

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import vorides from "../../../public/images/vorides-left.png";
-import voridelogo from "../../../public/images/voride-logo.png";
+import vorides from "../../../public/images/home-rent.svg";
+import voridelogo from "../../../public/images/logo-white.jpg";
 import Link from "next/link";
 import {
   Svg21Plus,
@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const AppData = [
-  {
+  { 
     img: <Svg21Plus />,
     title: "21+",
   },
@@ -26,7 +26,7 @@ const AppData = [
   },
   {
     img: <SvgKotlin />,
-    title: "Kotlin",
+    title: "WordPress",
   },
 ];
 
@@ -53,20 +53,19 @@ const FeaturedProject = () => {
           </div>
           <div className="col-sm-6 col-xs-12 featured-right pe-5 pt-5 pb-5">
             <div className="featured-right-content">
-              <h4 className="color-wt">Vorides</h4>
+              <h4 className="color-wt">Robert James Realty</h4>
               <p className="color-wt mb-4">
-                Vorides is Camerofest and most affordable intercity and
-                Intra-city ride-sharing platform.
+              RJR has been a real estate leader with offices and Agents servicing the Sunshine Coast in Queensland for many years. Born from a national franchise based in Noosa and Tewantin Robert James Realty was launched to break the restraints of a National group and their commitments to outdated marketing and print media.
               </p>
               <ul className="icon-content-main pb-4">
                 {AppData.map((appdatacontent, index) => (
                   <li key={index}>
                     <div className="mb-4">{appdatacontent.img}</div>
-                    <p className="color-wt mb-0">{appdatacontent.title}</p>
+                    <p className="mb-0 color-wt">{appdatacontent.title}</p>
                   </li>
                 ))}
               </ul>
-              <Link className="explore-btn" href="/">
+              <Link className="explore-btn" href="https://www.robertjamesrealty.com.au">
                 View Case Study
                 <FontAwesomeIcon
                   icon={faArrowRight}

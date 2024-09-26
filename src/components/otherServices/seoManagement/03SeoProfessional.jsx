@@ -24,7 +24,7 @@ const SeoProfessional = () => {
             <div className="col-sm-3  col-xs-12">
               <div className="seo-card flexd-column d-flex align-items-center">
                 <Image src={techseo1} alt="techseo1" />
-                <h5>OnPage SEO</h5>
+                <h3>OnPage SEO</h3>
                 <p>Services</p>
                 <button className="explore-btn">Get Started</button>
               </div>
@@ -32,7 +32,7 @@ const SeoProfessional = () => {
             <div className="col-sm-3 col-xs-12">
               <div className="seo-card flexd-column d-flex align-items-center">
                 <Image src={techseo2} alt="techseo2" />
-                <h5>OnPage SEO</h5>
+                <h3>OnPage SEO</h3>
                 <p>Services</p>
                 <button className="explore-btn">Get Started</button>
               </div>
@@ -40,7 +40,7 @@ const SeoProfessional = () => {
             <div className="col-sm-3 col-xs-12">
               <div className="seo-card flexd-column d-flex align-items-center">
                 <Image src={techseo3} alt="techseo3" />
-                <h5>OnPage SEO</h5>
+                <h3>OnPage SEO</h3>
                 <p>Services</p>
                 <button className="explore-btn">Get Started</button>
               </div>
@@ -48,7 +48,7 @@ const SeoProfessional = () => {
             <div className="col-sm-3 col-xs-12">
               <div className="seo-card flexd-column d-flex align-items-center">
                 <Image src={techseo4} alt="techseo4" />
-                <h5>OnPage SEO</h5>
+                <h3>OnPage SEO</h3>
                 <p>Services</p>
                 <button className="explore-btn">Get Started</button>
               </div>

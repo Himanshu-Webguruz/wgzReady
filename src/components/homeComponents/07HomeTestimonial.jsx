@@ -102,8 +102,8 @@ const HomeTestimonial = () => {
             >
               {testimonialData.map((testimonial) => (
                 <div key={testimonial.id}>
-                  <div className="row align-items-center">
-                    <div className="col-sm-6 col-xs-12">
+                  <div className="row align-items-center image-content-testimonial">
+                    <div className="col-sm-4 col-xs-12">
                       <div className="image-left">
                         <Image
                           src={testimonial.image}
@@ -121,7 +121,6 @@ const HomeTestimonial = () => {
                           className="quote-main"
                         />
                         <h4>{testimonial.name}</h4>
-                        <span>{testimonial.title}</span>
                         <p>{testimonial.description}</p>
                       </div>
                     </div>

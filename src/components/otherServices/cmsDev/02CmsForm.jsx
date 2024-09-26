@@ -30,12 +30,12 @@ const CmsForm = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <div className="heading-main">
-                <h3 className="text-white">
+                <h2 className="text-white">
                   <strong>
                     Get Secure and Flexible Solutions with CMS Development
                     Company
                   </strong>
-                </h3>
+                </h2>
                 <p className="text-white">
                   Leverage OrangeMantra expertise to get a customised solution.
                   Our CMS development services offer an end-to-end solution

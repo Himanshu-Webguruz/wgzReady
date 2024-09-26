@@ -33,7 +33,7 @@ const WebFrameworks = () => {
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
                           <div className="image">
-                          <Image src={webimage1} alt="webimage" />
+                          <Image src={webimage1} alt="Front End Development" />
                         </div>
                         <div className="content">
                           <div className="contentimg">
@@ -53,7 +53,7 @@ const WebFrameworks = () => {
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                       <div className="image">
-                      <Image src={webimage2} alt="webimage" />
+                      <Image src={webimage2} alt="Ecommerce Development" />
                     </div>
                     <div className="content">
                       <div className="contentimg">
@@ -75,7 +75,7 @@ const WebFrameworks = () => {
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                       <div className="image">
-                      <Image src={webimage4} alt="webimage" />
+                      <Image src={webimage4} alt="CMS Development" />
                     </div>
                     <div className="content">
                       <div className="contentimg">
@@ -97,7 +97,7 @@ const WebFrameworks = () => {
             <div class="flip-card-inner">
               <div class="flip-card-front">
                   <div className="image">
-                  <Image src={webimage} alt="webimage" />
+                  <Image src={webimage} alt="Back-end development" />
                 </div>
                 <div className="content">
                   <div className="contentimg">
@@ -121,7 +121,7 @@ const WebFrameworks = () => {
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                       <div className="image">
-                      <Image src={webimage7} alt="webimage" />
+                      <Image src={webimage7} alt="PWA's Development" />
                     </div>
                     <div className="content">
                       <div className="contentimg">
@@ -141,7 +141,7 @@ const WebFrameworks = () => {
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                       <div className="image">
-                      <Image src={webimage8} alt="webimage" />
+                      <Image src={webimage8} alt="Custom Web Development" />
                     </div>
                     <div className="content">
                       <div className="contentimg">
@@ -163,7 +163,7 @@ const WebFrameworks = () => {
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                       <div className="image">
-                      <Image src={webimage5} alt="webimage" />
+                      <Image src={webimage5} alt="Open Source Platform Development" />
                     </div>
                     <div className="content">
                       <div className="contentimg">
@@ -185,7 +185,7 @@ const WebFrameworks = () => {
             <div class="flip-card-inner">
               <div class="flip-card-front">
                   <div className="image">
-                  <Image src={webimage6} alt="webimage" />
+                  <Image src={webimage6} alt="Magento Development" />
                 </div>
                 <div className="content">
                   <div className="contentimg">

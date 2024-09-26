@@ -29,10 +29,10 @@ const SeoStation = () => {
             <div className="web-development-stations-wrap">
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon1} alt="stations1" />
-                <h5 className="station-develop-title">
+                <h3 className="station-develop-title">
                   {" "}
                   Cost-Effective Process{" "}
-                </h5>
+                </h3>
                 <p className="station-develop-peragraph">
                   {" "}
                   At Apptunix, our web app development services are designed for
@@ -43,7 +43,7 @@ const SeoStation = () => {
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon2} alt="stations1" />
-                <h5 className="station-develop-title"> All Under One Roof </h5>
+                <h3 className="station-develop-title"> All Under One Roof </h3>
                 <p className="station-develop-peragraph">
                   {" "}
                   We are a one-stop web application development company,
@@ -54,7 +54,7 @@ const SeoStation = () => {
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon3} alt="stations1" />
-                <h5 className="station-develop-title"> Creative Team </h5>
+                <h3 className="station-develop-title"> Creative Team </h3>
                 <p className="station-develop-peragraph">
                   {" "}
                   Creative web app developers at Apptunix are committed to
@@ -65,7 +65,7 @@ const SeoStation = () => {
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon4} alt="stations1" />
-                <h5 className="station-develop-title"> 24/7 Help Desk </h5>
+                <h3 className="station-develop-title"> 24/7 Help Desk </h3>
                 <p className="station-develop-peragraph">
                   {" "}
                   With a commitment to assistance, Apptunix ensures that you
@@ -76,10 +76,10 @@ const SeoStation = () => {
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon5} alt="stations1" />
-                <h5 className="station-develop-title">
+                <h3 className="station-develop-title">
                   {" "}
                   New Technology Integration{" "}
-                </h5>
+                </h3>
                 <p className="station-develop-peragraph">
                   {" "}
                   Being one of the top web application development companies
@@ -91,10 +91,10 @@ const SeoStation = () => {
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon6} alt="stations1" />
-                <h5 className="station-develop-title">
+                <h3 className="station-develop-title">
                   {" "}
                   Post-Deployment Services{" "}
-                </h5>
+                </h3>
                 <p className="station-develop-peragraph">
                   {" "}
                   Our web development services go beyond launch by ensuring the
