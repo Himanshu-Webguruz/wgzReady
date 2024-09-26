@@ -15,5 +15,8 @@ const page = ({searchParams}) => {
 export default page
 export const metadata = {
   title: "Leading Digital Marketing and Web Development Company",
-  description:"WebGuruz Technologies offers top-notch Digital Marketing and Web Development services with a dedicated team of 100+ professionals for our valued clients."
+  description:"WebGuruz Technologies offers top-notch Digital Marketing and Web Development services with a dedicated team of 100+ professionals for our valued clients.",
+  icons: {
+    icon: '/favicon.svg', // Path to your favicon
+  },
 };
