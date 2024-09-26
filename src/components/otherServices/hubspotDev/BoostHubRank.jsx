@@ -12,9 +12,9 @@ const BoostHubRank = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-xs-12 content-left heading-main">
-              <h3>
+              <h2>
                 <span>Fast-Track Business Growth</span> with Hubspot
-              </h3>
+              </h2>
               <p className="mt-3 mb-4">
               HubSpot offers a wide range of benefits for businesses of all sizes. By leveraging HubSpot&apos;s powerful features, you can streamline your sales and marketing processes, improve customer relationships, and drive growth. Some of the key benefits include:
               </p>

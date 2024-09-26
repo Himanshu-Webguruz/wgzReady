@@ -38,12 +38,12 @@ const IndustriesServe = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12">
             <div className="heading-main text-center pb-2 heading-content">
-              <h3>
+              <h2>
               Industries We <span>Cater To</span>
-              </h3>
-              <p>
+              </h2>
+              <span className="d-inline-block para">
               WebGuruz as a leading digital marketing agency, holds extensive experience working with clients across various industries, including:
-              </p>
+              </span>
             </div>
 
             <div className="indstrsrv">

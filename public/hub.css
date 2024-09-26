@@ -1,0 +1,191 @@
+
+
+    /* Start Home Page Banner Form Style */
+
+    .website-label.tpfrmbnr form { display: flex; flex-wrap: wrap; }
+    .website-label.tpfrmbnr { border: 1px solid hsla(0, 0%, 100%, .5);    border-radius: 50px;      max-width: 740px;    background: transparent;    position: relative;  }
+    .website-label.tpfrmbnr input { padding: 20px 22px;    background: transparent;    color: #fff;  border: 0; }
+    .website-label.tpfrmbnr .hs-form-field { margin: 0; }
+    .website-label.tpfrmbnr h3 { margin: 0; }
+    .website-label.tpfrmbnr form label{margin:0;}
+  
+    /* End Home Page Banner Form Style */
+  
+  /* hubspot forms start styling */
+    .contact-main .contact-right-form {
+      border: 1px solid #DDDDDD;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 24px;
+  }
+  .contact-main .contact-right-form input,.contact-main .contact-right-form  select,.contact-main .contact-right-form textarea {
+      width: 100%;
+      padding: 14px 12px;
+      border-radius: 4px;
+      /* margin-bottom: 26px; */
+      border: 1px solid #DDDDDD;
+      font-size: 14px;
+      color: #9B9B9B;
+      display:inline-block;
+  }
+  .contact-main .contact-right-form input.hs-button.primary.large {
+      background-color: #26C6DA;
+      border: 0px;
+      padding: 10px 32px;
+      display: inline-block;
+      border-radius: 4px;
+      color: #fff;
+      transition: 0.3s ease-in-out 0s;
+      position: relative;margin: 15px 0 0;
+      overflow: hidden;
+      width: auto;
+  }
+  /* hubspot forms ends styling */
+  
+  /* hubspot banner css */
+  .website-label.tpfrmbnr form input.hs-button.primary.large {
+    border: 0px;
+    background-color: #25C1D5;
+    color: #fff;
+    transition: 0.3s ease-in-out 0s;
+    position: relative;
+    min-height: 64px !important;
+    border-radius: 0px 50px 50px 0px;
+    margin: 0px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.website-label.tpfrmbnr form .hs_submit.hs-submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 35%;
+}
+.website-label.tpfrmbnr form fieldset.form-columns-2 >div {
+    display: flex;
+    position: relative;
+}
+label.hs-error-msg, ul.hs-error-msgs li label {
+  color: #ff0000;
+}
+.website-label.tpfrmbnr form fieldset.form-columns-2 {
+    display: flex;
+    width: 65% !important;
+    max-width: unset !important; 
+}
+.website-label.tpfrmbnr form fieldset.form-columns-2 >div:first-child .input:after {
+    content: '';
+    width: 1px;
+    height: 40px;
+    background: rgb(255 255 255 / 22%);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%);
+}
+.website-label.tpfrmbnr form fieldset.form-columns-2 >div:first-child .input {
+    position: relative;
+    margin: 0px;
+}
+
+.website-label.tpfrmbnr form fieldset.form-columns-2 >div .input {
+    width: 100%;
+}
+.website-label.tpfrmbnr form fieldset.form-columns-2 input {
+    background: transparent;
+    width: 100%;
+    min-height: 64px;
+    padding: 10px 22px;
+    position: relative;
+    color: #fff;
+    border: 0px;
+    font-size: 18px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.website-label.tpfrmbnr form fieldset.form-columns-2 input::placeholder {
+    color: #bdbbbb;
+}
+
+.website-label.tpfrmbnr form ul.hs-error-msgs.inputs-list li {
+    position: absolute;
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    bottom: -25px;
+    color: #ff0000;
+    left: 21px;
+    font-weight: 400;
+}
+
+.website-label.tpfrmbnr form .hs_error_rollup {
+    display: none;
+}
+@media(max-width: 991px){
+  .website-label.tpfrmbnr {
+      max-width: 640px;
+      min-width: 640px;
+  }
+ 
+}
+
+@media(max-width: 767px){
+  .website-label.tpfrmbnr {
+    max-width: 100%;
+    min-width: 100%;
+}
+.website-label.tpfrmbnr form input.hs-button.primary.large,
+.website-label.tpfrmbnr form fieldset.form-columns-2 input{
+  font-size: 14px;
+}
+
+.website-label.tpfrmbnr form fieldset.form-columns-2 {
+  width: 100%;
+}
+
+}
+
+@media(max-width: 575px){
+  .website-label.tpfrmbnr form fieldset.form-columns-2, .website-label.tpfrmbnr form .hs_submit.hs-submit {
+    width: 100% !important;
+    position: static;
+    flex-direction: column;
+}
+.website-label.tpfrmbnr form fieldset.form-columns-2 >div{
+  width: 100%;
+}
+.website-label.tpfrmbnr form fieldset.form-columns-2 >div:first-child .input:after{
+  display: none;
+}
+.website-label.tpfrmbnr{
+  border: 0px;
+}
+
+.website-label.tpfrmbnr form fieldset.form-columns-2 input {
+  border: 1px solid rgb(255 255 255 / 50%) !important;
+  margin-bottom: 20px;
+  min-height: 50px;
+}
+.website-label.tpfrmbnr form fieldset.form-columns-2 >div .input input {
+  width: 100% !important;
+}
+.website-label.tpfrmbnr form ul.hs-error-msgs.inputs-list li {
+  bottom: 0;
+  font-size: 12px;
+}
+.website-label.tpfrmbnr form fieldset.form-columns-2 >div .input{
+  margin: 0px;
+}
+.website-label.tpfrmbnr form input.hs-button.primary.large {
+  padding: 0px;
+  font-size: 14px;
+  max-width: 100%;
+  border-radius: 50px;
+  min-height: 50px !important;
+  margin-top: 0px;
+}
+
+}
+/* hubspot banner css end */

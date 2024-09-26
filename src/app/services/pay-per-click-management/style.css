@@ -42,6 +42,9 @@ ul.ppcbutton li button:hover {
     font-size: 44px;
     margin-bottom: 20px;
 }
+.service-banner .heading-main h2 span {
+    font-size: 44px;
+}
 .heading-main h2 span {
     color: #168B9A;
     position: relative;
@@ -328,7 +331,7 @@ ul.ppctab-main {
     .ppc-slider{
         flex-direction: column;
     }
-    .service-banner .heading-main h2 {
+    .service-banner .heading-main h2, .service-banner .heading-main h2 span {
         font-size: 34px;
     }
     ul.ppcbutton li button {

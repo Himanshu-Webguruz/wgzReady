@@ -21,9 +21,9 @@ const PpcServiceForm = ({ heading}) => {
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-xs-12 ppcservicecontent heading-main">
-              <h3 className="color-wt">
+              <h2 className="color-wt">
                 {heading} <span>– Scale Your Business</span>
-              </h3>
+              </h2>
               <p className="color-wt">
                 Gain brand exposure, attract more users, and boost sales. Get
                 top-class pay per click management services that power your

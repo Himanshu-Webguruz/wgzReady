@@ -13,10 +13,10 @@ const HomeTab = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-5">
-            <p>Your Vision, Our Expertise - Boundless Possibilities</p>
-            <h3>
+            <span className="d-inline-block mb-2">Your Vision, Our Expertise - Boundless Possibilities</span>
+            <h2>
               Four Reasons to <span> Choose WebGuruz</span>
-            </h3>
+            </h2>
           </div>
         </div>
         <div className="row">

@@ -32,13 +32,13 @@ const PpcProcess = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
-              <h3 className="color-wt">Our Process</h3>
-              <p className="color-wt">
+              <h2 className="color-wt">Our Process</h2>
+              <span className="color-wt">
                 Our professionals are adept in increasing your online presence,
                 visibility, and brand awareness along with helping you boost
                 your ROI. We make outsourcing digital marketing services a
                 breeze. All of this happens in just four simple steps.
-              </p>
+              </span>
             </div>
           </div>
           <div className="row process-card-main">

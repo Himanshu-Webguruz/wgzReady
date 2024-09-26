@@ -33,13 +33,13 @@ const CmsWebSolution = () => {
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
               <div className="heading-main text-center">
-                <h3>
+                <h2>
                   CMS Development <span>Solutions</span>
-                </h3>
-                <p>
+                </h2>
+                <span className="mb-2 d-inline-block">
                   Proin euismod dictum facilisis. Donec nulla orci, suscipit ac
                   venenatis sit amet, cursus vitae ligula.
-                </p>
+                </span>
               </div>
             </div>
           </div>

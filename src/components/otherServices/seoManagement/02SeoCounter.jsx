@@ -5,12 +5,12 @@ const SeoCounter = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-sm-7 col-xs-12 content">
-              <h3 className="mb-4">
+              <h2 className="mb-4">
                 As a leading SEO service in India, we offer market-ready
                 solutions to amplify your brand reputation.Get business-focused
                 solutions from our digital marketing professionals.Get all your
                 SEO solutions in one place.
-              </h3>
+              </h2>
               <p>
                 As a leading SEO service in India, we offer market-ready
                 solutions to amplify your brand reputation.Get business-focused

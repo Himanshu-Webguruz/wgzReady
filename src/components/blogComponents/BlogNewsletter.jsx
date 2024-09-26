@@ -1,3 +1,4 @@
+// import BlogSubscribeForm from "@/utils/formsHubspot/BlogSubscribeForm";
 import NewLetterLogo from "../../../public/images/newLetter-logo.png";
 import Image from "next/image";
 const BlogNewsletter = () => {
@@ -22,6 +23,7 @@ const BlogNewsletter = () => {
                     <input type="text" placeholder="Enter Email" />
                     <button type="submit">Subscribe Now!</button>
                   </form>
+                  {/* <BlogSubscribeForm/> */}
                 </div>
               </div>
             </div>

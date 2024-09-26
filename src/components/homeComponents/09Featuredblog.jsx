@@ -17,12 +17,12 @@ const Featuredblog = async () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-5">
-              <h3 className="pb-3">
+              <h2 className="pb-2">
                 <span>Latest</span> From Us
-              </h3>
-              <p>
+              </h2>
+              <span>
               Know what&apos;s latest in Digital Marketing and Web Development Technologies.
-              </p>
+              </span>
             </div>
           </div>
           <div className="row blog-card-content">
@@ -40,7 +40,7 @@ const Featuredblog = async () => {
                     />
                   </div>
                   <div className="blog-content">
-                    <span className="mb-4">Blog </span>
+                    <span className="mb-2 d-inline-block">Blog </span>
                     <h6> {post.title.rendered}</h6>
                     <Link className="explore-btn" href={`/blog/${post.slug}`}>
                       Read More
@@ -62,7 +62,7 @@ const Featuredblog = async () => {
                   />
                 </div>
                 <div className="blog-content">
-                  <span>Blog </span>
+                  <span className="mb-2 d-inline-block">Blog </span>
                   <h6> {posts[2].title.rendered}</h6>
                   <Link className="explore-btn" href={`/blog/${posts[2].slug}`}>
                     Read More

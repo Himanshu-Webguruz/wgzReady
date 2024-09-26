@@ -46,9 +46,9 @@ const CustomizeHome = ({heading,paragraph,subheading}) => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center mb-5">
-            <h3>
+            <h2>
             {heading} <span>{subheading}</span>
-            </h3>
+            </h2>
             <p>{paragraph}</p>
           </div>
         </div>

@@ -173,7 +173,7 @@
   position: relative;
   display: inline-block;
 }
-h6.dot {
+span.dot {
   font-size: 16px;
   font-weight: 600;
 }
@@ -249,9 +249,10 @@ h6.dot {
 .process-main .content ul li:last-child::before {
   display: none;
 }
-.heading-main.heading-content p {
+.heading-main.heading-content span.para {
   max-width: 1140px;
-  margin: 20px auto 30px;
+  margin: 0px auto 30px;
+  display: inline-block;
 }
 .process-main span.number {
   border: 1px solid #DCE3EE;
@@ -290,7 +291,7 @@ ul.toolsicon-list {
   justify-content: center;
 }
 ul.toolsicon-list li {
-  width: 15%;
+  width: 23%;
   text-align: center;
   box-shadow: 0px 4px 15px 0px #0000000D;
   background: #F1F2F2;
@@ -528,6 +529,7 @@ form.web-connect label.submit {
 }
 .hub-counting span.index-module_slot_wrap__ZT-DX span{
   color: #168B9A !important;
+  font-size: 60px;
 }
 
 .counter-sub {
@@ -560,9 +562,10 @@ form.web-connect label.submit {
   position: relative;
   height: 100%;
   padding-bottom: 26px;
+  height: 320px;
 }
 .web-framework .content p {
-  margin-top: 15px;
+  margin: 15px 0px 0px;
 }
 .contentimg {
   width: 60px;
@@ -573,9 +576,7 @@ form.web-connect label.submit {
   justify-content: center;
   border-radius: 50px;
 }
-.web-framework .image-content:hover .image::before {
-  opacity: 0.66;
-}
+
 .web-framework .image-content .image::before {
   content: "";
   position: absolute;
@@ -585,19 +586,15 @@ form.web-connect label.submit {
   bottom: 0;
   background-color: #000;
   border-radius: 8px;
-  opacity: 0;
+  opacity: 0.66;
   transition: 0.3s ease-in-out 0s;
 }
-.web-framework .image-content:hover .content {
-  bottom: 10px;
-  opacity: 1;
-}
+
 .web-framework .content {
   position: absolute;
-  bottom: -20px;
+  bottom: 0px;
   left: 0;
   padding: 18px;
-  opacity: 0;
   transition: 0.3s ease-in-out 0s;
 }
 .webdev-process ul li {
@@ -2052,7 +2049,51 @@ span.nmmb p {
   margin: 0px;
 }
 /* seo page end */
+/* flip card css start */
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+}
 
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 8px;
+}
+.flip-card-back p {
+  margin: 0px;
+  color: #fff;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-back {
+  background-color: #168b9a;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.flip-image-right .flip-card.image-content {
+  height: 640px;
+}
+/* flip card css end */
 /* media query */
 @media(max-width: 1400px){
   .svypmng .svypmnginr:nth-child(2), .svypmng .svypmnginr:nth-child(4) {
@@ -2074,8 +2115,12 @@ span.nmmb p {
       top: 0;
       left: 14px;
   }
-
-    
+  .web-framework .image-content{
+    height: 260px;
+  }
+  .flip-image-right .flip-card.image-content {
+    height: 520px;
+}   
 }
 @media(max-width: 1199px){
   ul.toolsicon-list li {
@@ -2187,6 +2232,9 @@ margin: 20px 0px;
   line-height: 38px;
   margin: 40px 0px 12px;
   max-width: 100%;
+}
+.service-banner .heading-main h2 span{
+  font-size: 30px;
 }
 .web-scalable .col-sm-6.image img{
   margin-bottom: 12px;
@@ -2384,7 +2432,9 @@ flex-direction: column-reverse;
   padding: 14px 40px;
   left: 100px;
 }
-
+.flip-image-right .flip-card.image-content {
+  height: 360px;
+}
 .drupaltp .dplrtimg .smrsh {
   padding: 14px 40px;
   right: 80px;

@@ -10,9 +10,9 @@ function OurTeamhubspot() {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main text-center">
-              <h3>
+              <h2>
               Why Choose <span> HubSpot?</span>
-              </h3>
+              </h2>
             </div>
           </div>
         </div>

@@ -7,9 +7,9 @@ const PpcServicesOffer = () => {
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-sm-3 col-xs-12 heading-main">
-              <h3>
+              <h2>
                 Industries We Cater to With Our <span>PPC Services</span>
-              </h3>
+              </h2>
               <p>
                 Cost-effective and measurable - PPC marketing is a powerful way
                 to instantly improve your online visibility. Our result-driven

@@ -65,9 +65,9 @@ const WebScalable = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-5">
-            <h3>
+            <h2>
             <span>Web Development Frameworks</span> We Use
-            </h3>
+            </h2>
             <p>
             Our expertise in popular frameworks empowers us to deliver efficient and scalable solutions.
             </p>

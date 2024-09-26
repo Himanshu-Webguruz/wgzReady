@@ -88,12 +88,12 @@ const HomeTestimonial = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12">
             <div className="heading-main text-center pb-5">
-              <h3>
+              <h2>
              Client <span>Testimonials</span>
-              </h3>
-              <p>
+              </h2>
+              <span>
               Hear from Satisfied Clients about their Experience Working with WebGuruz.
-              </p>
+              </span>
             </div>
             <Slider
               {...settingsMain}

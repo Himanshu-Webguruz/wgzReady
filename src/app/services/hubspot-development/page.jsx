@@ -43,3 +43,7 @@ const page = () => {
 }
 
 export default page
+export const metadata = {
+  title: "HubSpot Development Company | HubSpot Certified Agency", 
+  description:"Top HubSpot development company offering certified HubSpot CRM development services. Inbound certified agency for tailored HubSpot solutions. Contact us today!",
+};

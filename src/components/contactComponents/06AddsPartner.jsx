@@ -16,7 +16,7 @@ const AddsPartner = ({ heading, paragraph, linkHref, linkText }) => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center heading-content">
-            <h3 className="color-wt">{heading}</h3>
+            <h3 className="color-wt mb-3">{heading}</h3>
             <p className="color-wt">{paragraph}</p>
             <Link className="explore-btn" href={linkHref}>
               {linkText}

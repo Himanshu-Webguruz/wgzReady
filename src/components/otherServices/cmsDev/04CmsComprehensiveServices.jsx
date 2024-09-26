@@ -45,13 +45,13 @@ const CmsComprehensiveServices = () => {
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
               <div className="heading-main text-center">
-                <h3>
+                <h2>
                   Our Comprehensive CMS <span>Development Services</span>
-                </h3>
-                <p>
+                </h2>
+                <span className="d-inline-block mb-3">
                   Proin euismod dictum facilisis. Donec nulla orci, suscipit ac
                   venenatis sit amet, cursus vitae ligula.
-                </p>
+                </span>
               </div>
 
               <div className="cmssct">

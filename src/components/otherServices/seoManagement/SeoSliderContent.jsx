@@ -7,13 +7,13 @@ const SeoSliderContent = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-3">
-              <h3>
+              <h2>
                 Our Standard <span>SEO Process</span>
-              </h3>
-              <p>
+              </h2>
+              <span className="d-inline-block mb-3">
                 We Follow Certain Steps To Provide High-QualitySmall Business
                 SEO Services.
-              </p>
+              </span>
             </div>
             <SwiperSlider />
           </div>

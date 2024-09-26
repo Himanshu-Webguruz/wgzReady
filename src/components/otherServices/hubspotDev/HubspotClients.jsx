@@ -22,9 +22,9 @@ const HubspotClients = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-3">
-            <h3>
+            <h2>
               Our <span>Clientele</span>
-            </h3>
+            </h2>
             <p>
             We have earned the trust of some of the leading organizations from across the globe with our results.
             </p>

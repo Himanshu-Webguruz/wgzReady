@@ -9,12 +9,10 @@ const ExploreTopic = () => {
           <div className="row">
             <div className="col-md-12">
               <h2 className="blog-page-banner-title text-center">
-                {" "}
-                Explore More <span> Topics </span>{" "}
+                Explore More <span> Topics </span>
               </h2>
             </div>
           </div>
-
           <ExploreList />
         </div>
       </div>

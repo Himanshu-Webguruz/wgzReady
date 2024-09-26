@@ -40,18 +40,17 @@ function Broadindustries() {
         <div className="row align-items-center">
           <div className="col-lg-5 col-md-5 col-sm-12 col-12">
             <div className="heading-main">
-              <h3>
+              <h2>
               Solutions for a 
-                <br />
                 <span>Broad Range of Industries</span>
-              </h3>
+              </h2>
             </div>
           </div>
           <div className="col-lg-7 col-md-7 col-sm-12 col-12">
             <div className="brdighdtxt">
-              <p>
+              <span>
               Our Hubspot solutions cater to a wide range of industries including, but not limited to:
-              </p>
+              </span>
             </div>
           </div>
         </div>

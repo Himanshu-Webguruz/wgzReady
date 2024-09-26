@@ -28,11 +28,10 @@ function Hubspotcrm() {
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
             <div className="heading-main mb-3">
-              <h3>
+              <h2>
               Common Challenges and
-                <br />
                 <span>How HubSpot Can Help</span>
-              </h3>
+              </h2>
             </div>
           </div>
           <div className="col-lg-8 col-md-8 col-sm-12 col-12">

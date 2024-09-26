@@ -11,16 +11,16 @@ const SeoStation = () => {
       <div className="container">
         <div className="row justify-content-md-center">
           <div className="col-sm-9 col-xs-12 heading-main text-center pb-5">
-            <h3>
+            <h2>
               Webguruz is Your One-Stop Station for
               <br />
               <span>Web Development Service</span>
-            </h3>
-            <p>
+            </h2>
+            <span className="mb-3 d-inline-block">
               From concept ideation to product development and launch in the
               market, we help you in every stage of the development lifecycle to
               build high-performing and scalable web applications.
-            </p>
+            </span>
           </div>
         </div>
 

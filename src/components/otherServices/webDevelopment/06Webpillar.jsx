@@ -8,9 +8,9 @@ const Webpillar = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center">
-              <h3 className="mb-4">
+              <h2 className="mb-4">
                 Key Pillars of <span>Web Development</span>
-              </h3>
+              </h2>
               <Image src={pillarbg} alt="pillarbg" />
             </div>
           </div>

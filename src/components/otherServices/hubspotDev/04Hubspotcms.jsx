@@ -9,12 +9,12 @@ function Hubspotcms() {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main text-center">
-              <h3>
+              <h2>
               What&apos;s <span>More?</span>
-              </h3>
-              <p>
+              </h2>
+              <span className="d-inline-block mb-3 mt-2">
               Our HubSpot Developers ensure that the solutions they deliver are on par with the industry standards.
-              </p>
+              </span>
             </div>
           </div>
         </div>

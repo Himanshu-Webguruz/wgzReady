@@ -42,9 +42,9 @@ const PpcManagement = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
-              <h3>
+              <h2>
                 Partner With Certified <span>PPC Management Company India</span>
-              </h3>
+              </h2>
               <p>
                 As a reliable PPC management company, we can help you reap the
                 following benefits:

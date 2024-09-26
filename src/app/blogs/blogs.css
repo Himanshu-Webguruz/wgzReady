@@ -140,6 +140,7 @@ span.tags, span.name, span.date {
 .blog-page-banner-title span {
     position: relative;
     z-index: 2;
+    color: #168B9A;
 }
 .blog-page-banner-title span::before {
     content: ".";
@@ -153,7 +154,7 @@ span.tags, span.name, span.date {
     background: linear-gradient(94deg, rgb(217, 230, 232) 0%, rgb(255, 255, 255) 100%);
 }
 .content_explore_wrap a {
-    color: rgb(22, 139, 154);
+    color: #168B9A;
     font-size: 22px;
     font-family: __Outfit_53911d;
     display: flex;

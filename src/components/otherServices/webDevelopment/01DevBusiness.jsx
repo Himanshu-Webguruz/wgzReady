@@ -28,14 +28,14 @@ const DevBusiness = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
-            <h3>
+            <h2>
               Expedite Business Growth with{" "}
               <span>Our Expert Web Development Services</span>
-            </h3>
-            <p>
+            </h2>
+            <span className="d-inline-block mb-3">
               From concept to execution, we&apos;re your trusted partner for
               innovative web solutions.
-            </p>
+            </span>
           </div>
         </div>
         <div className="row counter-min">

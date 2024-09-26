@@ -5,11 +5,11 @@ const ServicesDisplay = () => {
     <section className="counter-main service-counter py-5 ">
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-xs-12 heading-main text-center pb-4">
-            <h3>
+          <div className="col-sm-12 col-xs-12 heading-main text-center pb-1">
+            <h2>
               Our <span>Expertise</span>
-            </h3>
-            <p>Work with the Best Digital Marketing Agency in Chandigarh</p>
+            </h2>
+            <span>Work with the Best Digital Marketing Agency in Chandigarh</span>
           </div>
         </div>
         <div className="row">

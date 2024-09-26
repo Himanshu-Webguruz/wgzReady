@@ -11,13 +11,13 @@ const WebStation = () => {
       <div className="container">
         <div className="row justify-content-md-center">
           <div className="col-sm-9 col-xs-12 heading-main text-center pb-5">
-            <h3>
+            <h2>
               Why <span>WebGuruz?</span>
-            </h3>
-            <p>
+            </h2>
+            <span className="mb-2 d-inline-block">
               We&apos;re your one-stop destination for all your web development
               needs.
-            </p>
+            </span>
           </div>
         </div>
 

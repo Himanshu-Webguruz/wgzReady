@@ -32,17 +32,16 @@ function ProminentPrtnr() {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main text-center">
-              <h3>
+              <h2>
                 What Makes Us a Prominent CMS Web
-                <br />
                 <span>Development Partner?</span>
-              </h3>
-              <p>
+              </h2>
+              <span className="d-inline-block mb-4">
                 With our expertise, customized solutions, and ongoing support,
-                we help you
-                <br />
+                we help you 
+                <br/>
                 create a powerful online presence that drives results.
-              </p>
+              </span>
             </div>
 
             <div className="hquality d-flex flex-wrap">

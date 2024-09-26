@@ -22,9 +22,9 @@ const CmsLogos = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-3">
-            <h3>
+            <h2>
               Our <span>Clients</span>
-            </h3>
+            </h2>
             <p>
               Clients of immense value guide our commitment to exceptional
               service

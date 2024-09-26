@@ -99,13 +99,13 @@ const HomeNumbers = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-5">
-            <h3>
+            <h2>
               Our <span>Portfolio</span>
-            </h3>
-            <p>
+            </h2>
+            <span className="d-inline-block mb-4">
               Explore our diverse range of projects and see how we&apos;ve helped
               businesses of all sizes achieve their goals.
-            </p>
+            </span>
             <form
               className="website-label btn-main srchfrm"
               onSubmit={handleButtonClick}
@@ -163,9 +163,9 @@ const HomeNumbers = () => {
           {numbercards.map((card, index) => (
             <div className="col col-sm-3 col-xs-12" key={index}>
               <div className="card text-center">
-                <h4>{card.title}</h4>
-                <p>{card.para}</p>
-                <h3>{card.percentage}</h3>
+                <h3>{card.title}</h3>
+                <span>{card.para}</span>
+                <h4>{card.percentage}</h4>
                 <Link className="btn-link about--btn" href="/">
                   {card.anchor}
                   <FontAwesomeIcon

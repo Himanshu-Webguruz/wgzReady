@@ -46,3 +46,7 @@ const page = () => {
 };
 
 export default page;
+export const metadata = {
+  title: "Premier Web Development Company in India | WebGuruz",
+  description:"Top web development company in India offering custom web solutions. Specializing in end-to-end web solutions and CMS development. Boost business with WebGuruz.",
+};

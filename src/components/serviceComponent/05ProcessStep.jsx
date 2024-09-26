@@ -8,12 +8,12 @@ const ProcessStep = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center heading-content">
-              <h3>
+              <h2>
               We are <span> Intelligence in Action</span>
-              </h3>
-              <p className="pt-3 pb-5">
+              </h2>
+              <span className="pt-0 pb-4 para">
               We follow a proven process to deliver exceptional digital marketing solutions. Our process involves:
-              </p>
+              </span>
             </div>
           </div>
           <div className="row">

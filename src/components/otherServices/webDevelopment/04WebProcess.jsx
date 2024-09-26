@@ -24,9 +24,9 @@ const WebProcess = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-5">
-            <h3>
+            <h2>
               <span>Web Development Process</span> We Follow
-            </h3>
+            </h2>
             <p className="mt-3 mb-4">
             Our streamlined website development process ensures a seamless and efficient project delivery. 
             </p>

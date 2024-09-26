@@ -28,9 +28,9 @@ const ServiceFaq = ({ accordionData }) => { // Accept accordionData as a prop
     <div className="webguruz-Faq pb-5">
       <div className="container">
         <div className="row heading-main text-center">
-          <h3 className="Faq-heading">
+          <h2 className="Faq-heading">
             Frequently asked <span> Questions</span>
-          </h3>
+          </h2>
         </div>
         <div className="row">
           <div className="faq-content">

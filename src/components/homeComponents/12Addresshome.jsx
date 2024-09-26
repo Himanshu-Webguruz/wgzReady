@@ -12,12 +12,12 @@ const addressdata = [
   {
     img: uk,
     title: "UK",
-    para: "1st Floor, Lorem, C-234, Phase lp,Lorem Lipsum UK",
+    para: "11 Rydons Lane, Coulsdon, CR5 1SU, UK",
   },
   {
     img: usa,
     title: "USA",
-    para: "1st Floor, Lorem, C-234, Phase lp,Lorem Lipsum USA",
+    para: "6917 Hovingham Court Centreville va 20121",
   },
 ];
 
@@ -27,7 +27,7 @@ function Addresshome() {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main">
-            <h3 className="color-wt pb-4">Our Address</h3>
+            <h2 className="color-wt pb-4">Our Address</h2>
           </div>
         </div>
         <div className="row ">

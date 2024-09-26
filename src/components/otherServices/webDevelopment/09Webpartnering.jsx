@@ -12,13 +12,13 @@ const Webpartnering = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-sm-6 col-xs-12 partnering-left">
-              <h4 className="color-wt">Benefits of Partnering with WebGuruz</h4>
-              <p className="color-wt">
+              <h3 className="color-wt">Benefits of Partnering with WebGuruz</h3>
+              <span className="color-wt d-inline-block my-3">
                 When you choose WebGuruz, you&apos;re not just getting a website;
                 you&apos;re gaining a trusted partner who is dedicated to your
                 success. Let&apos;s work together to build a digital presence that
                 sets you apart.
-              </p>
+              </span>
               <ul>
                 <li>
                   <h6 className="color-wt">Enhanced Online Visibility</h6>
@@ -58,9 +58,9 @@ const Webpartnering = () => {
               </ul>
             </div>
             <div className="col-sm-6 col-xs-12 partnering-right heading-main">
-              <h3>
+              <h2>
               Partner with the <span>Experts in Web Development</span>
-              </h3>
+              </h2>
               <ul className="mt-5">
                 <li>
                   <div className="image-icon">

@@ -12,9 +12,9 @@ const DigitalMarketing = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
-              <h3>
+              <h2>
                 <span>Digital Marketing</span> Services We Offer
-              </h3>
+              </h2>
             </div>
           </div>
           <div className="row d-flex align-items-center py-3">

@@ -1,8 +1,8 @@
 import Image from "next/image";
-import optimized from "../../../../public/images/hubspotimages/huboptimised.svg";
-import socialmarketing from "../../../../public/images/hubspotimages/hubspotbenefit.svg";
-import automation from "../../../../public/images/hubspotimages/hubspoteffeciency.svg";
-import contentmarkt from "../../../../public/images/hubspotimages/hubspotbenefit4.svg";
+import reason1 from "../../../../public/images/hubspotimages/hubreason1.svg";
+import reason2 from "../../../../public/images/hubspotimages/hubreason2.svg";
+import reason3 from "../../../../public/images/hubspotimages/hubreason3.svg";
+import reason4 from "../../../../public/images/hubspotimages/hubreason4.svg";
 const WhyHubspot = () => {
   return (
     <>
@@ -10,9 +10,9 @@ const WhyHubspot = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
-              <h3>
+              <h2>
               Reasons to Choose <span> WebGuruz as Your HubSpot Development Partner</span>
-              </h3>
+              </h2>
             </div>
           </div>
           <div className="row d-flex align-items-center py-3">
@@ -23,7 +23,7 @@ const WhyHubspot = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={optimized} alt="optimized" />
+              <Image src={reason1} alt="Proven track record" />
             </div>
           </div>
           <div className="row d-flex align-items-center reverse py-3">
@@ -34,7 +34,7 @@ const WhyHubspot = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={socialmarketing} alt="socialmarketing" />
+              <Image src={reason2} alt="Experienced and skilled team" />
             </div>
           </div>
           <div className="row d-flex align-items-center py-3">
@@ -45,7 +45,7 @@ const WhyHubspot = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={contentmarkt} alt="contentmarkt" />
+              <Image src={reason3} alt="Customized solutions" />
             </div>
           </div>
           <div className="row d-flex align-items-center reverse py-3">
@@ -56,7 +56,7 @@ const WhyHubspot = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={automation} alt="automation" />
+              <Image src={reason4} alt="Excellent customer support" />
             </div>
           </div>
           

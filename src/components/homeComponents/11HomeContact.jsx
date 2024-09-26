@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "react-phone-input-2/lib/style.css";
 import ContactClient from "./clientcomp/ContactClient";
+// import HubSpotFormV2 from "../../utils/formsHubspot/hubform";
 
 const Contact = () => {
   return (
@@ -9,14 +10,14 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-6 col-xs-12 contact-sub left">
-            <p>Get in Touch with the</p>
-            <h2>Experts in Digital Transformation</h2>
+            <span>Get in Touch with the</span>
+            <h2>Experts in Digital Transformation</h2>  
             <p>
             Drive more leads, maximize your RoI, and grow your business with digital solutions built specifically for your business.
             </p>
            
             <div className="contact-info">
-              <h4>Contact Webguruz:</h4>
+              <h3>Contact Webguruz:</h3>
               <div className="row">
                 <div className="col-sm-6 col-xs-12">
                   <div className="contact-info-sub">
@@ -76,6 +77,9 @@ const Contact = () => {
             </div>
           </div>
           <ContactClient />
+          {/* <div className="col-sm-6 col-xs-12 contact-sub right">
+          <HubSpotFormV2/>
+          </div> */}
         </div>
       </div>
     </section>

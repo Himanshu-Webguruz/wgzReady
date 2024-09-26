@@ -25,9 +25,9 @@ const ContactLogo = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-3">
-            <h3>
-              Our <span>Clientele</span>
-            </h3>
+            <h2>
+              Our <span>Client</span>
+            </h2>
             <p>
             The team at WebGuruz is trusted by high-value businesses across the globe.
             </p>

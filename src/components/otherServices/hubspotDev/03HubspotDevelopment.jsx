@@ -5,11 +5,9 @@ function Hubspotdevelopment() {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main text-center pb-5">
-              <h3>
-              A Streamlined 
-                <br />
-                <span>HubSpot Development Process</span>
-              </h3>
+              <h2>
+              A Streamlined <span>HubSpot Development Process</span>
+              </h2>
             </div>
 
             <div className="webqstnt">

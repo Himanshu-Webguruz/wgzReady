@@ -36,9 +36,9 @@ const FeaturedProject = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center mb-3">
-            <h3>
+            <h2>
               Featured <span>Projects</span>
-            </h3>
+            </h2>
             <p>
               Using the latest technology and industry expertise, we built
               top-end Android and iOS-based applications that add value to the

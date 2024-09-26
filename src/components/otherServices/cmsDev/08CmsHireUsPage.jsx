@@ -21,11 +21,10 @@ const CmsHireUsPage = () => {
           <div className="row align-items-center">
             <div className="col-lg-7 col-md-7 col-sm-12 col-12">
               <div className="heading-main">
-                <h3>
+                <h2>
                   Why Hire Us As Your CMS Website
-                  <br />
                   <span>Development Company?</span>
-                </h3>
+                </h2>
                 <p>
                   Webguruz is dedicated to delivering world-class CMS web
                   development solutions to global clients. Our team of certified

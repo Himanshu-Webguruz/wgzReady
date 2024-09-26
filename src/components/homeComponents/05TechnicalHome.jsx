@@ -32,9 +32,9 @@ const TechnicalHome = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="col-sm-12 col-xs-12 heading-main text-center">
-            <h3 className="mb-3">
+            <h2 className="mb-3">
               Our <span>Technical Expertise</span>
-            </h3>
+            </h2>
           </div>
         </motion.div>
 
@@ -52,7 +52,7 @@ const TechnicalHome = () => {
               <div className="col-sm-6 col-xs-12 image">
                 <Image
                   src={techmain.img}
-                  alt="tech-1.png"
+                  alt={techmain.alt}
                   style={{ height: "auto", width: "100%" }}
                   loading="lazy"
                 />

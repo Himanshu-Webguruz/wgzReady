@@ -59,9 +59,9 @@ const WhyChoose = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12">
             <div className="heading-main text-center pb-2 heading-content">
-              <h3>
+              <h2 className="mb-5">
               Why Choose <span>WebGuruz?</span>
-              </h3>
+              </h2>
             </div>
 
             <div className="earntraffic">

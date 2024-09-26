@@ -18,9 +18,9 @@ const SeoIndustry = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center">
-              <h3 className="mb-5">
+              <h2 className="mb-5">
                 Industry Specialized <span>SEO Services in India</span>
-              </h3>
+              </h2>
               <ul>
                 <li>
                   <Image src={industryseo1} alt="industryseo1" />

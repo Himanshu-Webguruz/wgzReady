@@ -80,10 +80,10 @@ const HomeClient = () => {
 
       if (result.status === "mail_failed" || result.status === "spam") {
         setServerMessage(result.message);
-        router.push("/thank-you");
       } else if (result.status === "mail_sent") {
         setServerMessage(result.message);
         router.push("/thank-you");
+
       }
     } catch (error) {
       console.error("Error posting website and email:", error);

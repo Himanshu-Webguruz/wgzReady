@@ -10,14 +10,14 @@ const SeoProfessional = () => {
       <section className="seoprofessional-main py-5 text-center counter-main">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 col-xs-12 heading-main mb-5">
-              <h3>
+            <div className="col-sm-12 col-xs-12 heading-main mb-3">
+              <h2>
                 Our Professional <span>SEO Services in India Include</span>
-              </h3>
-              <p>
+              </h2>
+              <span className='d-inline-block'>
                 We Follow Certain Steps To Provide High-Quality Small Business
                 SEO Services. 
-              </p>
+              </span>
             </div>
           </div>
           <div className="row">

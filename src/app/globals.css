@@ -22,18 +22,6 @@
         padding: 0px;
         margin: 0px;
     }
-    a{
-        text-decoration: none;
-        font-family: var(--font-inter);
-        font-size: 18px;
-        font-weight: 600;
-        color: #383838;
-    }p{
-        font-size: 18px;
-        color: #383838;
-        font-weight:400;
-        font-family: var(--font-inter);
-    }
     h6 {
         font-size: 18px;
     }
@@ -51,7 +39,6 @@
         position: relative;
         margin-top: 12px;
     }
-
     span.error {
         color: #ff0000;
         font-size: 12px;
@@ -64,23 +51,48 @@
     span, .right-privacy ul li a:hover{
         color: #25C1D5;
     }
-    h4, h3{
+    h1, h1 span{
+        font-size: 60px;
+        font-weight: 500;
+    }
+    h2{
         font-size: 34px;
         font-weight: 400;
         color: #383838;
     }
-    h2{
+    .inner-page h2, .inner-page h2 span{
         font-size: 44px;
     }
-    h1{
-        font-size: 60px;
-        font-weight: 500;
+    h2 span{
+        font-size: 34px;
+        text-transform: capitalize;
+    }
+    h4, h3{
+        color: #383838;
     }
     h5 {
         font-size: 24px;
         font-weight: 600;
     }
-    .heading-main h3 span,.technical-main .content h4 span{
+    a{
+        text-decoration: none;
+        font-family: var(--font-inter);
+        font-size: 18px;
+        font-weight: 600;
+        color: #383838;
+    }
+    p{
+        font-size: 18px;
+        color: #383838;
+        font-weight:400;
+        font-family: var(--font-inter);
+    }
+    span{
+        font-size: 18px;
+        color: #383838;
+    }
+  
+    .heading-main h2 span,.technical-main .content h4 span{
         font-weight: 800;
         color: #168B9A;
         position: relative;
@@ -89,9 +101,8 @@
     .navigation-main ul.navbar-nav li ul .col {
         padding: 0px;
     }
-    .heading-main h3 span::before, 
-    .technical-main .content h4 span::before,
-    .heading-main h2 span::before {
+    .heading-main h2 span::before, 
+    .technical-main .content h4 span::before {
         content: "";
         position: absolute;
         bottom: 0;
@@ -290,6 +301,7 @@
         line-height: 64px;
     }
 
+
     form.website-label input {
         width: 100%;
         min-height: 64px;
@@ -369,6 +381,7 @@
         font-weight: 600;
         line-height: 64px;
         font-family: var(--font-outfit);
+        color: #25C1D5;
     }
     .counter-main label {
         width: 100%;
@@ -496,17 +509,18 @@
         height: 100%;
     }
 
-    .number-main .card h4 {
+    .number-main .card h3 {
         font-size: 32px;
         line-height: 42px;
         font-weight: 700;
         margin: 0px 0px 12px 0px;
     }
 
-    .number-main .card h3 {
-        font-size: 54px;
-        font-weight: 700;
+    .number-main .card h4 {
         color: #26C6DA;
+        font-weight: 700;
+        margin: 40px 0px 12px 0px;
+        font-size: 50px;
     }
     .number-main .card a.btn-link {
         color: #26c6da;
@@ -551,7 +565,7 @@
     }
     ul.logos-main img {
         max-width: 128px;
-        height: 54px;
+        height: 70px !important;
         object-fit: contain;
         animation: zoom 3s alternate infinite;
         transform: scale(1);
@@ -563,6 +577,9 @@
         line-height: 38px;
         text-align: left;
         margin-bottom: 11px;
+    }
+    .technical-main .content h4 span{
+        font-size: 28px;
     }
     .technical-main p {
         margin: 25px 0px 20px;
@@ -1074,11 +1091,11 @@
         overflow: hidden;
     }
     .contact-sub.left h2 {
-        font-size: 60px;
+        font-size: 52px;
         font-weight: 800;
         color: #26C6DA;
     }
-    .contact-info h4 {
+    .contact-info h3{
         font-weight: 800;
         font-size: 32px;
         margin: 20px 0px;
@@ -1197,11 +1214,12 @@
     }
     form.website-label.srchfrm .entrweb p, form.website-label.srchfrm .entrml p {
         position: absolute;
-        top: 40px;
+        top: auto;
         left: 10px;
         font-size: 14px !important;
+        margin: 0px !important;
+        bottom: -35px;
     }
-
 
     /*topform*/
     form.website-label.tpfrmbnr {
@@ -1216,15 +1234,15 @@
 
     form.website-label.tpfrmbnr .label-maerge {
         display: flex;
-        flex-basis: 65%;
+        width: 65%;
     }
 
     form.website-label.tpfrmbnr button {
-        flex-basis: 35%;
         padding: 15px 10px;
         min-height: 64px !important;
         align-items: center;
         border-radius: 0px 50px 50px 0px;
+        width: 35%
     }
 
     form.website-label.tpfrmbnr .label-maerge input {
@@ -1454,7 +1472,7 @@
         font-weight: 600;
     }
     .award-main ul li {
-        width: 15%;
+        width: 20%;
         text-align: center;
         background-color: #f3f3f3;
         padding: 12px;
@@ -1473,8 +1491,10 @@
     }
     .award-main ul li img {
         width: 100%;
-        max-width: 113px;
-    }   
+        max-width: 87%;
+        height: 73px;
+        object-fit: contain;
+    }
     /* award section css end */
     .navigation-main ul.navbar-nav li ul li.active-service a {
         background-color: transparent;
@@ -1901,7 +1921,85 @@
     .hub-icons ul li p {
         font-size: 14px;
     }
-
+    /* hubspot form banner  */
+    .website-label.tpfrmbnr form input.hs-button.primary.large {
+        border: 0px;
+        background-color: #25C1D5;
+        color: #fff;
+        transition: 0.3s ease-in-out 0s;
+        position: relative;
+        min-height: 64px !important;
+        border-radius: 0px 50px 50px 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .website-label.tpfrmbnr form .hs_submit.hs-submit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .website-label.tpfrmbnr form fieldset.form-columns-2 >div {
+        display: flex;
+        position: relative;
+    }
+    .website-label.tpfrmbnr form fieldset.form-columns-2 {
+        display: flex;
+        width: 65% !important;
+        max-width: unset !important;
+        
+    }
+    .website-label.tpfrmbnr form fieldset.form-columns-2 >div:first-child .input:after {
+        content: '';
+        width: 1px;
+        height: 40px;
+        background: rgb(255 255 255 / 22%);
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0%, -50%);
+    }
+    .website-label.tpfrmbnr form fieldset.form-columns-2 >div:first-child .input {
+        position: relative;
+        margin: 0px;
+    }
+    
+    .website-label.tpfrmbnr form fieldset.form-columns-2 >div .input {
+        width: 100%;
+    }
+    .website-label.tpfrmbnr form fieldset input {
+        background: transparent;
+        width: 100%;
+        min-height: 64px;
+        padding: 10px 22px;
+        position: relative;
+        color: #fff;
+        border: 0px;
+        font-size: 18px;
+        border-radius: 50px;
+        font-weight: 500;
+    }
+    .website-label.tpfrmbnr form fieldset input::placeholder {
+        color: #464646;
+    }
+    
+    .website-label.tpfrmbnr form ul.hs-error-msgs.inputs-list li {
+        position: absolute;
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        bottom: -25px;
+        color: #ff0000;
+        left: 21px;
+        font-weight: 400;
+    }
+    
+    .website-label.tpfrmbnr form .hs_error_rollup {
+        display: none;
+    }
+    
     /* animations */
     @keyframes tilt-shaking {
         0% { transform: rotate(0deg); }
@@ -1972,8 +2070,7 @@
             transform: translateX(100%);
         }
     }
-    
-        
+  
     /* media query start */
 
     @media(min-width: 992px){
@@ -2001,7 +2098,7 @@
         ul#uncontrolled-tab-example li {
             margin: 0px 6px;
         }
-        p{
+        p, span{
             font-size: 16px;
             line-height: 28px;
             margin-top:12px;
@@ -2019,7 +2116,7 @@
         h2{
             font-size: 34px;
         }
-        h1{
+        h1, h1 span{
             font-size: 48px;
         }
         h5 {
@@ -2030,11 +2127,9 @@
         }
         .counter-main label span {
             font-size: 60px;}
-            .number-main .card h4{
-                font-size: 24px;
-            }
-            .number-main .card h3{
-                font-size: 54px;
+            .number-main .card h4 {
+                font-size: 34px;
+                margin: 20px 0px 12px 0px;
             }
             .number-main .card p {
                 min-height: unset;
@@ -2055,7 +2150,7 @@
                 .contact-info-sub {
                     padding: 10px 6px 11px 46px;
                 }
-                .contact-info h4{
+                .contact-info h3{
                     font-size: 28px;
                 }
                 form.contact-right-form h3 {
@@ -2070,7 +2165,7 @@
             font-size: 14px;
         }
     
-    h1{
+    h1, h1 span{
         font-size: 40px;    
     }
     .award-main ul li {
@@ -2122,11 +2217,12 @@
         padding: 30px 5px;
 
     }
-    .number-main .card h3 {
-        font-size: 36px;}
-    .number-main .card h4 {
-        font-size: 24px;
+    .number-main .card span{
+        margin-top: 0px;
     }
+    .number-main .card h2 {
+        font-size: 36px;}
+   
     .number-main .card p {
         font-size: 14px;
     }
@@ -2166,6 +2262,7 @@
         line-height: 34px;
         padding: 11px 6px;
         max-width: 169px;
+
     }
     ul#uncontrolled-tab-example li {
         margin: 0px 4px;
@@ -2285,7 +2382,10 @@
             }
             form.contact-right-form h3 {
                 font-size: 20px;}
-        }
+                section.technical-main.py-5 {
+                    padding-bottom: 0 !important;
+                }
+            }
     @media(max-width: 767px){
         
         .footer-sub h5 {
@@ -2380,6 +2480,7 @@
             font-size: 16px;
             max-width: 100%;
             width: 100%;
+            border-radius: 12px;
         }
         .tab-main .content{
             padding: 20px;
@@ -2391,7 +2492,7 @@
         margin-bottom: 25px;
         width: 100%;
     }
-    .heading-main h3 {
+    .heading-main h2, .heading-main h2 span {
         font-size: 26px;
         line-height: 36px;
     }
@@ -2441,7 +2542,7 @@
     form.contact-right-form {
         padding: 20px;
     }
-    .banner-content h1 {
+    .banner-content h1,.banner-content h1 span {
         line-height: 40px;
         font-size: 34px;
     }
@@ -2584,6 +2685,12 @@
         .ppc-card img {
             width: 26px;
         }
+        .tab-main .image-content .image img {
+            width: 100%;
+            height: auto !important;
+            border-radius: 12px;
+        }
+
     /*end*/
 
     }

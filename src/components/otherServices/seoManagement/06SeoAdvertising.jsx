@@ -53,10 +53,10 @@ const SeoAdvertising = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-5">
-              <h3>
+              <h2>
                 <span>PPC Advertising</span> Service In India
-              </h3>
-              <p>Here’s a list of our pay-per-click marketing services in India:</p>
+              </h2>
+              <span className="mb-2 d-inline-block">Here’s a list of our pay-per-click marketing services in India:</span>
             </div>
           </div>
           <div className="row">

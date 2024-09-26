@@ -6,9 +6,9 @@ const SeoDisplayCards = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-4">
-            <h3>
+            <h2>
               Our <span>Work</span>
-            </h3>
+            </h2>
             <p>
               Lorem simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been thestandard dummy text ever since the 1500s

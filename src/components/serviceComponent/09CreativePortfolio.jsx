@@ -81,12 +81,12 @@ const CreativePortfolio = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12">
             <div className="heading-main text-center pb-2 heading-content">
-              <h3>
+              <h2>
                 Our <span>Portfolio</span>
-              </h3>
-              <p>
+              </h2>
+              <span className="d-inline-block mb-2">
               Don&apos;t just take our word for it. Check out our portfolio to see examples of our work.
-              </p>
+              </span>
             </div>
 
             <div className="creativeprtfl">

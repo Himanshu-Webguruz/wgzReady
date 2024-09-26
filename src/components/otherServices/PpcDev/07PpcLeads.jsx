@@ -9,15 +9,15 @@ const PpcLeads = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
-              <h3>
+              <h2>
                 How Our PPC Service Can Increase Your{" "}
                 <span> Leads & Scale</span>
-              </h3>
-              <p>
+              </h2>
+              <span>
                 As a renowned digital marketing company, we utilize
                 top-of-the-line tools to design an inbound marketing plan for
                 our customers.
-              </p>
+              </span>
             </div>
           </div>
           <div className="row d-flex align-items-center py-3">

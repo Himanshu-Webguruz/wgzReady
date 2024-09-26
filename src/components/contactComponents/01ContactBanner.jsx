@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ContactClient from "../homeComponents/clientcomp/ContactClient";
+import HubSpotFormV2 from "@/utils/formsHubspot/hubform";
 
 const ContactBanner = () => {
   return (
@@ -26,6 +27,9 @@ const ContactBanner = () => {
               </div>
             </div>
             <ContactClient />
+            {/* <div className="col-sm-6 col-xs-12 ">
+            <HubSpotFormV2/>
+            </div> */}
           </div>
         </div>
       </section>

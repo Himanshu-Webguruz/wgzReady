@@ -46,13 +46,12 @@ function Serviceprovide() {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main pb-5">
-              <h3>
+              <h2>
                 <span>HubSpot Services</span> We Provide
-              </h3>
-              <p>
-              From website development to CRM integration, our comprehensive HubSpot services can help you achieve your business goals.
-                
-              </p>
+              </h2>
+              <span className="mb-4 d-inline-block">
+              From website development to CRM integration, our comprehensive HubSpot services can help you achieve your business goals. 
+              </span>
             </div>
 
             <div className="servdvlpmnt">

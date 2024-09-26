@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-import ExploreIcon from "/public/images/marketing-left.png";
+import ExploreIcon from "/public/images/blogimages/blogexplore1.svg";
 import ExploreArrow from "/public/images/explore-next-icons.png";
 
-import Leftseo from "/public/images/left-seo.png";
-import Leftppc from "/public/images/left-ppc.png";
-import Leftsocialmedia from "/public/images/left-social-media.png";
-import Leftwebdesign from "/public/images/left-web-design.png";
-import Leftinternet from "/public/images/left-internet.png";
+import Leftseo from "/public/images/blogimages/blogexplore2.svg";
+import Leftppc from "/public/images/blogimages/blogexplore3.svg";
+import Leftsocialmedia from "/public/images/blogimages/blogexplore4.svg";
+import Leftwebdesign from "/public/images/blogimages/blogexplore5.svg";
+import Leftinternet from "/public/images/blogimages/blogexplore6.svg";
 
 import Image from "next/image";
 const ExploreList = () => {
@@ -20,9 +20,7 @@ const ExploreList = () => {
             <Link href="#">
               Marketing <Image src={ExploreArrow} alt="Image" />
             </Link>
-            <p>
-            Expert insights and strategies inside.
-            </p>
+            <p>Expert insights and strategies inside.</p>
           </div>
         </div>
       </div>
@@ -34,9 +32,7 @@ const ExploreList = () => {
             <Link href="#">
               SEO <Image src={ExploreArrow} alt="Image" />
             </Link>
-            <p>
-            Climb the SERPs with these proven SEO tactics.
-            </p>
+            <p>Climb the SERPs with these proven SEO tactics.</p>
           </div>
         </div>
       </div>
@@ -48,9 +44,7 @@ const ExploreList = () => {
             <Link href="#">
               PPC <Image src={ExploreArrow} alt="Image" />
             </Link>
-            <p>
-            Maximize your RoI with PPC optimization tips.
-            </p>
+            <p>Maximize your RoI with PPC optimization tips.</p>
           </div>
         </div>
       </div>
@@ -62,9 +56,7 @@ const ExploreList = () => {
             <Link href="#">
               Social Media <Image src={ExploreArrow} alt="Image" />
             </Link>
-            <p>
-            Explore strategies for social media growth.
-            </p>
+            <p>Explore strategies for social media growth.</p>
           </div>
         </div>
       </div>
@@ -76,9 +68,7 @@ const ExploreList = () => {
             <Link href="#">
               Web Design <Image src={ExploreArrow} alt="Image" />
             </Link>
-            <p>
-            Tips for effective and responsive web design.
-            </p>
+            <p>Tips for effective and responsive web design.</p>
           </div>
         </div>
       </div>
@@ -91,7 +81,7 @@ const ExploreList = () => {
               Internet <Image src={ExploreArrow} alt="Image" />
             </Link>
             <p>
-            Essential internet marketing tips for success in the online world.
+              Essential internet marketing tips for success in the online world.
             </p>
           </div>
         </div>

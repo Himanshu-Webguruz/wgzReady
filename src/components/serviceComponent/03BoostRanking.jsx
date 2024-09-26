@@ -1,6 +1,7 @@
 import Image from "next/image";
 import dollar from "../../../public/images/serviceImages/dollar-fig.png";
 import ServiceFormCl from "./ServiceFormCl";
+import DigitalForm from "@/utils/formsHubspot/DigitalForm";
 
 const BoostRanking = () => {
   return (
@@ -9,9 +10,9 @@ const BoostRanking = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-xs-12 content-left heading-main">
-              <h3>
+              <h2>
                 <span>Marketing Strategies </span> to Get You Growing
-              </h3>
+              </h2>
               <p className="mt-3 mb-4">
               People don&apos;t buy what you do, they buy why you do it. We&apos;ve got the right digital strategy to make the world talk about you.
               </p>
@@ -45,6 +46,7 @@ const BoostRanking = () => {
                   <li>Scalable Solutions</li>
                 </ul>
                 <ServiceFormCl />
+                {/* <DigitalForm/> */}
               </div>
             </div>
           </div>

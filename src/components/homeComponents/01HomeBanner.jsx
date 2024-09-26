@@ -1,4 +1,5 @@
 import HomeClient from "@/components/homeComponents/clientcomp/HomeClient";
+// import HubSpotForm from "@/utils/formsHubspot/HubspotForm";
 
 const HomeBanner = () => {
   return (
@@ -20,10 +21,12 @@ const HomeBanner = () => {
           </div>
           <div className="col col-sm-8 col-xs-12 banner-content">
             <h1>
-            Crafting <span className="animate-charcter"> Websites & Digital Marketing Strategies</span>{" "}
-              that Convert
+              Crafting <span className="animate-charcter">Websites & Digital Marketing Strategies </span> that Convert
             </h1>
-            <p className="mt-4">Your Digital Vision, Our Technical Brilliance</p>
+            <p className="mt-4">
+              Your Digital Vision, Our Technical Brilliance
+            </p>
+            {/* <HubSpotForm/> */}
             <HomeClient />
           </div>
         </div>

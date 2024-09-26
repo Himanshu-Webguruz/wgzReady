@@ -5,18 +5,18 @@ const CounterHome = () => {
     <section className="counter-main py-5">
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-xs-12 heading-main text-center pb-4">
-            <h3>
+          <div className="col-sm-12 col-xs-12 heading-main text-center pb-0">
+            <h2>
               We Are Your <span>Digital Partner for Growth</span>
-            </h3>
-            <p>Transforming Ideas into Online Success</p>
+            </h2>
+            <p className="my-3">Transforming Ideas into Online Success</p>
           </div>
         </div>
         <div className="row">
           <div className="col col-xs-12">
             <label>
               <SlotCounter value={["1", "6", "+"]} />
-              <p>Years of Experience</p>
+              <p>Years of Excellence</p>
             </label>
           </div>
           <div className="col col-xs-12">

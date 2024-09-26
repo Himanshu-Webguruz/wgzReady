@@ -11,9 +11,9 @@ const OurSuccessStories = () => {
       <div className="container">
         <div className="row wrap-align-dev-succes">
           <div className="col-md-4">
-            <h5 className="dev-stories-succes-title">
+            <h2 className="dev-stories-succes-title">
               Our <span> Portfolio </span>
-            </h5>
+            </h2>
             <p className="dev-stories-succes-peragraph">
             Explore our diverse range of successful projects.
 

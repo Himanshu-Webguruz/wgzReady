@@ -70,4 +70,6 @@ const page = async ({ searchParams }) => {
 export default page;
 export const metadata = {
   title: "Browse and Read Our Latest Web Technology Blogs - Webguruz",
+  description:
+    "Read insightful articles on web development, digital marketing, SEO, PPC, and SMO at Webguruz Blogs. Stay updated with the latest trends to boost your business.",
 };
