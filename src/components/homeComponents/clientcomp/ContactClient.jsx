@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import validator from "validator";
+
 const ContactClient = () => {
   const initialFormData = {
     name: "",
@@ -44,22 +45,29 @@ const ContactClient = () => {
       console.log("Form Submitted:", formData);
 
       try {
+        const formdata = new FormData();
+        formdata.append("your-name", formData.name);
+        formdata.append("your-email", formData.email);
+        formdata.append("number", formData.phone);
+        formdata.append("your-message", formData.projectDetails);
+        formdata.append("_wpcf7_unit_tag", "wpcf7-f7908-p7932-o5");
+
+        const requestOptions = {
+          method: "POST",
+          body: formdata,
+          redirect: "follow",
+        };
+
         const response = await fetch(
-          "https://jsonplaceholder.typicode.com/posts",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(formData),
-          }
+          "https://webguruz.in/wp-json/contact-form-7/v1/contact-forms/7908/feedback",
+          requestOptions
         );
 
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
 
-        const data = await response.json();
+        const data = await response.text();
         console.log("Response from server:", data);
 
         // Reset the form data to initial state

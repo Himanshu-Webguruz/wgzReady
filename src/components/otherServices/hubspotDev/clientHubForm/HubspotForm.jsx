@@ -1,5 +1,4 @@
 "use client";
-import CommonServicesForm from "@/utils/formsHubspot/CommonServicesForm";
 import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
@@ -46,26 +45,32 @@ const HubspotForm = () => {
 
   const handleSubmit = async () => {
     if (validateForm()) {
-      console.log("Form Submitted:", formData);
+      const fullName = `${formData.firstName} ${formData.lastName}`;
+      const formdata = new FormData();
+      formdata.append("your-name", fullName);
+      formdata.append("your-email", formData.email);
+      formdata.append("number", formData.phone);
+      formdata.append("your-message", formData.projectDetails);
+      formdata.append("_wpcf7_unit_tag", "wpcf7-f7908-p7932-o5");
+
+      const requestOptions = {
+        method: "POST", // Changed to POST
+        body: formdata,
+        redirect: "follow",
+      };
 
       try {
         const response = await fetch(
-          "https://jsonplaceholder.typicode.com/posts",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(formData),
-          }
+          "https://webguruz.in/wp-json/contact-form-7/v1/contact-forms/7908/feedback",
+          requestOptions
         );
 
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
 
-        const data = await response.json();
-        console.log("Response from server:", data);
+        const result = await response.text();
+        console.log("Response from server:", result);
 
         // Reset the form data to initial state
         setFormData(initialFormData);
@@ -79,74 +84,76 @@ const HubspotForm = () => {
   };
 
   return (
-    <>
-      <div className="content-right form">
-        <div className="quote-main">
-          <h4>Contact Us Today</h4>
-        </div>
-        <div className="quote-content ">
-          <form
-            className="quote-form"
-            onSubmit={(e) => e.preventDefault()}
-          >
-            <div className="merge-main">
-              <label>
-                <input
-                  type="text"
-                  placeholder="First Name"
-                  value={formData.firstName}
-                  onChange={(e) => handleChange("firstName", e.target.value)}
-                />
-                {errors.firstName && <span className="error">{errors.firstName}</span>}
-              </label>
-              <label>
-                <input
-                  type="text"
-                  placeholder="Last Name"
-                  value={formData.lastName}
-                  onChange={(e) => handleChange("lastName", e.target.value)}
-                />
-                {errors.lastName && <span className="error">{errors.lastName}</span>}
-              </label>
-            </div>
-            <div className="merge-main">
-              <label>
-                <input
-                  type="text"
-                  placeholder="Email Address"
-                  value={formData.email}
-                  onChange={(e) => handleChange("email", e.target.value)}
-                />
-                {errors.email && <span className="error">{errors.email}</span>}
-              </label>
-              <label>
-                <PhoneInput
-                  country={"in"}
-                  placeholder="Phone Number"
-                  value={formData.phone}
-                  onChange={(phone) => handleChange("phone", phone)}
-                />
-                {errors.phone && <span className="error">{errors.phone}</span>}
-              </label>
-            </div>
+    <div className="content-right form">
+      <div className="quote-main">
+        <h4>Contact Us Today</h4>
+      </div>
+      <div className="quote-content ">
+        <form className="quote-form" onSubmit={(e) => e.preventDefault()}>
+          <div className="merge-main">
             <label>
-              <textarea
-                placeholder="Brief About The Project"
-                value={formData.projectDetails}
-                onChange={(e) => handleChange("projectDetails", e.target.value)}
-              ></textarea>
-              {errors.projectDetails && (
-                <span className="error">{errors.projectDetails}</span>
+              <input
+                type="text"
+                placeholder="First Name"
+                value={formData.firstName}
+                onChange={(e) => handleChange("firstName", e.target.value)}
+              />
+              {errors.firstName && (
+                <span className="error">{errors.firstName}</span>
               )}
             </label>
-            <button type="button" className="explore-btn" onClick={handleSubmit}>
-              Get Started
-            </button>
-          </form>
-        </div>
+            <label>
+              <input
+                type="text"
+                placeholder="Last Name"
+                value={formData.lastName}
+                onChange={(e) => handleChange("lastName", e.target.value)}
+              />
+              {errors.lastName && (
+                <span className="error">{errors.lastName}</span>
+              )}
+            </label>
+          </div>
+          <div className="merge-main">
+            <label>
+              <input
+                type="text"
+                placeholder="Email Address"
+                value={formData.email}
+                onChange={(e) => handleChange("email", e.target.value)}
+              />
+              {errors.email && <span className="error">{errors.email}</span>}
+            </label>
+            <label>
+              <PhoneInput
+                country={"in"}
+                placeholder="Phone Number"
+                value={formData.phone}
+                onChange={(phone) => handleChange("phone", phone)}
+              />
+              {errors.phone && <span className="error">{errors.phone}</span>}
+            </label>
+          </div>
+          <label>
+            <textarea
+              placeholder="Brief About The Project"
+              value={formData.projectDetails}
+              onChange={(e) => handleChange("projectDetails", e.target.value)}
+            ></textarea>
+            {errors.projectDetails && (
+              <span className="error">{errors.projectDetails}</span>
+            )}
+          </label>
+          <button
+            type="button"
+            className="explore-btn"
+            onClick={handleSubmit}
+          >
+            Get Started
+          </button>
+        </form>
       </div>
-      {/* <CommonServicesForm/> */}
-    </>
+    </div>
   );
 };
 
