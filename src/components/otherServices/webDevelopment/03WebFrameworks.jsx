@@ -85,7 +85,7 @@ const WebFrameworks = () => {
                     </div>
                   </div>
                   <div class="flip-card-back">
-                    <p>Empower your team to easily manage and update your website's content with our custom content management systems (CMS). We develop user-friendly interfaces that allow you to make changes without requiring technical expertise.</p>
+                    <p>Empower your team to easily manage and update your website&apos;s content with our custom content management systems (CMS). We develop user-friendly interfaces that allow you to make changes without requiring technical expertise.</p>
                   </div>
                 </div>
               </div>
