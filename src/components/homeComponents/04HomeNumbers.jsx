@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import numbercards from "@/utils/04utilHomeNumbers";
+const BASE_URL_API = process.env.NEXT_PUBLIC_BASE_URL_API;
 
 const HomeNumbers = () => {
   const [website, setWebsite] = useState("");
@@ -73,7 +74,7 @@ const HomeNumbers = () => {
       };
 
       const response = await fetch(
-        "https://webguruz.in/wp-json/contact-form-7/v1/contact-forms/232/feedback",
+        `${BASE_URL_API}/wp-json/contact-form-7/v1/contact-forms/232/feedback`,
         requestOptions
       );
 

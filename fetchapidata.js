@@ -5,6 +5,9 @@ const mongoose = require("mongoose");
 // MongoDB connection
 const mongoURI = process.env.MONGODB_URI; // Replace with your MongoDB URI
 // mongodb://wgzadmin:QCkm96wlffVIC4Oedf@216.10.245.120:20456/
+
+const BASE_URL_API = process.env.NEXT_PUBLIC_BASE_URL_API;
+
 mongoose
   .connect(mongoURI)
   .then(() => console.log("MongoDB connected"))
@@ -31,7 +34,7 @@ async function fetchAndStorePosts(page = 1) {
   try {
     const perPage = 10; // Number of posts per page
     const response = await axios.get(
-      `https://webguruz.in/wp-json/wp/v2/posts/?page=${page}&per_page=${perPage}`
+      `${BASE_URL_API}/wp-json/wp/v2/posts/?page=${page}&per_page=${perPage}`
     );
 
     // Save posts to MongoDB

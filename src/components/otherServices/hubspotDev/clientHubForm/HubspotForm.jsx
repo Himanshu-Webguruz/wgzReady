@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import validator from "validator";
+const BASE_URL_API = process.env.NEXT_PUBLIC_BASE_URL_API;
 
 const HubspotForm = () => {
   const initialFormData = {
@@ -61,7 +62,7 @@ const HubspotForm = () => {
 
       try {
         const response = await fetch(
-          "https://webguruz.in/wp-json/contact-form-7/v1/contact-forms/7908/feedback",
+          `${BASE_URL_API}/wp-json/contact-form-7/v1/contact-forms/7908/feedback`,
           requestOptions
         );
 

@@ -2,6 +2,8 @@
 import React, { useState, useRef } from "react";
 import validator from "validator";
 import { useRouter } from "next/navigation";
+const BASE_URL_API = process.env.NEXT_PUBLIC_BASE_URL_API;
+
 
 const HomeClient = () => {
   const [website, setWebsite] = useState("");
@@ -67,7 +69,7 @@ const HomeClient = () => {
       };
 
       const response = await fetch(
-        "https://webguruz.in/wp-json/contact-form-7/v1/contact-forms/232/feedback",
+       `${BASE_URL_API}/wp-json/contact-form-7/v1/contact-forms/232/feedback`,
         requestOptions
       );
 
