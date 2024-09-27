@@ -8,15 +8,18 @@ const ContentBlogClient = ({ post, categoryLinks }) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      post.acf.post_inner_details.forEach((detail, index) => {
-        const section = document.getElementById(`section-${index}`);
-        if (section) {
-          const rect = section.getBoundingClientRect();
-          if (rect.top <= 120 && rect.bottom >= 30) {
-            setActiveSection(index);
-          }
-        }
-      });
+      {
+        post.acf.post_inner_details.length > 0 &&
+          post.acf.post_inner_details.forEach((detail, index) => {
+            const section = document.getElementById(`section-${index}`);
+            if (section) {
+              const rect = section.getBoundingClientRect();
+              if (rect.top <= 120 && rect.bottom >= 30) {
+                setActiveSection(index);
+              }
+            }
+          });
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -38,41 +41,57 @@ const ContentBlogClient = ({ post, categoryLinks }) => {
   return (
     <div className="row">
       <div className="col-sm-3 col-xs-12">
-        <span className="tag">{post.acf.list_all_category.join(", ")}</span>
+        {post.acf.list_all_category && (
+          <span className="tag">{post.acf.list_all_category.join(", ")}</span>
+        )}
+
         <div className="author-card">
           <h4>Author</h4>
           <div className="author-content-img d-flex align-items-center mb-4">
-            <Image
+            {post.yoast_head_json.schema["@graph"][4] && (
+              <Image
               src={post.yoast_head_json.schema["@graph"][4].image.url}
               alt="Author"
               width={20}
               height={20}
             />
+            )}
+            
             <div className="content">
-              <h5> {post.yoast_head_json.schema["@graph"][4].image.caption}</h5>
+              {post.yoast_head_json.schema["@graph"][4] &&(
+ <h5> {post.yoast_head_json.schema["@graph"][4].image.caption}</h5>
+              )}
+             
               <p className="mb-0">Webguruz Technology Pvt. Ltd.</p>
             </div>
           </div>
-          <p>{post.yoast_head_json.schema["@graph"][4].description}</p>
+          {post.yoast_head_json.schema["@graph"][4] &&(
+ <p>{post.yoast_head_json.schema["@graph"][4].description}</p>
+          )}
+         
         </div>
         <div className="table-content">
           <h4>Table of Contents</h4>
           <ul>
-            {post.acf.post_inner_details.map((detail, index) => (
-              <li
-                key={index}
-                className={activeSection === index ? "content-active" : ""}
-              >
-                {detail.heading && (
-                  <span
-                    style={{ cursor: "pointer" }} // Make it look like a link
-                    onClick={() => scrollToSection(index)}
+            {post.acf.post_inner_details.length > 0 && (
+              <div className="inner-description">
+                {post.acf.post_inner_details.map((detail, index) => (
+                  <li
+                    key={index}
+                    className={activeSection === index ? "content-active" : ""}
                   >
-                    {detail.heading}
-                  </span>
-                )}
-              </li>
-            ))}
+                    {detail.heading && (
+                      <span
+                        style={{ cursor: "pointer" }} // Make it look like a link
+                        onClick={() => scrollToSection(index)}
+                      >
+                        {detail.heading}
+                      </span>
+                    )}
+                  </li>
+                ))}
+              </div>
+            )}
           </ul>
         </div>
       </div>

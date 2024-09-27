@@ -29,9 +29,9 @@ const WebFrameworks = () => {
             <div className="col-sm-7 col-xs-12">
               <div className="row">
                 <div className="col-sm-6 col-xs-12">
-                  <div class="flip-card image-content">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
+                  <div className="flip-card image-content">
+                    <div className="flip-card-inner">
+                      <div className="flip-card-front">
                           <div className="image">
                           <Image src={webimage1} alt="Front End Development" />
                         </div>
@@ -42,16 +42,16 @@ const WebFrameworks = () => {
                           <p className="color-wt">Front-end Development</p>
                         </div>
                       </div>
-                      <div class="flip-card-back">
+                      <div className="flip-card-back">
                         <p>We utilize the latest design trends and technologies to create websites that are not only aesthetically pleasing but also highly functional and user-friendly.</p> 
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-6 col-xs-12">
-                <div class="flip-card image-content">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
+                <div className="flip-card image-content">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
                       <div className="image">
                       <Image src={webimage2} alt="Ecommerce Development" />
                     </div>
@@ -62,7 +62,7 @@ const WebFrameworks = () => {
                       <p className="color-wt">E-Commerce Development</p>
                     </div>
                   </div>
-                  <div class="flip-card-back">
+                  <div className="flip-card-back">
                     <p>Our e-commerce development experts specialize in building online stores that drive sales and provide a seamless shopping experience.</p>
                   </div>
                 </div>
@@ -71,9 +71,9 @@ const WebFrameworks = () => {
               </div>
               <div className="row">
                 <div className="col-sm-12 col-xs-12">
-                <div class="flip-card image-content">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
+                <div className="flip-card image-content">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
                       <div className="image">
                       <Image src={webimage4} alt="CMS Development" />
                     </div>
@@ -84,7 +84,7 @@ const WebFrameworks = () => {
                       <p className="color-wt">CMS Development</p>
                     </div>
                   </div>
-                  <div class="flip-card-back">
+                  <div className="flip-card-back">
                     <p>Empower your team to easily manage and update your website&apos;s content with our custom content management systems (CMS). We develop user-friendly interfaces that allow you to make changes without requiring technical expertise.</p>
                   </div>
                 </div>
@@ -93,9 +93,9 @@ const WebFrameworks = () => {
               </div>
             </div>
             <div className="col-sm-5 col-xs-12 flip-image-right">
-            <div class="flip-card image-content">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+            <div className="flip-card image-content">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                   <div className="image">
                   <Image src={webimage} alt="Back-end development" />
                 </div>
@@ -106,7 +106,7 @@ const WebFrameworks = () => {
                   <p className="color-wt">Back-end Development</p>
                 </div>
               </div>
-              <div class="flip-card-back">
+              <div className="flip-card-back">
                 <p>Our website developers possess expertise in building robust and scalable server-side infrastructure. We ensure that your website performs flawlessly, handles high traffic volumes, and provides a seamless user experience.</p>
               </div>
             </div>
@@ -117,9 +117,9 @@ const WebFrameworks = () => {
             <div className="col-sm-7 col-xs-12">
               <div className="row">
                 <div className="col-sm-6 col-xs-12">
-                <div class="flip-card image-content">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
+                <div className="flip-card image-content">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
                       <div className="image">
                       <Image src={webimage7} alt="PWA's Development" />
                     </div>
@@ -130,16 +130,16 @@ const WebFrameworks = () => {
                       <p className="color-wt">PWAs Development</p>
                     </div>
                   </div>
-                  <div class="flip-card-back">
+                  <div className="flip-card-back">
                     <p>Our Progressive Web App (PWA) development services deliver a native-like experience, even offline.</p>
                   </div>
                 </div>
               </div>
                 </div>
                 <div className="col-sm-6 col-xs-12">
-                <div class="flip-card image-content">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
+                <div className="flip-card image-content">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
                       <div className="image">
                       <Image src={webimage8} alt="Custom Web Development" />
                     </div>
@@ -150,7 +150,7 @@ const WebFrameworks = () => {
                       <p className="color-wt">Custom Web Development</p>
                     </div>
                   </div>
-                  <div class="flip-card-back">
+                  <div className="flip-card-back">
                     <p>Our custom web development services are tailored to your exact specifications. We work closely with you to understand your vision and create a website that perfectly aligns with your brand and goals.</p>
                   </div>
                 </div>
@@ -159,9 +159,9 @@ const WebFrameworks = () => {
               </div>
               <div className="row">
                 <div className="col-sm-12 col-xs-12">
-                <div class="flip-card image-content">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
+                <div className="flip-card image-content">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
                       <div className="image">
                       <Image src={webimage5} alt="Open Source Platform Development" />
                     </div>
@@ -172,7 +172,7 @@ const WebFrameworks = () => {
                       <p className="color-wt">Open Source Platform Development</p>
                     </div>
                   </div>
-                  <div class="flip-card-back">
+                  <div className="flip-card-back">
                     <p>Our team of experienced developers can tailor platforms like WordPress and Drupal to meet your specific needs, ensuring that your website stands out from the competition.</p>
                   </div>
                 </div>
@@ -181,9 +181,9 @@ const WebFrameworks = () => {
               </div>
             </div>
             <div className="col-sm-5 col-xs-12 flip-image-right">
-            <div class="flip-card image-content">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+            <div className="flip-card image-content">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                   <div className="image">
                   <Image src={webimage6} alt="Magento Development" />
                 </div>
@@ -194,7 +194,7 @@ const WebFrameworks = () => {
                   <p className="color-wt">Magento Development</p>
                 </div>
               </div>
-              <div class="flip-card-back">
+              <div className="flip-card-back">
                 <p>Our developers possess deep expertise in this highly scalable and feature-rich e-commerce platform, enabling us to create customized solutions that meet your specific needs.</p>
               </div>
             </div>

@@ -111,8 +111,12 @@ const AllPost = ({ posts, currentPage, totalPages, pageNumber }) => {
                     }}
                   />
                   <span className="name">
-                    {post.yoast_head_json.schema["@graph"][4].image?.caption ||
-                      "No caption available"}{" "}
+                    {post.yoast_head_json.schema["@graph"][4] && (
+                      <span>
+                        {post.yoast_head_json.schema["@graph"][4].image
+                          ?.caption || "No caption available"}
+                      </span>
+                    )}
                     <span className="date">
                       {post.yoast_head_json.schema[
                         "@graph"

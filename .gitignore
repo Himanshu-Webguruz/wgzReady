@@ -9,6 +9,9 @@
 # testing
 /coverage
 
+#fetchingfile
+/fetchapidata.js
+
 # next.js
 /.next/
 /out/

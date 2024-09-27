@@ -79,6 +79,7 @@ const page = async ({ params }) => {
                 height={431}
                 alt="singleblog"
               />
+              <h1 className="mb-3 inner-heading">{post.title.rendered}</h1>
               <div className="published-main pt-4 d-flex align-items-center justify-content-between">
                 <ul className="d-flex align-items-center">
                   <li className="me-2 pe-2">

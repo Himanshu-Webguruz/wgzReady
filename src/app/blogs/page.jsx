@@ -21,6 +21,7 @@ const page = async ({ searchParams }) => {
     <>
       <section className="blog-content-main">
         <div className="container">
+        <h1 className="text-center mb-4">Our <span>Blogs</span></h1>
           <div className="row">
             <div className="col-sm-12 col-xs-12">
               <ul>
