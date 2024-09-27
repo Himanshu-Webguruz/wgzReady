@@ -80,59 +80,45 @@ const Footer = () => {
             <h3>Industries</h3>
             <ul>
               <li>
-                <Link href="#">Our company</Link>
+                <Link href="#">E-commerce</Link>
               </li>
               <li>
-                <Link href="#">Core Team</Link>
+                <Link href="#">Healthcare</Link>
               </li>
               <li>
-                <Link href="#">Career</Link>
+                <Link href="#">Education</Link>
               </li>
               <li>
-                <Link href="#">CSR</Link>
+                <Link href="#">Finance</Link>
               </li>
               <li>
-                <Link href="#">How We Work</Link>
+                <Link href="#">Real Estate</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div className="col-sm-2 col-xs-12 footer-sub">
+            <h3>Portfolio</h3>
+            <ul>
+              <li>
+                <Link href="#">Robert James Realty</Link>
+              </li>
+              <li>
+                <Link href="#">Global IP Partners</Link>
+              </li>
+              <li>
+                <Link href="#">High Court of Punjab and Haryana</Link>
               </li>
             </ul>
           </div>
           <div className="col-sm-2 col-xs-12 footer-sub">
-            <h3>About</h3>
+            <h3>Resources</h3>
             <ul>
               <li>
-                <Link href="#">Our company</Link>
+                <Link href="#">Blogs</Link>
               </li>
               <li>
-                <Link href="#">Core Team</Link>
-              </li>
-              <li>
-                <Link href="#">Career</Link>
-              </li>
-              <li>
-                <Link href="#">CSR</Link>
-              </li>
-              <li>
-                <Link href="#">How We Work</Link>
-              </li>
-            </ul>
-          </div>
-          <div className="col-sm-2 col-xs-12 footer-sub">
-            <h3>About</h3>
-            <ul>
-              <li>
-                <Link href="#">Our company</Link>
-              </li>
-              <li>
-                <Link href="#">Core Team</Link>
-              </li>
-              <li>
-                <Link href="#">Career</Link>
-              </li>
-              <li>
-                <Link href="#">CSR</Link>
-              </li>
-              <li>
-                <Link href="#">How We Work</Link>
+                <Link href="#">Infographics</Link>
               </li>
             </ul>
           </div>
