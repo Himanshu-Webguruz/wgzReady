@@ -20,6 +20,7 @@ const HomeTestimonial = () => {
   }, []);
 
   const settingsMain = {
+    autoplay: true,
     dots: false,
     infinite: true,
     speed: 500,
@@ -31,6 +32,7 @@ const HomeTestimonial = () => {
   };
 
   const settingsNav = {
+    autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 1,
     asNavFor: nav1, // Sync with main slider

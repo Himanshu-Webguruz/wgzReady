@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3000 -H webguruz.in ",
     "lint": "next lint"
   },
   "dependencies": {
@@ -17,14 +17,16 @@
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.3.28",
     "mongoose": "^8.6.2",
-    "next": "14.2.5",
+    "next": "^14.2.13",
     "react": "^18",
     "react-bootstrap": "^2.10.4",
+    "react-countup": "^6.5.3",
     "react-dom": "^18",
     "react-phone-input-2": "^2.15.1",
     "react-slick": "^0.30.2",
     "react-slot-counter": "^3.0.1",
     "redis": "^4.7.0",
+    "sharp": "^0.33.5",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.12",
     "validator": "^13.12.0"

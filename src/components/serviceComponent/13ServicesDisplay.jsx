@@ -1,4 +1,6 @@
-import SlotCounter from "react-slot-counter";
+"use client"
+import React from 'react';
+import CountUp from 'react-countup';
 
 const ServicesDisplay = () => {
   return (
@@ -15,25 +17,25 @@ const ServicesDisplay = () => {
         <div className="row">
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["2", "3", "0", "0", "+"]} />
+            <CountUp start={0} end={2300} duration={2} suffix="+"   separator="" />
               <p>Projects Launched</p>
             </label>
           </div>
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["5", "0", "+"]} />
+            <CountUp start={0} end={50} duration={2} suffix="+"/>
               <p>Experienced Marketers</p>
             </label>
           </div>
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["1", "6", "+"]} />
+            <CountUp start={0} end={16} duration={2} suffix="+"/>
               <p>Years of Expertise</p>
             </label>
           </div>
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["9", "6", "%"]} />
+            <CountUp start={0} end={96} duration={2} suffix="%"/>
               <p>Client Retention Rate</p>
             </label>
           </div>

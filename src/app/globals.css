@@ -425,6 +425,7 @@
     }
     .counter-main label:hover span, .counter-main label:hover p {
         color: #fff;
+        position: relative;
     }
     /* tabing start */
     .heading-main h3 {

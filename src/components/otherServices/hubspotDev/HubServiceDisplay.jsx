@@ -1,4 +1,6 @@
-import SlotCounter from "react-slot-counter";
+"use client"
+import React from 'react';
+import CountUp from 'react-countup';
 
 const HubServiceDisplay = () => {
   return (
@@ -15,19 +17,19 @@ const HubServiceDisplay = () => {
         <div className="row">
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["8", "0", "+"]} />
+              <CountUp start={0} end={80} duration={2} suffix="+"   separator="" />
               <p>Hubspot Clients</p>
             </label>
           </div>
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["4", "0", "+"]} />
+              <CountUp start={0} end={40} duration={2} suffix="+"   separator="" />
               <p> Hubspot Experts</p>
             </label>
           </div>
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["3", "0", "%"]} />
+              <CountUp start={0} end={30} duration={2} suffix="%"   separator="" />
               <p>Increase in HubSpot Campaign Efficiency</p>
             </label>
           </div>

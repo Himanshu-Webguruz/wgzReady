@@ -1,4 +1,6 @@
-import SlotCounter from "react-slot-counter";
+"use client"
+import React from 'react';
+import CountUp from 'react-countup';
 
 const CounterHome = () => {
   return (
@@ -15,25 +17,25 @@ const CounterHome = () => {
         <div className="row">
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["1", "6", "+"]} />
+              <CountUp start={0} end={16} duration={2} suffix="+"/>
               <p>Years of Excellence</p>
             </label>
           </div>
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["5", "M", "+"]} />
+              <CountUp start={0} end={5} duration={2} suffix="M+" />
               <p>Keywords Ranked</p>
             </label>
           </div>
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["1", "7", "0", "0", "+"]} />
+              <CountUp start={0} end={1700} duration={2} suffix="+"  separator="" />
               <p>Successful Projects</p>
             </label>
           </div>
           <div className="col col-xs-12">
             <label>
-              <SlotCounter value={["1", "0", "0", "+"]} />
+              <CountUp start={0} end={100} duration={2}  suffix="+" />
               <p>Digital Experts</p>
             </label>
           </div>
