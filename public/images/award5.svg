@@ -34,7 +34,7 @@
       }
 
       .cls-1 {
-        fillRule: evenodd;
+        fill-rule: evenodd;
       }
 
       .cls-2 {
@@ -65,11 +65,11 @@
       }
     </style>
   </defs>
-  <path className="cls-1" d="M66.282,137.313V39.143l36.791,37.131V50.026L57.09,3.607,11.1,50.026V76.275L47.893,39.143v98.17H66.282Z"/>
-  <text id="OP" className="cls-2" transform="translate(105.345 137.179) scale(3.55 3.929)">OP</text>
-  <text id="S" className="cls-3" transform="translate(319.74 138.364) scale(4.429 4.196)">S</text>
-  <text id="E" className="cls-3" transform="translate(428.028 138.364) scale(4.009 4.032)">E</text>
-  <text id="O" className="cls-3" transform="matrix(4.317, 0, -0.169, 4.032, 521.546, 138.364)">O</text>
-  <text id="s-2" data-name="s" className="cls-4" transform="translate(654.114 138.909) scale(4.271 4.621)">s</text>
-  <text id="Independent_Authority_on_Search_Vendors" data-name="Independent Authority on Search Vendors" className="cls-5" transform="translate(4.324 192.691) scale(4.324 4.327)">Independent Authority on Search Vendors</text>
+  <path class="cls-1" d="M66.282,137.313V39.143l36.791,37.131V50.026L57.09,3.607,11.1,50.026V76.275L47.893,39.143v98.17H66.282Z"/>
+  <text id="OP" class="cls-2" transform="translate(105.345 137.179) scale(3.55 3.929)">OP</text>
+  <text id="S" class="cls-3" transform="translate(319.74 138.364) scale(4.429 4.196)">S</text>
+  <text id="E" class="cls-3" transform="translate(428.028 138.364) scale(4.009 4.032)">E</text>
+  <text id="O" class="cls-3" transform="matrix(4.317, 0, -0.169, 4.032, 521.546, 138.364)">O</text>
+  <text id="s-2" data-name="s" class="cls-4" transform="translate(654.114 138.909) scale(4.271 4.621)">s</text>
+  <text id="Independent_Authority_on_Search_Vendors" data-name="Independent Authority on Search Vendors" class="cls-5" transform="translate(4.324 192.691) scale(4.324 4.327)">Independent Authority on Search Vendors</text>
 </svg>
