@@ -4,7 +4,9 @@ const mongoose = require("mongoose");
 
 
 // MongoDB connection
-const mongoURI = 'mongodb://admin:QCkm96wlgty6ffVIC4Oedf@216.10.245.120:20456/'; // Replace with your MongoDB URI
+const BASE_URL_API = process.env.NEXT_PUBLIC_BASE_URL_API;
+const mongoURI = process.env.MONGODB_URI; // Replace with your MongoDB URI
+
 // mongodb://wgzadmin:QCkm96wlffVIC4Oedf@216.10.245.120:20456/
 
 
