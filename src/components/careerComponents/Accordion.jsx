@@ -25,7 +25,7 @@ const AccordionItem = ({ title, jobs, isOpen, onClick }) => {
                     <span className="tooltip-text">Click to view job details</span>
                   </li>
                   <span className="opening-wgz">
-                    No of Opening : {job.acf.no_of_opening}
+                  No. of openings: {job.acf.no_of_opening}
                   </span>
                 </Link>
               ))}
