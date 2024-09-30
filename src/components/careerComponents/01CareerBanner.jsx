@@ -54,7 +54,7 @@ const CareerBanner = () => {
                     <span className="color-wt">for visionaries and creators.</span>
                   </h1>
                   <p className="mt-4">
-                    Consider yourself creative or technologically inclined. If so, we'd
+                    Consider yourself creative or technologically inclined. If so, we&apos;d
                     love for you to join our team and help us change the way the world sees
                     technology.
                   </p>
@@ -75,7 +75,7 @@ const CareerBanner = () => {
                     <span className="color-wt">for visionaries and creators.</span>
                   </h1>
                   <p className="mt-4">
-                    Consider yourself creative or technologically inclined. If so, we'd
+                    Consider yourself creative or technologically inclined. If so, we&apos;d
                     love for you to join our team and help us change the way the world sees
                     technology.
                   </p>
