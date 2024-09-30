@@ -32,14 +32,11 @@ const CmsForm = () => {
               <div className="heading-main">
                 <h2 className="text-white">
                   <strong>
-                    Get Secure and Flexible Solutions with CMS Development
-                    Company
+                  Your Trusted CMS Web Development Partner
                   </strong>
                 </h2>
                 <p className="text-white">
-                  Leverage OrangeMantra expertise to get a customised solution.
-                  Our CMS development services offer an end-to-end solution
-                  for your every need.
+                We are dedicated to crafting innovative content management systems that cater to your unique needs. With a team of expert developers and designers, we bring your vision to life, ensuring your platform is robust, scalable, and user-friendly.
                 </p>
               </div>
               <div className="drpldvlpmnt">

@@ -1,4 +1,5 @@
 import HomeClient from "@/components/homeComponents/clientcomp/HomeClient";
+import Image from "next/image";
 // import HubSpotForm from "@/utils/formsHubspot/HubspotForm";
 
 const HomeBanner = () => {
@@ -15,7 +16,7 @@ const HomeBanner = () => {
               width={"100%"}
               playsInline
             >
-              <source src="/video/baner-video.webm" type="video/mp4" />
+              <source src="/video/baner-video.webm" type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </div>

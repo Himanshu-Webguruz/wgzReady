@@ -3,14 +3,14 @@ import Whyrsimg from "../../../../public/images/drupalimg/whyrs.png";
 
 // Array to store reasons to hire the company
 const reasonsToHire = [
-  "Experienced Drupal development team",
-  "Transparent solutions",
-  "IP rights protection",
-  "Maintain oversight & control",
-  "Flexible engagement options",
-  "No contract lock-ins",
-  "Hand-picked vetted talent",
-  "ISO 9001:2015 certified processes",
+  "16+ Years of Experience in CMS Development",
+  "Tailored Solutions to Meet your Business Needs",
+  "Timely Delivery Without Compromising Quality",
+  "Comprehensive Support and Maintenance",
+  "Cutting-Edge Technology",
+  "Customer-Centric Approach",
+  "Proven Track Record",
+  "Competitive Pricing",
 ];
 
 const CmsHireUsPage = () => {
@@ -22,15 +22,11 @@ const CmsHireUsPage = () => {
             <div className="col-lg-7 col-md-7 col-sm-12 col-12">
               <div className="heading-main">
                 <h2 className="mb-2">
-                  Why Hire Us As Your CMS Website
-                  <span>Development Company?</span>
+                Why Choose Us for{" "} 
+                  <span> CMS Development Services?</span>
                 </h2>
                 <p>
-                  Webguruz is dedicated to delivering world-class CMS web
-                  development solutions to global clients. Our team of certified
-                  CMS web developers has years of experience in handling
-                  complex projects and offering innovative, scalable, and
-                  high-quality solutions.
+                We are an award-winning CMS development company delivering advanced content management solutions to businesses around the world. Our custom solutions are poised to solve even the most complex of your challenges in a cost-effective manner.
                 </p>
               </div>
               <div className="exphrs">

@@ -179,7 +179,7 @@ button.explore-btn {
     background-color: #fff;
     border: 1px solid #fff;
 }
-.contact-logo {
+/* .contact-logo {
     position: relative;
 }
 .contact-logo::before{
@@ -191,7 +191,7 @@ button.explore-btn {
     bottom: 0;
     background-color: #fbfbfb;
     z-index: -1;
-}
+} */
 /* media query */
 @media(max-width: 767px){
     .contact-banner h2{

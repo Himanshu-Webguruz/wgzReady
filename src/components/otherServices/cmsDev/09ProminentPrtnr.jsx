@@ -4,24 +4,24 @@ import promintimg from "../../../../public/images/drupalimg/prmnt.png";
 // Array for features of the Drupal web development partner
 const features = [
   {
-    title: "Higher Quality",
+    title: "WordPress",
     description:
-      "With superior CMS development services, our experts deliver qualitatively rich and quantifiable viable solutions for all types of industry domains.",
+      "The world's leading CMS, perfect for blogs, business sites, and portfolios. It offers an extensive library of plugins and themes, ensuring flexibility and customization for any project.",
   },
   {
-    title: "Competitive Costs",
+    title: "Joomla",
     description:
-      "Get real value for your investment with fair-priced CMS website development services that are strategized by their reliability, stability, and robustness.",
+      "A versatile CMS that strikes a balance between user-friendliness and complexity, Joomla is perfect for social networking sites and e-commerce applications, offering extensive customization options.",
   },
   {
-    title: "Proven Methodologies",
+    title: "Magento",
     description:
-      "As an experienced CMS consultant, we combine innovation with tried and tested methodologies that equip you with the required expertise to stay competitive.",
+      "An ideal choice for eCommerce solutions, Magento provides robust features and scalability, enabling businesses to create a powerful online store that can grow with their needs.",
   },
   {
-    title: "Flexibility",
+    title: "Drupal",
     description:
-      "Using the flexibility of the CMS platform, we create all kinds of web solutions, including blogs, business websites, and even a network of several sites.",
+      "Known for its flexibility and security, Drupal is excellent for large-scale, complex websites. It supports multiple users and roles, making it ideal for enterprise-level content management.",
   },
 ];
 
@@ -33,13 +33,12 @@ function ProminentPrtnr() {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main text-center">
               <h2>
-                What Makes Us a Prominent CMS Web <span>Development Partner?</span>
+              Our <span>Technology Stack</span>
               </h2>
               <span className="d-inline-block mb-4">
-                With our expertise, customized solutions, and ongoing support,
-                we help you 
+              At WebGuruz, we utilize a diverse tech stack to deliver exceptional <strong>CMS development services</strong>.  
                 <br/>
-                create a powerful online presence that drives results.
+                Our expertise spans popular platforms such as:
               </span>
             </div>
 

@@ -1,6 +1,6 @@
 // SVGIcons.js
 export const ecom1 = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSketch="http://www.bohemiancoding.com/sketch/ns" viewBox="0 0 32 32" version="1.1" style={{ enableBackground: 'new 0 0 32 32' }} stroke="none"
+    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnssketch="http://www.bohemiancoding.com/sketch/ns" viewBox="0 0 32 32" version="1.1" style={{ enableBackground: 'new 0 0 32 32' }} stroke="none"
         strokeWidth="0.7" fill="#000" fillRule="evenodd" height="24" className="cf-icon-svg">
         <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"        >
             <g id="Icon-Set" transform="translate(-516.000000, -723.000000)" fill="#000000">

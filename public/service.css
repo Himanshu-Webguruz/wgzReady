@@ -301,8 +301,19 @@ ul.toolsicon-list li:hover{
   box-shadow: none;
 }
 .digital-marketing .container {
-  max-width: 980px;
+  max-width: 100%;
   margin: auto;
+  padding: 0px;
+}
+.digital-marketing .container .row {
+  max-width: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.digital-marketing .container .row .card-content {
+  max-width: 1320px;
+  margin: auto;
+  padding: 0px 20px;
 }
 .digital-marketing .image img {
   width: auto;
@@ -386,7 +397,7 @@ text-align: center;
 }
 .digital-marketing .image img {
 width: 100%;
-/* max-width: 250px; */
+/* max-width: 340px; */
 margin: auto;
 }
 
@@ -2510,6 +2521,9 @@ flex-direction: column-reverse;
 }
 .nmbrlft span.nmmb p, .nmbrght span.nmmb p{
   font-size: 14px;
+}
+.digital-marketing .container .row .card-content {
+  flex-direction: column-reverse;
 }
 }
 

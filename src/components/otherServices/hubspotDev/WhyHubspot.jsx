@@ -6,7 +6,7 @@ import reason4 from "../../../../public/images/hubspotimages/hubreason4.svg";
 const WhyHubspot = () => {
   return (
     <>
-      <section className="digital-marketing py-5">
+      <section className=" digital-marketing py-5 vector-digital-hubs">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
@@ -16,6 +16,7 @@ const WhyHubspot = () => {
             </div>
           </div>
           <div className="row d-flex align-items-center py-3">
+          <div className="card-content d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Proven track record of success</h3>
               <p>
@@ -26,7 +27,9 @@ const WhyHubspot = () => {
               <Image src={reason1} alt="Proven track record" />
             </div>
           </div>
-          <div className="row d-flex align-items-center reverse py-3">
+          </div>
+          <div className="row py-3">
+          <div className="card-content reverse d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Experienced and skilled team</h3>
               <p>
@@ -37,7 +40,9 @@ const WhyHubspot = () => {
               <Image src={reason2} alt="Experienced and skilled team" />
             </div>
           </div>
-          <div className="row d-flex align-items-center py-3">
+          </div>
+          <div className="row py-3">
+          <div className="card-content d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Customized solutions</h3>
               <p>
@@ -48,7 +53,9 @@ const WhyHubspot = () => {
               <Image src={reason3} alt="Customized solutions" />
             </div>
           </div>
-          <div className="row d-flex align-items-center reverse py-3">
+          </div>
+          <div className="row py-3">
+          <div className="card-content reverse d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Excellent customer support</h3>
               <p>
@@ -59,7 +66,7 @@ const WhyHubspot = () => {
               <Image src={reason4} alt="Excellent customer support" />
             </div>
           </div>
-          
+          </div>
         </div>
       </section>
     </>

@@ -23,7 +23,7 @@ const page = () => {
      <CustomizeHome
       heading="Industries We "
       subheading="Cater To"
-      paragraph="From startups to established enterprises, we serve businesses across a wide range of industries."/>
+      paragraph="Diverse Solutions Across Multiple Industry Verticals"/>
      <CmsHireUsPage/>
      <ProminentPrtnr/>
      <CmsLogos/>

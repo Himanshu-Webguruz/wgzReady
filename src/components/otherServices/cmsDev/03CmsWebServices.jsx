@@ -4,44 +4,44 @@ import drplleft from "../../../../public/images/drupalimg/drupal1.png";
 // Array to store Drupal services data
 const drupalServices = [
   {
-    title: "CMS CMS Development",
+    title: "Custom Built CMS Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
+      "Tailored solutions crafted from the ground up to meet your specific requirements and business objectives.",
   },
   {
-    title: "CMS Commerce",
+    title: "OpenSource CMS Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
+      "Leverage the flexibility and community support of open-source platforms for a cost-effective and customizable content management solution.",
   },
   {
-    title: "Custom Modules Development",
+    title: "Theme/Extension Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
+      "Enhance the functionality and appearance of your CMS with custom themes and extensions tailored to your brand.",
   },
   {
-    title: "CMS Theme Development",
+    title: "CMS Migration & Upgradation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
+      "Seamlessly transition your existing content to a new CMS or upgrade your current system to keep up with evolving technologies.",
   },
   {
-    title: "CMS Responsive Design",
+    title: "Enterprise CMS Solutions",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
+      "Scalable solutions designed for large organizations, ensuring secure and efficient content management across multiple departments.",
   },
   {
-    title: "Website Maintenance",
+    title: "CMS Support & Maintenance",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
+      "Ongoing support and maintenance to ensure your CMS runs smoothly and stays up to date with the latest features.",
   },
   {
-    title: "Website Support",
+    title: "CMS Integration",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
+      "Integrate your CMS with other tools and platforms to streamline workflows and improve productivity.",
   },
   {
-    title: "PSD to CMS Development",
+    title: "CMS Module Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis eget urna eu vestibulum.",
+      "Custom modules that enhance the functionality of your CMS to better serve your specific needs.",
   },
 ];
 
@@ -55,8 +55,8 @@ const CmsWebServices = () => {
               <div className="lftbg"></div>
               <div className="heading-main">
                 <h2 className="text-white">
-                  CMS Web <br />
-                  Development Services
+                Our CMS Web <br />
+                Development Services
                 </h2>
                 <div className="drplimg">
                   <Image

@@ -11,13 +11,15 @@ const AccordionItem = ({ title, content, isOpen, onClick }) => (
       {title} <span>{isOpen ? "-" : "+"}</span>
     </div>
     {isOpen && (
-      <div className="accContentMain" dangerouslySetInnerHTML={{ __html: content }} />
+      <div
+        className="accContentMain"
+        dangerouslySetInnerHTML={{ __html: content }}
+      />
     )}
   </div>
 );
 
-
-const ServiceFaq = ({ accordionData }) => { // Accept accordionData as a prop
+const ServiceFaq = ({ accordionData }) => {
   const [openIndex, setOpenIndex] = useState(0); // Set the first accordion to be open by default
 
   const handleItemClick = (index) => {

@@ -7,6 +7,7 @@ import AddsPartner from "@/components/contactComponents/06AddsPartner";
 import "./contact.css";
 import ContactLogo from "@/components/contactComponents/07ContactLogo";
 import ContactTestimonial from "@/components/contactComponents/ContactTestimonial";
+import HomeTestimonial from "@/components/homeComponents/07HomeTestimonial";
 
 const page = () => {
   return (
@@ -22,7 +23,8 @@ const page = () => {
         linkHref="/contact-us"
         linkText="Connect Now!"
       />
-      <ContactTestimonial/>
+      {/* <ContactTestimonial/> */}
+      <HomeTestimonial/>
       <ContactMap />
     </>
   );

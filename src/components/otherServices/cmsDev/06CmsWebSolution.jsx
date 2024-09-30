@@ -5,23 +5,23 @@ import Drpl from "../../../../public/images/drupalimg/cmsdevsol.svg";
 const drupalSolutions = [
   {
     number: "1",
-    title: "Customized Website Solutions",
-    description: "Our HubSpot CMS development creates fully customized websites tailored to your brand and goals.",
+    title: "Resource Planning",
+    description: "Assessing your needs to allocate the right resources for a successful project.",
   },
   {
     number: "2",
-    title: "Customized Website Solutions",
-    description: "Our HubSpot CMS development creates fully customized websites tailored to your brand and goals.",
+    title: "Cost Estimation",
+    description: "Providing transparent and competitive pricing based on project scope and requirements.",
   },
   {
     number: "3",
-    title: "Customized Website Solutions",
-    description: "Our HubSpot CMS development creates fully customized websites tailored to your brand and goals.",
+    title: "UX/UI Design",
+    description: "Crafting intuitive and aesthetically pleasing designs to enhance user engagement.",
   },
   {
     number: "4",
-    title: "Customized Website Solutions",
-    description: "Our HubSpot CMS development creates fully customized websites tailored to your brand and goals.",
+    title: "Execution & Support",
+    description: "Delivering the final product along with comprehensive support for smooth operation.",
   },
 ];
 
@@ -34,11 +34,10 @@ const CmsWebSolution = () => {
             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
               <div className="heading-main text-center">
                 <h2>
-                  CMS Development <span>Solutions</span>
+                Our Development <span>Practices</span>
                 </h2>
                 <span className="mb-2 d-inline-block">
-                  Proin euismod dictum facilisis. Donec nulla orci, suscipit ac
-                  venenatis sit amet, cursus vitae ligula.
+                We follow a structured approach to CMS Development
                 </span>
               </div>
             </div>

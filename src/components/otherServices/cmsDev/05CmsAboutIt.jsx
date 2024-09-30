@@ -15,32 +15,20 @@ const CmsAboutIt = () => {
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <div className="heading-main">
                 <h2>
-                  About CMS <span>Web Development</span>
+                Future Scope of <span>CMS Website Development</span>
                 </h2>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                purus eros, aliquam at leo vitae, bibendum vulputate ipsum.
-                Donec bibendum sed justo a imperdiet. Vivamus condimentum diam
-                arcu, rutrum rhoncus est rhoncus eget.
+              The CMS development landscape is undergoing rapid transformation, driven by technological advancements and shifting user expectations. As we look ahead, we can anticipate significant developments in several key areas.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                purus eros, aliquam at leo vitae, bibendum vulputate ipsum.
-                Donec bibendum sed justo a imperdiet. Vivamus condimentum diam
-                arcu, rutrum rhoncus est rhoncus eget.
+              <strong>Artificial intelligence</strong> will increasingly be harnessed to generate content, automating tasks such as writing blog posts, product descriptions, and social media updates. This not only saves time but also enables businesses to create content at scale and personalize it for different audiences.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                purus eros, aliquam at leo vitae, bibendum vulputate ipsum.
-                Donec bibendum sed justo a imperdiet. Vivamus condimentum diam
-                arcu, rutrum rhoncus est rhoncus eget.
+             <strong>Headless CMS architecture</strong>, which separates the content management system from the presentation layer, is gaining traction, offering greater flexibility, scalability, and performance. Businesses can leverage this decoupled approach to deliver content across various channels, including websites, mobile apps, and IoT devices. 
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                purus eros, aliquam at leo vitae, bibendum vulputate ipsum.
-                Donec bibendum sed justo a imperdiet. Vivamus condimentum diam
-                arcu, rutrum rhoncus est rhoncus eget.
+              <strong>Personalization</strong> will remain a paramount focus in CMS development, with data analytics and AI empowering businesses to deliver highly tailored content and experiences to individual users. These advancements will empower businesses to create more dynamic, engaging, and personalized websites that meet the evolving needs of their customers. By staying ahead of the curve and embracing these emerging technologies, you can gain a competitive edge and drive business growth easily.
               </p>
             </div>
           </div>

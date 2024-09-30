@@ -60,7 +60,7 @@ const ContactClient = () => {
         };
 
         const response = await fetch(
-          `${BASE_URL_API}//wp-json/contact-form-7/v1/contact-forms/7908/feedback`,
+          `${BASE_URL_API}/wp-json/contact-form-7/v1/contact-forms/7908/feedback`,
           requestOptions
         );
 

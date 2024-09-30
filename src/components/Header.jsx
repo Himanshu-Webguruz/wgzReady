@@ -206,7 +206,7 @@ const Header = () => {
                 <Link href="/blogs">Resources</Link>
               </li>
               <li className="px-3 py-2 mx-2">
-                <Link href="/">Join Us</Link>
+                <Link href="/careers">Careers</Link>
               </li>
               <li className="contactMain px-4">
                 <Link href="/contact-us">

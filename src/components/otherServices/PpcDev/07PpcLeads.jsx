@@ -20,7 +20,8 @@ const PpcLeads = () => {
               </span>
             </div>
           </div>
-          <div className="row d-flex align-items-center py-3">
+          <div className="row py-3">
+          <div className="card-content d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Planing & Initiating PPC Campaign Setup</h3>
               <p>
@@ -34,7 +35,9 @@ const PpcLeads = () => {
               <Image src={optimized} alt="optimized" />
             </div>
           </div>
-          <div className="row d-flex align-items-center reverse py-3">
+          </div>
+          <div className="row py-3">
+          <div className="card-content reverse d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">PPC Services Increase Your Sales</h3>
               <p>
@@ -48,7 +51,9 @@ const PpcLeads = () => {
               <Image src={socialmarketing} alt="socialmarketing" />
             </div>
           </div>
-          <div className="row d-flex align-items-center py-3">
+          </div>
+          <div className="row py-3">
+          <div className="card-content d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Efficient & Effective</h3>
               <p>
@@ -59,6 +64,7 @@ const PpcLeads = () => {
             </div>
             <div className="col-sm-6 col-xs-12 image">
               <Image src={contentmarkt} alt="contentmarkt" />
+            </div>
             </div>
           </div>
         </div>

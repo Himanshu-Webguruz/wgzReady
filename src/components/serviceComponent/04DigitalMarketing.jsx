@@ -17,7 +17,8 @@ const DigitalMarketing = () => {
               </h2>
             </div>
           </div>
-          <div className="row d-flex align-items-center py-3">
+          <div className="row py-5">
+          <div className="card-content d-flex align-items-center ">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">SEO (Search Engine Optimization Services)</h3>
               <p>
@@ -27,8 +28,10 @@ const DigitalMarketing = () => {
             <div className="col-sm-6 col-xs-12 image">
               <Image src={optimized} alt="optimized" />
             </div>
+            </div>
           </div>
-          <div className="row d-flex align-items-center reverse py-3">
+          <div className="row d-flex align-items-center  py-5">
+          <div className="card-content reverse d-flex align-items-center ">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">SMM (Social Media Marketing Services)</h3>
               <p>
@@ -38,19 +41,22 @@ const DigitalMarketing = () => {
             <div className="col-sm-6 col-xs-12 image">
               <Image src={socialmarketing} alt="socialmarketing" />
             </div>
-          </div>
-          <div className="row d-flex align-items-center py-3">
-            <div className="col-sm-6 col-xs-12 content">
-              <h3 className="mb-3">Content Marketing Services</h3>
-              <p>
-              High-quality content is essential for attracting and retaining customers. Our content marketing services include blog writing, article creation, infographics, and video production.
-              </p>
-            </div>
-            <div className="col-sm-6 col-xs-12 image">
-              <Image src={contentmarkt} alt="contentmarkt" />
             </div>
           </div>
-          <div className="row d-flex align-items-center reverse py-3">
+          <div className="row  py-5">
+            <div className="card-content d-flex align-items-center">
+                <div className="col-sm-6 col-xs-12 content">
+                  <h3 className="mb-3">Content Marketing Services</h3>
+                  <p>High-quality content is essential for attracting and retaining customers. Our content marketing services include blog writing, article creation, infographics, and video production.
+                  </p>
+                </div>
+                <div className="col-sm-6 col-xs-12 image">
+                  <Image src={contentmarkt} alt="contentmarkt" />
+                </div>
+              </div>
+          </div>
+          <div className="row   py-5">
+          <div className="card-content reverse d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Marketing Automation</h3>
               <p>
@@ -60,8 +66,10 @@ const DigitalMarketing = () => {
             <div className="col-sm-6 col-xs-12 image">
               <Image src={automation} alt="automation" />
             </div>
+            </div>
           </div>
-          <div className="row d-flex align-items-center py-3">
+          <div className="row  py-5">
+          <div className="card-content d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">PPC Management Services</h3>
               <p>
@@ -71,16 +79,18 @@ const DigitalMarketing = () => {
             <div className="col-sm-6 col-xs-12 image">
               <Image src={paid} alt="paid" />
             </div>
+            </div>
           </div>
-          <div className="row d-flex align-items-center reverse py-3">
+          <div className="row   py-5">
+          <div className="card-content reverse d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Email Marketing Services</h3>
-              <p>
-              Build relationships with your customers and drive conversions with a leading email marketing company. We create personalized email content and optimize your email campaigns for maximum results.
+              <p>Build relationships with your customers and drive conversions with a leading email marketing company. We create personalized email content and optimize your email campaigns for maximum results.
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
               <Image src={emailmarket} alt="emailmarket" />
+            </div>
             </div>
           </div>
         </div>
