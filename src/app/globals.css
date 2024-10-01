@@ -2118,6 +2118,10 @@ p.openingjob span {
 }
 .career-job {
   position: relative;
+  background-image: url(/images/careerimages/subs-left-bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left center;
 }
 .career-bg{
   background-image: url(/images/careerimages/business-banner.jpg);
@@ -2543,6 +2547,10 @@ margin:0px 7px 0px 0px;
 }
 .singleserviceform form.contact-right-form h3{
   color: #fff;
+}
+.career-job .content-right h3 {
+  padding-left: 17px;
+  border-left: 4px solid #25c1d5;
 }
 /* / Responsive: Ensure content full width on small screens / */
 @media (max-width: 768px) {
@@ -2974,6 +2982,9 @@ button.navbar-toggler:focus {
           section.technical-main.py-5 {
               padding-bottom: 0 !important;
           }
+          .career-job {
+            background-size: 50%;
+        }
       }
 @media(max-width: 767px){ 
   .inner-page h1, .inner-page h1 span{
@@ -3304,6 +3315,9 @@ form.website-label.srchfrm button {
   .career-job::before {
       max-width: 100%;
   }
+  .career-job {
+    background-image: none;
+}
   .content-right {
       padding-left: 10px;
       padding-top: 42px;
