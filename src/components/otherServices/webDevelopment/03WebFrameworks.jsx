@@ -69,7 +69,7 @@ const WebFrameworks = () => {
               </div>
                 </div>
               </div>
-              <div className="row">
+              <div className="row ">
                 <div className="col-sm-12 col-xs-12">
                 <div className="flip-card image-content">
                 <div className="flip-card-inner">
@@ -113,7 +113,7 @@ const WebFrameworks = () => {
           </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row reverse">
             <div className="col-sm-7 col-xs-12">
               <div className="row">
                 <div className="col-sm-6 col-xs-12">

@@ -9,7 +9,7 @@ const page=async({params})=>{
 
     const response =await fetch(`${process.env.NEXT_PUBLIC_BASE_URL_API}/wp-json/wp/v2/wgt-careerjobs?slug=${slug}`)
   const data= await response.json();
-  // console.log(data);
+  // console.log(data[0].yoast_head_json.description);
   
   
     return(
@@ -34,6 +34,7 @@ export async function generateMetadata({ params }) {
   const data  = await response.json();
 
   return {
-    title: data[0].title.rendered +" - WebGuruz Technologies Pvt Ltd",
+    title: data[0].yoast_head_json.title,
+    description: data[0].yoast_head_json.description,
   };
 }
