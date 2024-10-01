@@ -39,7 +39,7 @@ const Webguruzwe = () => {
       <div ref={container} className="mask-container">
         <div ref={stickyMask} className="stickyMask">
           <video autoPlay muted loop>
-            <source src="/video/baner-video.mp4" type="video/mp4" />
+            <source src="/video/video.mp4" type="video/mp4" />
           </video>
         </div>
       </div>

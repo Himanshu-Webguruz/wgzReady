@@ -343,7 +343,7 @@ form.website-label input[type="text"]::placeholder {
   margin: auto;
 }
  .career-bg, 
-.singleserviceform, .single-experience, 
+.singleserviceform, 
 .vision-main, .career-choose, .career-advantage{
   position: relative;
 }
@@ -351,7 +351,7 @@ form.website-label input[type="text"]::placeholder {
 .webdev-process::before, .service-banner.web-banner::before,
 .pillar-main::before, .boost-ranking.hub-ranking::before,
 .ppc-cater::before,.singleserviceform::before,.career-advantage::before,
-.single-experience::before,.vision-main::before, .career-choose::before{
+.vision-main::before, .career-choose::before{
   content: "";
   position: absolute;
   left: 0;
@@ -2232,7 +2232,7 @@ font-weight: 300;
 .right-active-jobs li {
 padding: 12px;
 border-bottom: 1px solid #ece5e5;
-background-color: #fff;
+background-color: #fbfbfb;
 }
 .right-active-jobs {
 position: sticky;
@@ -2734,7 +2734,7 @@ margin:0px 7px 0px 0px;
   h2, h2 span {
       font-size: 24px;
   }
-  h3 {
+  h3, h3 span {
       font-size: 22px;
   }
  
@@ -3348,7 +3348,9 @@ form.website-label.srchfrm button {
 .experience-list {
   gap: 1px;
 } 
-
+form.newsleter input[type="submit"] {
+  padding: 12px 30px;
+}
 }
 @media(max-width: 575px){
   .counter-main .row {

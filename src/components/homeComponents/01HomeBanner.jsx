@@ -16,7 +16,7 @@ const HomeBanner = () => {
               width={"100%"}
               playsInline
             >
-              <source src="/video/baner-video.webm" type="video/webm" />
+              <source src="/video/video.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
