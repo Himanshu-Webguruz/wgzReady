@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-
+import { accordionData } from "@/utils/accordionData";
 const AccordionItem = ({ title, content, isOpen, onClick }) => (
   <div className={`accordionNew ${isOpen ? "active" : ""}`}>
     <div
@@ -19,7 +19,7 @@ const AccordionItem = ({ title, content, isOpen, onClick }) => (
   </div>
 );
 
-const ServiceFaq = ({ accordionData }) => {
+const ServiceFaq = () => {
   const [openIndex, setOpenIndex] = useState(0); // Set the first accordion to be open by default
 
   const handleItemClick = (index) => {
