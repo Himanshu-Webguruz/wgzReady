@@ -353,14 +353,14 @@ form.website-label input[type="text"]::placeholder {
   margin: auto;
 }
 .career-jobs, .career-bg, 
-.singleserviceform, .single-experience{
+.singleserviceform, .single-experience, .vision-main{
   position: relative;
 }
 .counter-main::before,.number-main::before, .featured-blog::before,.maximized::before,
 .webdev-process::before, .service-banner.web-banner::before,
 .pillar-main::before, .boost-ranking.hub-ranking::before,
 .ppc-cater::before, .career-jobs::before, .singleserviceform::before,
-.single-experience::before{
+.single-experience::before,.vision-main::before{
   content: "";
   position: absolute;
   left: 0;
@@ -1446,6 +1446,9 @@ span.article-bold {
 .tags-main ul li {
   margin: 0px 12px 9px 0px;
 }
+.published-main {
+  flex-wrap: wrap;
+}
 .published-main ul li span {
   color: #383838;
 }
@@ -2030,7 +2033,22 @@ form.contact-right-form .react-tel-input{
   font-size: 14px;
   font-weight: 500;
 }
-
+.singleserviceform {
+  background-image: url(/images/singlecareerimages/building-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.singleserviceform::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #ffffff96;
+  z-index: 1;
+}
 .card-main img {
   width: 100%;
   max-width: 83px;
@@ -2397,6 +2415,7 @@ margin-right: 7px;
   font-size: 16px;
   right: 0;
   font-weight: 400;
+  margin: 0px;
 }
 .career-jobs .faq-content .accordionNew span::before{
   display: none;
@@ -2464,6 +2483,42 @@ margin-right: 7px;
     width: 100%;
     max-width: 60px;
 }
+
+
+/* 01-10-2024 */
+.newletter-wrap-section .news-form-right {
+  width: 540px;
+}
+.newletter-wrap-section .news-form-right form.website-label.tpfrmbnr {
+  border: 1px solid rgb(255 255 255); 
+}
+.newletter-wrap-section .news-form-right form.website-label.tpfrmbnr input, .newletter-wrap-section .news-form-right form.website-label.tpfrmbnr input::placeholder {
+  color: #FFF !important;
+}
+.career-job .website-label.tpfrmbnr {
+  border-color: #FFF;
+}
+
+.career-job .website-label.tpfrmbnr input, .career-job .website-label.tpfrmbnr input::placeholder {
+  color: #FFF !important;
+}
+.newletter-wrap-section .news-form-right form.website-label.tpfrmbnr p, .career-job .website-label.tpfrmbnr p {
+  padding: 5px;
+  font-size: 12px !important;
+}
+.singleserviceform .row {
+  position: relative;
+  z-index: 1;
+}
+.experience-list li {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: 46% !important;
+}
+.experience-list {
+  gap: 10px;
+}
 /* / Responsive: Ensure content full width on small screens / */
 @media (max-width: 768px) {
   .blog-image-content {
@@ -2478,6 +2533,9 @@ margin-right: 7px;
   .bog-post-main .blog-image-content.no-image .content {
     width: 100%; /* Full width content when no image */
     padding-left: 0; /* No padding on small screens */
+  }
+  .newletter-wrap-section .news-form-right {
+    width: 100%;
   }
 }
 
@@ -2797,7 +2855,10 @@ button.navbar-toggler:focus {
 .career-choose .earntraffic .earntrafficinr {
   flex-basis: 31% !important;
 }
-
+.career-choose .earntraffic .earntrafficinr {
+  flex-basis: 28% !important;
+  padding: 15px;
+}
   }
   @media(min-width: 768px) and (max-width: 991px){
   form.website-label.tpfrmbnr {
@@ -3254,11 +3315,20 @@ form.website-label.srchfrm button {
 .life-webguruz .image {
   margin-top: 28px;
 }
+.career-choose .earntraffic .earntrafficinr {
+  flex-basis: 47% !important;
+}
+.career-choose .earntraffic{
+  gap: 15px;
+}
 }
 @media(max-width: 575px){
   .counter-main .row {
       flex-direction: column;
   }
+  .career-choose .earntraffic .earntrafficinr {
+    flex-basis: 100% !important;
+}
   .award-main ul li {
       width: 45%;
   }
@@ -3338,6 +3408,7 @@ form.website-label.srchfrm button {
   form.website-label.tpfrmbnr .topfrmwbst p, form.website-label.tpfrmbnr .topfrmeml p {
       bottom: -21px;
       font-size: 12px !important;
+      padding-top: 0;
   }
 
   form.website-label.tpfrmbnr p.error-msg {
@@ -3361,4 +3432,15 @@ form.website-label.srchfrm button {
   form.quote-form .merge-main {
       flex-direction: column;
   }
+  .newletter-wrap-section .news-form-right form.website-label.tpfrmbnr {
+    border: none;
+}
+.newletter-wrap-section .news-form-right form.website-label.tpfrmbnr input {
+  border-radius: 35px;
+}
+.newletter-wrap-section .news-form-right form.website-label.tpfrmbnr p, .career-job .website-label.tpfrmbnr p {
+  bottom: -27px !important;
+}
+
+
 }

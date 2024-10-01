@@ -36,7 +36,7 @@ async function fetchAndStorePosts(page = 1) {
   try {
     const perPage = 10; // Number of posts per page
     const response = await axios.get(
-      `https://api.webguruz.in/wp-json/wp/v2/posts/?page=${page}&per_page=${perPage}`
+      `${BASE_URL_API}/wp-json/wp/v2/posts/?page=${page}&per_page=${perPage}`
     );
 // console.log(response);
 

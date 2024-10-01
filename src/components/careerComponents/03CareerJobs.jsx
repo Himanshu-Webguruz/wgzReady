@@ -24,7 +24,7 @@ const CareerJobs = async () => {
   );
   return (
     <div>
-      <section className="career-jobs py-5" id="job-giving">
+      <section className="career-jobs py-5" id="applyalljob">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main ">

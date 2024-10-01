@@ -22,7 +22,7 @@ const CareerBanner = () => {
   }
 
   const handleScrollToJobs = () => {
-    const jobSection = document.getElementById("job-giving");
+    const jobSection = document.getElementById("applyalljob");
     if (jobSection) {
       const yOffset = -150; // Adjust this value to control the scroll offset
       const yPosition = jobSection.getBoundingClientRect().top + window.scrollY + yOffset;
