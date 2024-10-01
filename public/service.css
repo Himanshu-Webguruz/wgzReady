@@ -1651,7 +1651,7 @@ content: url(/images/drupalimg/dr7.svg);
 content: url(/images/drupalimg/dr8.svg);
 }
 .cmssct .cmslimg img {
-max-width: max-content;
+max-width: 54px;
 }
 .comprhsvprt {
 position: relative;
@@ -2101,7 +2101,7 @@ span.nmmb p {
 }
 /* flip card css end */
 .vector-digital .image img {
-  max-width: 240px;
+  max-width: 380px;
 }
 /* media query */
 @media(max-width: 1400px){

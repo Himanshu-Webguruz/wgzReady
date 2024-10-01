@@ -5,7 +5,7 @@ import contentmarkt from "../../../../public/images/ppcimages/ppclead3.svg";
 const PpcLeads = () => {
   return (
     <>
-      <section className="digital-marketing py-5">
+      <section className="digital-marketing py-5 vector-digital ">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">

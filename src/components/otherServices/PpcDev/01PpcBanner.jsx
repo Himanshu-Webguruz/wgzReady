@@ -9,17 +9,12 @@ const PpcBanner = () => {
           <div className="row">
             <div className="col-sm-7 col-xs-12 banner-content-left heading-main">
               <h1>
-                PPC <span>Management Services</span>
+              <span>Paid Advertising Agency</span> Helping You Acquire New Customers Predictably
               </h1>
               <p className='mb-5'>
-                Looking for the quickest way to bring ready-to-buy customers to
-                your website and mobile app? PPC (Pay-per-Click) offers the
-                perfect solution. As a leading PPC management company in India
-                we specialize in various PPC management services such as Google
-                Adwords, Facebook and YouTube advertisements. As an ISO
-                9001:2015 certified PPC service provider in India, we have been
-                serving a global clientele from varied industries and
-                demographic for the past ten years in the most efficient manner.
+              Businesses need effective strategies to attract new customers- and that&apos;s where our PPC Management Services come in. At WebGuruz, we specialize in creating targeted paid advertising campaigns that drive measurable results. 
+Our expert team leverages data-driven insights to optimize your ad spend, ensuring that every dollar you invest brings in new leads and sales. Get ready to transform your advertising approach and achieve predictable growth!
+
               </p>
               <ul className="ppcbutton d-flex">
                 <li>

@@ -20,11 +20,11 @@ const BlogNewsletter = () => {
                   </div>
                 </div>
                 <div className="news-form-right">
-                  {/* <form>
+                  <form>
                     <input type="text" placeholder="Enter Email" />
                     <button type="submit">Subscribe Now!</button>
-                  </form> */}
-                  <HomeClient/>
+                  </form>
+                  {/* <HomeClient/> */}
                   {/* <BlogSubscribeForm/> */}
                 </div>
               </div>

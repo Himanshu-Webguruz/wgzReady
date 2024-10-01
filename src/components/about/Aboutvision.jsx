@@ -3,7 +3,7 @@ import React from 'react';
 const Aboutvision = () => {
   return (
     <div>
-        <section className="vision-main">
+        <section className="vision-main py-5">
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 col-xs-12">

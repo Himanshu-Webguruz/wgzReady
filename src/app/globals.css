@@ -203,16 +203,6 @@ a.navbar-brand img {
   transform: scale(0);
   transition: 0.3s ease-in-out 0s;
 }
-/* .menu ul li::after {
-  right: 0;
-  bottom: 0;
-  border-right: 2px solid #168B9A;
-  top: auto;
-  left: auto;
-  border-bottom: 2px solid #168B9A;
-  border-left: 0px;
-  border-top: 0px;
-} */
 .menu ul li {
   position: relative;
   transition: 0.3s ease-in-out 0s;
@@ -352,15 +342,16 @@ form.website-label input[type="text"]::placeholder {
   max-width: 70%;
   margin: auto;
 }
-.career-jobs, .career-bg, 
-.singleserviceform, .single-experience, .vision-main{
+ .career-bg, 
+.singleserviceform, .single-experience, 
+.vision-main, .career-choose, .career-advantage{
   position: relative;
 }
 .counter-main::before,.number-main::before, .featured-blog::before,.maximized::before,
 .webdev-process::before, .service-banner.web-banner::before,
 .pillar-main::before, .boost-ranking.hub-ranking::before,
-.ppc-cater::before, .career-jobs::before, .singleserviceform::before,
-.single-experience::before,.vision-main::before{
+.ppc-cater::before,.singleserviceform::before,.career-advantage::before,
+.single-experience::before,.vision-main::before, .career-choose::before{
   content: "";
   position: absolute;
   left: 0;
@@ -1091,8 +1082,14 @@ form.contact-right-form textarea {
   margin-bottom: 26px;
   border: 1px solid #DDDDDD;
   font-size: 14px;
-  color: #9B9B9B;
+  color: #383838;
 }
+form.contact-right-form label input::placeholder, 
+form.contact-right-form label select::placeholder, 
+form.contact-right-form textarea::placeholder{
+  color: #383838;
+}
+
 form.contact-right-form label span.error {
   position: absolute;
   bottom: 3px;
@@ -1186,12 +1183,8 @@ img.center-img {
   height: 20px;
   transition: 0.3s ease-in-out 0s;
 }
-.contact-sub.left p:first-child {
-  margin-bottom: 0px;
-}
 
 /*css*/
-
 form.website-label.btn-main.srchfrm {
   display: flex;
   background: #fff;
@@ -2046,8 +2039,11 @@ form.contact-right-form .react-tel-input{
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: #ffffff96;
+  background-color: #ffffff4a;
   z-index: 1;
+}
+.singleserviceform form.contact-right-form input[type="file"] {
+  background: #fff;
 }
 .card-main img {
   width: 100%;
@@ -2118,6 +2114,7 @@ p.openingjob span {
 }
 .career-jobs .faq-content .accordionNew {
   padding: 12px;
+  background-color: transparent;
 }
 .career-job {
   position: relative;
@@ -2164,9 +2161,9 @@ p.openingjob span {
   bottom: 0;
   width: 100%;
   max-width: 50%;
-  margin: auto 0 auto auto;
-  background-color: #383838;
+  margin: auto 0 auto auto; 
   z-index: -1;
+  background-image: url(/images/careerimages/subs-right-bg.png);
 }
 .career-bg .banner-content {
   margin-bottom: 20px;
@@ -2188,7 +2185,7 @@ form.newsleter{
 }
 form.newsleter input[type="submit"] {
   position: absolute;
-  right: 3px;
+  right: 5px;
   width: auto;
   padding: 12px 51px;
   background-color: #25c1d5;
@@ -2250,8 +2247,11 @@ margin-left: 32px;
 margin-top: 16px;
 }
 .experience-list li {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
+  background-color: #000000ba;
+  width: 46% !important;
+  color: #fff;
 }
 .experience-list li span.icon img {
 width: 26px;
@@ -2266,7 +2266,7 @@ width: 52px;
 height: 49px;
 background-color: #26c6da;
 align-items: center;
-margin-right: 7px;
+margin:0px 7px 0px 0px;
 }
 .service-banner.career-bg .image::before {
   content: "";
@@ -2475,6 +2475,7 @@ margin-right: 7px;
 }
 .career-choose .earntraffic .earntrafficinr {
   flex-basis: 23% !important;
+  background-color: #fff;
 }
 .career-choose .earntraffic .earntrafficinr .earntrfcnt h3 {
   font-size: 18px;
@@ -2510,14 +2511,37 @@ margin-right: 7px;
   position: relative;
   z-index: 1;
 }
-.experience-list li {
-  display: flex;
-  align-items: center;
-  background-color: #fff;
-  width: 46% !important;
-}
 .experience-list {
   gap: 10px;
+}
+.web-form .content-right.form {
+  padding: 20px;
+  background-color: rgb(255 255 255 / 20%);
+  border-radius: 20px;
+}
+.web-form .content-right.form .quote-main, .web-form .content-right.form .quote-main h4 {
+  background-color: transparent;
+  border: 0px;
+}
+.web-form .content-right.form .quote-content {
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+}
+.web-form .quote-content .merge-main label {
+  width: 49%;
+}
+.web-form .content-right.form .quote-main h4 {
+  font-size: 34px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+.singleserviceform form.contact-right-form {
+  background-color: #000000ba;
+  border: 0px;
+}
+.singleserviceform form.contact-right-form h3{
+  color: #fff;
 }
 /* / Responsive: Ensure content full width on small screens / */
 @media (max-width: 768px) {
@@ -2958,7 +2982,7 @@ button.navbar-toggler:focus {
   ul.experience-list li.w-50 {
       width: 100% !important;
       flex: auto;
-      margin-bottom: 30px;
+      margin-bottom: 0px !important;
   }
   .footer-sub h5 {
       margin: 12px 0px 10px;
@@ -3321,6 +3345,10 @@ form.website-label.srchfrm button {
 .career-choose .earntraffic{
   gap: 15px;
 }
+.experience-list {
+  gap: 1px;
+} 
+
 }
 @media(max-width: 575px){
   .counter-main .row {

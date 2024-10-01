@@ -14,7 +14,7 @@ const CareerJob = () => {
   };
   return (
     <>
-      <section className="career-job py-5 my-5">
+      <section className="career-job py-5">
         <div className="container">
           <div className="row align-items-center">
             <div className=" col-sm-6 col-xs-12 left-content heading-main">
@@ -29,11 +29,11 @@ const CareerJob = () => {
                 Subscribe to our email newsletter and stay updated with the
                 latest tech insights from our digital experts.
               </h2>
-              {/* <form className="newsleter">
+              <form className="newsleter">
                 <input type="text" placeholder="Enter Email" />
                 <input type="submit" value="subscribe"></input>
-              </form> */}
-              <HomeClient/>
+              </form>
+              {/* <HomeClient/> */}
             </div>
           </div>
         </div>

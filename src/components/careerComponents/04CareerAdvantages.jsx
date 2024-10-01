@@ -4,11 +4,11 @@ import Hbstcntr from "../../../public/images/careerimages/career-centeric.svg";
 
 function CareerAdvantages() {
   return (
-    <section id="hubsptcms career-advantage">
+    <section id="hubsptcms" className='career-advantage'>
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-            <div className="heading-main text-center pt-5">
+            <div className="heading-main text-center">
               <h2>
               Respect For <span>Individual</span>
               </h2>

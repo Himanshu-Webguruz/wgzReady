@@ -40,7 +40,7 @@ const WebCompany = () => {
               </Link>
             </div>
             <div className="col-sm-6 col-xs-12 web-form">
-              <form className="web-connect text-center">
+              {/* <form className="web-connect text-center">
                 <h2 className="color-wt">Connect With Our Experts</h2>
                 <p className="color-wt mb-4">
                   We respond to 97% of messages within 1-2 business hour(s),
@@ -75,7 +75,7 @@ const WebCompany = () => {
                 <label className="submit">
                   <input type="submit" value="Send Your Enquiry" />
                 </label>
-              </form>
+              </form> */}
               <HubspotForm/>
               {/* <WebdevForm/> */}
             </div>
