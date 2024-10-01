@@ -12,7 +12,7 @@ const HomeBanner = () => {
               autoPlay
               muted
               loop
-              preload="auto"
+              preload="none"
               width={"100%"}
               playsInline
             >

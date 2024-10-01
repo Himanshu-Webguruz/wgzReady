@@ -25,10 +25,10 @@ const CareerJob = () => {
               <button className="explore-btn" onClick={handleScrollToJobs}>Check Now</button>
             </div>
             <div className="col-sm-6 col-xs-12 content-right">
-              <h2 className="color-wt mb-4">
+              <h3 className="color-wt mb-4">
                 Subscribe to our email newsletter and stay updated with the
                 latest tech insights from our digital experts.
-              </h2>
+              </h3>
               <form className="newsleter">
                 <input type="text" placeholder="Enter Email" />
                 <input type="submit" value="subscribe"></input>
