@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import ServiceFaq from "@/components/serviceComponent/12ServiceFaq";
 import ContentBlogClient from "../../../components/blogComponents/ContentBlogClient";
+import { accordionData } from "@/utils/accordionData";
 
 
 const categoryLinks = {
@@ -212,7 +213,7 @@ const Page = async ({ params }) => {
         </div>
       </section>
 
-      <ServiceFaq />
+      <ServiceFaq accordionData={accordionData} />
     </>
   );
 };
