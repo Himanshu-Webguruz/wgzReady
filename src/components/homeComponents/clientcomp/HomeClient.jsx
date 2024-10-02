@@ -2,14 +2,16 @@
 import React, { useState, useRef } from "react";
 import validator from "validator";
 import { useRouter } from "next/navigation";
-const BASE_URL_API = process.env.NEXT_PUBLIC_BASE_URL_API;
 
+const BASE_URL_API = process.env.NEXT_PUBLIC_BASE_URL_API;
 
 const HomeClient = () => {
   const [website, setWebsite] = useState("");
   const [email, setEmail] = useState("");
   const [errors, setErrors] = useState({ website: "", email: "" });
   const [serverMessage, setServerMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+  
   const websiteRef = useRef(null);
   const emailRef = useRef(null);
   const router = useRouter();
@@ -24,6 +26,8 @@ const HomeClient = () => {
 
   const handleButtonClick = async (e) => {
     e.preventDefault();
+    setLoading(true);
+    
     const trimmedWebsite = website.trim();
     const trimmedEmail = email.trim();
     let websiteError = "";
@@ -50,6 +54,7 @@ const HomeClient = () => {
       setErrors({ website: websiteError, email: emailError });
       if (websiteError && websiteRef.current) websiteRef.current.focus();
       else if (emailError && emailRef.current) emailRef.current.focus();
+      setLoading(false);
       return;
     }
 
@@ -69,7 +74,7 @@ const HomeClient = () => {
       };
 
       const response = await fetch(
-       `${BASE_URL_API}/wp-json/contact-form-7/v1/contact-forms/232/feedback`,
+        `${BASE_URL_API}/wp-json/contact-form-7/v1/contact-forms/232/feedback`,
         requestOptions
       );
 
@@ -85,11 +90,12 @@ const HomeClient = () => {
       } else if (result.status === "mail_sent") {
         setServerMessage(result.message);
         router.push("/thank-you");
-
       }
     } catch (error) {
       console.error("Error posting website and email:", error);
       setServerMessage("Please try again.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -122,7 +128,9 @@ const HomeClient = () => {
           {errors.email && <p style={{ color: "red" }}>{errors.email}</p>}
         </div>
       </div>
-      <button type="submit" className="btn-submit">Send me a proposal</button>
+      <button type="submit" className="btn-submit" disabled={loading}>
+        {loading ? "Sending..." : "Send me a proposal"}
+      </button>
       {serverMessage && (
         <p
           style={{

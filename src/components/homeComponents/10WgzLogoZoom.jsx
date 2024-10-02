@@ -14,6 +14,10 @@ const Webguruzwe = () => {
     if (container.current && stickyMask.current) {
       requestAnimationFrame(animate);
     }
+    // Cleanup on unmount
+    return () => {
+      cancelAnimationFrame(animate);
+    };
   }, []);
 
   const animate = () => {
@@ -38,8 +42,18 @@ const Webguruzwe = () => {
     <main>
       <div ref={container} className="mask-container">
         <div ref={stickyMask} className="stickyMask">
-          <video autoPlay muted loop>
-            <source src="/video/video.mp4" type="video/mp4" />
+          <video
+            autoPlay
+            muted
+            loop
+            aria-label="Background video"
+            playsInline
+            loading="lazy"  // Lazy-load video
+            poster="/video/1.webp"
+          >
+            <source src="/video/video.webm" type="video/webm" />
+           
+            Your browser does not support the video tag.
           </video>
         </div>
       </div>
