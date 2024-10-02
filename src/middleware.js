@@ -47,6 +47,10 @@ export function middleware(req) {
     '/services/msp-managed-service-provider',
     '/infographics',
     '/our-portfolio',
+    // pages to be created later
+    '/services/marketing-analytics',
+    '/services/marketing-automation',
+    
   ];
 
   // Normalize the path by removing trailing slashes if present
