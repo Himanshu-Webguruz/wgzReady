@@ -9,12 +9,12 @@ const HomeTab = dynamic(() => import("@/components/homeComponents/03HomeTabber")
 const TechnicalHome = dynamic(() => import("@/components/homeComponents/05TechnicalHome"), { ssr: true });
 const CustomizeHome = dynamic(() => import("@/components/homeComponents/06CustomizeHome"), { ssr: true });
 const FeaturedProject = dynamic(() => import("@/components/homeComponents/08FeaturedProject"), { ssr: true });
-const Featuredblog = dynamic(() => import("@/components/homeComponents/09Featuredblog"), { ssr: true });
+// const Featuredblog = dynamic(() => import("@/components/homeComponents/09Featuredblog"), { ssr: true });
 const HomeTestimonial = dynamic(() => import("@/components/homeComponents/07HomeTestimonial"), { ssr: true });
 const Webguruzwe = dynamic(() => import("@/components/homeComponents/10WgzLogoZoom"), { ssr: true });
 const Homeaward = dynamic(() => import("@/components/homeComponents/Homeaward"), { ssr: true });
 
-
+import Featuredblog from "@/components/homeComponents/09Featuredblog";
 
 
 export default function Home() {

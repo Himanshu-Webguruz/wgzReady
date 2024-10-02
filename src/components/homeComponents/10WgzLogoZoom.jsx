@@ -14,10 +14,6 @@ const Webguruzwe = () => {
     if (container.current && stickyMask.current) {
       requestAnimationFrame(animate);
     }
-    // Cleanup on unmount
-    return () => {
-      cancelAnimationFrame(animate);
-    };
   }, []);
 
   const animate = () => {
