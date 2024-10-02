@@ -1001,7 +1001,7 @@ button.explore-btn:hover::before {
 .testimonial-main button.slick-arrow.slick-prev {
   left: 0 !important;
   background-image: url(/images/left-arrow.png);
-  transform: translateX(-80px);
+  transform: translateX(-20px);
   z-index: 1;
 }
 .testimonial-main button.slick-arrow {
@@ -1010,15 +1010,18 @@ button.explore-btn:hover::before {
   left: 0;
   right: 0;
   margin: auto auto 0;
-  width: 103px;
+  width: 80px;
   background-repeat: no-repeat;
-  background-size: 103px;
+  background-size: 72px;
   background-position: center center;
   height: 102px;
   background-image: url(/images/right-arrow.png);
   top: auto;
   transform: translateX(80px);
   opacity: 0.11;
+}
+.image-content-testimonial {
+  justify-content: center;
 }
 .menu ul li.sub-menu {
   background-image: url(/images/expand-arrow-white.svg);
@@ -1032,8 +1035,8 @@ button.explore-btn:hover::before {
 }
 
 .slider-thumbnail img {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   margin: auto;
   border-radius: 50%;
 }
@@ -2622,6 +2625,20 @@ form.newsleter input[type="submit"] {
   padding-left: 17px;
   border-left: 4px solid #25c1d5;
 }
+.slick-list {
+  padding: 0px !important;
+}
+.navtestimonial {
+  margin: auto;
+  padding: 0 50px;
+  max-width: 800px;
+}
+/* about tabber start */
+
+
+/* about tabber end */
+
+
 /* / Responsive: Ensure content full width on small screens / */
 @media (max-width: 768px) {
   .blog-image-content {

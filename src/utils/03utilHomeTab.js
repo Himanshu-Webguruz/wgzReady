@@ -41,5 +41,52 @@ const homeTabData = [
     link: { href: "#", text: "About Us" }
   }
 ];
+const aboutTabData = [
+  {
+    eventKey: "experts",
+    title: "2008 - 2010",
+    alt:"2008 - 2010",
+    content: [
+      "Webguruz Technologies is a well-established custom development Company that started in 2008. This was the initial phase of the Company with a team of nearly 50 who provide web development, mobile app development, custom software development, and e-commerce development."
+    ],
+    imageSrc: "/images/aboutimages/our-history-photo-1.jpg",
+  },
+  {
+    eventKey: "Records",
+    title: "2011 - 2013",
+    alt:"2011 - 2013",
+    content: [
+      "During this tenure, our team worked to build future-proof products and guide digital transformation and sustainable scaling for small, mid-sized, and enterprise customers across a huge range of industries. The Company supported all kinds of businesses in the retail, insurance, education, banking, real estate, health care, and manufacturing spaces."
+    ],
+    imageSrc: "/images/aboutimages/our-history-photo-2.jpg",
+  },
+  {
+    eventKey: "Reviews",
+    title: "2014 - 2016",
+    alt:"2014 - 2016",
+    content: [
+      "From designing and developing a website or a mobile app, our team provided agile development services involving cutting-edge technologies to help businesses enhance their digital performance. The methodology followed by us was simple- we thoroughly understand the unique business requirements and provide web application design solutions tailored to the business."
+    ],
+    imageSrc: "/images/aboutimages/our-history-photo-3.jpg",
+  },
+  {
+    eventKey: "Technology",
+    title: "2017 - 2019",
+    alt:"2017 - 2019",
+    content: [
+      "The company keeps refreshing its custom solution portfolio with projects following the dynamic technology trends in the market. Through ups and downs in the market, the company always holds space for professional growth and fun with weekly talkies, training, and outings. Till 2019, Webguruz Technologies developed a range of custom solutions for different industries, with the team growing from initial 50 to up to 150+ experts."
+    ],
+    imageSrc: "/images/aboutimages/our-history-photo-4.jpg",
+  },
+  {
+    eventKey: "Webgurz",
+    title: "2020 - 2022",
+    alt:"2020 - 2022",
+    content: [
+      "Today, we are a team of 200+ bright, experienced & handpicked tech experts to offer solutions that are both custom-designed and cost-effective. From upfront design consulting to specification development to code development to final testing, our experts can handle all your needs!"
+    ],
+    imageSrc: "/images/aboutimages/our-history-photo.jpg",
+  },
+];
 
-export default homeTabData;
+export  {homeTabData,aboutTabData};

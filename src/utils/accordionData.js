@@ -110,191 +110,49 @@ const hubspotData = [
 ];
 
 
-const jobsData = [
+const ppcdata = [
   {
-      title: "Business Development",
+      title: "What is the full form of PPC?",
       content:
-        `<ul class="job-opening-data">
-          <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-        </ul>`,
+        `PPC stands for "Pay-Per-Click," a digital marketing model where advertisers pay each time a user clicks on their ads.`,
     },
     {
-      title: "Business Development",
+      title: "What are paid advertising services?",
       content:
-        `<ul class="job-opening-data">
-          <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-        </ul>`,
+        `Paid advertising services involve creating and managing ad campaigns across various platforms to promote products or services, driving targeted traffic and generating leads.`,
     },
     {
-      title: "Business Development",
+      title: "How much do paid ads cost?",
       content:
-        `<ul class="job-opening-data">
-          <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-        </ul>`,
+        `The cost of paid ads varies based on factors like the platform, targeting options, and competition. Typically, businesses set a budget that aligns with their marketing goals and monitor performance to optimize spending.`,
     },
     {
-      title: "Business Development",
+      title: "What is paid advertising on social media?",
       content:
-        `<ul class="job-opening-data">
-          <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-        </ul>`,
+        `Paid advertising on social media involves creating sponsored posts or ads on platforms like Facebook, Instagram, and LinkedIn to reach specific audiences and drive engagement or conversions.`,
     },
     {
-      title: "Business Development",
+      title: "Why use paid ads?",
       content:
-        `<ul class="job-opening-data">
-          <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-        </ul>`,
+        `Paid ads provide immediate visibility, allow for precise targeting, and are measurable, helping businesses achieve their marketing objectives quickly and effectively.`,
     },
     {
-      title: "Business Development",
+      title: "What paid marketing strategies do you use?",
       content:
-        `<ul class="job-opening-data">
-          <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-        </ul>`,
+        `We utilize a mix of strategies including keyword targeting, audience segmentation, retargeting, A/B testing, and continuous optimization to maximize campaign performance.`,
     },
     {
-      title: "Business Development",
+      title: "Which metrics do you track to measure the success of paid advertising campaigns?",
       content:
-        `<ul class="job-opening-data">
-          <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-           <li>
-            <h5>Pre Sales Consultant</h5>
-            <p class='openingjob'>No. of openings: <span>3</span></p>
-          </li>
-        </ul>`,
+        `We track key metrics such as click-through rate (CTR), conversion rate, cost per acquisition (CPA), return on ad spend (ROAS), and overall ROI to evaluate campaign effectiveness.`,
+    },
+    {
+      title: "What are the benefits of working with WebGuruz?",
+      content:
+        `Partnering with WebGuruz gives you access to a team of experts, tailored strategies, transparent reporting, and ongoing support to ensure your PPC campaigns are successful.`,
     },
    
   ];
 
 
-export { accordionData, digitalData, hubspotData,jobsData };
+export { accordionData, digitalData, hubspotData,ppcdata };

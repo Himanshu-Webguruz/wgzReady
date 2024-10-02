@@ -5,33 +5,39 @@ import money from '../../../../public/images/ppcimages/money.svg';
 const cardData = [
   {
     image: search,
-    alt: 'search',
-    text: 'We research and develop a list of keywords that represent your products or services.',
+    alt: 'Google Ads',
+    heading:"Google Ads",
+    text: 'Drive targeted traffic and leads through search engine ads that capture intent.',
   },
   {
     image: money,
     alt: 'money',
-    text: 'We research and develop a list of keywords that represent your products or services.',
+    heading:"Instagram Ads",
+    text: 'Leverage stunning visuals to engage a younger audience and boost brand awareness.',
   },
   {
     image: search,
     alt: 'search',
-    text: 'We research and develop a list of keywords that represent your products or services.',
+    heading:"LinkedIn Ads",
+    text: 'Connect with professionals and businesses to generate quality B2B leads.',
   },
   {
     image: money,
     alt: 'money',
-    text: 'We research and develop a list of keywords that represent your products or services.',
+    heading:"Bing Ads",
+    text: 'Reach a wider audience with ads on Microsoft’s search engine, tapping into a different demographic.',
   },
   {
     image: search,
     alt: 'search',
-    text: 'We research and develop a list of keywords that represent your products or services.',
+    heading:"Facebook Ads",
+    text: 'Target specific user demographics and interests for highly effective advertising.',
   },
   {
     image: money,
     alt: 'money',
-    text: 'We research and develop a list of keywords that represent your products or services.',
+    heading:"YouTube Ads",
+    text: 'Use video content to capture attention and engage viewers on the world’s largest video platform.',
   },
 ];
 
@@ -43,11 +49,10 @@ const PpcManagement = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
               <h2>
-                Partner With Certified <span>PPC Management Company India</span>
+              Experts in a Variety of <span>Paid Ads Platforms</span>
               </h2>
               <p>
-                As a reliable PPC management company, we can help you reap the
-                following benefits:
+              Our experienced team is well-versed in several advertising platforms, allowing us to create impactful campaigns across multiple channels. We specialize in:
               </p>
             </div>
           </div>
@@ -58,6 +63,7 @@ const PpcManagement = () => {
                   <div className="image">
                     <Image src={card.image} alt={card.alt} />
                   </div>
+                  <h3>{card.heading}</h3>
                   <p>{card.text}</p>
                 </div>
               </div>

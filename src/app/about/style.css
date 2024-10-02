@@ -51,16 +51,20 @@
 .card-icon-content {
     width: 47%;
     padding: 22px 15px;
-    background: rgba(255, 255, 255, 0.09);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    box-shadow: 9px 7px 5px #b4b4b424;
+    transition: 0.3s ease-in-out 0s;
+}
+.card-icon-content:hover{
+    box-shadow: none;
 }
 /* vision section css */
-.vision-main .row >div:nth-child(2) {
-    max-width: 90%;
+.vision-main {
+    background-image: url(/images/aboutimages/about-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 section.vision-main .row >div:last-child span {
     background-color: #E1FCFF;
 }
@@ -68,23 +72,19 @@ section.vision-main .row >div:last-child span {
     background-color: #E5F8D8;
 }
 .vision-sub {
-    background-color: #fff;
+    background-color: #00000078;
     padding: 25px 22px 16px 120px;
     margin-bottom: 15px;
     position: relative;
     transform: skewX(14deg);
-    box-shadow: 0px 4px 4px #dddddd;
-    border: 1px solid #f5f5f5;
     transition: 0.3s ease-in-out 0s;
 }
 .vision-sub:hover {
     box-shadow: none;
 }
-section.vision-main .row >div:last-child {
-    max-width: 80%;
-    margin: auto 0 auto auto;
+.vision-main .row >div:nth-child(2) .vision-sub h3, .vision-main .row >div:nth-child(2) .vision-sub p {
+    transform: skew(15deg);
 }
-
 .vision-sub span {
     position: absolute;
     left: -1px;
@@ -98,16 +98,133 @@ section.vision-main .row >div:last-child {
     font-weight: 700;
     font-size: 51px;
     color: #383838;
+    margin: 0px;
+    line-height: normal;
 }
-.vision-main .row >div:nth-child(2) {
-    max-width: 90%;
-    margin: auto 0 auto auto;
+.vision-main .row >div:nth-child(2) .vision-sub {
+    transform: skewX(-15deg);
 }
 .vision-sub h3, .vision-sub p {
     transform: skewX(-15deg);
+    color: #fff;
 }
-
 .singleserviceform .row {
     position: relative;
     z-index: 1;
+}
+.card-icon-content img {
+    width: 100%;
+    max-width: 83px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.about-we-are .icon-content >div:first-child {
+    background-color: #f5fff0;
+}
+.about-we-are .icon-content >div:nth-child(2) {
+    background-color: #d0f0fc;
+}
+.about-we-are .icon-content >div:nth-child(3) {
+    background-color: #e4edff;
+}
+.about-we-are .icon-content >div:last-child {
+    background-color: #cfe2ff;
+}
+.vision-main .container .row {
+    max-width: 90%;
+    margin: auto;
+}
+ul.counter-main-about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+ul.counter-main-about li span {
+    font-size: 16px;
+    font-weight: 400;
+}
+ul.counter-main-about li {
+    font-size: 48px;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    padding: 14px;
+    width: 42%;
+    flex-direction: column;
+    text-align: center;
+}
+.about-leader .content {
+    padding: 20px 24px 9px;
+    background-color: #f2f9fa;
+}
+.about-leader .image-content img {
+    width: 100%;
+    height: 383px;
+    object-fit: cover;
+    object-position: top center;
+}
+.about-we-are .about-left img {
+    object-fit: contain;
+    width: 100%;
+    height: 290px;
+    margin-top: 30px;
+}
+.aboout-history .image-cnt {
+    display: flex;
+    align-items: center;
+}
+.aboout-history .image-cnt >div {
+    width: 50%;
+}
+.aboout-history ul li button {
+    width: 100%;
+    padding: 16px 12px;
+    border-radius: 0px !important;
+    background-color: #ffff;
+    border: 1px solid #e5e5e5 !important;
+    color: #383838;
+}
+.aboout-history ul li button:hover{
+    color: #383838;
+}
+.aboout-history ul li {
+    width: 19.8%;
+}
+.aboout-history ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 60px !important;
+    border: 0px;
+}
+.aboout-history {
+    background-image: linear-gradient(45deg, #effdff, transparent);
+}
+@media(max-width: 767px){
+    .vision-sub, .vision-sub h3, .vision-sub p, .vision-main .row >div:nth-child(2) .vision-sub,
+    .vision-main .row >div:nth-child(2) .vision-sub h3, .vision-main .row >div:nth-child(2) .vision-sub p {
+        transform: skew(0);
+    }
+    ul.counter-main-about{
+        margin-bottom: 30px;
+    }
+    ul.counter-main-about li {
+        width: 48%;
+        padding: 12px 4px;
+        font-size: 30px;
+    }
+    ul.counter-main-about li span {
+        font-size: 14px;
+    }
+    .vision-main .container .row {
+        max-width: 100%;
+        margin: auto;
+    }
+
+}
+@media(max-width: 575px){
+    .card-icon-content {
+        width: 100%;}
 }

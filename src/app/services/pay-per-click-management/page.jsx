@@ -8,31 +8,34 @@ import PpcServicesOffer from "@/components/otherServices/PpcDev/05PpcServicesOff
 import PpcManagement from "@/components/otherServices/PpcDev/06PpcManagement";
 import PpcLeads from "@/components/otherServices/PpcDev/07PpcLeads";
 import ServiceFaq from "@/components/serviceComponent/12ServiceFaq";
-import OurTeamhubspot from "@/components/otherServices/hubspotDev/06Ourteam";
 import AddsPartner from "@/components/contactComponents/06AddsPartner";
 import Featuredblog from "@/components/homeComponents/09Featuredblog";
 import PpcLogos from "@/components/otherServices/PpcDev/PpcLogos";
-import {accordionData} from "@/utils/accordionData";
+import { ppcdata } from "@/utils/accordionData";
+import OurTeamPpc from "@/components/otherServices/PpcDev/08OurTeamPpc";
 // export const dynamic = "force-dynamic";
 
 const page = () => {
   return (
     <>
       <PpcBanner />
-      <PpcServiceForm heading={"PPC Services"} />
+      <PpcServiceForm
+        heading={"Amplifying Your Reach with Expert"}
+        subHeading={"PPC Services"}
+      />
       <PpcAdvertising />
       <PpcProcess />
       <PpcServicesOffer />
       <PpcManagement />
       <PpcLeads />
       <PpcLogos />
-      <OurTeamhubspot />
-      <ServiceFaq  accordionData={accordionData}/>
+      <OurTeamPpc />
+      <ServiceFaq accordionData={ppcdata} />
       <AddsPartner
-        heading="Maximize Your Reach and Conversions with Trusted PPC Ads Partner"
-        paragraph="Run paid advertising campaigns that put your business on the growth curve. Let our team make every dollar spent on the campaign accounted for."
+        heading="Reach the Right Audience at the Right Time with PPC Management Services"
+        paragraph="Take the first step towards maximizing your ad performance. Contact us today to discuss how our PPC Management Services can help you achieve your business goals!"
         linkHref="/contact-us"
-        linkText="Call To Action"
+        linkText="Connect Now!"
       />
       <Featuredblog />
     </>

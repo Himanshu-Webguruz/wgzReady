@@ -4,13 +4,13 @@ import logoppc2 from "../../../../public/images/ppcimages/ppcform2.svg";
 import logoppc3 from "../../../../public/images/ppcimages/ppcform3.svg";
 import HubspotForm from "../hubspotDev/clientHubForm/HubspotForm";
 
-const PpcServiceForm = ({ heading}) => {
+const PpcServiceForm = ({ heading,subHeading}) => {
   const points = [
     "Prover Expertise",
     "Result Oriented Approach",
-    "Oriented",
-    "Result Oriented Approach",
-    "Result Oriented",
+    "Strategic Ad Campaigns",
+    "In-Depth Keyword Discovery",
+    "Regular Campaign Reports",
   ];
 
   const logos = [logoppc, logoppc2, logoppc3]; // List of logo images
@@ -22,12 +22,10 @@ const PpcServiceForm = ({ heading}) => {
           <div className="row">
             <div className="col-sm-6 col-xs-12 ppcservicecontent heading-main">
               <h2 className="color-wt">
-                {heading} <span>- Scale Your Business</span>
+                {heading} <span>{subHeading}</span>
               </h2>
               <p className="color-wt">
-                Gain brand exposure, attract more users, and boost sales. Get
-                top-class pay per click management services that power your
-                marketing strategies and brand-building efforts.
+              We understand that each click is a potential customer. Our tailored PPC campaigns are designed to maximize your advertising budget while delivering exceptional returns.
               </p>
               <ul className="ppctab-main d-flex align-items-center">
                 {points.map((point, index) => (

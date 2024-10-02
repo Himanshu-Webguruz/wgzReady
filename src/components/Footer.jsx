@@ -251,7 +251,7 @@ const Footer = () => {
                 <Link href="#">Term & Condition</Link>
               </li>
               <li>
-                <Link href="#">SiteMap</Link>
+                <Link href="/sitemap.xml">SiteMap</Link>
               </li>
             </ul>
           </div>

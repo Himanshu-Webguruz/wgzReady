@@ -47,7 +47,6 @@ export function middleware(req) {
     '/services/msp-managed-service-provider',
     '/infographics',
     '/our-portfolio',
-    '/sitemap',
   ];
 
   // Normalize the path by removing trailing slashes if present
@@ -56,6 +55,10 @@ export function middleware(req) {
   // Redirect if the path matches one in the list
   if (redirectPaths.includes(normalizedPathname)) {
     return NextResponse.redirect(new URL('/', req.url));
+  }
+   // Redirect from /sitemap to /sitemap.xml
+   if (normalizedPathname === '/sitemap') {
+    return NextResponse.redirect(new URL('/sitemap.xml', req.url));
   }
 
   return NextResponse.next();

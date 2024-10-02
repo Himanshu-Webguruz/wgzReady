@@ -10,39 +10,39 @@ import ppcservicesix from "../../../../public/images/ppcimages/ppc-service-6.svg
 const services = [
   {
     src: ppcservicetwo,
-    title: "Search Advertising",
+    title: "Competitor Analysis",
     description:
-      "Search ads appear to prospects searching for products/services you offer, and generate high-quality leads.",
+      "We conduct an in-depth analysis of your competitors to identify their strategies and uncover opportunities for you to stand out in the market.",
   },
   {
     src: ppcservicethree,
-    title: "Display Advertising",
+    title: "Periodic ROI Measurement & Reporting",
     description:
-      "Display ads are good for branding / awareness and remarketing through images, banners, creative copies, etc., that appear on display ad networks.",
+      "We provide transparent reporting on your ad performance, measuring key metrics to ensure your investment is paying off.",
   },
   {
     src: ppcservicefour,
-    title: "Social Media Advertising",
+    title: "Continual A/B Testing",
     description:
-      "Social media platforms offer excellent targeting capabilities, which bolsters your overall marketing strategy and even drives sales.",
+      "We implement rigorous A/B testing to identify the most effective ad variations, ensuring your campaigns are always performing at their best.",
   },
   {
     src: ppcservicefive,
-    title: "Display Advertising",
+    title: "Ad Creation & Optimization",
     description:
-      "Display ads are good for branding / awareness and remarketing through images, banners, creative copies, etc., that appear on display ad networks.",
+      "Our creative team crafts compelling ads that resonate with your target audience, continuously optimizing them for better performance.",
   },
   {
     src: ppcservicesix,
-    title: "Social Media Advertising",
+    title: "Advanced Campaign Consulting",
     description:
-      "Social media platforms offer excellent targeting capabilities, which bolsters your overall marketing strategy and even drives sales.",
+      "Our experts offer strategic insights and recommendations to enhance your campaigns and drive better results.",
   },
   {
     src: ppcserviceone,
-    title: "Social Media Advertising",
+    title: "Landing Page & CRO Recommendations",
     description:
-      "Social media platforms offer excellent targeting capabilities, which bolsters your overall marketing strategy and even drives sales.",
+      "We analyze your landing pages and provide Conversion Rate Optimization (CRO) strategies to boost your conversion rates.",
   },
 ];
 
@@ -54,9 +54,9 @@ const PpcAdvertising = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-5">
               <h2>
-                <span>PPC Advertising</span> Service In India
+              What to Expect with Our <span>Paid Advertising Services?</span>
               </h2>
-              <span className="mb-2 d-inline-block">Here’s a list of our pay-per-click marketing services in India:
+              <span className="mb-2 d-inline-block">Comprehensive PPC Management Services Tailored to Your Needs
               </span>
             </div>
           </div>

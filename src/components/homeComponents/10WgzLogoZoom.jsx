@@ -48,8 +48,6 @@ const Webguruzwe = () => {
             poster="/video/videoImg.webp"
           >
             <source src="/video/video.webm" type="video/webm" />
-           
-            Your browser does not support the video tag.
           </video>
         </div>
       </div>

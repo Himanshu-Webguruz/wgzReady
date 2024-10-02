@@ -1,26 +1,26 @@
 const steps = [
   {
-    title: "Preparation and Brainstorming",
+    title: "Ad Preparation & Brainstorming",
     description:
-      "We start with a detailed business analysis and then prepare a proposal and define deadlines and deliverables.",
+      "We kick off the process by brainstorming ideas and preparing compelling ad content that captures attention.",
     step: "Step 1",
   },
   {
-    title: "Planning and Researching",
+    title: "Planning & Researching",
     description:
-      "We are a digital marketing agency with a knack for research, both industry and competitor.",
+      "In-depth research allows us to target the right audience and select the best keywords for your campaigns.",
     step: "Step 2",
   },
   {
-    title: "Testing Everything",
+    title: "A/B Testing",
     description:
-      "Once we’re all finished with noting down your requirements, we start experimentation, which involves experimenting with ads and content.",
+      "Rigorous testing helps us fine-tune ads to maximize engagement and conversions.",
     step: "Step 3",
   },
   {
-    title: "Implementing and Execution",
+    title: "Implementation & Execution",
     description:
-      "Finally, we create suitable social media and other campaigns to make it easy for your business to reach your relevant targeted audience.",
+      "We execute campaigns with precision, ensuring all components are aligned for optimal performance.",
     step: "Step 4",
   },
 ];
@@ -32,12 +32,9 @@ const PpcProcess = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-4">
-              <h2 className="color-wt">Our Process</h2>
+              <h2 className="color-wt">Our Paid Ads Process</h2>
               <span className="color-wt">
-                Our professionals are adept in increasing your online presence,
-                visibility, and brand awareness along with helping you boost
-                your ROI. We make outsourcing digital marketing services a
-                breeze. All of this happens in just four simple steps.
+              Managing your PPC campaigns is a systematic process that combines creativity with analytics.
               </span>
             </div>
           </div>
