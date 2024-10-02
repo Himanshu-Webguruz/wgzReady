@@ -17,7 +17,7 @@ const HomeBanner = () => {
               preload="metadata"
               width={"100%"}
               playsInline
-              poster="/video/1.webp"
+              poster="/video/videoImg.webp"
             >
               <source src="/video/video.webm" type="video/webm" />
               Your browser does not support the video tag.

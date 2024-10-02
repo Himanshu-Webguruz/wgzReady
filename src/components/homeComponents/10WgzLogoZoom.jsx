@@ -49,7 +49,7 @@ const Webguruzwe = () => {
             aria-label="Background video"
             playsInline
             loading="lazy"  // Lazy-load video
-            poster="/video/1.webp"
+            poster="/video/videoImg.webp"
           >
             <source src="/video/video.webm" type="video/webm" />
            
