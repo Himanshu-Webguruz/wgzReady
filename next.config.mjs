@@ -1,5 +1,5 @@
 /* @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig = {  
     images: {
         remotePatterns: [
           {
@@ -15,6 +15,21 @@ const nextConfig = {
             hostname:"api.webguruz.in"
           }
         ],
+      },
+      async redirects() {
+        return [
+          {
+            source: "/:path*",
+            has: [
+              {
+                type: "host",
+                value: "www.webguruz.in", // Replace with your domain
+              },
+            ],
+            destination: "https://webguruz.in/:path*", // Replace with your domain
+            permanent: true,
+          },
+        ];
       },
 };
 

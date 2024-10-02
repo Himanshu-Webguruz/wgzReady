@@ -58,8 +58,8 @@ const PpcManagement = () => {
           </div>
           <div className="row">
             {cardData.map((card, index) => (
-              <div key={index} className="col-sm-4 col-xs-12">
-                <div className="ppc-card">
+              <div key={index} className="col-sm-4 col-xs-12 mb-4">
+                <div className="ppc-card h-100">
                   <div className="image">
                     <Image src={card.image} alt={card.alt} />
                   </div>

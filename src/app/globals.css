@@ -2634,7 +2634,9 @@ form.newsleter input[type="submit"] {
   max-width: 800px;
 }
 /* about tabber start */
-
+.ppc-card:hover h3 {
+  color: #fff;
+}
 
 /* about tabber end */
 
@@ -3450,7 +3452,7 @@ form.newsleter input[type="submit"] {
     background-image: none;
   }
   .content-right {
-    padding-left: 10px;
+    padding-left: 0;
     padding-top: 42px;
   }
   .left-content h2,
