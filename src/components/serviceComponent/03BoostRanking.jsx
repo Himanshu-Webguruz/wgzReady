@@ -24,7 +24,7 @@ const BoostRanking = () => {
                 width={"100%"}
                 playsInline
               >
-                <source src="/video/baner-video.mp4" type="video/mp4"></source>
+                <source src="/video/video.webm" type="video/webm"></source>
               </video>
             </div>
             <div className="col-sm-6 col-xs-12 content-right form">
