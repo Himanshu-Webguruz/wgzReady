@@ -3,6 +3,6 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://api.webguruz.in/sitemap_index.xml
+Sitemap: https://webguruz.in/sitemap.xml
 # ---------------------------
 # END YOAST BLOCK
