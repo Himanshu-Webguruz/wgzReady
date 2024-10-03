@@ -41,9 +41,6 @@ const accordionData = [
   },
 
 ];
-
-
-
 const digitalData = [
   {
     title: "What is digital marketing?",
@@ -63,14 +60,14 @@ const digitalData = [
   {
     title: "What is the difference between SEO and PPC?",
     content:
-      `<ul><l1>SEO (Search Engine Optimization): This involves optimizing your website's content and structure to improve its ranking in search engine results pages (SERPs) organically. It is a long-term strategy that can take time to yield results.</li>
+      `<ul style="list-style-type: disc;"><li>SEO (Search Engine Optimization): This involves optimizing your website's content and structure to improve its ranking in search engine results pages (SERPs) organically. It is a long-term strategy that can take time to yield results.</li>
           <li>PPC (Pay-Per-Click): This involves paying for ads to appear at the top of search engine results pages or on social media platforms. It provides immediate visibility but requires ongoing investment.</li></ul>`,
   },
   {
     title: "How can I measure the success of my digital marketing campaigns?",
     content: `
         There are various metrics to track the success of your digital marketing campaigns, including:
-        <ul>
+        <ul style="list-style-type: disc;">
           <li>Website Traffic</li>
           <li>Conversion Rates</li>
           <li>Social Media Engagement</li>
@@ -81,7 +78,6 @@ const digitalData = [
       `,
   },
 ];
-
 const hubspotData = [
   {
     title: "What exactly is HubSpot used for?",
@@ -108,51 +104,47 @@ const hubspotData = [
     content: "Yes, you will likely need HubSpot development services if you are migrating your website to HubSpot. While HubSpot offers a user-friendly interface, migrating your existing website and data may require technical expertise. A HubSpot developer can help you migrate your website content and design, migrate your existing customer data to HubSpot's CRM, configure HubSpot's marketing automation tools, and customize your HubSpot website to meet your specific needs. By working with a HubSpot developer, you can ensure a smooth and efficient migration process and maximize the benefits of HubSpot for your business.",
   },
 ];
-
-
 const ppcdata = [
   {
-      title: "What is the full form of PPC?",
-      content:
-        `PPC stands for "Pay-Per-Click," a digital marketing model where advertisers pay each time a user clicks on their ads.`,
-    },
-    {
-      title: "What are paid advertising services?",
-      content:
-        `Paid advertising services involve creating and managing ad campaigns across various platforms to promote products or services, driving targeted traffic and generating leads.`,
-    },
-    {
-      title: "How much do paid ads cost?",
-      content:
-        `The cost of paid ads varies based on factors like the platform, targeting options, and competition. Typically, businesses set a budget that aligns with their marketing goals and monitor performance to optimize spending.`,
-    },
-    {
-      title: "What is paid advertising on social media?",
-      content:
-        `Paid advertising on social media involves creating sponsored posts or ads on platforms like Facebook, Instagram, and LinkedIn to reach specific audiences and drive engagement or conversions.`,
-    },
-    {
-      title: "Why use paid ads?",
-      content:
-        `Paid ads provide immediate visibility, allow for precise targeting, and are measurable, helping businesses achieve their marketing objectives quickly and effectively.`,
-    },
-    {
-      title: "What paid marketing strategies do you use?",
-      content:
-        `We utilize a mix of strategies including keyword targeting, audience segmentation, retargeting, A/B testing, and continuous optimization to maximize campaign performance.`,
-    },
-    {
-      title: "Which metrics do you track to measure the success of paid advertising campaigns?",
-      content:
-        `We track key metrics such as click-through rate (CTR), conversion rate, cost per acquisition (CPA), return on ad spend (ROAS), and overall ROI to evaluate campaign effectiveness.`,
-    },
-    {
-      title: "What are the benefits of working with WebGuruz?",
-      content:
-        `Partnering with WebGuruz gives you access to a team of experts, tailored strategies, transparent reporting, and ongoing support to ensure your PPC campaigns are successful.`,
-    },
-   
-  ];
+    title: "What is the full form of PPC?",
+    content:
+      `PPC stands for "Pay-Per-Click," a digital marketing model where advertisers pay each time a user clicks on their ads.`,
+  },
+  {
+    title: "What are paid advertising services?",
+    content:
+      `Paid advertising services involve creating and managing ad campaigns across various platforms to promote products or services, driving targeted traffic and generating leads.`,
+  },
+  {
+    title: "How much do paid ads cost?",
+    content:
+      `The cost of paid ads varies based on factors like the platform, targeting options, and competition. Typically, businesses set a budget that aligns with their marketing goals and monitor performance to optimize spending.`,
+  },
+  {
+    title: "What is paid advertising on social media?",
+    content:
+      `Paid advertising on social media involves creating sponsored posts or ads on platforms like Facebook, Instagram, and LinkedIn to reach specific audiences and drive engagement or conversions.`,
+  },
+  {
+    title: "Why use paid ads?",
+    content:
+      `Paid ads provide immediate visibility, allow for precise targeting, and are measurable, helping businesses achieve their marketing objectives quickly and effectively.`,
+  },
+  {
+    title: "What paid marketing strategies do you use?",
+    content:
+      `We utilize a mix of strategies including keyword targeting, audience segmentation, retargeting, A/B testing, and continuous optimization to maximize campaign performance.`,
+  },
+  {
+    title: "Which metrics do you track to measure the success of paid advertising campaigns?",
+    content:
+      `We track key metrics such as click-through rate (CTR), conversion rate, cost per acquisition (CPA), return on ad spend (ROAS), and overall ROI to evaluate campaign effectiveness.`,
+  },
+  {
+    title: "What are the benefits of working with WebGuruz?",
+    content:
+      `Partnering with WebGuruz gives you access to a team of experts, tailored strategies, transparent reporting, and ongoing support to ensure your PPC campaigns are successful.`,
+  },
 
-
-export { accordionData, digitalData, hubspotData,ppcdata };
+];
+export { accordionData, digitalData, hubspotData, ppcdata };

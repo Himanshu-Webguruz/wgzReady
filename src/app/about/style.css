@@ -202,6 +202,7 @@ ul.counter-main-about li {
 .aboout-history {
     background-image: linear-gradient(45deg, #effdff, transparent);
 }
+
 @media(max-width: 767px){
     .vision-sub, .vision-sub h3, .vision-sub p, .vision-main .row >div:nth-child(2) .vision-sub,
     .vision-main .row >div:nth-child(2) .vision-sub h3, .vision-main .row >div:nth-child(2) .vision-sub p {
@@ -222,7 +223,34 @@ ul.counter-main-about li {
         max-width: 100%;
         margin: auto;
     }
-
+    .aboout-history ul {
+        padding: 0px 0px 20px !important;
+        border: 0px;
+    }
+    .aboout-history ul li {
+        width: 49.8%;
+    }
+    .aboout-history .image-cnt{
+        flex-direction: column;
+    }
+    .aboout-history .image-cnt >div{
+        width :100%;
+    }
+    .about-leader .heading-main {
+        padding-bottom: 40px;
+    }
+    .about-leader .image-content img {
+        height: auto;
+    }
+    .about-leader .image-content {
+        margin-bottom: 25px;
+    }
+.image-content-testimonial .content-right {
+    padding-top: 10px;
+}
+.about-we-are .about-left img{
+    margin-top: 0px;
+}
 }
 @media(max-width: 575px){
     .card-icon-content {

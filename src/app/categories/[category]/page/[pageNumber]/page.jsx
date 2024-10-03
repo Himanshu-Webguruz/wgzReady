@@ -1,17 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import '../../../../blogs/blogs.css'
-
+import "../../../../blogs/blogs.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretLeft,faCaretRight } from "@fortawesome/free-solid-svg-icons";
+import { faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
 import ExploreTopic from "@/components/blogComponents/ExploreTopic";
 import BlogNewsletter from "@/components/blogComponents/BlogNewsletter";
 
-
 // Constants for pagination
-const POSTS_PER_PAGE = 10; 
+const POSTS_PER_PAGE = 10;
 
 function normalizeString(str) {
   return str.toLowerCase().replace(/-/g, " ").replace(/\s+/g, " ").trim();
@@ -19,7 +17,9 @@ function normalizeString(str) {
 
 // Fetch posts from the API
 async function getPost(selectedCategory) {
-  const res = await fetch(`${process.env.NEXTAUTH_URL}/api/getdata?&limit=1000`); // Fetching all posts with a high limit
+  const res = await fetch(
+    `${process.env.NEXTAUTH_URL}/api/getdata?&limit=1000`
+  ); // Fetching all posts with a high limit
   const { data } = await res.json();
 
   if (!data || data.length === 0) {
@@ -62,10 +62,13 @@ const Page = async ({ params }) => {
     <>
       <section className="blog-categories">
         <div className="container">
-        <div className="col-sm-12 col-xs-12">
+          <div className="col-sm-12 col-xs-12">
+            <h1 className="cate-heading">{params.category}</h1>
             <ul>
               <li>
-                <Link href="/blogs"><FontAwesomeIcon icon={faCaretLeft} /></Link>
+                <Link href="/blogs">
+                  <FontAwesomeIcon icon={faCaretLeft} />
+                </Link>
               </li>
               <li>
                 <Link href="/categories/web-design">Web Design</Link>
@@ -111,11 +114,11 @@ const Page = async ({ params }) => {
                   </div>
 
                   <div className="content">
-                  <h4>
-                    <Link href={`/blog/${post.slug}`}>
-                      {post.title.rendered}
-                    </Link>
-                  </h4>
+                    <h4>
+                      <Link href={`/blog/${post.slug}`}>
+                        {post.title.rendered}
+                      </Link>
+                    </h4>
                     <p
                       dangerouslySetInnerHTML={{
                         __html: post.excerpt.rendered
@@ -152,14 +155,14 @@ const Page = async ({ params }) => {
 
           <div className="pagination-controls">
             {currentPage > 1 && (
-             <Link
-             href={
-               currentPage === 2
-                 ? `/categories/${selectedCategory}`
-                 : `/categories/${selectedCategory}/page/${currentPage - 1}`
-             }
-             className="pagination-link"
-           >
+              <Link
+                href={
+                  currentPage === 2
+                    ? `/categories/${selectedCategory}`
+                    : `/categories/${selectedCategory}/page/${currentPage - 1}`
+                }
+                className="pagination-link"
+              >
                 <FontAwesomeIcon icon={faCaretLeft} height={"1em"} />
               </Link>
             )}
@@ -168,27 +171,27 @@ const Page = async ({ params }) => {
                 href={`/categories/${selectedCategory}/page/${currentPage + 1}`}
                 className="pagination-link"
               >
-               <FontAwesomeIcon icon={faCaretRight} height={"1em"} />
+                <FontAwesomeIcon icon={faCaretRight} height={"1em"} />
               </Link>
             )}
           </div>
         </div>
       </section>
-      <ExploreTopic/>
-      <BlogNewsletter/>
+      <ExploreTopic />
+      <BlogNewsletter />
     </>
   );
 };
 
 export default Page;
 export async function generateMetadata({ params }) {
-  const { category } = params;
+  const { category, pageNumber } = params;
 
   const title =
     normalizeString(category)[0].toUpperCase() +
     normalizeString(category).slice(1);
   return {
-    title: title + " - " + "WebGuruz Technologies Pvt Ltd",
+    title: title + " - Page " + pageNumber + " - WebGuruz Technologies Pvt Ltd",
     description: "What We Say, We Deliver",
   };
 }

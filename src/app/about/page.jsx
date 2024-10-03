@@ -28,5 +28,5 @@ export default page;
 export const metadata = {
   title: "About Us - Webguruz",
   description:
-    "Know more about Webguruz; We are India&#039;s top Web development &amp; marketing company that focuses on providing the highest level of customer service. Call us today",
+    "Know more about Webguruz; We are India's top Web development & marketing company that focuses on providing the highest level of customer service. Call us today",
 };

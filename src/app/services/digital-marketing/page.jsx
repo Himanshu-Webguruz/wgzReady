@@ -43,5 +43,6 @@ const page = () => {
 export default page;
 export const metadata = {
   title: "Grow online with a Results-Driven Digital Marketing Agency",
-  description: "Get top-notch digital marketing services at WebGuruz. Our expert team specializes in SEO, PPC, SMO, and content marketing to improve your business growth.",
+  description:
+    "Get top-notch digital marketing services at WebGuruz. Our expert team specializes in SEO, PPC, SMO, and content marketing to improve your business growth.",
 };

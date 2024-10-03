@@ -55,7 +55,7 @@ const WebStation = () => {
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon4} alt="stations1" />
-                <h3 className="station-develop-title"> 24/7 Help Desk </h3>
+                <h3 className="station-develop-title"> 24/7 Support </h3>
                 <p className="station-develop-peragraph">
                 Whether you need help troubleshooting a technical issue or simply have a query about your website&apos;s performance, we&apos;re here to provide prompt assistance.
                 </p>

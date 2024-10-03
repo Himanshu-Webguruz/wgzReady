@@ -2160,9 +2160,16 @@ p.openingjob span {
   justify-content: space-between;
 }
 .career-jobs .faq-content .accordionNew.active div ul {
-  padding: 8px 0px;
   list-style-type: none;
   font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  flex-wrap: wrap;
+  padding: 0px 16px 16px;
+  margin-top: 0;
+  background-color: #fafafa;
+  box-shadow: 0px 4px 2px #99999954;
 }
 .career-jobs .faq-content .accordionNew.active div ul.job-opening-data li {
   display: flex;
@@ -2179,9 +2186,8 @@ p.openingjob span {
 .career-jobs .webguruz-Faq {
   padding-top: 0;
 }
-.career-jobs .faq-content .accordionNew {
-  padding: 12px;
-  background-color: transparent;
+.career-jobs .faq-content .accordionNew.active div a li {
+  font-size: 18px;
 }
 .career-job {
   position: relative;
@@ -2484,32 +2490,67 @@ form.newsleter input[type="submit"] {
 }
 .career-jobs .faq-content .accordionNew span {
   font-size: 16px;
-  right: 0;
+  right: 20px;
+  top: 15px;
   font-weight: 400;
   margin: 0px;
+}
+.career-jobs .faq-content .accordionNew span.opening-wgz {
+  font-weight: 600;
 }
 .career-jobs .faq-content .accordionNew span::before {
   display: none;
 }
-.career-jobs .faq-content .accordionNew.active h2 {
-  color: #fff;
-}
-.career-jobs .accordionNew {
-  background-color: #f2f2f2;
-  padding: 12px;
-  margin-bottom: 1px;
-}
 
+.career-jobs .faq-content .accordionNew {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 0;
+}
 .career-jobs .faq-content .accordionNew.active div a {
   display: flex;
   justify-content: space-between;
-  padding: 12px;
-  background-color: #197b89;
-  margin-bottom: 3px;
-  color: #fff;
+  color: #383838;
   font-weight: 400;
   font-size: 16px;
+  width: 100%;
+  padding: 12px 0px 7px;
+  border-bottom: 1px solid #dcdbdb;
 }
+.career-jobs .faq-content .accordionNew.active div a span.tooltip-text {
+    color: #fff;
+    border-radius: 0px;
+}
+.career-jobs .faq-content .accordionNew.active div a:last-child{
+  border-bottom: 0px;
+}
+.career-jobs .faq-content .accordionNew div h2{
+  color: #383838;
+  padding: 12px;
+}
+.career-jobs .faq-content >div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.career-jobs .faq-content .accordionNew.active div h2 {
+  background-color: #168b9a;
+  padding: 16px;
+ 
+}
+.career-jobs .faq-content .accordionNew div, .career-jobs .faq-content .accordionNew.active span, .career-jobs .faq-content .accordionNew.active div h2 {
+  color: #fff;
+}
+.career-jobs .faq-content .accordionNew.active div a span, .career-jobs .faq-content .accordionNew.active div a li {
+  color: #383838;
+}
+.career-jobs .faq-content .accordionNew.active {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: unset;
+  padding: 0px;
+}
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -2638,6 +2679,10 @@ form.newsleter input[type="submit"] {
   color: #fff;
 }
 
+h1.cate-heading {
+  font-size: 0px;
+  margin: 0;
+}
 /* about tabber end */
 
 
@@ -3499,6 +3544,9 @@ form.newsleter input[type="submit"] {
   }
   form.newsleter input[type="submit"] {
     padding: 12px 30px;
+  }
+  .career-jobs .faq-content .accordionNew{
+    width: 100%;
   }
 }
 @media (max-width: 575px) {

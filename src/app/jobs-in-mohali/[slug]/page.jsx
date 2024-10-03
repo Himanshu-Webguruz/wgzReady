@@ -35,6 +35,6 @@ export async function generateMetadata({ params }) {
 
   return {
     title: data[0].yoast_head_json.title,
-    description: data[0].yoast_head_json.description,
+    description: data[0].yoast_head_json.description || data[0].yoast_head_json.title,
   };
 }

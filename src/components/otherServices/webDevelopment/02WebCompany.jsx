@@ -1,7 +1,4 @@
-import Image from "next/image";
-import upload from "/public/images/webimages/upload.svg";
 import Link from "next/link";
-import WebdevForm from "@/utils/formsHubspot/Webdeveform";
 import HubspotForm from "../hubspotDev/clientHubForm/HubspotForm";
 
 const WebCompany = () => {
