@@ -16,7 +16,7 @@ const page=async({params})=>{
         <>
         <SingleCareerBanner data={data} />
         <SingleExperience data={data} />
-        <SingleJobDescription/>
+        <SingleJobDescription data={data}/>
         <HomeTestimonial/>
         <CareerJob/>
         </>

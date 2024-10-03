@@ -524,16 +524,14 @@ form.web-connect label.submit {
   margin-bottom: -102px;
 }
 
-.hub-counting span.index-module_slot_wrap__ZT-DX >span {
+.hub-counting span.index-module_slot_wrap__ZT-DX >span, .counter-sub label span {
   font-weight: 700;
   font-size: 60px;
   margin-bottom: 10px;
+  line-height: normal !important;
   font-family: var(--font-outfit);
-}
-.hub-counting span.index-module_slot_wrap__ZT-DX span{
   color: #26C6DA !important;
-  font-size: 60px;
-  line-height: normal;
+  display: inline-block;
 }
 
 .counter-sub {
@@ -2503,11 +2501,11 @@ flex-direction: column-reverse;
   text-align: center;
   padding: 20px 0px;
 }
-.hub-counting span.index-module_slot_wrap__ZT-DX span {
+/* .hub-counting span.index-module_slot_wrap__ZT-DX span {
   font-size: 60px;
   margin: 0px;
   line-height: normal;
-}
+} */
 .hub-counting span.index-module_slot_wrap__ZT-DX {
   min-height: unset;
 }
