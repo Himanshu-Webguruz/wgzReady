@@ -3,6 +3,7 @@ import logoppc from "../../../../public/images/ppcimages/ppcform1.svg";
 import logoppc2 from "../../../../public/images/ppcimages/ppcform2.svg";
 import logoppc3 from "../../../../public/images/ppcimages/ppcform3.svg";
 import HubspotForm from "../hubspotDev/clientHubForm/HubspotForm";
+import WebdevForm from "@/utils/formsHubspot/Webdeveform";
 
 const PpcServiceForm = ({ heading,subHeading}) => {
   const points = [
@@ -40,8 +41,9 @@ const PpcServiceForm = ({ heading,subHeading}) => {
                 ))}
               </div>
             </div>
-            <div className="col-sm-6 col-xs-12 formppc">
-              <HubspotForm />
+            <div className="col-sm-6 col-xs-12 formppc boost-ranking hub-ranking">
+              {/* <HubspotForm /> */}
+              <WebdevForm/>
             </div>
           </div>
         </div>

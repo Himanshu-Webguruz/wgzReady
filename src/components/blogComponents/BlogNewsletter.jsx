@@ -2,6 +2,7 @@
 import NewLetterLogo from "../../../public/images/newLetter-logo.png";
 import Image from "next/image";
 import HomeClient from "../homeComponents/clientcomp/HomeClient";
+import BlogSubscribeForm from "@/utils/formsHubspot/BlogSubscribeForm";
 const BlogNewsletter = () => {
   return (
     <>
@@ -20,12 +21,12 @@ const BlogNewsletter = () => {
                   </div>
                 </div>
                 <div className="news-form-right">
-                  <form>
+                  {/* <form>
                     <input type="text" placeholder="Enter Email" />
                     <button type="submit">Subscribe Now!</button>
-                  </form>
+                  </form> */}
                   {/* <HomeClient/> */}
-                  {/* <BlogSubscribeForm/> */}
+                  <BlogSubscribeForm/>
                 </div>
               </div>
             </div>

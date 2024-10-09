@@ -45,8 +45,8 @@ const BoostRanking = () => {
                   <li>Efficient Resource Allocation</li>
                   <li>Scalable Solutions</li>
                 </ul>
-                <ServiceFormCl />
-                {/* <DigitalForm/> */}
+                {/* <ServiceFormCl /> */}
+                <DigitalForm/>
               </div>
             </div>
           </div>

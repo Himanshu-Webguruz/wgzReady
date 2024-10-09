@@ -21,11 +21,11 @@ const HomeTab = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-12 col-xs-12">
+          <div className="col-sm-12 col-xs-12 home-tabing">
             <Tabs
               defaultActiveKey="experts"
               id="uncontrolled-tab-example"
-              className="pb-5"
+              className="pb-0"
             >
               {homeTabData.map((tab) => (
                 <Tab
@@ -33,7 +33,7 @@ const HomeTab = () => {
                   title={tab.title}
                   key={tab.eventKey}
                 >
-                  <div className="image-content d-flex justify-content-between column-gap-5">
+                  <div className="image-content d-flex justify-content-between column-gap-2">
                     <div className="content">
                       {tab.content.map((paragraph, index) => (
                         <p key={index}>{paragraph}</p>

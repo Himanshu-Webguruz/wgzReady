@@ -26,10 +26,10 @@ const ContactBanner = () => {
                 </Link>
               </div>
             </div>
-            <ContactClient />
-            {/* <div className="col-sm-6 col-xs-12 ">
+            {/* <ContactClient /> */}
+            <div className="col-sm-6 col-xs-12 ">
             <HubSpotFormV2/>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>

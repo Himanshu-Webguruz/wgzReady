@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import validator from "validator";
+import { useRouter } from "next/navigation";
 const BASE_URL_API = process.env.NEXT_PUBLIC_BASE_URL_API;
 
 const HubspotForm = () => {
@@ -16,6 +17,9 @@ const HubspotForm = () => {
 
   const [formData, setFormData] = useState(initialFormData);
   const [errors, setErrors] = useState({});
+  const [serverMessage, setServerMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
   const validateForm = () => {
     const newErrors = {};
@@ -47,20 +51,22 @@ const HubspotForm = () => {
   const handleSubmit = async () => {
     if (validateForm()) {
       const fullName = `${formData.firstName} ${formData.lastName}`;
-      const formdata = new FormData();
-      formdata.append("your-name", fullName);
-      formdata.append("your-email", formData.email);
-      formdata.append("number", formData.phone);
-      formdata.append("your-message", formData.projectDetails);
-      formdata.append("_wpcf7_unit_tag", "wpcf7-f7908-p7932-o5");
-
-      const requestOptions = {
-        method: "POST", // Changed to POST
-        body: formdata,
-        redirect: "follow",
-      };
+      setLoading(true);
 
       try {
+        const formdata = new FormData();
+        formdata.append("your-name", fullName);
+        formdata.append("your-email", formData.email);
+        formdata.append("number", formData.phone);
+        formdata.append("your-message", formData.projectDetails);
+        formdata.append("_wpcf7_unit_tag", "wpcf7-f7908-p7932-o5");
+
+        const requestOptions = {
+          method: "POST",
+          body: formdata,
+          redirect: "follow",
+        };
+
         const response = await fetch(
           `${BASE_URL_API}/wp-json/contact-form-7/v1/contact-forms/7908/feedback`,
           requestOptions
@@ -70,14 +76,24 @@ const HubspotForm = () => {
           throw new Error("Network response was not ok");
         }
 
-        const result = await response.text();
+        const result = await response.json();
         console.log("Response from server:", result);
 
-        // Reset the form data to initial state
+        if (result.status === "mail_failed" || result.status === "spam") {
+          setServerMessage(result.message);
+        } else if (result.status === "mail_sent") {
+          setServerMessage(result.message);
+          router.push("/thank-you");
+        }
+
+        // Reset the form data to the initial state
         setFormData(initialFormData);
-        setErrors({}); // Clear any existing errors
+        setErrors({});
       } catch (error) {
         console.error("Error posting data:", error);
+        setServerMessage("Please try again.");
+      } finally {
+        setLoading(false);
       }
     } else {
       console.log("Form has errors.");
@@ -149,9 +165,20 @@ const HubspotForm = () => {
             type="button"
             className="explore-btn"
             onClick={handleSubmit}
+            disabled={loading}
           >
-            Get Started
+            {loading ? "Submitting..." : "Get Started"}
           </button>
+          {serverMessage && (
+            <p
+              style={{
+                color: serverMessage.includes("error") ? "red" : "green",
+              }}
+              className="error-msg"
+            >
+              {serverMessage}
+            </p>
+          )}
         </form>
       </div>
     </div>

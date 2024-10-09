@@ -1,9 +1,10 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
-import logo from "../../public/images/header-logo-one.svg";
+import logo from "../../public/images/header-logo-one.webp";
 import Link from "next/link";
 import Image from "next/image";
+import ModalForm from "./PopUpForms/GetQuoteForm";
 
 const Header = () => {
   const pathname = usePathname();
@@ -80,6 +81,9 @@ const Header = () => {
                   <Link href="tel:(+91) 959 201 6444">
                     (+91) 959 201 6444 (Jobs)
                   </Link>
+                </li>
+                <li>
+                  <ModalForm/>
                 </li>
               </ul>
             </div>
@@ -209,7 +213,7 @@ const Header = () => {
                 <Link href="/careers">Careers</Link>
               </li>
               <li className="contactMain px-4">
-                <Link href="/contact-us">
+                <Link href="/contact-us" className="explore-btn">
                   <span>Contact Us</span>
                 </Link>
               </li>

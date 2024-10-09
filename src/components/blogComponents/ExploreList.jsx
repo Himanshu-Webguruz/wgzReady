@@ -12,7 +12,7 @@ import Leftinternet from "/public/images/blogimages/blogexplore6.svg";
 import Image from "next/image";
 const ExploreList = () => {
   return (
-    <div className="row mt-4">
+    <div className="row mt-4 explore-topics-card">
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
           <Image src={ExploreIcon} alt="Image" />

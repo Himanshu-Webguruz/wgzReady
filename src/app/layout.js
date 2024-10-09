@@ -3,12 +3,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import "../../public/service.css";
-// import '/public/hub.css'
+import '/public/hub.css'
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BodyClassWrapper from "@/utils/BodyClassWrapper";
 import Addresshome from "@/components/homeComponents/12Addresshome";
 import DynamicContact from "@/utils/DynamicContact";
+import AddressChange from "@/components/homeComponents/12AddressChange";
 
 // Import the Inter and Outfit fonts
 export const inter = Inter({
@@ -40,7 +41,8 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <DynamicContact />
-        <Addresshome />
+        {/* <Addresshome /> */}
+        <AddressChange/>
         <Footer />
       </body>
     </html>

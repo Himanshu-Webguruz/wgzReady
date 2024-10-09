@@ -196,7 +196,6 @@ ul.counter-main-about li {
 .aboout-history ul {
     display: flex;
     justify-content: space-between;
-    padding: 0px 0px 60px !important;
     border: 0px;
 }
 .aboout-history {

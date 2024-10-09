@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import HomeClient from "../homeComponents/clientcomp/HomeClient";
+import BlogSubscribeForm from "@/utils/formsHubspot/BlogSubscribeForm";
 
 const CareerJob = () => {
   const handleScrollToJobs = () => {
@@ -29,10 +30,11 @@ const CareerJob = () => {
                 Subscribe to our email newsletter and stay updated with the
                 latest tech insights from our digital experts.
               </h3>
-              <form className="newsleter">
+              {/* <form className="newsleter">
                 <input type="text" placeholder="Enter Email" />
                 <input type="submit" value="subscribe"></input>
-              </form>
+              </form> */}
+              <BlogSubscribeForm/>
               {/* <HomeClient/> */}
             </div>
           </div>

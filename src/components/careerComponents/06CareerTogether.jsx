@@ -29,7 +29,7 @@ const CareerTogether = () => {
               </p>
             </div>
           </div>
-          <div className="row">
+          <div className="row together-row">
             <div className="col-sm-2 col-xs-12 image">
               <Image src={Together1} alt="Together1" />
             </div>

@@ -7,7 +7,7 @@ const Webguruzwe = () => {
 
   const initialMaskSize = 0.4;
   const targetMaskSize = 50;
-  const easing = 0.03;
+  const easing = 0.1;
   let easedScrollProgress = 0;
 
   useEffect(() => {

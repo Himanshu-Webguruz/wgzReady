@@ -4,6 +4,7 @@ import usdollar from '../../../../public/images/hubspotimages/UsDollarCircled.sv
 import CustomerInsight from '../../../../public/images/hubspotimages/CustomerInsight.svg'
 import devskill from '../../../../public/images/hubspotimages/devskill.svg'
 import HubspotForm from "./clientHubForm/HubspotForm";
+import WebdevForm from "@/utils/formsHubspot/Webdeveform";
 
 const BoostHubRank = () => {
   return (
@@ -40,7 +41,8 @@ const BoostHubRank = () => {
               </div>
             </div>
             <div className="col-sm-6 col-xs-12">
-              <HubspotForm />
+              {/* <HubspotForm /> */}
+              <WebdevForm/>
             </div>
           </div>
         </div>

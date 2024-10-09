@@ -8,7 +8,7 @@ import { aboutTabData } from "@/utils/03utilHomeTab";
 const AboutTabber = () => {
   const [activeTab, setActiveTab] = useState("experts");
   return (
-    <section className="aboout-history py-5">
+    <section className="py-5 tab-main">
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-5">
@@ -16,12 +16,12 @@ const AboutTabber = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-12 col-xs-12 history-tabs">
+          <div className="col-sm-12 col-xs-12 ">
             <Tabs
               activeKey={activeTab}
               onSelect={(k) => setActiveTab(k)} // Update active tab
               id="uncontrolled-tabeer"
-              className="pb-5"
+              className=""
             >
               {aboutTabData.map((tab) => (
                 <Tab

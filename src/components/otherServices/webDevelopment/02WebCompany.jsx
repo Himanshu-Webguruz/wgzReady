@@ -1,5 +1,6 @@
 import Link from "next/link";
 import HubspotForm from "../hubspotDev/clientHubForm/HubspotForm";
+import WebdevForm from "@/utils/formsHubspot/Webdeveform";
 
 const WebCompany = () => {
   return (
@@ -73,8 +74,8 @@ const WebCompany = () => {
                   <input type="submit" value="Send Your Enquiry" />
                 </label>
               </form> */}
-              <HubspotForm/>
-              {/* <WebdevForm/> */}
+              {/* <HubspotForm/> */}
+              <WebdevForm/>
             </div>
           </div>
         </div>

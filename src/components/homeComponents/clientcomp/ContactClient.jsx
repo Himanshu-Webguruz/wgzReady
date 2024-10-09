@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import validator from "validator";
+import { useRouter } from "next/navigation";
 const BASE_URL_API = process.env.NEXT_PUBLIC_BASE_URL_API;
 
 const ContactClient = () => {
@@ -15,6 +16,9 @@ const ContactClient = () => {
 
   const [formData, setFormData] = useState(initialFormData);
   const [errors, setErrors] = useState({});
+  const [serverMessage, setServerMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
   const validateForm = () => {
     const newErrors = {};
@@ -44,6 +48,7 @@ const ContactClient = () => {
   const handleSubmit = async () => {
     if (validateForm()) {
       console.log("Form Submitted:", formData);
+      setLoading(true);
 
       try {
         const formdata = new FormData();
@@ -68,14 +73,24 @@ const ContactClient = () => {
           throw new Error("Network response was not ok");
         }
 
-        const data = await response.text();
-        console.log("Response from server:", data);
+        const result = await response.json();
+        console.log("Response from server:", result);
 
-        // Reset the form data to initial state
+        if (result.status === "mail_failed" || result.status === "spam") {
+          setServerMessage(result.message);
+        } else if (result.status === "mail_sent") {
+          setServerMessage(result.message);
+          router.push("/thank-you");
+        }
+
+        // Reset the form data to the initial state
         setFormData(initialFormData);
-        setErrors({}); // Clear any existing errors
+        setErrors({});
       } catch (error) {
         console.error("Error posting data:", error);
+        setServerMessage("Please try again.");
+      } finally {
+        setLoading(false);
       }
     } else {
       console.log("Form has errors.");
@@ -127,9 +142,19 @@ const ContactClient = () => {
               <span className="error">{errors.projectDetails}</span>
             )}
           </label>
-          <button type="button" onClick={handleSubmit}>
-            Submit
+          <button type="button" onClick={handleSubmit} disabled={loading}>
+            {loading ? "Submitting..." : "Submit"}
           </button>
+          {serverMessage && (
+            <p
+              style={{
+                color: serverMessage.includes("error") ? "red" : "green",
+              }}
+              className="error-msg"
+            >
+              {serverMessage}
+            </p>
+          )}
         </form>
       </div>
     </>

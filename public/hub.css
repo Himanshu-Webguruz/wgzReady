@@ -1,8 +1,6 @@
+ /* Start Home Page Banner Form Style */
 
-
-    /* Start Home Page Banner Form Style */
-
-    .website-label.tpfrmbnr form { display: flex; flex-wrap: wrap; }
+    .website-label.tpfrmbnr form { display: flex; flex-wrap: wrap;width: 100%; }
     .website-label.tpfrmbnr { border: 1px solid hsla(0, 0%, 100%, .5);    border-radius: 50px;      max-width: 740px;    background: transparent;    position: relative;  }
     .website-label.tpfrmbnr input { padding: 20px 22px;    background: transparent;    color: #fff;  border: 0; }
     .website-label.tpfrmbnr .hs-form-field { margin: 0; }
@@ -69,10 +67,37 @@
 }
 label.hs-error-msg, ul.hs-error-msgs li label {
   color: #ff0000;
+  font-size: 11px;
+}
+.contact-right-form .hs-form-field ul.hs-error-msgs.inputs-list {
+  position: absolute;
+  bottom: -20px;
+}
+.hs_error_rollup {
+display: none !important;
+}
+.contact-right-form .hs_submit.hs-submit {
+  padding-top: 12px;
+}
+.boost-ranking .content-right fieldset ul,
+.web-company .web-connect fieldset ul {
+  position: absolute;
+  bottom: -21px;
+}
+.boost-ranking .content-right fieldset.form-columns-2 >div, 
+.boost-ranking .content-right fieldset.form-columns-1 >div,
+.web-company .web-connect fieldset.form-columns-2 >div,
+.web-company .web-connect fieldset.form-columns-1 >div,
+.web-company .web-connect fieldset.form-columns-0 >div {
+  position: relative;
+}
+.boost-ranking .content-right fieldset ul li {
+  background-image: none;
+  padding: 0px;
 }
 .website-label.tpfrmbnr form fieldset.form-columns-2 {
     display: flex;
-    width: 65% !important;
+    width: 70% !important;
     max-width: unset !important; 
 }
 .website-label.tpfrmbnr form fieldset.form-columns-2 >div:first-child .input:after {
@@ -94,7 +119,7 @@ label.hs-error-msg, ul.hs-error-msgs li label {
     width: 100%;
 }
 .website-label.tpfrmbnr form fieldset.form-columns-2 input {
-    background: transparent;
+    background-color: transparent;
     width: 100%;
     min-height: 64px;
     padding: 10px 22px;
@@ -102,13 +127,24 @@ label.hs-error-msg, ul.hs-error-msgs li label {
     color: #fff;
     border: 0px;
     font-size: 18px;
-    border-radius: 50px;
-    font-weight: 500;
+    border-radius: 0px;
+    font-weight: 400;
+}
+
+div#hubspotForm-componentOne.website-label.tpfrmbnr input:-webkit-autofill, 
+div#hubspotForm-componentOne.website-label.tpfrmbnr input:-webkit-autofill:hover, 
+div#hubspotForm-componentOne.website-label.tpfrmbnr input:-webkit-autofill:focus, input:-webkit-autofill:active {
+  transition: background-color 5000000s ease-in-out 0s;
+  -webkit-text-fill-color: #F1F1F1;
+}
+.submitted-message {
+  padding: 12px;
+  color: #bcffbc;
+  font-weight: 500;
 }
 .website-label.tpfrmbnr form fieldset.form-columns-2 input::placeholder {
     color: #bdbbbb;
 }
-
 .website-label.tpfrmbnr form ul.hs-error-msgs.inputs-list li {
     position: absolute;
     width: 100%;
@@ -119,16 +155,299 @@ label.hs-error-msg, ul.hs-error-msgs li label {
     left: 21px;
     font-weight: 400;
 }
-
 .website-label.tpfrmbnr form .hs_error_rollup {
     display: none;
+}
+div#hubspotForm-componentTwo.website-label.tpfrmbnr {
+  background-color: #fff;
+  margin: auto;
+  max-width: 876px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+}
+div#hubspotForm-componentTwo.website-label.tpfrmbnr form fieldset.form-columns-2 input{
+  color: #383838;
+}
+div#hubspotForm-componentTwo.website-label.tpfrmbnr form fieldset.form-columns-2 > div:first-child .input:after {
+  background-color: rgb(25 25 25 / 22%);
+  width: 2px;
+}
+.website-label.tpfrmbnr form .hs_submit.hs-submit {
+    width: 217px !important;
+    right: 2px;
+}
+div#hubspotForm-componentTwo input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  border-radius: 50px !important;
+}
+.quote-content fieldset textarea, .quote-content fieldset input {
+  width: 100% !important;
+}
+.quote-content input.hs-button.primary.large {
+  padding: 12px 54px;
+  border: 0px;
+  background-color: #25c1d5;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out 0s;
+  overflow: hidden;
+  position: relative;
+}
+.quote-content fieldset {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.boost-ranking .content-right .quote-content fieldset input,
+.boost-ranking .content-right .quote-content fieldset textarea
+{
+border: 1px solid #E7E7E7;
+background-color: #FFFFFF;
+padding: 6px 12px;
+}
+.boost-ranking .content-right fieldset.form-columns-2,
+.boost-ranking .content-right fieldset.form-columns-1 .hs_message,
+.boost-ranking .content-right fieldset.form-columns-1 {
+  width: 100% !important;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.quote-content label span {
+  font-size: 14px;
+}
+.web-company .content-right ul li, .web-company .web-connect ul li {
+  background-image: none;
+  padding: 0px;
+}
+div#webdevForm {
+  padding: 20px;
+  background-color: rgb(255 255 255 / 20%);
+  border-radius: 20px;
+  text-align: center;
+}
+div#webdevForm fieldset.form-columns-0, div#webdevForm fieldset.form-columns-1, div#webdevForm fieldset.form-columns-2 {
+  width: 100% !important;
+  max-width: 100%;
+  color: #fff;
+}
+div#webdevForm .hs-richtext h2 {
+  color: #fff;
+}
+div#webdevForm .input textarea {
+  width: 100%;
+  border-radius: 8px;
+  min-height: 100px;
+  padding: 8px 9px;
+}
+div#webdevForm .input input, .hs-fieldtype-intl-phone.hs-input .hs-input {
+  width: 100%;
+  padding: 7px;
+  min-height: 42px;
+  border-radius: 8px;
+  border: 0px;
+}
+div#webdevForm input.hs-button.primary.large {
+  padding: 12px 54px;
+  border: 0px;
+  background-color: #25c1d5;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out 0s;
+  overflow: hidden;
+  position: relative;
+  margin-top: 28px;
+}
+.hs-input.hs-fieldtype-intl-phone {
+  width: 100% !important;
+}
+div#webdevForm .hs_submit.hs-submit {
+  text-align: left;
+}
+.boost-ranking.hub-ranking div#webdevForm .hs-richtext h2 {
+  color: #fff;
+  padding: 14px 0px;
+  border-radius: 0px;
+  margin: 0px;
+  border: 2px solid #47c7d8;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  background-color: #47c7d8;
+  color: #fff;
+}
+.boost-ranking.hub-ranking div#webdevForm {
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  padding: 0 0 30px !important;
+  background: #f5f8fa;
+  border-radius: 0px;
+  margin-left: 40px;
+}
+.boost-ranking.hub-ranking div#webdevForm fieldset.form-columns-2, .boost-ranking.hub-ranking div#webdevForm fieldset.form-columns-1, .boost-ranking.hub-ranking div#webdevForm .hs_submit {
+  padding: 0px 13px;
+  text-align: left;
+}
+.boost-ranking.hub-ranking div#webdevForm .input input, 
+.boost-ranking.hub-ranking .hs-fieldtype-intl-phone.hs-input .hs-input, 
+.boost-ranking.hub-ranking div#webdevForm textarea {
+  border: 1px solid #e6e6e6;
+  border-radius: 0px !important;
+  padding: 8px 12px;
+}
+.boost-ranking.hub-ranking .field.hs-form-field ul.no-list.hs-error-msgs.inputs-list {
+  position: absolute;
+  bottom: -20px;
+}
+div#hubspotFormV2 .hs-input.hs-fieldtype-intl-phone {
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+}
+div#hubspotFormV2 .hs-input.hs-fieldtype-intl-phone select.hs-input {
+  border-right: 1px solid #dddddd;
+  border-radius: 0px;
+}
+.field.hs-form-field {
+  position: relative;
+}
+.contact-main .contact-right-form textarea {
+  min-height: 100px;
+  padding: 6px 12px;
+}
+div#blogSubscribeForm .input input {
+  width: 100%;
+  padding: 17px 28px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 50px;
+  color: #fff;
+}
+div#blogSubscribeForm {
+  position: relative;
+}
+div#blogSubscribeForm form .hs_submit input {
+  position: absolute;
+  right: 3px;
+  width: auto;
+  padding: 12px 29px;
+  background-color: #25c1d5;
+  color: #fff;
+  border-radius: 0px 50px 50px 0px;
+  border: 0px;
+  top: 23px;
+  bottom: 0;
+  height: 53px;
+  margin: auto;
+  text-transform: capitalize;
+}
+div#blogSubscribeForm ul.no-list.hs-error-msgs.inputs-list {
+  position: absolute;
+  bottom: -25px;
+  left: 28px;
+  padding: 0px;
+}
+.news-form-right div#blogSubscribeForm .input input {
+  width: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgb(70, 70, 70);
+  font-family: __Inter_0ef218;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgb(255, 255, 255);
+  border-image: initial;
+  border-radius: 8px;
+  border: 0px;
+}
+.news-form-right div#blogSubscribeForm form .hs_submit input {
+  margin: auto;
+  text-transform: capitalize;
+  width: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  font-family: __Inter_0ef218;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgb(38, 198, 218);
+  border: 0px;
+  border-image: initial;
+  border-radius: 8px;
+  position: static;
+  width: 100%;
+}
+.news-form-right .hs_submit.hs-submit {
+  width: 100%;
+}
+.news-form-right div#blogSubscribeForm .input input::placeholder{
+  color: #383838;
+}
+.newletter-wrap-section .news-form-right form .hs_email {
+    width: 100%;
+    margin-bottom: 14px;
+}
+.news-form-right div#blogSubscribeForm ul.no-list.hs-error-msgs.inputs-list {
+  bottom: -22px;
+  lefT: 0;
+}
+div#blogSubscribeForm .input input::placeholder{
+  color: #fff;
+}
+.contact-right-form .hs-input {
+  padding: 14px 12px;
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  font-size: 14px;
+  color: #383838;
+  width: 100%;
+}
+.contact-right-form textarea {
+  margin: 0px;
+}
+.contact-right-form .hs_message ul.hs-error-msgs.inputs-list {
+  bottom: 7px;
+}
+div#webdevForm .input input, .hs-fieldtype-intl-phone.hs-input .hs-input {
+  color: #383838;
+}
+/* captcha designing */
+
+.contact-main .hs_recaptcha.hs-recaptcha.field.hs-form-field {
+  padding-top: 0px;
+}
+.boost-ranking .hs_recaptcha.hs-recaptcha.field.hs-form-field {
+  padding: 0px 0px 20px 0px;
+}
+.web-form div#webdevForm .hs_recaptcha.hs-recaptcha {
+  padding-top: 22px;
+}
+.boost-ranking.hub-ranking .hs_recaptcha.hs-recaptcha.field.hs-form-field {
+  padding: 22px 0px 0px 13px;
+}
+div#hubspotForm-componentTwo .website-label.tpfrmbnr form fieldset.form-columns-2 {
+  width: 75% !important;
 }
 @media(max-width: 991px){
   .website-label.tpfrmbnr {
       max-width: 640px;
       min-width: 640px;
   }
- 
+  label.hs-error-msg, ul.hs-error-msgs li label {
+    font-size: 8px;
+}
+.contact-right-form h3{
+  margin-bottom: 0;
+}
+.website-label.tpfrmbnr form input.hs-button.primary.large,
+.website-label.tpfrmbnr form fieldset.form-columns-2 input{
+  font-size: 14px;
+}
+
 }
 
 @media(max-width: 767px){
@@ -136,15 +455,61 @@ label.hs-error-msg, ul.hs-error-msgs li label {
     max-width: 100%;
     min-width: 100%;
 }
+label.hs-error-msg, ul.hs-error-msgs li label {
+  font-size: 11px;
+}
+div#hubspotForm-componentOne.website-label.tpfrmbnr form fieldset.form-columns-2 input {
+  background-color: transparent;
+  border: 1px solid rgb(255 255 255 / 50%);
+}
 .website-label.tpfrmbnr form input.hs-button.primary.large,
 .website-label.tpfrmbnr form fieldset.form-columns-2 input{
+  background-color: #fff;
+  margin-bottom: 14px;
+  border-radius: 50px;
+}
+div.website-label.tpfrmbnr form input.hs-button.primary.large{
+  border-radius: 50px;
+  min-height: 50px !important;
   font-size: 14px;
 }
-
-.website-label.tpfrmbnr form fieldset.form-columns-2 {
+div#hubspotForm-componentOne, div#hubspotForm-componentOne form {
+  border: 0px;
   width: 100%;
+  max-width: 100%;
 }
 
+.website-label.tpfrmbnr form, div#hubspotForm-componentTwo.website-label.tpfrmbnr{
+  flex-direction: column;
+  background-color: transparent;
+  box-shadow: none;
+}
+div.website-label.tpfrmbnr form .hs_submit.hs-submit{
+  position: static;
+}
+div.website-label.tpfrmbnr form fieldset.form-columns-2,
+.website-label.tpfrmbnr form fieldset.form-columns-2 > div {
+  width: 100% !important;
+  flex-direction: column;
+}
+div#hubspotForm-componentTwo.website-label.tpfrmbnr form fieldset.form-columns-2 > div:first-child .input:after{
+  display: none;
+}
+div#blogSubscribeForm form .hs_submit input{
+  padding: 12px;
+}
+div#hubspotForm-componentTwo form {
+  width: 100%;
+}
+div#hubspotForm-componentTwo form .hs-input,div#hubspotForm-componentOne form .hs-input {
+  margin-bottom: 25px;
+  position: relative;
+}
+div#hubspotForm-componentTwo.website-label.tpfrmbnr form ul.hs-error-msgs.inputs-list li,
+div#hubspotForm-componentOne.website-label.tpfrmbnr form ul.hs-error-msgs.inputs-list li{
+  bottom: 0px;
+  width: auto;
+}
 }
 
 @media(max-width: 575px){
@@ -156,24 +521,29 @@ label.hs-error-msg, ul.hs-error-msgs li label {
 .website-label.tpfrmbnr form fieldset.form-columns-2 >div{
   width: 100%;
 }
+.boost-ranking.hub-ranking div#webdevForm {
+  margin-left: 0px;
+}
 .website-label.tpfrmbnr form fieldset.form-columns-2 >div:first-child .input:after{
   display: none;
 }
 .website-label.tpfrmbnr{
   border: 0px;
 }
-
+.website-label.tpfrmbnr form ul.hs-error-msgs.inputs-list li{
+ bottom: 0px;
+}
 .website-label.tpfrmbnr form fieldset.form-columns-2 input {
   border: 1px solid rgb(255 255 255 / 50%) !important;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
   min-height: 50px;
 }
 .website-label.tpfrmbnr form fieldset.form-columns-2 >div .input input {
   width: 100% !important;
 }
 .website-label.tpfrmbnr form ul.hs-error-msgs.inputs-list li {
-  bottom: 0;
-  font-size: 12px;
+  bottom: 0 !important;
+  font-size: 12px !important;
 }
 .website-label.tpfrmbnr form fieldset.form-columns-2 >div .input{
   margin: 0px;
@@ -186,6 +556,13 @@ label.hs-error-msg, ul.hs-error-msgs li label {
   min-height: 50px !important;
   margin-top: 0px;
 }
-
+.boost-ranking .content-right fieldset.form-columns-2 >div {
+  width: 100%;
+  float: none;
+  margin-bottom: 20px;
+}
+.boost-ranking .content-right fieldset.form-columns-2 {
+  margin: 0px;
+}
 }
 /* hubspot banner css end */

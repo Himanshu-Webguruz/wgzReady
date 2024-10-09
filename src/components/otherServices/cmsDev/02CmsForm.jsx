@@ -10,6 +10,7 @@ import cl3 from "../../../../public/images/drupalimg/cl3.png";
 import cl4 from "../../../../public/images/drupalimg/cl4.png";
 import cl5 from "../../../../public/images/drupalimg/cl5.png";
 import HubspotForm from "../hubspotDev/clientHubForm/HubspotForm";
+import WebdevForm from "@/utils/formsHubspot/Webdeveform";
 
 // Data arrays for development options and client logos
 const devOptions = [
@@ -61,8 +62,9 @@ const CmsForm = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-              <HubspotForm />
+            <div className="col-lg-6 col-md-6 col-sm-12 col-12 boost-ranking hub-ranking">
+              {/* <HubspotForm /> */}
+              <WebdevForm/>
             </div>
           </div>
         </div>

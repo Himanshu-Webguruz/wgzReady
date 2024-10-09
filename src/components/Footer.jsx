@@ -11,22 +11,23 @@ import {
   faYoutube,
   faPinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import AccordianFooter from "./AccordianFooter";
 const Footer = () => {
   return (
     <footer className="footer-main pt-5">
       <div className="container">
         <div className="row">
           <div className="col-sm-2 col-xs-12 footer-sub one">
-            <h3>About</h3>
+            <h3 className="mb-4">About</h3>
             <ul>
               <li>
-                <Link href="#">Our company</Link>
+                <Link href="/">Our company</Link>
               </li>
               <li>
                 <Link href="#">Core Team</Link>
               </li>
               <li>
-                <Link href="#">Career</Link>
+                <Link href="/careers">Career</Link>
               </li>
               <li>
                 <Link href="#">CSR</Link>
@@ -37,19 +38,23 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-sm-2 col-xs-12 footer-sub two">
-            <h3>Services</h3>
+            <h3  className="mb-4">Services</h3>
             <ul>
               <li>
                 <Link href="#">Web Design</Link>
               </li>
               <li>
-                <Link href="#">Web Development</Link>
+                <Link href="/services/web-development">Web Development</Link>
               </li>
               <li>
-                <Link href="#">CMS Development</Link>
+                <Link href="/services/content-management-system">
+                  CMS Development
+                </Link>
               </li>
               <li>
-                <Link href="#">Digital Marketing</Link>
+                <Link href="/services/digital-marketing">
+                  Digital Marketing
+                </Link>
               </li>
               <li>
                 <Link href="#">It Services</Link>
@@ -57,13 +62,15 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-sm-2 col-xs-12 footer-sub">
-            <h3>Technologies</h3>
+            <h3  className="mb-4">Technologies</h3>
             <ul>
               <li>
                 <Link href="#">Blockchain</Link>
               </li>
               <li>
-                <Link href="#">Artificial Intelligence</Link>
+                <Link href="/categories/artificial-intelligence">
+                  Artificial Intelligence
+                </Link>
               </li>
               <li>
                 <Link href="#">AR and VRs</Link>
@@ -77,7 +84,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-sm-2 col-xs-12 footer-sub">
-            <h3>Industries</h3>
+            <h3  className="mb-4">Industries</h3>
             <ul>
               <li>
                 <Link href="#">E-commerce</Link>
@@ -98,7 +105,7 @@ const Footer = () => {
           </div>
 
           <div className="col-sm-2 col-xs-12 footer-sub">
-            <h3>Portfolio</h3>
+            <h3  className="mb-4">Portfolio</h3>
             <ul>
               <li>
                 <Link href="#">Robert James Realty</Link>
@@ -112,10 +119,10 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-sm-2 col-xs-12 footer-sub">
-            <h3>Resources</h3>
+            <h3  className="mb-4">Resources</h3>
             <ul>
               <li>
-                <Link href="#">Blogs</Link>
+                <Link href="/blogs">Blogs</Link>
               </li>
               <li>
                 <Link href="#">Infographics</Link>
@@ -124,11 +131,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="row py-4 border-botm d-flex align-items-center">
-          <div className="col-sm-4 col-xs-12 footer-bottom left">
-            <p className="mb-0">Statutory legal information</p>
-          </div>
-          <div className="col-sm-4 col-xs-12 footer-bottom social-icons">
-            <ul className="d-flex align-items-center justify-content-center">
+          <div className="col-sm-6 col-xs-12 footer-bottom social-icons justify-content-start">
+            <ul className="d-flex align-items-center justify-content-start">
               <li className="px-2">
                 <a
                   href="https://www.facebook.com/webguruztechnologies/"
@@ -221,8 +225,8 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-sm-4 col-xs-12 footer-bottom right">
-            <div className="bottom-right-img d-flex align-items-center">
+          <div className="col-sm-6 col-xs-12 footer-bottom right ">
+            <div className="bottom-right-img d-flex align-items-center justify-content-end">
               <a
                 href="https://www.dmca.com/Protection/Status.aspx?ID=2af704c9-ad37-4670-a717-28eb4c89e78b&refurl=https://webguruz.in/"
                 target="_blank"
@@ -234,6 +238,7 @@ const Footer = () => {
               <p className="px-2 mb-0">Mobile App & Web Development Company</p>
             </div>
           </div>
+          <AccordianFooter />
         </div>
         <div className="row copyright-btm">
           <div className="col-sm-7 col-xs-12 copyright">
@@ -251,7 +256,7 @@ const Footer = () => {
                 <Link href="#">Term & Condition</Link>
               </li>
               <li>
-                <Link href="/sitemap.xml">SiteMap</Link>
+                <Link href="#">SiteMap</Link>
               </li>
             </ul>
           </div>
