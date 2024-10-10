@@ -15,7 +15,7 @@ const Webguruzwe = dynamic(() => import("@/components/homeComponents/10WgzLogoZo
 const Homeaward = dynamic(() => import("@/components/homeComponents/Homeaward"), { ssr: true });
 
 import Featuredblog from "@/components/homeComponents/09Featuredblog";
-import AddressChange from "@/components/homeComponents/12AddressChange";
+// import AddressChange from "@/components/homeComponents/12AddressChange";
 import HiringForm from "@/components/PopUpForms/hiringform";
 
 

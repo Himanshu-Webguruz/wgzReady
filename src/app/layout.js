@@ -32,9 +32,26 @@ export const metadata = {
   
 };
 
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
+      <head>
+      <meta name="google-site-verification" content="HBSffUhqLmjL_SyultPiEJ33DSc-3x39LXSVJOOh4ZY" />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GX9DH5XMG1"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-GX9DH5XMG1');
+            `,
+          }}
+        />
+      </head>
+     
       {/* Add both font classes */}
       <body>
         <BodyClassWrapper />
@@ -45,6 +62,7 @@ export default function RootLayout({ children }) {
         <AddressChange/>
         <Footer />
       </body>
+      
     </html>
   );
 }

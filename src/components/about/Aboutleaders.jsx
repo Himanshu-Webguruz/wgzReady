@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import ceo from '../../../public/images/aboutimages/Jass.jpg'
+// import ceo from '../../../public/images/aboutimages/Jass.jpg'
 import ceo1 from '../../../public/images/aboutimages/gagandeep-singh.jpg'
-
+import ceo2 from '../../../public/images/aboutimages/newImages/ceo2.jpg'
 const Aboutleaders = () => {
   return (
     <div>
@@ -18,7 +18,7 @@ const Aboutleaders = () => {
                 <div className="col-sm-8 col-xs-12">
                 <div className="row">
                         <div className="col-sm-6 col-xs-12 image-content">
-                            <Image src={ceo} alt='ceo'/>
+                            <Image src={ceo2} alt='ceo'/>
                             <div className="content">
                                 <h3>Jaswinder Singh</h3>
                                 <p>CEO</p>

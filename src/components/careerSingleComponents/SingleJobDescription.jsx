@@ -24,10 +24,10 @@ const SingleJobDescription = ({data}) => {
                   />
                         {/* <p>Company Overview</p>
                         <h3>WebGuruz Technologies Pvt. Ltd., Mohali</h3>
-                        <p>Webguruz represents the pinnacle of innovation in both Digital Marketing and Software Development services. For the past 16 years, we have maintained an unparalleled record of delivering high-end solutions and ensuring exceptional client satisfaction.</p>
+                        <p>WebgGuruz represents the pinnacle of innovation in both Digital Marketing and Software Development services. For the past 16 years, we have maintained an unparalleled record of delivering high-end solutions and ensuring exceptional client satisfaction.</p>
                         <p>Our vision is to offer robust, cutting-edge solutions that empower businesses to achieve their goals with remarkable efficiency. At Webguruz, we pride ourselves on fostering a work culture that values excellence, collaboration, and continuous learning.</p>
                         <p>Joining our team means immersing yourself in a dynamic environment where you will have the opportunity to work with the latest technologies and gain invaluable experiences. We are committed to not only advancing your professional skills but also contributing to your personal growth in the everevolving tech landscape.</p>
-                        <p>Experience the synergy of innovation and expertise at Webguruz, where your career aspirations align with our mission of driving success through state-of-the-art solutions.</p>
+                        <p>Experience the synergy of innovation and expertise at Weburuz, where your career aspirations align with our mission of driving success through state-of-the-art solutions.</p>
                         <h3>Job Summary</h3>
                         <p>Our company seeks a motivated and results-driven Business Development Manager who can help expand our market presence. Our immediate goals for this position include identifying and pursuing new business opportunities, cultivating strategic partnerships, and carefully managing current client relationships. We require someone who has a strong background in sales or business development. Exceptional communication skills and a proven track record for driving growth are also necessary.</p> */}
                     </div>

@@ -6,6 +6,16 @@ import Link from "next/link";
 import Image from "next/image";
 import ModalForm from "./PopUpForms/GetQuoteForm";
 
+import PPCicon from "../../public/images/ppc-icon.svg";
+import CMSicon from "../../public/images/cms-icon.svg";
+import Digitalicon from "../../public/images/digital-marketing-icon.svg";
+import Hubspoticon from "../../public/images/hubspot-icon.svg";
+import Seoicon from "../../public/images/seo-icon.svg";
+import Webicon from "../../public/images/web-development-icon.svg";
+import Digitalmaket from "../../public/images/tabberimg3.webp";
+
+//
+
 const Header = () => {
   const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
@@ -83,7 +93,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <ModalForm/>
+                  <ModalForm />
                 </li>
               </ul>
             </div>
@@ -185,7 +195,7 @@ const Header = () => {
                             PPC Service
                           </Link>
                         </li>
-                        <li
+                        {/* <li
                           onClick={closeDropdown}
                           className={
                             activeService ===
@@ -197,7 +207,7 @@ const Header = () => {
                           <Link href="/services/search-engine-optimization">
                             SEO Management
                           </Link>
-                        </li>
+                        </li> */}
                       </div>
                     </div>
                   </ul>
@@ -210,10 +220,10 @@ const Header = () => {
                 <Link href="/blogs">Resources</Link>
               </li>
               <li className="px-3 py-2 mx-2">
-                <Link href="/careers">Careers</Link>
+                <Link href="/">Join Us</Link>
               </li>
               <li className="contactMain px-4">
-                <Link href="/contact-us" className="explore-btn">
+                <Link href="/contact-us">
                   <span>Contact Us</span>
                 </Link>
               </li>

@@ -1,7 +1,7 @@
 // components/ModalForm.js
-'use client'
-import React, { useEffect, useState, useRef } from 'react';
-import useScript from '@/utils/formsHubspot/useScript';
+"use client";
+import React, { useEffect, useState, useRef } from "react";
+import useScript from "@/utils/formsHubspot/useScript";
 
 const HiringForm = () => {
   const isLoaded = useScript("https://js.hsforms.net/forms/embed/v2.js");
@@ -16,7 +16,13 @@ const HiringForm = () => {
           region: "na1",
           portalId: "2383602",
           formId: "dbef1393-dbd3-4099-91c2-9eeb4faacef1",
-          target: "#hubspotFormV2", // Ensure this matches the div's ID
+          target: "#hubspotFormV2",
+          onFormReady: function () {
+            const fileInput = document.querySelector('input[type="file"]');
+            if (fileInput) {
+              fileInput.setAttribute("accept", ".pdf");
+            }
+          },
         });
       } catch (error) {
         console.error("HubSpot form creation error:", error);
@@ -38,13 +44,13 @@ const HiringForm = () => {
     };
 
     if (showModal) {
-      document.addEventListener('mousedown', handleClickOutside);
+      document.addEventListener("mousedown", handleClickOutside);
     } else {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     }
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside); // Clean up
+      document.removeEventListener("mousedown", handleClickOutside); // Clean up
     };
   }, [showModal]);
 
@@ -71,7 +77,9 @@ const HiringForm = () => {
                   onClick={() => setShowModal(false)}
                 ></button>
                 {/* The div where the HubSpot form will be rendered */}
-                <div id="hubspotFormV2" className="contact-right-form">Loading form...</div>
+                <div id="hubspotFormV2" className="contact-right-form">
+                  Loading form...
+                </div>
               </div>
             </div>
           </div>

@@ -95,11 +95,7 @@ display: none !important;
   background-image: none;
   padding: 0px;
 }
-.website-label.tpfrmbnr form fieldset.form-columns-2 {
-    display: flex;
-    width: 70% !important;
-    max-width: unset !important; 
-}
+
 .website-label.tpfrmbnr form fieldset.form-columns-2 >div:first-child .input:after {
     content: '';
     width: 1px;
@@ -298,14 +294,6 @@ div#webdevForm .hs_submit.hs-submit {
   position: absolute;
   bottom: -20px;
 }
-div#hubspotFormV2 .hs-input.hs-fieldtype-intl-phone {
-  border: 1px solid #DDDDDD;
-  border-radius: 4px;
-}
-div#hubspotFormV2 .hs-input.hs-fieldtype-intl-phone select.hs-input {
-  border-right: 1px solid #dddddd;
-  border-radius: 0px;
-}
 .field.hs-form-field {
   position: relative;
 }
@@ -432,6 +420,20 @@ div#webdevForm .input input, .hs-fieldtype-intl-phone.hs-input .hs-input {
 div#hubspotForm-componentTwo .website-label.tpfrmbnr form fieldset.form-columns-2 {
   width: 75% !important;
 }
+div#hubspotFormV2 .hs-input.hs-fieldtype-intl-phone select, .hs-input.hs-fieldtype-intl-phone input {
+  border: 1px solid #dddddd !important;
+  border-radius: 4px !important;
+
+}
+.get-quote-form div#hubspotFormV2 .hs-input.hs-fieldtype-intl-phone select, 
+.get-quote-form .hs-input.hs-fieldtype-intl-phone input{
+  min-height: 48px !important;
+  border: 1px solid #dddddd !important;
+  border-radius: 4px !important;
+}
+div#hubspotFormV2 .hs_phone.hs-phone.hs-fieldtype-phonenumber ul.no-list.hs-error-msgs.inputs-list {
+  width: 320px;
+}
 @media(max-width: 991px){
   .website-label.tpfrmbnr {
       max-width: 640px;
@@ -447,7 +449,6 @@ div#hubspotForm-componentTwo .website-label.tpfrmbnr form fieldset.form-columns-
 .website-label.tpfrmbnr form fieldset.form-columns-2 input{
   font-size: 14px;
 }
-
 }
 
 @media(max-width: 767px){

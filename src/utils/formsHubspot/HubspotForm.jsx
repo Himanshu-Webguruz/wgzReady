@@ -10,14 +10,14 @@ const HubSpotForm = ({ targetId }) => {
     script.defer = true;
     script.type = "text/javascript";
     script.onload = () => {
-      if (window.hbspt) {
+      
         window.hbspt.forms.create({
           region: "na1",
           portalId: "2383602",
           formId: "78cdc06b-4479-4c6b-b851-153b55a464ed",
           target: `#${targetId}`, // Use targetId prop here
         });
-      }
+    
     };
     document.body.appendChild(script);
   }, [targetId]);

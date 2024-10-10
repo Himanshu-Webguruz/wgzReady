@@ -57,7 +57,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#">It Services</Link>
+                <Link href="#">IT Services</Link>
               </li>
             </ul>
           </div>
@@ -243,7 +243,7 @@ const Footer = () => {
         <div className="row copyright-btm">
           <div className="col-sm-7 col-xs-12 copyright">
             <p>
-              Copyright @ 2024 Webguruz Technologies Private Limited. || All
+              Copyright @ 2024 WebGuruz Technologies Private Limited. | All
               Right Reserved
             </p>
           </div>

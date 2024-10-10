@@ -13,7 +13,7 @@ const AboutWhoweare = () => {
                 <div className="row">
                     <div className="col-sm-6 col-xs-12 about-left heading-main">
                         <h2>Who <span>We Are</span></h2>
-                        <p>With over decades of experience, Webguruz Technologies help individuals and corporations navigate through their digital transformation journey by crafting custom applications in accordance to their requirements.</p>
+                        <p>With over decades of experience, WebGuruz Technologies help individuals and corporations navigate through their digital transformation journey by crafting custom applications in accordance to their requirements.</p>
                         <Image src={gyf} alt='gyf'/>
                     </div>
                     <div className="col-sm-6 col-xs-12 icon-content">

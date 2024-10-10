@@ -71,7 +71,7 @@ const WhyChooseCareer = () => {
           <div className="col-sm-12 col-xs-12">
             <div className="heading-main text-center pb-2 heading-content">
               <h2 className="mb-5">
-              Working with Webguruz has <span>numerous advantages :</span>
+              Working with WebGuruz has <span>numerous advantages :</span>
               </h2>
             </div>
 

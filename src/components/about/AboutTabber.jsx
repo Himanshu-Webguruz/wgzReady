@@ -8,7 +8,7 @@ import { aboutTabData } from "@/utils/03utilHomeTab";
 const AboutTabber = () => {
   const [activeTab, setActiveTab] = useState("experts");
   return (
-    <section className="py-5 tab-main">
+    <section className="py-5 tab-main history-sec">
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-5">
