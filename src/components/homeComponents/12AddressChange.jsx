@@ -55,7 +55,7 @@ const AddressChange = () => {
                         <span className="loc-icon">
                           <Image
                             src={loc1}
-                            alt="Loc 1"
+                            alt="India-Icon"
                             width={5}
                             height={5}
                           />
@@ -69,7 +69,7 @@ const AddressChange = () => {
                         <span className="loc-icon">
                           <Image
                             src={loc2}
-                            alt="Loc 2"
+                            alt="Australia-Icon"
                             width={5}
                             height={5}
                           />
@@ -83,7 +83,7 @@ const AddressChange = () => {
                         <span className="loc-icon">
                           <Image
                             src={loc3}
-                            alt="Loc 3"
+                            alt="USA-Icon"
                             width={5}
                             height={5}
                           />
@@ -97,7 +97,7 @@ const AddressChange = () => {
                         <span className="loc-icon">
                           <Image
                             src={loc4}
-                            alt="Loc 4"
+                            alt="UK-Icon"
                             width={5}
                             height={5}
                           />
@@ -160,7 +160,7 @@ const AddressChange = () => {
                           <figure className="mt-0 text-center">
                             <Image
                               src={AustraliaBig}
-                              alt="Australia"
+                              alt="Australia Location"
                               width={200}
                               height={200}
                             />
@@ -185,7 +185,7 @@ const AddressChange = () => {
                           <figure className="mt-0 text-center">
                             <Image
                               src={UsaBig}
-                              alt="USA"
+                              alt="USA Location"
                               width={200}
                               height={200}
                             />
@@ -210,7 +210,7 @@ const AddressChange = () => {
                           <figure className="mt-0 text-center">
                             <Image
                               src={UkBig}
-                              alt="UK"
+                              alt="UK Location"
                               width={200}
                               height={200}
                             />

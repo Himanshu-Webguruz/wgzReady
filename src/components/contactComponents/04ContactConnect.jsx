@@ -19,7 +19,7 @@ const ContactConnect = () => {
             <div className="col-sm-2 col-xs-12 vacent-div"></div>
             <div className="col-sm-4 col-xs-12">
               <div className="connect-card text-center p-4">
-                <Image src={bloging} alt="bloging" />
+                <Image src={bloging} alt="Blog Icon" />
                 <h3>Blog</h3>
                 <p>
                 Discover the latest insights, trends, and expert advice on digital technologies.
@@ -29,7 +29,7 @@ const ContactConnect = () => {
             </div>
             <div className="col-sm-4 col-xs-12">
               <div className="connect-card text-center p-4">
-                <Image src={success} alt="success" />
+                <Image src={success} alt="Success Stories icon" />
                 <h3>Success Stories</h3>
                 <p>
                 See how we have helped businesses build success stories that inspire.

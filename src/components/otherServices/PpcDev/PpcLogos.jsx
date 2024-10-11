@@ -1,19 +1,22 @@
 
 import Image from "next/image";
-import logo1 from "../../../../public/images/ppcimages/ppcclient1.svg";
-import logo2 from "../../../../public/images/ppcimages/ppcclient2.svg";
-import logo3 from "../../../../public/images/ppcimages/ppcclient3.svg";
-import logo4 from "../../../../public/images/ppcimages/ppcclient1.svg";
-
+import logo1 from "../../../../public/images/HomeTechExpert/techexpert01.svg";
+import logo2 from "../../../../public/images/HomeTechExpert/techexpert2.svg";
+import logo3 from "../../../../public/images/HomeTechExpert/techexpert3.svg";
+import logo4 from "../../../../public/images/HomeTechExpert/techexpert5.svg";
+import logo5 from "../../../../public/images/HomeTechExpert/techexpert6.svg";
+import logo6 from "../../../../public/images/HomeTechExpert/techexpert8.svg";
+import logo7 from "../../../../public/images/HomeTechExpert/techexpert15.svg";
+import logo8 from "../../../../public/images/HomeTechExpert/techexpert10.svg";
 const logos = [
   { src: logo1, alt: "logo1" },
   { src: logo2, alt: "logo2" },
   { src: logo3, alt: "logo3" },
   { src: logo4, alt: "logo4" },
-  { src: logo1, alt: "logo5" },
-  { src: logo2, alt: "logo6" },
-  { src: logo3, alt: "logo7" },
-  { src: logo4, alt: "logo8" }
+  { src: logo5, alt: "logo5" },
+  { src: logo6, alt: "logo6" },
+  { src: logo7, alt: "logo7" },
+  { src: logo8, alt: "logo8" }
 ];
 
 const PpcLogos = () => {

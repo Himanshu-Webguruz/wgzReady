@@ -6,6 +6,8 @@ import WhyChooseCareer from "@/components/careerComponents/05WhyChooseCareer";
 import CareerTogether from "@/components/careerComponents/06CareerTogether";
 import CareerJob from "@/components/careerComponents/07CareerJob";
 import HomeTestimonial from "@/components/homeComponents/07HomeTestimonial";
+import HiringForm from "@/components/PopUpForms/hiringform";
+
 
 const page = () => {
   return (
@@ -18,6 +20,8 @@ const page = () => {
       <HomeTestimonial />
       <CareerTogether />
       <CareerJob />
+      <HiringForm/>
+     
     </>
   );
 };

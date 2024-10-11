@@ -11,7 +11,7 @@ const Webpillar = () => {
               <h2 className="mb-4">
                 Key Pillars of <span>Web Development</span>
               </h2>
-              <Image src={pillarbg} alt="pillarbg" />
+              <Image src={pillarbg} alt="Web Development Agency" />
             </div>
           </div>
         </div>

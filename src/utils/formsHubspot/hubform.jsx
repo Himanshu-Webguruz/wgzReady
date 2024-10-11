@@ -31,7 +31,7 @@ const HubSpotFormV2 = () => {
               region: "na1",
               portalId: "2383602",
               formId: "8274ed34-4045-4f8a-9a5a-06f6708536be",  // Correct formId
-              target: "#hubspotFormV2",  // Ensure this matches the div ID
+              target: "#hubspotFormV3",  // Ensure this matches the div ID
             });
           } catch (error) {
             console.error("HubSpot form creation error:", error);
@@ -46,7 +46,7 @@ const HubSpotFormV2 = () => {
     }
   }, [isLoaded]);  // Trigger form creation when the script is loaded
 
-  return <div id="hubspotFormV2" className="contact-right-form"></div>;  // Placeholder div for the HubSpot form
+  return <div id="hubspotFormV3" className="contact-right-form"></div>;  // Placeholder div for the HubSpot form
 };
 
 export default HubSpotFormV2;

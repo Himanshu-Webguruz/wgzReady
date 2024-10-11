@@ -13,6 +13,7 @@ import Featuredblog from "@/components/homeComponents/09Featuredblog";
 import ServiceFaq from "@/components/serviceComponent/12ServiceFaq";
 import SeoSliderContent from "@/components/otherServices/seoManagement/SeoSliderContent";
 import {accordionData} from "@/utils/accordionData";
+import HiringForm from "@/components/PopUpForms/hiringform";
 // export const dynamic = 'force-dynamic'
 
 const page = () => {
@@ -31,6 +32,7 @@ const page = () => {
       <ServiceFaq  accordionData={accordionData} />
       <AddsPartner />
       <Featuredblog />
+      <HiringForm/>
     </>
   );
 };

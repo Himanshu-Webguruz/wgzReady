@@ -62,7 +62,7 @@ const TechSection = ({ title, techList, imgSrc, imgAlt, textAlign }) => (
         {techList.map(({ image, text }, index) => (
           <li key={index}>
             <div className="image">
-              <Image src={image} alt={text} />
+              <Image src={image} alt={`${text} Icon`} />
             </div>
             <p>{text}</p>
           </li>

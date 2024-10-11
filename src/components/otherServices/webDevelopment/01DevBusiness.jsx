@@ -61,7 +61,7 @@ const CounterHome = () => {
           <div className="col-sm-4 col-xs-12 counter-sub text-center hub-counting">
             <label>
             {inView ? (
-              <CountUp start={0} end={50} duration={2} suffix="M+" />
+              <CountUp start={0} end={50} duration={2} suffix="K+" />
             ) : (
               <span>1M+</span>
             )}

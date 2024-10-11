@@ -15,14 +15,16 @@ const HubSpotForm = ({ targetId }) => {
           region: "na1",
           portalId: "2383602",
           formId: "78cdc06b-4479-4c6b-b851-153b55a464ed",
-          target: `#${targetId}`, // Use targetId prop here
+          target: `#${targetId}`,
         });
     
     };
     document.body.appendChild(script);
   }, [targetId]);
 
-  return <div id={targetId} className="website-label tpfrmbnr"></div>; // Use targetId prop here
+  return <div id={targetId} className="website-label tpfrmbnr">
+    
+  </div>; // Use targetId prop here
 };
 
 export default HubSpotForm;

@@ -129,7 +129,7 @@ ul.ppctab-main {
 .ppc-card .image {
     width: 80px;
     height: 80px;
-    background-color: #26C6DA;
+    background-color: #f4feff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,9 +138,6 @@ ul.ppctab-main {
 }
 .ppc-card p {
     margin: 0px;
-}
-.ppc-card:hover .image img {
-    filter: invert(1);
 }
 .card-process {
     text-align: center;
@@ -225,7 +222,7 @@ ul.ppctab-main {
     top: 0;
 }
 .ppc-card img {
-    width: 43px;
+    width: 54px;
 }
 .ppc-slider .card-name h4 {
     position: absolute;
@@ -301,6 +298,7 @@ ul.ppctab-main {
 .processppc .row .col-sm-3:nth-child(4) .card-process {
     bottom: 22px;
 }
+
 /* media query start */
 @media(max-width: 1400px){
     .process-card-main >div:first-child {
@@ -376,6 +374,9 @@ ul.ppctab-main {
     .ppc-cater .ppc-slider .row >div {
         padding: 0px;
     }
+    .ppc-card img {
+        width: 26px;
+      }
 }
 
 

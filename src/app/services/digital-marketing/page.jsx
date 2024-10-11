@@ -13,6 +13,7 @@ import ServiceFaq from "@/components/serviceComponent/12ServiceFaq";
 import Featuredblog from "@/components/homeComponents/09Featuredblog";
 import { digitalData } from "@/utils/accordionData";
 import ServicesDisplay from "@/components/serviceComponent/13ServicesDisplay";
+import HiringForm from "@/components/PopUpForms/hiringform";
 
 const page = () => {
   return (
@@ -36,6 +37,7 @@ const page = () => {
         linkText="Reach Out Now!"
       />
       <Featuredblog />
+      <HiringForm/>
     </>
   );
 };

@@ -3,6 +3,7 @@ import ClientPostList from "./ClientPostList"; // Import the new client componen
 import "../../blogs/blogs.css";
 import BlogNewsletter from "@/components/blogComponents/BlogNewsletter";
 import ExploreTopic from "@/components/blogComponents/ExploreTopic";
+import HiringForm from "@/components/PopUpForms/hiringform";
 const POSTS_PER_PAGE = 10;
 
 function normalizeString(str) {
@@ -64,6 +65,7 @@ const Page = async ({ params }) => {
       </section>
       <ExploreTopic />
       <BlogNewsletter />
+      <HiringForm/>
     </>
   );
 };

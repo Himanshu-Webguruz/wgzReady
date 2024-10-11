@@ -7,6 +7,8 @@ import WhyChoose from "@/components/serviceComponent/07WhyChoose";
 import Aboutleaders from "@/components/about/Aboutleaders";
 import "./style.css";
 import AboutTabber from "@/components/about/AboutTabber";
+import HiringForm from "@/components/PopUpForms/hiringform";
+
 
 const page = () => {
   return (
@@ -19,6 +21,7 @@ const page = () => {
       <AboutTabber/>
       <HomeTestimonial />
       <Aboutleaders />
+      <HiringForm/>
     
     </div>
   );

@@ -3,6 +3,8 @@ import AllPost from "../../components/blogComponents/02AllPosts";
 import Link from "next/link";
 import ExploreTopic from "@/components/blogComponents/ExploreTopic";
 import BlogNewsletter from "@/components/blogComponents/BlogNewsletter";
+import HiringForm from "@/components/PopUpForms/hiringform";
+
 
 const page = async ({ searchParams }) => {
   const page = searchParams.page ? parseInt(searchParams.page) : 1;
@@ -63,6 +65,8 @@ const page = async ({ searchParams }) => {
         </div>
         <ExploreTopic />
         <BlogNewsletter />
+        <HiringForm/>
+
       </section>
     </>
   );

@@ -1,10 +1,11 @@
 import Image from "next/image";
-import optimized from "../../../public/images/serviceImages/seo.png";
+import optimized from "../../../public/images/serviceImages/seo.webp";
 import socialmarketing from "../../../public/images/serviceImages/Social-Media-Marketing.webp";
 import automation from "../../../public/images/serviceImages/Marketing-Automation.webp";
 import paid from "../../../public/images/serviceImages/paid-markeitng.webp";
 import emailmarket from "../../../public/images/serviceImages/email-marketing.webp";
 import contentmarkt from "../../../public/images/serviceImages/content-marketing.webp";
+
 const DigitalMarketing = () => {
   return (
     <>
@@ -26,7 +27,7 @@ const DigitalMarketing = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={optimized} alt="optimized" />
+              <Image src={optimized} alt="Search Engine Optimization Services" width={640} height={640}/>
             </div>
             </div>
           </div>
@@ -39,7 +40,7 @@ const DigitalMarketing = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={socialmarketing} alt="socialmarketing" />
+              <Image src={socialmarketing} alt="Social Media Marketing Services" width={640} height={640}/>
             </div>
             </div>
           </div>
@@ -51,7 +52,7 @@ const DigitalMarketing = () => {
                   </p>
                 </div>
                 <div className="col-sm-6 col-xs-12 image">
-                  <Image src={contentmarkt} alt="contentmarkt" />
+                  <Image src={contentmarkt} alt="Content Marketing Services" width={640} height={640}/>
                 </div>
               </div>
           </div>
@@ -64,7 +65,7 @@ const DigitalMarketing = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={automation} alt="automation" />
+              <Image src={automation} alt="Marketing Automation" width={640} height={640}/>
             </div>
             </div>
           </div>
@@ -77,11 +78,11 @@ const DigitalMarketing = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={paid} alt="paid" />
+              <Image src={paid} alt="PPC Management Service" width={640} height={640}/>
             </div>
             </div>
           </div>
-          <div className="row   py-5">
+          <div className="row">
           <div className="card-content reverse d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Email Marketing Services</h3>
@@ -89,7 +90,7 @@ const DigitalMarketing = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={emailmarket} alt="emailmarket" />
+              <Image src={emailmarket} alt="Email Marketing Services" width={640} height={640}/>
             </div>
             </div>
           </div>

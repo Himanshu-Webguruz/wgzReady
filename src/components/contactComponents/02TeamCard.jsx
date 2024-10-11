@@ -22,7 +22,7 @@ const TeamCard = () => {
             <div className="col-sm-6 col-xs-12">
               <div className="icon-content forward d-flex align-items-center">
                 <div className="icon">
-                  <Image src={stepone} alt="Marketing Icon" />
+                  <Image src={stepone} alt="Digital Presence Icon" />
                 </div>
                 <div className="content">
                   <span className="tag">Step 1</span>
@@ -36,7 +36,7 @@ const TeamCard = () => {
               </div>
               <div className="icon-content forward d-flex align-items-center">
                 <div className="icon">
-                  <Image src={steptwo} alt="SEO Icon" />
+                  <Image src={steptwo} alt="Digital Success Strategy Icon" />
                 </div>
                 <div className="content">
                   <span className="tag">Step 2</span>
@@ -50,7 +50,7 @@ const TeamCard = () => {
               </div>
               <div className="icon-content forward d-flex align-items-center">
                 <div className="icon">
-                  <Image src={stepthree} alt="PPC Icon" />
+                  <Image src={stepthree} alt="Execution & Analysis icon" />
                 </div>
                 <div className="content">
                   <span className="tag">Step 3</span>

@@ -49,6 +49,7 @@ const ModalForm = () => {
                 <div className="image-form">
                   <div className="image">
                     <Image src={qoute} alt="Contact us" />
+                    
                   </div>
                   <div className="form">
                     {/* The div where the HubSpot form will be rendered */}
@@ -56,6 +57,7 @@ const ModalForm = () => {
                       Loading form...
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </div>

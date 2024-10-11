@@ -6,9 +6,10 @@ import ArrowRight from "../../../../public/images/serviceImages/arrow-right.png"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from "next/link";
-import ppcserviceOne from "../../../../public/images/ppcimages/ppcservice-one.svg";
-import ppcservice2 from "../../../../public/images/ppcimages/ppcsliderimg2.svg";
-import ppcservice3 from "../../../../public/images/ppcimages/ppcsliderimg3.svg";
+import ppcserviceOne from "../../../../public/images/ppcimages/newImages/education.webp";
+import ppcservice2 from "../../../../public/images/ppcimages/newImages/finance.webp";
+import ppcservice3 from "../../../../public/images/ppcimages/newImages/entertainment.webp";
+import ppcservice4 from "../../../../public/images/ppcimages/newImages/media.webp";
 
 const portfolioItems = [
   {
@@ -18,17 +19,17 @@ const portfolioItems = [
   },
   {
     src: ppcservice2,
-    title: "Education",
+    title: "Finance",
     link: "#",
   },
   {
     src: ppcservice3,
-    title: "Learning",
+    title: "Entertainment",
     link: "#",
   },
   {
-    src: ppcserviceOne,
-    title: "Education",
+    src: ppcservice4,
+    title: "Media",
     link: "#",
   },
 ];

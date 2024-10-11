@@ -14,6 +14,7 @@ import WebStation from "@/components/otherServices/webDevelopment/07WebStation";
 import WebDevBanner from "@/components/otherServices/webDevelopment/00WebDevBanner";
 import AddsPartner from "@/components/contactComponents/06AddsPartner";
 import {accordionData} from "@/utils/accordionData";
+import HiringForm from "@/components/PopUpForms/hiringform";
 
 const page = () => {
   return (
@@ -41,6 +42,7 @@ const page = () => {
         linkText="Connect Now!"
       />
       <Featuredblog />
+      <HiringForm/>
     </>
   );
 };

@@ -1,15 +1,10 @@
 /*service page*/
-
-.earntrfimg img {
-  max-width: max-content;
-}
 .earntraffic {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
 }
-
 .earntraffic .earntrafficinr {
   display: flex;
   flex-wrap: wrap;
@@ -24,7 +19,6 @@
 .earntraffic .earntrafficinr .earntrfcnt {
   text-align: center;
 }
-
 .earntraffic .earntrafficinr .earntrfcnt h3 {
   padding: 14px 0px;
   margin-bottom: 0px;
@@ -35,7 +29,6 @@
   gap: 20px;
   justify-content: center;
 }
-
 .indstrsrv .indstrsrvinr {
   display: flex;
   flex-wrap: wrap;
@@ -45,12 +38,10 @@
   flex-basis: 48%;
   border-radius: 8px;
 }
-
 .indstrsrv .indstrsrvinr h3 {
   position: relative;
   padding-left: 18px;
 }
-
 .indstrsrv .indstrsrvinr h3:before {
   content: "";
   width: 10px;
@@ -1398,8 +1389,6 @@ padding-top: 60px;
 }
 .digital-marketing .container .row:nth-child(even) {
 background-color: #F9FBFC;
-border-radius: 12px;
-margin: 20px 0px;
 }
 .webqstinnr.left .qstbox.left {
 display: none;
@@ -1881,11 +1870,9 @@ font-size: 16px;
 line-height: 26px;
 font-weight: 700;
 }
-
 .cmsrgtinr {
 position: relative;
 }
-
 .cmsrgtinr:before {
 content: "";
 width: 1px;
@@ -2074,10 +2061,23 @@ span.nmmb p {
 .flip-image-right .flip-card.image-content {
   height: 640px;
 }
-/* flip card css end */
-.vector-digital .image img {
-  max-width: 380px;
+.crportflio img {
+  height: 279px;
+  object-fit: cover;
 }
+.get-quote-form li.caption {
+  padding-right: 12px;
+  font-size: 13px;
+  margin-right: 12px;
+}
+.cltchmg ul li img {
+  width: 110px;
+  filter: invert(1);
+  height: 72px;
+  padding: 4px;
+  object-fit: contain;
+}
+/* flip card css end */
 /* media query */
 @media(max-width: 1400px){
   .svypmng .svypmnginr:nth-child(2), .svypmng .svypmnginr:nth-child(4) {
@@ -2176,6 +2176,7 @@ span.nmmb p {
 .nmbrlft span.line,  .nmbrght span.line, .webqstnt .webqstinnr.center{
   display: none;
 }
+
 .webqstinnr.left .qstbox.left {
 display: block;
 }
@@ -2208,7 +2209,9 @@ margin: 20px 0px;
 .exphrs ul{
   align-items: flex-start;
 }
-
+.crportflio img {
+  height: 160px;
+}
 }
 
 @media(max-width: 767px){
@@ -2666,4 +2669,10 @@ width: 100%;}
   background-color: #fff;
 }
 /* cms res */
+}
+
+@media(max-width: 480px){
+  .crportflio img {
+    height: auto;
+  }
 }

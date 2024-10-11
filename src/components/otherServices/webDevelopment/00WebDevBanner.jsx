@@ -23,7 +23,7 @@ const WebDevBanner = () => {
               </Link>
             </div>
             <div className="col-sm-6 col-xs-12 service-right-banner text-center">
-              <Image src={serviceright} alt="Custom Solution" />
+              <Image src={serviceright} alt="Website Development Services" />
             </div>
           </div>
         </div>

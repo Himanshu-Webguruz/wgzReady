@@ -8,6 +8,8 @@ import "./contact.css";
 import ContactLogo from "@/components/contactComponents/07ContactLogo";
 import ContactTestimonial from "@/components/contactComponents/ContactTestimonial";
 import HomeTestimonial from "@/components/homeComponents/07HomeTestimonial";
+import HiringForm from "@/components/PopUpForms/hiringform";
+
 
 const page = () => {
   return (
@@ -26,6 +28,8 @@ const page = () => {
       {/* <ContactTestimonial/> */}
       <HomeTestimonial/>
       <ContactMap />
+      <HiringForm/>
+    
     </>
   );
 };

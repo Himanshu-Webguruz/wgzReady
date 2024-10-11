@@ -11,24 +11,28 @@ function Broadindustries() {
     {
       img: Icnbroad1,
       title: "Technology.",
+      alt:"Technology Icon",
       description:
         "Drive lead generation, nurture leads, and close deals more effectively with HubSpot's sales and marketing tools.",
     },
     {
       img: Icnbroad2,
       title: "E-commerce.",
+      alt:"E-commerce Icon",
       description:
         "Boost online sales and improve customer experiences with HubSpot's marketing automation and CRM features.",
     },
     {
       img: Icnbroad3,
       title: "Healthcare.",
+      alt:"Healthcare Icon",
       description:
         "Enhance patient satisfaction and streamline operations with HubSpot's patient management tools.",
     },
     {
       img: Icnbroad4,
       title: "Education.",
+      alt:"Education Icon",
       description:
         "Engage students, streamline enrollment, and improve campus operations with HubSpot's education-specific solutions.",
     },
@@ -63,7 +67,7 @@ function Broadindustries() {
                     <Image
                       src={industry.img}
                       className="img-fluid"
-                      alt={industry.title}
+                      alt={industry.alt}
                     />
                   </div>
                   <div className="indrngservcnnct">

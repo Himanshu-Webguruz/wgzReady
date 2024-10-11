@@ -1,7 +1,7 @@
 import Image from "next/image";
-import logoppc from "../../../../public/images/ppcimages/ppcform1.svg";
-import logoppc2 from "../../../../public/images/ppcimages/ppcform2.svg";
-import logoppc3 from "../../../../public/images/ppcimages/ppcform3.svg";
+import logoppc from "../../../../public/images/HomeTechExpert/techexpert01.svg"
+import logoppc2 from "../../../../public/images/HomeTechExpert/techexpert4.svg";
+import logoppc3 from  "../../../../public/images/HomeTechExpert/techexpert13.svg";
 import HubspotForm from "../hubspotDev/clientHubForm/HubspotForm";
 import WebdevForm from "@/utils/formsHubspot/Webdeveform";
 

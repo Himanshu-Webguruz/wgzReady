@@ -79,7 +79,7 @@ const aboutTabData = [
     imageSrc: "/images/aboutimages/newImages/prevImg.JPG",
   },
   {
-    eventKey: "Technology",
+    eventKey: "Technology1",
     title: "2020 - 2022",
     alt:"2020 - 2022",
     content: [
@@ -87,6 +87,16 @@ const aboutTabData = [
     ],
     imageSrc: "/images/aboutimages/newImages/prevImg.JPG",
   },
+  {
+    eventKey: "Technology2",
+    title: "2023 - 2024",
+    alt:"2023 - 2024",
+    content: [
+      "The company keeps refreshing its custom solution portfolio with projects following the dynamic technology trends in the market. Through ups and downs in the market, the company always holds space for professional growth and fun with weekly talkies, training, and outings. Till 2019, WebgGuruz Technologies developed a range of custom solutions for different industries, with the team growing from initial 50 to up to 150+ experts."
+    ],
+    imageSrc: "/images/aboutimages/newImages/Img1.jpg",
+  },
+  
 ];
 
 export  {homeTabData,aboutTabData};

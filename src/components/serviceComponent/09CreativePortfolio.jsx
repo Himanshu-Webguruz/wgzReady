@@ -4,6 +4,8 @@ import Slider from "react-slick";
 import Portfolio1 from "../../../public/images/serviceImages/portf1.png";
 import Portfolio2 from "../../../public/images/serviceImages/portf2.png";
 import Portfolio3 from "../../../public/images/serviceImages/portf3.png";
+import Portfolio4 from "../../../public/images/serviceImages/toolsservice/Punjab-and-Haryana-High-Court-featured-img.webp";
+
 import Arrowleft from "../../../public/images/serviceImages/arrow-left.png";
 import ArrowRight from "../../../public/images/serviceImages/arrow-right.png";
 import "slick-carousel/slick/slick.css";
@@ -13,22 +15,26 @@ import Link from "next/link";
 const portfolioItems = [
   {
     src: Portfolio1,
+    alt:"Global IP Partners Portfolio",
     title: "Global IP Partners",
     link: "#",
   },
   {
     src: Portfolio2,
+    alt: 'Robert James Realty Portfolio',
     title: "Robert James Realty",
     link: "#",
   },
   {
     src: Portfolio3,
+    alt: 'Milwaukee House Buyers Portfolio',
     title: "Milwaukee House Buyers",
     link: "#",
   },
   {
-    src: Portfolio2,
-    title: "Robert James Realty",
+    src: Portfolio4,
+    alt: 'High Court of Punjab and Haryana Portfolio',
+    title: "High Court of Punjab and Haryana",
     link: "#",
   },
 ];
@@ -95,7 +101,7 @@ const CreativePortfolio = () => {
                   <div className="creativeprtflinr" key={index}>
                     <div className="crportflio">
                       <Link href={item.link}>
-                        <Image src={item.src} className="img-fluid"  alt="Image"/>
+                        <Image src={item.src} className="img-fluid"  alt={item.alt}/>
                         <p>
                           <strong>{item.title}</strong>
                         </p>

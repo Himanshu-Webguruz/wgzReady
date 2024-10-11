@@ -37,7 +37,7 @@ const WebFrameworks = () => {
                         </div>
                         <div className="content">
                           <div className="contentimg">
-                            <Image src={webicon} alt="webimage" />
+                            <Image src={webicon} alt="Icon" />
                           </div>
                           <p className="color-wt">Front-end Development</p>
                         </div>

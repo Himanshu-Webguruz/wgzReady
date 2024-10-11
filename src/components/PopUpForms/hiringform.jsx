@@ -17,12 +17,7 @@ const HiringForm = () => {
           portalId: "2383602",
           formId: "dbef1393-dbd3-4099-91c2-9eeb4faacef1",
           target: "#hubspotFormV2",
-          onFormReady: function () {
-            const fileInput = document.querySelector('input[type="file"]');
-            if (fileInput) {
-              fileInput.setAttribute("accept", ".pdf");
-            }
-          },
+         
         });
       } catch (error) {
         console.error("HubSpot form creation error:", error);
@@ -71,15 +66,15 @@ const HiringForm = () => {
           <div className="modal-dialog">
             <div className="modal-content" ref={modalRef}>
               <div className="modal-body">
-                <button
-                  type="button"
-                  className="btn-close"
-                  onClick={() => setShowModal(false)}
-                ></button>
+           
                 {/* The div where the HubSpot form will be rendered */}
                 <div id="hubspotFormV2" className="contact-right-form">
-                  Loading form...
                 </div>
+                <button
+                type="button"
+                className="btn-close"
+                onClick={() => setShowModal(false)}
+              ></button>
               </div>
             </div>
           </div>

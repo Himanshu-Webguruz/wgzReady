@@ -1,41 +1,46 @@
 import Image from 'next/image';
-import search from '../../../../public/images/ppcimages/search.svg';
-import money from '../../../../public/images/ppcimages/money.svg';
-
+// import search from '../../../../public/images/ppcimages/search.svg';
+import bingadsicon from '../../../../public/images/ppcimages/newImages/bing-ads-icon.webp';
+import googleads from '../../../../public/images/ppcimages/newImages/google-ads-icon.png';
+import instagramads from '../../../../public/images/ppcimages/newImages/instagram-ads-icon.png';
+import linkedinadsicon from '../../../../public/images/ppcimages/newImages/linkedin-ads-icon.webp';
+import youtubeadsicon from '../../../../public/images/ppcimages/newImages/youtube-ads-icon.png';
+import facebookadsicon from '../../../../public/images/ppcimages/newImages/facebook-ads-icon.webp';
+// C:\Users\NEW\Desktop\wgzReady\public\images\ppcimages\newImages\google-ads-icon.png
 const cardData = [
   {
-    image: search,
+    image: googleads,
     alt: 'Google Ads',
     heading:"Google Ads",
     text: 'Drive targeted traffic and leads through search engine ads that capture intent.',
   },
   {
-    image: money,
-    alt: 'money',
+    image: instagramads,
+    alt: 'instagramads',
     heading:"Instagram Ads",
     text: 'Leverage stunning visuals to engage a younger audience and boost brand awareness.',
   },
   {
-    image: search,
-    alt: 'search',
+    image: linkedinadsicon,
+    alt: 'linkedinadsicon',
     heading:"LinkedIn Ads",
     text: 'Connect with professionals and businesses to generate quality B2B leads.',
   },
   {
-    image: money,
-    alt: 'money',
+    image: bingadsicon,
+    alt: 'bingadsicon',
     heading:"Bing Ads",
     text: 'Reach a wider audience with ads on Microsoft’s search engine, tapping into a different demographic.',
   },
   {
-    image: search,
-    alt: 'search',
+    image: facebookadsicon,
+    alt: 'facebookadsicon',
     heading:"Facebook Ads",
     text: 'Target specific user demographics and interests for highly effective advertising.',
   },
   {
-    image: money,
-    alt: 'money',
+    image: youtubeadsicon,
+    alt: 'youtubeadsicon',
     heading:"YouTube Ads",
     text: 'Use video content to capture attention and engage viewers on the world’s largest video platform.',
   },

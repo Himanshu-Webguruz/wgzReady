@@ -53,7 +53,7 @@ function Hubspotcms() {
               </div>
               <div className="hbstexprtsinr center">
                 <div className="hbbtmgs">
-                  <Image src={Hbstcntr} className="img-fluid"  alt="Image" />
+                  <Image src={Hbstcntr} className="img-fluid"  alt="HubSpot Developers" />
                 </div>
               </div>
               <div className="hbstexprtsinr right">

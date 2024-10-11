@@ -5,6 +5,7 @@ import AllPost from "../../../../components/blogComponents/02AllPosts";
 import ExploreTopic from "@/components/blogComponents/ExploreTopic";
 import BlogNewsletter from "@/components/blogComponents/BlogNewsletter";
 import "../../blogs.css";
+import HiringForm from "@/components/PopUpForms/hiringform";
 export default async function BlogsPageNumber({ params }) {
   const pageNumber = parseInt(params.pageNumber, 10);
   const { posts, totalPages, currentPage } = await getBlogData(pageNumber);
@@ -52,6 +53,7 @@ export default async function BlogsPageNumber({ params }) {
       </div>
       <ExploreTopic />
       <BlogNewsletter />
+      <HiringForm/>
     </section>
   );
 }

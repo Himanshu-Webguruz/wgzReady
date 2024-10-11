@@ -14,18 +14,18 @@ import {
 } from "../../utils/SVGIcons";
 
 const customizeContent = [
-  { Icon: ecom1, title: "E-Commerce" },
-  { Icon: Healthy1, title: "Healthcare" },
-  { Icon: education1, title: "Education" },
-  { Icon: finance1, title: "Finance" },
-  { Icon: techno1, title: "Technology" },
-  { Icon: RealEstate, title: "Real Estate" },
-  { Icon: Retail, title: "Retail" },
-  { Icon: Hospitality, title: "Hospitality" },
-  { Icon: NonProfit, title: "Non-profit" },
-  { Icon: ConsultMe, title: "Consulting" },
-  { Icon: Legal, title: "Legal" },
-  { Icon: Automotive, title: "Automotive" },
+  { Icon: ecom1, title: "E-Commerce", alt:"Ecommerce Icon"  },
+  { Icon: Healthy1, title: "Healthcare", alt: "Healthcare Icon" },
+  { Icon: education1, title: "Education", alt: "Education Icon" },
+  { Icon: finance1, title: "Finance", alt: "Finance Icon" },
+  { Icon: techno1, title: "Technology", alt: "Technology Icon " },
+  { Icon: RealEstate, title: "Real Estate", alt: "Real Estate Icon" },
+  { Icon: Retail, title: "Retail", alt: "Retail Icon" },
+  { Icon: Hospitality, title: "Hospitality", alt: "Hospitality Icon" },
+  { Icon: NonProfit, title: "Non-profit", alt: "Non-Profit Icon" },
+  { Icon: ConsultMe, title: "Consulting", alt: "Consulting Icon" },
+  { Icon: Legal, title: "Legal", alt: "Legal Icon" },
+  { Icon: Automotive, title: "Automotive", alt: "Automotive Icon" },
 ];
 
 const CustomizeHome = ({heading,paragraph,subheading}) => {
@@ -42,10 +42,10 @@ const CustomizeHome = ({heading,paragraph,subheading}) => {
         </div>
 
         <div className="row diverse-main px-2">
-          {customizeContent.map(({ Icon, title }, index) => (
+          {customizeContent.map(({ Icon, title,alt }, index) => (
             <div className="col col-xs-12" key={index}>
               <div className="icon-content text-center">
-                <Icon />
+              <Icon alt={alt} />
                 <p className="text-center">{title}</p>
               </div>
             </div>

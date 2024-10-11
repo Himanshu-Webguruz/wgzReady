@@ -34,7 +34,7 @@ const CmsBanner = () => {
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <div className="banner-image-right">
-                <Image src={Icnbroad1} className="img-fluid" alt="Image" />
+                <Image src={Icnbroad1} className="img-fluid" alt="CMS Web Development Services" />
               </div>
             </div>
           </div>

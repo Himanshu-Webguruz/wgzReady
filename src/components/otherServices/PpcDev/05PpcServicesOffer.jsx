@@ -11,10 +11,7 @@ const PpcServicesOffer = () => {
                 Industries We Cater to With Our <span>PPC Services</span>
               </h2>
               <p>
-                Cost-effective and measurable - PPC marketing is a powerful way
-                to instantly improve your online visibility. Our result-driven
-                PPC service in India ensures that you get the highest returns
-                out of your campaigns.{" "}
+              Our PPC services are designed to benefit a wide range of industries. Irrespective of the industry you belong to, our tailored strategies can help you reach your goals and connect with your audience effectively.
               </p>
               <button className="explore-btn">View All</button>
             </div>

@@ -13,6 +13,7 @@ import Featuredblog from "@/components/homeComponents/09Featuredblog";
 import PpcLogos from "@/components/otherServices/PpcDev/PpcLogos";
 import { ppcdata } from "@/utils/accordionData";
 import OurTeamPpc from "@/components/otherServices/PpcDev/08OurTeamPpc";
+import HiringForm from "@/components/PopUpForms/hiringform";
 // export const dynamic = "force-dynamic";
 
 const page = () => {
@@ -38,8 +39,15 @@ const page = () => {
         linkText="Connect Now!"
       />
       <Featuredblog />
+      <HiringForm/>
     </>
   );
 };
 
 export default page;
+
+export const metadata = {
+  title: "Top PPC Services in India: Drive Growth and Conversions",
+  description:
+    "Boost your business with expert PPC services in India. Maximize ROI, drive growth & dominate online advertising. Contact us now to ignite your PPC success!",
+};

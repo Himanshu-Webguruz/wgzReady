@@ -48,8 +48,8 @@ const FeaturedProject = () => {
         </div>
         <div className="row featured-bg">
           <div className="col-sm-6 col-xs-12 featured-left-image text-center p-5 d-flex align-items-center justify-content-center">
-            <Image src={vorides} alt="vorides" className="center-img" />
-            <Image src={voridelogo} alt="vorides-logo" className="voridelogo" />
+            <Image src={vorides} alt="Robert James Realty Portfolio" className="center-img" />
+            <Image src={voridelogo} alt="Robert James Realty Portfolio-logo" className="voridelogo" />
           </div>
           <div className="col-sm-6 col-xs-12 featured-right pe-5 pt-5 pb-5">
             <div className="featured-right-content">

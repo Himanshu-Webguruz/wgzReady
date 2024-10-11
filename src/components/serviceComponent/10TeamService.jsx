@@ -42,7 +42,7 @@ const TeamService = () => {
         <div className="row qteam">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
             <div className="servteaminr">
-              <Image src={servTeam} className="img-fluid" alt="Our Team" />
+              <Image src={servTeam} className="img-fluid" alt="Digital Marketing Agency" />
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">

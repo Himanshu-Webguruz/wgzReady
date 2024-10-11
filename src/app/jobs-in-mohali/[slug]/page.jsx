@@ -3,6 +3,7 @@ import SingleCareerBanner from "@/components/careerSingleComponents/SingleCareer
 import SingleExperience from "@/components/careerSingleComponents/SingleExperience"
 import SingleJobDescription from "@/components/careerSingleComponents/SingleJobDescription"
 import HomeTestimonial from "@/components/homeComponents/07HomeTestimonial"
+import HiringForm from "@/components/PopUpForms/hiringform"
 
 const page=async({params})=>{
     const {slug}=params;
@@ -19,6 +20,7 @@ const page=async({params})=>{
         <SingleJobDescription data={data}/>
         <HomeTestimonial/>
         <CareerJob/>
+        <HiringForm/>
         </>
     )
 }

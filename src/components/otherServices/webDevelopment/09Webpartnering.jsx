@@ -64,7 +64,7 @@ const Webpartnering = () => {
               <ul className="mt-5">
                 <li>
                   <div className="image-icon">
-                    <Image src={experience} alt="experience" />
+                    <Image src={experience} alt="Experience Icon" />
                   </div>
                   <div className="content-icon">
                     <h6>16+ Years</h6>
@@ -73,7 +73,7 @@ const Webpartnering = () => {
                 </li>
                 <li>
                   <div className="image-icon">
-                    <Image src={certified} alt="certified" />
+                    <Image src={certified} alt="Certified Icon" />
                   </div>
                   <div className="content-icon">
                     <h6>Innovative Approach</h6>
@@ -82,7 +82,7 @@ const Webpartnering = () => {
                 </li>
                 <li>
                   <div className="image-icon">
-                    <Image src={successful} alt="successful" />
+                    <Image src={successful} alt="Customer Focus Icon" />
                   </div>
                   <div className="content-icon">
                     <h6>Customer Focus</h6>
@@ -91,7 +91,7 @@ const Webpartnering = () => {
                 </li>
                 <li>
                   <div className="image-icon">
-                    <Image src={clients} alt="clients" />
+                    <Image src={clients} alt="Quality Assurance Icon" />
                   </div>
                   <div className="content-icon">
                     <h6>Quality Assurance</h6>
@@ -100,7 +100,7 @@ const Webpartnering = () => {
                 </li>
                 <li>
                   <div className="image-icon">
-                    <Image src={presence} alt="presence" />
+                    <Image src={presence} alt="Timely Delivery Icon" />
                   </div>
                   <div className="content-icon">
                     <h6>Timely Delivery</h6>

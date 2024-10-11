@@ -18,7 +18,7 @@ const ProcessStep = () => {
           </div>
           <div className="row">
             <div className="col-sm-6 col-xs-12 image text-center">
-              <Image src={process} alt="process-Image" />
+              <Image src={process} alt="digital marketing solutions" />
             </div>
             <div className="col-sm-6 col-xs-12">
               <div className="content">

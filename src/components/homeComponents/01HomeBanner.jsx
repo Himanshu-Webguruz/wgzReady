@@ -1,6 +1,6 @@
 // import HomeClient from "@/components/homeComponents/clientcomp/HomeClient";
 import HubSpotForm from "@/utils/formsHubspot/HubspotForm";
-import Image from "next/image";
+// import Image from "next/image";
 
 const HomeBanner = () => {
   return (
@@ -9,14 +9,18 @@ const HomeBanner = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12 video-banner">
             <div className="col-sm-12 col-xs-12 video-banner">
-              <Image
-                src="/video/videoImg.webp"
-                alt="Banner Image"
-                width={1920}
-                height={1080}
-                layout="responsive"
-               
-              />
+            <video
+              autoPlay
+              muted
+              loop
+              preload="auto"
+              width={"100%"}
+              playsInline
+              poster="/video/videoImg.webp"
+            >
+              <source src="/video/video.webm" type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
             </div>
           </div>
           <div className="col col-sm-8 col-xs-12 banner-content">

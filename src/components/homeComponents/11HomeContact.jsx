@@ -17,7 +17,7 @@ const Contact = () => {
             </p>
            
             <div className="contact-info">
-              <h3>Contact Webguruz:</h3>
+              <h3>Contact WebGuruz:</h3>
               <div className="row">
                 <div className="col-sm-6 col-xs-12">
                   <div className="contact-info-sub">

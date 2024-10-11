@@ -14,6 +14,7 @@ import HubServiceDisplay from '@/components/otherServices/hubspotDev/HubServiceD
 import WhyHubspot from '@/components/otherServices/hubspotDev/WhyHubspot'
 import HubspotClients from '@/components/otherServices/hubspotDev/HubspotClients'
 import { hubspotData} from '@/utils/accordionData'
+import HiringForm from '@/components/PopUpForms/hiringform'
 // export const dynamic = 'force-dynamic'
 
 const page = () => {
@@ -38,6 +39,7 @@ const page = () => {
         linkText="Connect with Us Today!"
       />
       <Featuredblog/>
+      <HiringForm/>
     </>
   )
 }

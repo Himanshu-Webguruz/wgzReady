@@ -238,7 +238,6 @@ div#webdevForm .input input, .hs-fieldtype-intl-phone.hs-input .hs-input {
   padding: 7px;
   min-height: 42px;
   border-radius: 8px;
-  border: 0px;
 }
 div#webdevForm input.hs-button.primary.large {
   padding: 12px 54px;
@@ -434,6 +433,50 @@ div#hubspotFormV2 .hs-input.hs-fieldtype-intl-phone select, .hs-input.hs-fieldty
 div#hubspotFormV2 .hs_phone.hs-phone.hs-fieldtype-phonenumber ul.no-list.hs-error-msgs.inputs-list {
   width: 320px;
 }
+.contact-sub.right .hs-fieldtype-intl-phone.hs-input .hs-input {  
+  border-radius: 4px !important;
+  border: 1px solid #dddddd;
+}
+.get-quote-form .image-form .image {
+  position: relative;
+}
+.get-quote-form .image-form .image .content-image-above {
+  position: absolute;
+  top: 0;
+  padding: 40px 20px 20px;
+  z-index: 1;
+}
+.get-quote-form .image-form .image .content-image-above h3, .get-quote-form .image-form .image .content-image-above p {
+  color: #fff;
+}
+
+.bottom-form-quote p {
+  color: #fff;
+  margin: 0px 6px 0px 0px;
+  padding: 0px 6px 0px 0px;
+  border-right: 2px solid #fff;
+}
+.bottom-form-quote {
+  display: flex;
+  align-items: center;
+  background-color: #20a0b1;
+  padding: 20px 12px;
+}
+.get-quote-form .image-form .image::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #0000008a;
+}
+.bottom-form-quote ul li{
+  padding: 0px 4px;
+}
+.get-quote-form .form {
+  height: 626px;
+}
 @media(max-width: 991px){
   .website-label.tpfrmbnr {
       max-width: 640px;
@@ -455,6 +498,9 @@ div#hubspotFormV2 .hs_phone.hs-phone.hs-fieldtype-phonenumber ul.no-list.hs-erro
   .website-label.tpfrmbnr {
     max-width: 100%;
     min-width: 100%;
+}
+.get-quote-form .form {
+  height: auto;
 }
 label.hs-error-msg, ul.hs-error-msgs li label {
   font-size: 11px;
@@ -511,6 +557,28 @@ div#hubspotForm-componentOne.website-label.tpfrmbnr form ul.hs-error-msgs.inputs
   bottom: 0px;
   width: auto;
 }
+.boost-ranking.hub-ranking div#webdevForm{
+  margin-left: 0px;
+}
+.bottom-form-quote p {
+  margin: 0px;
+  padding: 0px 0px 10px 0px;
+  border: 0px;
+}
+.get-quote-form .image-form .form form fieldset {
+  max-width: 100%;
+}
+.bottom-form-quote{
+  flex-direction: column;
+}
+.bottom-form-quote ul {
+  width: 100%;
+  justify-content: center !important;
+}
+.bottom-form-quote ul li {
+  padding: 0px 12px;
+  width: 100px;
+}
 }
 
 @media(max-width: 575px){
@@ -521,9 +589,6 @@ div#hubspotForm-componentOne.website-label.tpfrmbnr form ul.hs-error-msgs.inputs
 }
 .website-label.tpfrmbnr form fieldset.form-columns-2 >div{
   width: 100%;
-}
-.boost-ranking.hub-ranking div#webdevForm {
-  margin-left: 0px;
 }
 .website-label.tpfrmbnr form fieldset.form-columns-2 >div:first-child .input:after{
   display: none;

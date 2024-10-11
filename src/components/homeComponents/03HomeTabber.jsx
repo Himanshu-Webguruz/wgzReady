@@ -54,7 +54,7 @@ const HomeTab = () => {
                     <div className="image">
                       <Image
                         src={tab.imageSrc}
-                        alt={tab.title}
+                        alt={tab.alt}
                         width={643}
                         height={569}
                         style={{ height: "100%", width: "100%" }}

@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
 import ExploreTopic from "@/components/blogComponents/ExploreTopic";
 import BlogNewsletter from "@/components/blogComponents/BlogNewsletter";
+import HiringForm from "@/components/PopUpForms/hiringform";
 
 // Constants for pagination
 const POSTS_PER_PAGE = 10;
@@ -179,6 +180,7 @@ const Page = async ({ params }) => {
       </section>
       <ExploreTopic />
       <BlogNewsletter />
+      <HiringForm/>
     </>
   );
 };

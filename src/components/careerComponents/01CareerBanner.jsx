@@ -50,13 +50,11 @@ const CareerBanner = () => {
               <div className="heading-main">
                 <div className="carrer-banner">
                   <h1>
-                    Our team is constantly searching{" "}
-                    <span className="color-wt">for visionaries and creators.</span>
+                  Become part of a 
+                    <span className="color-wt">collaborative community.</span>
                   </h1>
                   <p className="mt-4">
-                    Consider yourself creative or technologically inclined. If so, we&apos;d
-                    love for you to join our team and help us change the way the world sees
-                    technology.
+                  Nurture your career in a supportive environment where innovation thrives and make a lasting impact with a company that empowers your growth.
                   </p>
                   <button className="explore-btn" onClick={handleScrollToJobs}>
                     View All Jobs
@@ -70,10 +68,10 @@ const CareerBanner = () => {
               <Image src={BusinessBanner2} alt="BusinessBanner2" />
               <div className="heading-main">
                 <div className="carrer-banner">
-                  <h1>
+                  <h2>
                     Our team is constantly searching{" "}
                     <span className="color-wt">for visionaries and creators.</span>
-                  </h1>
+                  </h2>
                   <p className="mt-4">
                     Consider yourself creative or technologically inclined. If so, we&apos;d
                     love for you to join our team and help us change the way the world sees

@@ -39,7 +39,7 @@ const WebProcess = () => {
                 <li key={number}>
                   <div className="icon-content">
                     <span className="number">{number}</span>
-                    <Image src={image} alt={`web${number}`} />
+                    <Image src={image} alt={`${text} Icon`} />
                     <p>{text}</p>
                   </div>
                 </li>

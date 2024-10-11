@@ -15,7 +15,7 @@ const ExploreList = () => {
     <div className="row mt-4 explore-topics-card">
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={ExploreIcon} alt="Image" />
+          <Image src={ExploreIcon} alt="Marketing Icon" />
           <div className="content_explore_wrap">
             <Link href="#">
               Marketing <Image src={ExploreArrow} alt="Image" />
@@ -27,7 +27,7 @@ const ExploreList = () => {
 
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={Leftseo} alt="Image" />
+          <Image src={Leftseo} alt="SEO Icon" />
           <div className="content_explore_wrap">
             <Link href="#">
               SEO <Image src={ExploreArrow} alt="Image" />
@@ -39,7 +39,7 @@ const ExploreList = () => {
 
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={Leftppc} alt="Image" />
+          <Image src={Leftppc} alt="PPC Icon" />
           <div className="content_explore_wrap">
             <Link href="#">
               PPC <Image src={ExploreArrow} alt="Image" />
@@ -51,7 +51,7 @@ const ExploreList = () => {
 
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={Leftsocialmedia} alt="Image" />
+          <Image src={Leftsocialmedia} alt="Social Media Icon" />
           <div className="content_explore_wrap">
             <Link href="#">
               Social Media <Image src={ExploreArrow} alt="Image" />
@@ -63,7 +63,7 @@ const ExploreList = () => {
 
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={Leftwebdesign} alt="Image" />
+          <Image src={Leftwebdesign} alt="Web Design Icon" />
           <div className="content_explore_wrap">
             <Link href="#">
               Web Design <Image src={ExploreArrow} alt="Image" />
@@ -75,7 +75,7 @@ const ExploreList = () => {
 
       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div className="card-flex_explore">
-          <Image src={Leftinternet} alt="Image" />
+          <Image src={Leftinternet} alt="Internet Icon" />
           <div className="content_explore_wrap">
             <Link href="#">
               Internet <Image src={ExploreArrow} alt="Image" />

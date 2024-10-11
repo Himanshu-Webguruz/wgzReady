@@ -1,19 +1,23 @@
 
 import Image from "next/image";
-import logo1 from "../../../../public/images/hubspotimages/hubspotclient1.svg";
-import logo2 from "../../../../public/images/hubspotimages/hubspotclient2.svg";
-import logo3 from "../../../../public/images/hubspotimages/hubspotclient3.svg";
-import logo4 from "../../../../public/images/hubspotimages/hubspotclient4.svg";
-
+import logo1 from "../../../../public/images/hubspotimages/newImages/buddyins-logo.webp";
+import logo2 from "../../../../public/images/hubspotimages/newImages/drive-insight.webp";
+import logo3 from "../../../../public/images/hubspotimages/newImages/fintalker.webp";
+import logo4 from "../../../../public/images/hubspotimages/newImages/inclusio_.webp";
+import logo5 from "../../../../public/images/hubspotimages/newImages/NewsDirect_logo.webp";
+import logo6 from "../../../../public/images/hubspotimages/newImages/RR_Logo_Helping_make_hospitals_safer__1_-removebg-preview.png";
+import logo7 from "../../../../public/images/hubspotimages/newImages/StratXSims_logo.webp";
+import logo8 from "../../../../public/images/hubspotimages/newImages/skin_consult_logo.svg";
+// C:\Users\NEW\Desktop\wgzReady\public\images\hubspotimages\newImages\RR_Logo_Helping_make_hospitals_safer__1_-removebg-preview.png
 const logos = [
   { src: logo1, alt: "logo1" },
   { src: logo2, alt: "logo2" },
   { src: logo3, alt: "logo3" },
   { src: logo4, alt: "logo4" },
-  { src: logo1, alt: "logo5" },
-  { src: logo2, alt: "logo6" },
-  { src: logo3, alt: "logo7" },
-  { src: logo4, alt: "logo8" }
+  { src: logo5, alt: "logo5" },
+  { src: logo6, alt: "logo6" },
+  { src: logo7, alt: "logo7" },
+  { src: logo8, alt: "logo8" }
 ];
 
 const HubspotClients = () => {

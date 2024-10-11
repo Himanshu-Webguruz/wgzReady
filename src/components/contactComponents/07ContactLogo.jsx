@@ -9,14 +9,14 @@ import logo6 from "/public/images/contactimages/logo6.svg";
 import logo7 from "/public/images/contactimages/logo7.svg";
 
 const logos = [
-  { src: logo1, alt: "logo1" },
-  { src: logo2, alt: "logo2" },
-  { src: logo3, alt: "logo3" },
-  { src: logo4, alt: "logo4" },
-  { src: logo5, alt: "logo5" },
-  { src: logo6, alt: "logo6" },
-  { src: logo7, alt: "logo7" },
-  { src: logo2, alt: "logo8" }
+  { src: logo1, alt: "Marketing Cloud Logo" },
+  { src: logo2, alt: "Service Max Logo" },
+  { src: logo3, alt: "Klaviyo Logo" },
+  { src: logo4, alt: "Marketo Logo" },
+  { src: logo5, alt: "Constant Contact Logo" },
+  { src: logo6, alt: "HubSpot Logo" },
+  { src: logo7, alt: "VoRide Logo" },
+  { src: logo2, alt: "Service Max Logo" }
 ];
 
 const ContactLogo = () => {

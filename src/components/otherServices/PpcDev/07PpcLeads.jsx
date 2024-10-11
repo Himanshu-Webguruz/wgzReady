@@ -1,7 +1,7 @@
 import Image from "next/image";
-import optimized from "../../../../public/images/ppcimages/ppclead1.svg";
-import socialmarketing from "../../../../public/images/ppcimages/ppclead2.svg";
-import contentmarkt from "../../../../public/images/ppcimages/ppclead3.svg";
+import optimized from "../../../../public/images/ppcimages/newImages/ppclead1.webp";
+import socialmarketing from "../../../../public/images/ppcimages/newImages/ppclead2.webp";
+import contentmarkt from "../../../../public/images/ppcimages/newImages/ppclead3.webp";
 const PpcLeads = () => {
   return (
     <>
@@ -17,7 +17,7 @@ const PpcLeads = () => {
               </span>
             </div>
           </div>
-          <div className="row py-3">
+          <div className="row py-4">
           <div className="card-content d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Immediate Results</h3>
@@ -30,7 +30,7 @@ const PpcLeads = () => {
             </div>
           </div>
           </div>
-          <div className="row py-3">
+          <div className="row py-4">
           <div className="card-content reverse d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Targeted Advertising</h3>
@@ -43,7 +43,7 @@ const PpcLeads = () => {
             </div>
           </div>
           </div>
-          <div className="row py-3">
+          <div className="row py-4">
           <div className="card-content d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Measurable ROI</h3>

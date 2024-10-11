@@ -2,6 +2,11 @@
 import React, { useEffect, useState } from "react";
 import useScript from "@/utils/formsHubspot/useScript";
 import Image from "next/image";
+import clutch from "../../../public/images/getaquote/clutch-logo.webp"
+import Goodfirm from "../../../public/images/getaquote/goodfirms-logo.webp"
+import Googlepartner from "../../../public/images/getaquote/google-partner-logo.webp"
+import Hubspot from "../../../public/images/getaquote/HubSpot-Logo.webp"
+import Shopify from "../../../public/images/getaquote/shopify-logo.webp"
 import qoute from "../../../public/images/quote-img.webp";
 const ModalForm = () => {
   const isLoaded = useScript("https://js.hsforms.net/forms/embed/v2.js");
@@ -49,6 +54,10 @@ const ModalForm = () => {
                 <div className="image-form">
                   <div className="image">
                     <Image src={qoute} alt="Contact us" />
+                    <div className="content-image-above">
+                      <h3 className="mb-4">A man with a strategy can defeat a genius with no strategy.</h3>
+                      <p>With Webguruz, your Conceived plan will get achieved and succeed</p>
+                    </div>
                   </div>
                   <div className="form">
                     {/* The div where the HubSpot form will be rendered */}
@@ -56,7 +65,18 @@ const ModalForm = () => {
                       Loading form...
                     </div>
                   </div>
+                 
                 </div>
+                <div className="bottom-form-quote">
+                <p>5000+ successful projects delivered by 200+ certified expert</p>
+                  <ul>
+                  <li><Image src={clutch} alt=""/></li>
+                  <li><Image src={Goodfirm} alt=""/></li>
+                  <li><Image src={Googlepartner} alt=""/></li>
+                  <li><Image src={Hubspot} alt =""/></li>
+                  <li><Image src={Shopify} alt =""/></li>
+                  </ul>
+              </div>
               </div>
             </div>
           </div>

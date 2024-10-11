@@ -10,14 +10,14 @@ import hubspot from "../../../public/images/serviceImages/toolsservice/hubspot.w
 
 // Array of tools
 const tools = [
-  { image: googleanalyse, alt: "rankmath", name: "Google Analytics" },
-  { image: googlesearch, alt: "google seach", name: "Google Search Console" },
-  { image: semrush, alt: "semrush", name: "Semrush" },
-  { image: ahref, alt: "ahref", name: "Ahrefs" },
-  { image: hoots, alt: "mozpro", name: "Hootsuite" },
-  { image: buffer, alt: "buffer", name: "Buffer" },
-  { image: mail, alt: "Mailchimp", name: "Mailchimp" },
-  { image: hubspot, alt: "HubSpot", name: "HubSpot" },
+  { image: googleanalyse, alt: "Google Analytics Logo", name: "Google Analytics" },
+  { image: googlesearch, alt: "Google Search Console Logo", name: "Google Search Console" },
+  { image: semrush, alt: "Semrush Logo", name: "Semrush" },
+  { image: ahref, alt: "Ahrefs Logo", name: "Ahrefs" },
+  { image: hoots, alt: "Hootsuite Logo", name: "Hootsuite" },
+  { image: buffer, alt: "Buffer Logo", name: "Buffer" },
+  { image: mail, alt: "Mailchimp Logo", name: "Mailchimp" },
+  { image: hubspot, alt: "HubSpot Logo", name: "HubSpot" },
 ];
 
 const ServiceTools = () => {

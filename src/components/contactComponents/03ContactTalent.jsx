@@ -24,19 +24,19 @@ const ContactTalent = () => {
               <div className="row">
                 <div className="col-sm-4 col-xs-12">
                   <div className="contact-card text-center p-3">
-                    <Image src={contactimg} alt="contactimg" className="mb-3" />
+                    <Image src={contactimg} alt="Contact Icon" className="mb-3" />
                     <p>Contact Sales</p>
                   </div>
                 </div>
                 <div className="col-sm-4 col-xs-12">
                   <div className="contact-card text-center p-3">
-                    <Image src={emailimg} alt="emailimg" className="mb-3" />
+                    <Image src={emailimg} alt="Email Icon" className="mb-3" />
                     <p>Send An Email</p>
                   </div>
                 </div>
                 <div className="col-sm-4 col-xs-12">
                   <div className="contact-card text-center p-3">
-                    <Image src={enquiryimg} alt="enquiryimg" className="mb-3" />
+                    <Image src={enquiryimg} alt="Enquiry Icon" className="mb-3" />
                     <p>Send An Enquiry</p>
                   </div>
                 </div>

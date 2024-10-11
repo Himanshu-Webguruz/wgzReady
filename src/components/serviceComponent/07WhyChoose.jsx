@@ -10,42 +10,42 @@ import reatltime from "../../../public/images/serviceImages/real-time.png";
 const sections = [
   {
     image: earnings,
-    alt: "Proven Expertise",
+    alt: "Proven Expertise Icon",
     title: "Proven Expertise",
     description:
       "With 16+ years of experience in the digital marketing industry, we have a proven track record of success.",
   },
   {
     image: conversion,
-    alt: "Data-Driven Approach",
+    alt: "Data-Driven Approach Icon",
     title: "Data-Driven Approach",
     description:
       "We use data-driven insights to optimize your campaigns and achieve measurable results.",
   },
   {
     image: competitor,
-    alt: "Transparent Communication",
+    alt: "Transparent Communication Icon",
     title: "Transparent Communication",
     description:
       "We maintain open and transparent communication throughout the process.",
   },
   {
     image: businessaudit,
-    alt: "Customized Solutions",
+    alt: "Customized Solutions Icon",
     title: "Customized Solutions",
     description:
       "We tailor our digital marketing strategies to meet your unique business needs.",
   },
   {
     image: roi,
-    alt: "Dedicated Team",
+    alt: "Dedicated Team Icon",
     title: "Dedicated Team",
     description:
       "Our team of experienced digital marketing professionals is committed to your success.",
   },
   {
     image: reatltime,
-    alt: "Affordable Pricing",
+    alt: "Affordable Pricing Icon",
     title: "Affordable Pricing",
     description:
       "We offer competitive pricing without compromising on the quality of services we provide.",
