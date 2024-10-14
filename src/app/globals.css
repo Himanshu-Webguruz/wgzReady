@@ -7,6 +7,22 @@ h6 {
   font-family: var(--font-outfit);
   color: #383838;
 }
+
+.hs_recaptcha.hs-recaptcha.field.hs-form-field {
+  position: absolute;
+  transform: scale(0);
+  right: 00;
+  bottom: -28px;
+}
+
+.number-main .hs_recaptcha.hs-recaptcha.field.hs-form-field {
+  position: absolute;
+  right: 0;
+  transform: scale(0);
+  bottom: 0;
+}
+
+
 .nav-item {
   padding: 0.5rem 0xp;
 }
