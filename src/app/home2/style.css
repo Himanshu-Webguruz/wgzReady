@@ -12,13 +12,13 @@ h6 {
   padding: 0.5rem 0xp;
 }
 
-.dropdown-hover:hover>.dropdown-menu {
-display: inline-block;
+.dropdown-hover:hover > .dropdown-menu {
+  display: inline-block;
 }
 
-.dropdown-hover>.dropdown-toggle:active {
-/*Without this, clicking will make it sticky*/
-pointer-events: none;
+.dropdown-hover > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
 }
 .nav-item {
   padding: 0.5rem 0xp;
@@ -42,10 +42,10 @@ pointer-events: none;
   border-bottom: 1px solid #d9d9d7;
   margin: 0px 0px 6px 0px;
 }
-.navigation-main ul li.nav-item.dropdown:hover > a{
+.navigation-main ul li.nav-item.dropdown:hover > a {
   color: #168b9a;
 }
-.dropdown-hover>.dropdown-toggle:active {
+.dropdown-hover > .dropdown-toggle:active {
   pointer-events: none;
 }
 
@@ -270,7 +270,8 @@ a.navbar-brand img {
   align-items: center;
   padding: 0px 20px 0px 0px;
 }
-.menu ul li:hover > a, .navigation-main ul li .list-group a:hover {
+.menu ul li:hover > a,
+.navigation-main ul li .list-group a:hover {
   color: #168b9a;
 }
 .menu ul li.contactMain {
@@ -495,11 +496,13 @@ a.navbar-brand img {
   margin: auto;
 }
 
-ul#uncontrolled-tab-example li, ul#uncontrolled-tabeer li{
+ul#uncontrolled-tab-example li,
+ul#uncontrolled-tabeer li {
   margin: 0px;
   width: 25%;
 }
-ul#uncontrolled-tab-example li button, ul#uncontrolled-tabeer li button {
+ul#uncontrolled-tab-example li button,
+ul#uncontrolled-tabeer li button {
   font-size: 18px;
   font-weight: 600;
   padding: 18px 14px;
@@ -519,7 +522,8 @@ ul#uncontrolled-tabeer li button.nav-link:hover {
   background-color: #0c717e;
   border-color: transparent;
 }
-ul#uncontrolled-tab-example, ul#uncontrolled-tabeer {
+ul#uncontrolled-tab-example,
+ul#uncontrolled-tabeer {
   border: 0px;
   justify-content: unset;
   background-color: #168b9a;
@@ -537,7 +541,7 @@ a.about--btn svg {
   text-align: center;
   padding: 40px;
 }
-.tab-main .image-content .image img{
+.tab-main .image-content .image img {
   height: auto !important;
 }
 .tab-main .content {
@@ -578,7 +582,7 @@ a.about--btn:hover svg {
   background-attachment: fixed;
   background-size: cover;
 }
-.number-main{
+.number-main {
   position: relative;
 }
 .number-main .card {
@@ -635,7 +639,7 @@ ul.logos-main li {
   margin: 0px 3px 7px;
   transition: 0.3s ease-in-out 0s;
 }
-ul.logos-main li:hover{
+ul.logos-main li:hover {
   box-shadow: 0px 4px 9px #0000005c;
 }
 .technical-main ul.logos-main li {
@@ -958,7 +962,10 @@ section.adress-main {
   transition: 0.3s ease-in-out 0s;
   color: #fff;
 }
-.footer-sub h3,.copyright-btm p, .copyright-btm ul li a,.bottom-right-img p {
+.footer-sub h3,
+.copyright-btm p,
+.copyright-btm ul li a,
+.bottom-right-img p {
   color: #fff;
 }
 .footer-bottom.social-icons li svg path {
@@ -992,7 +999,7 @@ section.adress-main {
 .footer-bottom.social-icons ul li {
   width: 38px;
   height: 38px;
-  background-color: #6EC1E4;
+  background-color: #6ec1e4;
   border-radius: 50%;
   margin: 0px 7px 0px 0px;
 }
@@ -1230,7 +1237,8 @@ button.explore-btn:hover::before {
   font-size: 12px;
   color: #ff0000;
 }
-.contact-right-form button, .contact-right-form input.hs-button.primary.large {
+.contact-right-form button,
+.contact-right-form input.hs-button.primary.large {
   background-color: #26c6da;
   border: 0px;
   padding: 10px 32px;
@@ -1282,20 +1290,20 @@ button.explore-btn:hover::before {
 }
 .contact-info-sub .content p {
   font-size: 14px;
-  margin: 0px 0px 8px 0px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+  margin: 0px 0px 8px 0px;
 }
 .contact-info-sub .content a {
   font-size: 14px;
 }
 .contact-info-sub .content a:hover {
-  color: #1ab6ca;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+  color: #1ab6ca;
 }
 img.center-img {
-  max-width: 400px;                                                                                                                                                                                                                                                                                                                                                                                                         
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+  max-width: 400px;
+}
 .blog-sub.left .blog-content {
   width: 60%;
 }
 .blog-sub.left .blogimage {
   width: 40%;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+}

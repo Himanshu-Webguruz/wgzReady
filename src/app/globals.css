@@ -7,8 +7,6 @@ h6 {
   font-family: var(--font-outfit);
   color: #383838;
 }
-
-
 .nav-item {
   padding: 0.5rem 0xp;
 }
@@ -3150,6 +3148,7 @@ button.btn.btn-primary.hiring-form {
   border-radius: 4px !important;
   border: 1px solid #cdcdcd;
 }
+
 /* / Responsive: Ensure content full width on small screens / */
 @media (max-width: 768px) {
   .blog-image-content {
@@ -3351,6 +3350,29 @@ button.btn.btn-primary.hiring-form {
   .career-choose .earntraffic .earntrafficinr .earntrfcnt h3 {
     font-size: 18px;
   }
+  .get-quote-form .modal-body .form{
+    padding: 20px 15px;
+  } 
+  .get-quote-form .contact-right-form .hs-input {
+    padding: 7px 12px;
+    font-size: 14px;
+}
+.get-quote-form div#hubspotFormV2 .hs-input.hs-fieldtype-intl-phone select, .get-quote-form .hs-input.hs-fieldtype-intl-phone input{
+  min-height: 34px !important;
+}
+.get-quote-form .hs-input.hs-fieldtype-intl-phone {
+  padding: 0px !important;
+}
+.get-quote-form .image-form .form form .hs_message .input textarea {
+  min-height: 70px;
+}
+.contact-right-form input.hs-button.primary.large {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.get-quote-form .form {
+  height: 570px;
+}
 }
 @media (max-width: 1199px) {
   h2,

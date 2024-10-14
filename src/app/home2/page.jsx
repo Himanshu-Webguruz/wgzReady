@@ -10,22 +10,18 @@ const HomeBanner = dynamic(
   () => import("./components/homeComponents/01HomeBanner"),
   { ssr: true }
 );
-    const CounterHome = dynamic(
+const CounterHome = dynamic(
   () => import("./components/homeComponents/02CounterHome"),
   { ssr: true }
 );
-const HomeTab = dynamic(
-  () => import("./components/homeComponents/03HomeTabber"),
-  { ssr: true } 
-    );
-const TechnicalHome = dynamic(  
+const TechnicalHome = dynamic(
   () => import("./components/homeComponents/05TechnicalHome"),
   { ssr: true }
 );
 const CustomizeHome = dynamic(
   () => import("./components/homeComponents/06CustomizeHome"),
   { ssr: true }
-);  
+);
 const FeaturedProject = dynamic(
   () => import("./components/homeComponents/08FeaturedProject"),
   { ssr: true }
@@ -47,7 +43,6 @@ export default function Home() {
     <>
       <HomeBanner />
       <CounterHome />
-      {/* <HomeTab /> */}
       <HomeNumbers />
       <TechnicalHome />
       <CustomizeHome

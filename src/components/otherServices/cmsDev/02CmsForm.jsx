@@ -9,7 +9,7 @@ import cl2 from "../../../../public/images/award1.svg";
 import cl3 from "../../../../public/images/drupalimg/cl3.png";
 import cl4 from "../../../../public/images/drupalimg/cl4.png";
 import cl5 from "../../../../public/images/drupalimg/cl5.png";
-import HubspotForm from "../hubspotDev/clientHubForm/HubspotForm";
+
 import WebdevForm from "@/utils/formsHubspot/Webdeveform";
 
 // Data arrays for development options and client logos
@@ -23,7 +23,13 @@ const devOptions = [
   { icon: icn5, text: "CMS Migration" },
 ];
 
-const clientLogos = [cl1, cl2, cl3, cl4, cl5];
+const clientLogos = [
+  { cl: cl1, alt: "Good Firms Logo"},
+  { cl: cl2, alt: "Upwork Logo" },
+  { cl: cl3, alt: "Top IT Service Logo"},
+  { cl: cl4, alt: "WARC Logo" },
+  { cl: cl5, alt: "CMS Migration" },
+];
 
 const CmsForm = () => {
   return (
@@ -57,7 +63,7 @@ const CmsForm = () => {
                   {clientLogos.map((logo, index) => (
                     <li key={index}>
                       <div className="climg">
-                        <Image src={logo} className="img-fluid"  alt="Image" />
+                        <Image src={logo.cl} className="img-fluid"  alt={logo.alt} />
                       </div>
                     </li>
                   ))}
@@ -65,7 +71,7 @@ const CmsForm = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12 boost-ranking hub-ranking">
-              {/* <HubspotForm /> */}
+           
               <WebdevForm/>
             </div>
           </div>

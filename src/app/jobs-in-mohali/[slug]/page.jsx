@@ -10,7 +10,7 @@ const page=async({params})=>{
 
     const response =await fetch(`${process.env.NEXT_PUBLIC_BASE_URL_API}/wp-json/wp/v2/wgt-careerjobs?slug=${slug}`)
   const data= await response.json();
-  // console.log(data[0].yoast_head_json.description);
+  
   
   
     return(

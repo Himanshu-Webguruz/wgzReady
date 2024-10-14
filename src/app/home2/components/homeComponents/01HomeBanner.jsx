@@ -1,5 +1,4 @@
-// import HomeClient from "@/components/homeComponents/clientcomp/HomeClient";
-// import HubSpotForm from "@/utils/formsHubspot/HubspotForm";
+
 import Image from "next/image";
 
 const HomeBanner = () => {
@@ -31,8 +30,6 @@ const HomeBanner = () => {
               Your Digital Vision, Our Technical Brilliance
             </p>
 
-            {/* <HubSpotForm targetId="hubspotForm-componentOne" /> */}
-            {/* <HomeClient /> */}
           </div>
         </div>
       </div>

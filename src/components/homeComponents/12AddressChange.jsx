@@ -138,13 +138,13 @@ const AddressChange = () => {
                               <li>
                                 <a href="tel:+917087233361">
                                   <i className="fas fa-phone-alt"></i>{" "}
-                                  <span>+91-7087233361</span>
+                                  <p>+91-7087233361</p>
                                 </a>
                               </li>
                               <li>
                                 <a href="mailto:provider@webguruz.in">
                                   <i className="fas fa-envelope"></i>{" "}
-                                  <span>provider@webguruz.in</span>
+                                  <p>provider@webguruz.in</p>
                                 </a>
                               </li>
                             </ul>
@@ -174,6 +174,18 @@ const AddressChange = () => {
                               Australia
                             </p>
                           </div>
+                          <div className="location-item">
+                            <h5>Contact(Sale)</h5>
+                            <ul className="list-unstyled mb-0">
+                           
+                              <li>
+                                <a href="mailto:provider@webguruz.in">
+                                  <i className="fas fa-envelope"></i>
+                                  <p>provider@webguruz.in</p>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -198,6 +210,18 @@ const AddressChange = () => {
                               5700 Dowdell Avenue, Unit 362, Rohnert Park
                               California 94928
                             </p>
+                          </div>
+                          <div className="location-item">
+                            <h5>Contact(Sale)</h5>
+                            <ul className="list-unstyled mb-0">
+                             
+                              <li>
+                                <a href="mailto:provider@webguruz.in">
+                                  <i className="fas fa-envelope"></i>{" "}
+                                  <p>provider@webguruz.in</p>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                         </div>
                       </div>
@@ -224,6 +248,18 @@ const AddressChange = () => {
                               <br />
                               South Croydon CR2 7DS
                             </p>
+                          </div>
+                          <div className="location-item">
+                            <h5>Contact(Sale)</h5>
+                            <ul className="list-unstyled mb-0">
+                             
+                              <li>
+                                <a href="mailto:provider@webguruz.in">
+                                  <i className="fas fa-envelope"></i>{" "}
+                                  <p>provider@webguruz.in</p>
+                                </a>
+                              </li>
+                            </ul>
                           </div>
                         </div>
                       </div>

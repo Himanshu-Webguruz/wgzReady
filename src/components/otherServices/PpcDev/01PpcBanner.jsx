@@ -44,7 +44,7 @@ Our expert team leverages data-driven insights to optimize your ad spend, ensuri
               </ul>
             </div>
             <div className="col-sm-5 col-xs-12 banner-image-right">
-              <Image src={ppcbannerimage} alt="ppcbannerimage" />
+              <Image src={ppcbannerimage} alt="Paid Advertising Agency" />
             </div>
           </div>
         </div>
