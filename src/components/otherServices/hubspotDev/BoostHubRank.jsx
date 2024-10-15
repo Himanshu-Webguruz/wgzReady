@@ -1,11 +1,14 @@
 import Image from "next/image";
-import time from '../../../../public/images/hubspotimages/Time.svg'
-import usdollar from '../../../../public/images/hubspotimages/UsDollarCircled.svg'
-import CustomerInsight from '../../../../public/images/hubspotimages/CustomerInsight.svg'
-import devskill from '../../../../public/images/hubspotimages/devskill.svg'
+// import time from '../../../../public/images/hubspotimages/Time.svg'
+// import usdollar from '../../../../public/images/hubspotimages/UsDollarCircled.svg'
+// import CustomerInsight from '../../../../public/images/hubspotimages/CustomerInsight.svg'
+// import devskill from '../../../../public/images/hubspotimages/devskill.svg'
 import HubspotForm from "./clientHubForm/HubspotForm";
 import WebdevForm from "@/utils/formsHubspot/Webdeveform";
-
+import maintenance from '../../../../public/images/hubspotimages/newImages/maintenance.svg'
+import solution from '../../../../public/images/hubspotimages/newImages/solution.svg'
+import expertise from '../../../../public/images/hubspotimages/newImages/expertise.svg'
+import technicalsupport from '../../../../public/images/hubspotimages/newImages/technicalsupport.svg'
 const BoostHubRank = () => {
   return (
     <>
@@ -22,19 +25,19 @@ const BoostHubRank = () => {
               <div className="py-4 hub-icons">
                 <ul>
                   <li>
-                    <Image src={time} alt="Image 1"  style={{height:"20px", width:"20px"}} />
+                    <Image src={maintenance} alt="Support and Maintenance Icon"  style={{height:"20px", width:"20px"}} />
                     <p>Expert Support and Maintenance</p>
                   </li>
                   <li>
-                    <Image src={devskill} alt="Image 1"  style={{height:"20px", width:"20px"}} />
+                    <Image src={expertise} alt="Expertise Icon"  style={{height:"20px", width:"20px"}} />
                     <p>Extensive Experience and Expertise</p>
                   </li>
                   <li>
-                    <Image src={CustomerInsight} alt="Image 1"  style={{height:"20px", width:"20px"}} />
+                    <Image src={solution} alt="Affordable Solutions icon"  style={{height:"20px", width:"20px"}} />
                     <p>Affordable and Scalable Solutions</p>
                   </li>
                   <li>
-                    <Image src={usdollar} alt="Image 1"  style={{height:"20px", width:"20px"}} />
+                    <Image src={technicalsupport} alt="Technical Experts Icon"  style={{height:"20px", width:"20px"}} />
                     <p>Dedicated Team of Technical Experts</p>
                   </li>
                 </ul>

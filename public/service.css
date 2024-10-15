@@ -1985,16 +1985,23 @@ margin: 10px 0px 0px 0px;
 border: 1px solid #26C6DA;
 padding: 36px 15px 20px;
 background-color: #F9F9F9;
-
+height: 100%;
+margin: 0;
 }
 .seomangement .swiper-pagination-bullet-active {
 background-color: #26c6da;
 }
 .seomangement .swiper.swiper-initialized.swiper-horizontal {
-padding: 32px 20px 0px;
+padding: 32px 20px 30px;
 }
 .card-seo-process:hover .number {
 box-shadow: none;
+}
+.seomangement .swiper .swiper-pagination {
+  position: relative;
+  z-index: 9;
+  bottom: 0px;
+  background: transparent;
 }
 .card-seo-process span.number {
 width: 60px;

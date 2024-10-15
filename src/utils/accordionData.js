@@ -147,4 +147,36 @@ const ppcdata = [
   },
 
 ];
-export { accordionData, digitalData, hubspotData, ppcdata };
+
+const seodata = [
+  {
+    title: "How much does it cost for SEO services?",
+    content:
+      `SEO pricing varies depending on the scope of your project, the level of competition in your industry, and the specific services required. At WebGuruz, we offer flexible pricing plans tailored to your needs. Whether you're a small business or an enterprise, we have solutions that fit every budget. For a more accurate estimate, feel free to reach out for a consultation, and we'll provide you with a detailed breakdown of costs.`,
+  },
+  {
+    title: "What is SEO and its purpose?",
+    content:
+      `SEO, or Search Engine Optimization, refers to the practice of optimizing your website to improve its visibility in search engine results. The primary purpose of SEO is to increase organic traffic by ranking higher for relevant keywords, which ultimately leads to more website visitors, higher conversions, and increased revenue. It’s a long-term investment in your business's online presence.`,
+  },
+  {
+    title: "Is SEO a marketing service?",
+    content:
+      `Yes, SEO is an essential part of digital marketing. It involves improving your website's visibility in search engines like Google and Bing, which helps attract potential customers who are actively searching for your products or services. By integrating SEO into your marketing strategy, you can enhance your brand's online presence and reach a wider audience.`,
+  },
+  {
+    title: "What is the difference between SEO and online marketing?",
+    content:
+      `SEO is a specific aspect of online marketing focused on improving organic search engine rankings. Online marketing, on the other hand, encompasses a broad range of tactics, including SEO, social media marketing, content marketing, paid advertising (PPC), and email marketing. SEO is just one of many tools used in a comprehensive digital marketing strategy.`,
+  },
+  {
+    title: "Which is better: Google Ads or SEO?",
+    content:
+      `Both Google Ads (PPC) and SEO have their unique advantages. SEO focuses on long-term organic growth and provides lasting results, while Google Ads offers immediate visibility through paid search results. The best choice depends on your goals: SEO is ideal for sustained, long-term growth, while Google Ads can drive instant traffic. For most businesses, a combination of both strategies works best.`,
+  },
+  
+  
+
+];
+
+export { accordionData, digitalData, hubspotData, ppcdata,seodata };

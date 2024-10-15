@@ -21,7 +21,7 @@ function OurTeamPpc() {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="hbstsct">
               <div className="hbstm">
-                <Image src={Hbteam} className="img-fluid"  alt="Image" />
+                <Image src={Hbteam} className="img-fluid"  alt="Paid Advertising" />
               </div>
               <div className="svypmng">
                 <div className="svypmnginr">

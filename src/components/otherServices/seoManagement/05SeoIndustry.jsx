@@ -10,6 +10,12 @@ import industryseo8 from '../../../../public/images/seoimages/industryseo-8.svg'
 import industryseo9 from '../../../../public/images/seoimages/industryseo-9.svg'
 import industryseo10 from '../../../../public/images/seoimages/industryseo-10.svg'
 import industryseo11 from '../../../../public/images/seoimages/industryseo-11.svg'
+import Icnbroad4 from "../../../../public/images/hubspotimages/educaate.svg";
+
+// legal image in hospitality
+// hospitality image in technology
+// healthcare image in legal
+// education image in automotive
 
 const SeoIndustry = () => {
   return (
@@ -19,52 +25,53 @@ const SeoIndustry = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center">
               <h2 className="mb-5">
-                Industry Specialized <span>SEO Services in India</span>
+              Industries We Serve
+               {/* <span>SEO Services in India</span> */}
               </h2>
               <ul>
                 <li>
-                  <Image src={industryseo1} alt="industryseo1" />
-                  <p className="mt-4">Ecommerce SEO</p>
+                  <Image src={industryseo1} alt="E-commerce Icon" />
+                  <p className="mt-4">E-commerce</p>
                 </li>
                 <li>
-                  <Image src={industryseo2} alt="industryseo2" />
-                  <p className="mt-4">Dental SEO</p>
+                  <Image src={industryseo4} alt="Legal Icon" />
+                  <p className="mt-4">Legal</p>
                 </li>
                 <li>
-                  <Image src={industryseo3} alt="industryseo3" />
-                  <p className="mt-4">IT Company SEO</p>
+                  <Image src={industryseo2} alt="Hospitality Icon" />
+                  <p className="mt-4">Hospitality</p>
                 </li>
                 <li>
-                  <Image src={industryseo4} alt="industryseo4" />
-                  <p className="mt-4">Law Firm SEO</p>
+                  <Image src={industryseo8} alt="Healthcare Icon" />
+                  <p className="mt-4">Healthcare</p>
                 </li>
                 <li>
-                  <Image src={industryseo5} alt="industryseo5" />
-                  <p className="mt-4">Mover SEO</p>
+                  <Image src={Icnbroad4} alt="Education Icon" />
+                  <p className="mt-4">Education</p>
                 </li>
                 <li>
-                  <Image src={industryseo6} alt="industryseo6" />
-                  <p className="mt-4">Real Estate SEO</p>
+                  <Image src={industryseo5} alt="Automotive Icon" />
+                  <p className="mt-4">Automotive</p>
                 </li>
                 <li>
-                  <Image src={industryseo7} alt="industryseo7" />
-                  <p className="mt-4">Roofer SEO</p>
+                  <Image src={industryseo7} alt="Real Estate Icon" />
+                  <p className="mt-4">Real Estate</p>
                 </li>
                 <li>
-                  <Image src={industryseo8} alt="industryseo8" />
-                  <p className="mt-4">SEO for Doctor</p>
+                  <Image src={industryseo3} alt="Technology Icon" />
+                  <p className="mt-4">Technology</p>
                 </li>
                 <li>
-                  <Image src={industryseo9} alt="industryseo9" />
-                  <p className="mt-4">Pest Control SEO</p>
+                  <Image src={industryseo9} alt="Non-profit Icon" />
+                  <p className="mt-4">Non-profit</p>
                 </li>
                 <li>
-                  <Image src={industryseo10} alt="industryseo10" />
-                  <p className="mt-4">Cleaning Company SEO</p>
+                  <Image src={industryseo10} alt="Finance Icon" />
+                  <p className="mt-4">Finance</p>
                 </li>
                 <li>
-                  <Image src={industryseo11} alt="industryseo11" />
-                  <p className="mt-4">Jewelry SEO</p>
+                  <Image src={industryseo11} alt="Retail Icon" />
+                  <p className="mt-4">Retail</p>
                 </li>
               </ul>
             </div>

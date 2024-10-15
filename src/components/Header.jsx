@@ -6,13 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import ModalForm from "./PopUpForms/GetQuoteForm";
 
-import PPCicon from "../../public/images/ppc-icon.svg";
-import CMSicon from "../../public/images/cms-icon.svg";
-import Digitalicon from "../../public/images/digital-marketing-icon.svg";
-import Hubspoticon from "../../public/images/hubspot-icon.svg";
-import Seoicon from "../../public/images/seo-icon.svg";
-import Webicon from "../../public/images/web-development-icon.svg";
-import Digitalmaket from "../../public/images/tabberimg3.webp";
+import loc1 from "../../public/images/loc-1.svg";
 
 //
 
@@ -83,12 +77,19 @@ const Header = () => {
             <div className="col-sm-10 col-xs-12 contact-right">
               <ul>
                 <li>
+                  <span className="loc-icon">
+                    <Image src={loc1} alt="India-Icon" width={5} height={5} />
+                  </span>
                   <Link href="tel:708 723 3361">
                     (+91) 708 723 3361 (Sales)
                   </Link>
                 </li>
                 <li>
+                
                   <Link href="tel:(+91) 959 201 6444">
+                  <span className="loc-icon">
+                    <Image src={loc1} alt="India-Icon" width={5} height={5} />
+                  </span>
                     (+91) 959 201 6444 (Jobs)
                   </Link>
                 </li>
@@ -195,7 +196,7 @@ const Header = () => {
                             PPC Service
                           </Link>
                         </li>
-                        {/* <li
+                        <li
                           onClick={closeDropdown}
                           className={
                             activeService ===
@@ -207,7 +208,7 @@ const Header = () => {
                           <Link href="/services/search-engine-optimization">
                             SEO Management
                           </Link>
-                        </li> */}
+                        </li>
                       </div>
                     </div>
                   </ul>

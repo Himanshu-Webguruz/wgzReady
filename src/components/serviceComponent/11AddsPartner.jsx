@@ -17,15 +17,17 @@ const AddsPartner = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center heading-content">
             <h2 className="color-wt mb-3">
-              Maximize Your Reach and Conversions with Trusted PPC Ads Partner
+            Take your business to the next level
+
             </h2>
             <p className="color-wt">
-              Run paid advertising campaigns that put your business on the
-              growth curve. Let our team make every dollar
-              <br /> spent on the campaign accounted for.
+            Partner with WebGuruz for unparalleled SEO success!
+
+              {/* <br /> spent on the campaign accounted for. */}
             </p>
             <Link className="explore-btn" href="/">
-              Call To Action
+            Connect Now!
+
             </Link>
           </div>
         </div>

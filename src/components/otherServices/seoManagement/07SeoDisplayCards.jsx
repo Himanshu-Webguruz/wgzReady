@@ -36,11 +36,10 @@ const SeoDisplayCards = () => {
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-4">
             <h2>
-              Our <span>Work</span>
+              Our <span>Portfolio</span>
             </h2>
             <p>
-              Lorem simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been thestandard dummy text ever since the 1500s
+            With over 16 years of experience, WebGuruz has consistently delivered exceptional results:
             </p>
           </div>
         </div>
@@ -58,11 +57,11 @@ const SeoDisplayCards = () => {
           <div className="col col-xs-12">
             <label>
             {inView ? (
-            <CountUp start={0} end={1000} duration={1} suffix="+"   separator="" />
+            <CountUp start={0} end={5} duration={1} suffix="K+"   separator="" />
           ) : (
                 <span>1+</span>
               )}
-              <p>Case Studies</p>
+              <p> Successful Projects</p>
             </label>
           </div>
           <div className="col col-xs-12">
@@ -78,11 +77,11 @@ const SeoDisplayCards = () => {
           <div className="col col-xs-12">
             <label>
             {inView ? (
-            <CountUp start={0} end={5} duration={2} suffix="K+"   separator="" />
+            <CountUp start={0} end={100} duration={2} suffix="+"   separator="" />
           ) : (
-                <span>1K+</span>
+                <span>1+</span>
               )}
-              <p>Reviews</p>
+              <p> Industry Awards and Accolades</p>
             </label>
           </div>
         </div>

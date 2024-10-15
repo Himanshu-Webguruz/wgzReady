@@ -12,14 +12,13 @@ const SeoStation = () => {
         <div className="row justify-content-md-center">
           <div className="col-sm-9 col-xs-12 heading-main text-center pb-5">
             <h2>
-              Webguruz is Your One-Stop Station for
+            Why WebGuruz?
               <br />
-              <span>Web Development Service</span>
+              {/* <span>Web Development Service</span> */}
             </h2>
             <span className="mb-3 d-inline-block">
-              From concept ideation to product development and launch in the
-              market, we help you in every stage of the development lifecycle to
-              build high-performing and scalable web applications.
+            Our agency stands out from the competition due to our unwavering commitment to delivering exceptional results, a client-centric approach, and a deep understanding of SEO’s evolving landscape. We pride ourselves on being more than just a service provider; we are your trusted partner in achieving long-term growth. Here’s why WebGuruz is the top choice for businesses seeking SEO expertise:
+
             </span>
           </div>
         </div>
@@ -28,78 +27,65 @@ const SeoStation = () => {
           <div className="col-md-12">
             <div className="web-development-stations-wrap">
               <div className="inner-flex-statins-list">
-                <Image src={StationIcon1} alt="stations1" />
+                <Image src={StationIcon1} alt="Proven Track Record Icon" />
                 <h3 className="station-develop-title">
                   {" "}
-                  Cost-Effective Process{" "}
+                  Proven Track Record{" "}
                 </h3>
                 <p className="station-develop-peragraph">
                   {" "}
-                  At Apptunix, our web app development services are designed for
-                  cost-effectiveness, ensuring your project is executed
-                  efficiently without compromising quality.{" "}
+                  With 16+ years of experience, we’ve successfully ranked thousands of keywords and delivered exceptional results to our clients.{" "}
                 </p>
               </div>
 
               <div className="inner-flex-statins-list">
-                <Image src={StationIcon2} alt="stations1" />
-                <h3 className="station-develop-title"> All Under One Roof </h3>
+                <Image src={StationIcon2} alt="Tailored Strategies Icon" />
+                <h3 className="station-develop-title"> Tailored Strategies</h3>
                 <p className="station-develop-peragraph">
                   {" "}
-                  We are a one-stop web application development company,
-                  offering a comprehensive range of services, from concept to
-                  deployment, all conveniently available under one roof.{" "}
+                  We create custom SEO strategies tailored to each client’s unique needs, ensuring a personalized approach to success.{" "}
                 </p>
               </div>
 
               <div className="inner-flex-statins-list">
-                <Image src={StationIcon3} alt="stations1" />
-                <h3 className="station-develop-title"> Creative Team </h3>
+                <Image src={StationIcon3} alt="Experienced Team Icon" />
+                <h3 className="station-develop-title">  Experienced Team </h3>
                 <p className="station-develop-peragraph">
                   {" "}
-                  Creative web app developers at Apptunix are committed to
-                  turning your vision into innovative web solutions, infusing
-                  creativity into every aspect of your project.{" "}
+                  Our SEO specialists have a deep understanding of the latest SEO trends and algorithms.{" "}
                 </p>
               </div>
 
               <div className="inner-flex-statins-list">
-                <Image src={StationIcon4} alt="stations1" />
-                <h3 className="station-develop-title"> 24/7 Help Desk </h3>
+                <Image src={StationIcon4} alt="Transparent Reporting Icon" />
+                <h3 className="station-develop-title"> Transparent Reporting </h3>
                 <p className="station-develop-peragraph">
                   {" "}
-                  With a commitment to assistance, Apptunix ensures that you
-                  have support whenever you need it, guaranteeing a seamless
-                  development experience.{" "}
+                  We believe in full transparency, providing detailed reports so you can track your progress every step of the way.{" "}
                 </p>
               </div>
 
               <div className="inner-flex-statins-list">
-                <Image src={StationIcon5} alt="stations1" />
+                <Image src={StationIcon5} alt="Holistic Approach Icon" />
                 <h3 className="station-develop-title">
                   {" "}
-                  New Technology Integration{" "}
+                  Holistic Approach{" "}
                 </h3>
                 <p className="station-develop-peragraph">
                   {" "}
-                  Being one of the top web application development companies
-                  Apptunix stays at the forefront of technology, integrating new
-                  advancements into your web apps, keeping you ahead of the
-                  curve.{" "}
+                  We offer a full spectrum of SEO services, from technical to content optimization, covering every aspect of SEO.{" "}
                 </p>
               </div>
 
               <div className="inner-flex-statins-list">
-                <Image src={StationIcon6} alt="stations1" />
+                <Image src={StationIcon6} alt=" Client-Centric Focus Icon" />
                 <h3 className="station-develop-title">
                   {" "}
-                  Post-Deployment Services{" "}
+                  Client-Centric Focus{" "}
                 </h3>
                 <p className="station-develop-peragraph">
                   {" "}
-                  Our web development services go beyond launch by ensuring the
-                  ongoing success of your web application with regular updates,
-                  maintenance, and support.{" "}
+                  We prioritize your business goals, working closely with you to achieve the results you desire.{" "}
                 </p>
               </div>
             </div>

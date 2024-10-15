@@ -8,11 +8,10 @@ const SeoSliderContent = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-3">
               <h2>
-                Our Standard <span>SEO Process</span>
+                Our <span>SEO Process</span>
               </h2>
               <span className="d-inline-block mb-3">
-                We Follow Certain Steps To Provide High-QualitySmall Business
-                SEO Services.
+              At WebGuruz, we follow an efficient and streamlined SEO process that ensures maximum results:
               </span>
             </div>
             <SwiperSlider />

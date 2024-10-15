@@ -27,11 +27,12 @@ const AboutWhoweare = () => {
                         </div>
                         <div className="card-icon-content">
                             <Image src={goodfirm} alt='goodfirm'/>
-                            <p>Recognized as Top App Developers by Clutch.</p>
+                            <p>Recognized as One of the Best Firms to Work At on Goodfirms.</p>
+                            
                         </div>
                         <div className="card-icon-content">
                             <Image src={googlebusiness} alt='googlebusiness'/>
-                            <p>Earned 99% of job success & “Top Rated” Badge on Upwork.</p>
+                            <p>Top Searched For Businesses on GMB.</p>
                         </div>
                     </div>
                 </div>

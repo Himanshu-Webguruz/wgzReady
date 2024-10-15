@@ -502,6 +502,7 @@ a.navbar-brand img {
   display: inline-block;
   overflow: hidden;
   z-index: 1;
+  height: 100%;
 }
 .counter-main label::before {
   content: "";
@@ -2975,7 +2976,7 @@ div#hubspotForm-componentTwo.website-label.tpfrmbnr form ul.hs-error-msgs.inputs
   background-color: rgb(22, 139, 154);
   margin: 0px;
   border-radius: 0px 12px 12px 0px;
-  height: 630px;
+  height: auto;
   padding: 12px;
   border: 0px;
 }
@@ -3165,7 +3166,32 @@ button.btn.btn-primary.hiring-form {
   border: 1px solid #cdcdcd;
 }
 
+/* .card-seo-process h3 {
+  font-size: 18px;
+  margin-top: 20px;
+} */
+
+
 /* / Responsive: Ensure content full width on small screens / */
+@media (max-width: 1260px) {
+
+  .hiring-form-main .modal-dialog {
+    align-items: flex-end;
+    padding-bottom: 70px;
+}
+
+  button.btn.btn-primary.hiring-form {
+    right: 0px;
+    left: unset;
+    bottom: 0px;
+    top: unset;
+    writing-mode: horizontal-tb;
+    padding: 18px 30px 18px 30px;
+    border-radius: 12px 0px 0px 0px;
+}
+
+}
+
 @media (max-width: 768px) {
   .blog-image-content {
     display: block; /* Stack content vertically for small screens */
@@ -3731,7 +3757,21 @@ button.navbar-toggler span.navbar-toggler-icon {
 .get-quote-form .hs-input.hs-fieldtype-intl-phone input {
   min-height: 34px !important;}
 }
+.header-top .contact-right ul .loc-icon img {
+  width: 20px;
+  display: inline-block;
+  margin: 0 8px 0 0;
+  vertical-align: middle;
+}
 @media (max-width: 767px) {
+
+  .counter-main .col.col-xs-12:nth-last-child(1) label {
+    margin-bottom: 0;
+  }
+  .counter-main label {    
+    height: auto;
+}
+
   .inner-page h1,
   .inner-page h1 span,.carrer-banner h2 span {
     font-size: 30px;
@@ -3808,7 +3848,7 @@ button.navbar-toggler span.navbar-toggler-icon {
     transform: none;
   }
   .video-banner video {
-    min-height: 86vh;
+    min-height: 100% !important;
   }
   .home-banner {
     padding: 130px 0px 80px;
@@ -4240,10 +4280,29 @@ button.navbar-toggler span.navbar-toggler-icon {
   padding: 20px;
   margin: 0px;
 }
+.about-leader .content {
+    min-height: 140px;
+}
 
 
 }
 @media (max-width: 575px) {
+
+  .location-details .col-lg-4 .location, .location-details .col-lg-4 .location-item {
+    width: 100%;
+}
+.location-details .col-lg-4 .location-item ul.list-unstyled li a p {
+  margin: 0;
+}  
+
+.contact-main .contact-info {
+    text-align: center;
+}
+
+.contact-main .col-sm-6.col-xs-12.contact-sub.left {
+    text-align: center;
+}
+
   .counter-main .row, .footer-main .row {
     flex-direction: column;
   }

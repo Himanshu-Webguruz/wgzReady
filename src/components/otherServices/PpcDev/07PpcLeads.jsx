@@ -2,6 +2,10 @@ import Image from "next/image";
 import optimized from "../../../../public/images/ppcimages/newImages/ppclead1.webp";
 import socialmarketing from "../../../../public/images/ppcimages/newImages/ppclead2.webp";
 import contentmarkt from "../../../../public/images/ppcimages/newImages/ppclead3.webp";
+
+import Immediate from "../../../../public/images/ppcimages/newImages/Immediate.svg"
+import Measurable from "../../../../public/images/ppcimages/newImages/Measurable.svg"
+import Targeted from "../../../../public/images/ppcimages/newImages/Targeted.svg"
 const PpcLeads = () => {
   return (
     <>
@@ -26,7 +30,7 @@ const PpcLeads = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={optimized} alt="optimized" />
+              <Image src={Immediate} alt="Immediate Results" />
             </div>
           </div>
           </div>
@@ -39,7 +43,7 @@ const PpcLeads = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={socialmarketing} alt="socialmarketing" />
+              <Image src={Targeted} alt="Targeted Advertising" />
             </div>
           </div>
           </div>
@@ -52,7 +56,7 @@ const PpcLeads = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={contentmarkt} alt="contentmarkt" />
+              <Image src={Measurable} alt="Measurable ROI" />
             </div>
             </div>
           </div>

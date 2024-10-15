@@ -7,42 +7,56 @@ import ppcservicefour from "../../../../public/images/ppcimages/ppc-service-4.sv
 import ppcservicefive from "../../../../public/images/ppcimages/ppc-service-5.svg";
 import ppcservicesix from "../../../../public/images/ppcimages/ppc-service-6.svg";
 
+import landingpage from "../../../../public/images/ppcimages/newImages/landing-page.svg"
+import abtesting from "../../../../public/images/ppcimages/newImages/ab-testing.svg"
+import competitor from "../../../../public/images/ppcimages/newImages/competitor-analysis.svg"
+import digitalmarketing from "../../../../public/images/ppcimages/newImages/digital-marketing.svg"
+import roi from "../../../../public/images/ppcimages/newImages/roi.svg"
+import campaign from "../../../../public/images/ppcimages/newImages/campaign.svg"
+
+
 const services = [
   {
-    src: ppcservicetwo,
+    src: competitor,
     title: "Competitor Analysis",
     description:
       "We conduct an in-depth analysis of your competitors to identify their strategies and uncover opportunities for you to stand out in the market.",
+      alt:'Competitor Analysis Icon'
   },
   {
-    src: ppcservicethree,
+    src: roi,
     title: "Periodic ROI Measurement & Reporting",
     description:
       "We provide transparent reporting on your ad performance, measuring key metrics to ensure your investment is paying off.",
+       alt:'ROI Icon'
   },
   {
-    src: ppcservicefour,
+    src: abtesting,
     title: "Continual A/B Testing",
     description:
       "We implement rigorous A/B testing to identify the most effective ad variations, ensuring your campaigns are always performing at their best.",
+       alt:'A/B Testing Icon'
   },
   {
-    src: ppcservicefive,
+    src: digitalmarketing,
     title: "Ad Creation & Optimization",
     description:
       "Our creative team crafts compelling ads that resonate with your target audience, continuously optimizing them for better performance.",
+       alt:'Ad Creation & Optimization Icon'
   },
   {
-    src: ppcservicesix,
+    src: campaign,
     title: "Advanced Campaign Consulting",
     description:
       "Our experts offer strategic insights and recommendations to enhance your campaigns and drive better results.",
+       alt:'Campaign Consulting Icon'
   },
   {
-    src: ppcserviceone,
+    src: landingpage,
     title: "Landing Page & CRO Recommendations",
     description:
       "We analyze your landing pages and provide Conversion Rate Optimization (CRO) strategies to boost your conversion rates.",
+       alt:'Landing Page Icon'
   },
 ];
 

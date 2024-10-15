@@ -38,4 +38,5 @@ export default page;
 
 export const metadata = {
   title: "Contact Us - Webguruz", // Static title for this page
+  description: "Get in touch with WebGuruz for top-notch web development, digital marketing, SEO, PPC, and SMO services. Contact now our expert to boost your business.",
 };

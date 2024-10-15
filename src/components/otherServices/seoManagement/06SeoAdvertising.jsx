@@ -10,39 +10,39 @@ import ppcservicesix from "../../../../public/images/ppcimages/ppc-service-6.svg
 const services = [
   {
     src: ppcservicetwo,
-    title: "Search Advertising",
+    title: " Data-Driven Strategies",
     description:
-      "Search ads appear to prospects searching for products/services you offer, and generate high-quality leads.",
+      "Every decision is based on in-depth analysis and data, ensuring your SEO campaign is on the right track.",
   },
   {
     src: ppcservicethree,
-    title: "Display Advertising",
+    title: "Constant Optimization",
     description:
-      "Display ads are good for branding / awareness and remarketing through images, banners, creative copies, etc., that appear on display ad networks.",
+      "SEO is an ongoing process, and we continually refine your strategy to stay ahead of algorithm updates and competitors.",
   },
   {
     src: ppcservicefour,
-    title: "Social Media Advertising",
+    title: "Ethical SEO Practices",
     description:
-      "Social media platforms offer excellent targeting capabilities, which bolsters your overall marketing strategy and even drives sales.",
+      "We adhere to white-hat SEO methods, ensuring that your website stays in good standing with search engines.",
   },
   {
     src: ppcservicefive,
-    title: "Display Advertising",
+    title: "User-Centric Design",
     description:
-      "Display ads are good for branding / awareness and remarketing through images, banners, creative copies, etc., that appear on display ad networks.",
+      "We optimize websites not just for search engines but for real users, ensuring a seamless experience that boosts engagement.",
   },
   {
     src: ppcservicesix,
-    title: "Social Media Advertising",
+    title: "Content Excellence",
     description:
-      "Social media platforms offer excellent targeting capabilities, which bolsters your overall marketing strategy and even drives sales.",
+      "We focus on creating high-quality, engaging content that resonates with your audience and alignswith search engine best practices.",
   },
   {
     src: ppcserviceone,
-    title: "Social Media Advertising",
+    title: "Local & Global Focus",
     description:
-      "Social media platforms offer excellent targeting capabilities, which bolsters your overall marketing strategy and even drives sales.",
+      "Whether you need local SEO or a global campaign, we have the expertise to deliver top-notch results.",
   },
 ];
 
@@ -54,16 +54,18 @@ const SeoAdvertising = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-5">
               <h2>
-                <span>PPC Advertising</span> Service In India
+                {/* <span>PPC Advertising</span>  */}
+                SEO Approach
               </h2>
-              <span className="mb-2 d-inline-block">Here’s a list of our pay-per-click marketing services in India:</span>
+              <span className="mb-2 d-inline-block">At WebGuruz, our approach to SEO is built on these core principles:
+              </span>
             </div>
           </div>
           <div className="row">
             {services.map((service, index) => (
               <div key={index} className="col-sm-4 col-xs-12 mb-4">
                 <div className="adverticingcard text-center">
-                  <Image src={service.src} alt={service.title} />
+                  <Image src={service.src} alt={`${service.title} Icon`} />
                   <h3>{service.title}</h3>
                   <p>{service.description}</p>
                 </div>

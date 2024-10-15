@@ -244,15 +244,14 @@ const AddressChange = () => {
                           <div className="location">
                             <h5>UK</h5>
                             <p>
-                              53 Birchend Cl,
-                              <br />
-                              South Croydon CR2 7DS
+                              53 Birchend Cl,South Croydon CR2 7DS
+                              {/* <br /> */}
+                              {/* South Croydon CR2 7DS */}
                             </p>
                           </div>
                           <div className="location-item">
                             <h5>Contact(Sale)</h5>
-                            <ul className="list-unstyled mb-0">
-                             
+                            <ul className="list-unstyled mb-0">                             
                               <li>
                                 <a href="mailto:provider@webguruz.in">
                                   <i className="fas fa-envelope"></i>{" "}

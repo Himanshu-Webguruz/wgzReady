@@ -5,13 +5,14 @@ import logoppc3 from  "../../../../public/images/HomeTechExpert/techexpert13.svg
 import HubspotForm from "../hubspotDev/clientHubForm/HubspotForm";
 import WebdevForm from "@/utils/formsHubspot/Webdeveform";
 
-const PpcServiceForm = ({ heading,subHeading}) => {
+const PpcServiceForm = () => {
+ 
   const points = [
     "Prover Expertise",
     "Result Oriented Approach",
-    "Strategic Ad Campaigns",
-    "In-Depth Keyword Discovery",
-    "Regular Campaign Reports",
+    "Experienced Professionals",
+    "Data-Driven Approach",
+    // "Regular Campaign Reports",
   ];
 
   const logos = [logoppc, logoppc2, logoppc3]; // List of logo images
@@ -22,11 +23,15 @@ const PpcServiceForm = ({ heading,subHeading}) => {
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-xs-12 ppcservicecontent heading-main">
-              <h2 className="color-wt">
+              {/* <h2 className="color-wt">
                 {heading} <span>{subHeading}</span>
+              </h2> */}
+
+              <h2 className="color-wt">
+              Realize the true potential of your website with our <span> expert SEO services!</span>
               </h2>
               <p className="color-wt">
-              We understand that each click is a potential customer. Our tailored PPC campaigns are designed to maximize your advertising budget while delivering exceptional returns.
+              With over a decade of experience, WebGuruz helps businesses dominate search engines through strategic, results-oriented SEO services. Our innovative approaches ensure you stay ahead of the competition, no matter the industry.
               </p>
               <ul className="ppctab-main d-flex align-items-center">
                 {points.map((point, index) => (

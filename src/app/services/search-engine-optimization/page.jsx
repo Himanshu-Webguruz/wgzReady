@@ -12,7 +12,7 @@ import AddsPartner from "@/components/serviceComponent/11AddsPartner";
 import Featuredblog from "@/components/homeComponents/09Featuredblog";
 import ServiceFaq from "@/components/serviceComponent/12ServiceFaq";
 import SeoSliderContent from "@/components/otherServices/seoManagement/SeoSliderContent";
-import {accordionData} from "@/utils/accordionData";
+import {seodata} from "@/utils/accordionData";
 import HiringForm from "@/components/PopUpForms/hiringform";
 // export const dynamic = 'force-dynamic'
 
@@ -20,7 +20,7 @@ const page = () => {
   return (
     <>
       <SeoBanner />
-      <PpcServiceForm heading={"SEO Services"}/>
+      <PpcServiceForm/>
       <SeoCounter />
       <SeoProfessional />
       <SeoSliderContent/>
@@ -29,7 +29,7 @@ const page = () => {
       <SeoAdvertising />
       <SeoDisplayCards />
       <OurTeamhubspot />
-      <ServiceFaq  accordionData={accordionData} />
+      <ServiceFaq  accordionData={seodata} />
       <AddsPartner />
       <Featuredblog />
       <HiringForm/>
@@ -38,3 +38,9 @@ const page = () => {
 };
 
 export default page;
+
+export const metadata = {
+  title: "Professional SEO Services and Marketing Agency | WebGuruz",
+  description:
+    "Looking for a top SEO marketing agency? WebGuruz offers professional SEO services that enhance your online presence, drive traffic, and grow your business.",
+};
