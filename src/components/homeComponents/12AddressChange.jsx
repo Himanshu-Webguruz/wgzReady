@@ -25,7 +25,7 @@ const AddressChange = () => {
 
   return (
     <>
-      {pathname !== "/" && (
+      {pathname === "/helloworld" && (
         <section className="our-locations-sec pt-5 pb-4">
           <div className="container">
             <div className="our-locations__inner">

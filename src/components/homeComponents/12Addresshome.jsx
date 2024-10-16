@@ -32,7 +32,7 @@ function Addresshome() {
   const pathname = usePathname();
   return (
    <>
-   {pathname === '/' && (
+   {pathname !== '/home2' && (
      <section className="adress-main">
      <div className="container">
        <div className="row">
