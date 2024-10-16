@@ -1,21 +1,24 @@
+"use client";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "react-phone-input-2/lib/style.css";
 import ContactClient from "./clientcomp/ContactClient";
 import HubSpotFormV2 from "../../utils/formsHubspot/hubform";
-
+import { usePathname } from "next/navigation";
 const Contact = () => {
+  const pathname = usePathname();
   return (
     <section className="contact-main">
       <div className="container">
         <div className="row">
           <div className="col-sm-6 col-xs-12 contact-sub left">
             <span>Get in Touch with the</span>
-            <h2>Experts in Digital Transformation</h2>  
+            <h2>Experts in Digital Transformation</h2>
             <p>
-            Drive more leads, maximize your RoI, and grow your business with digital solutions built specifically for your business.
+              Drive more leads, maximize your RoI, and grow your business with
+              digital solutions built specifically for your business.
             </p>
-           
+
             <div className="contact-info">
               <h3>Contact WebGuruz:</h3>
               <div className="row">
@@ -78,7 +81,7 @@ const Contact = () => {
           </div>
           {/* <ContactClient /> */}
           <div className="col-sm-6 col-xs-12 contact-sub right">
-          <HubSpotFormV2/>
+            {pathname !== "/home2" && <HubSpotFormV2 />}
           </div>
         </div>
       </div>

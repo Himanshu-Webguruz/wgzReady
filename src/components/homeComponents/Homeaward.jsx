@@ -7,6 +7,7 @@ import award5 from "/public/images/award5.svg";
 import award7 from "/public/images/award7.svg";
 import award6 from '../../../public/images/HomeTechExpert/techexpert15.svg';
 
+import logo5 from "/public/images/hubspotlogo.svg"
 // Add URLs to the awards data
 const awardsData = [
   { src: award1, alt: "Upwork Logo", text: "UPWORK", link: "https://www.upwork.com/ag/webguruz" },
@@ -16,6 +17,7 @@ const awardsData = [
   { src: award6, alt: "SEMrush Logo", text: "SEMrush", link: "https://www.semrush.com/agencies/webguruz-technologies-pvt-ltd/" },
   { src: award4, alt: "Clutch Logo", text: "CLUTCH", link: "https://clutch.co/profile/webguruz-technologies" },
   { src: award7, alt: "Google Partner Logo", text: "GOOGLE PARTNER", link: "https://skillshop.exceedlms.com/profiles/71a1dd4d734c411d939ea9f3d4333dc2" },
+  {src: logo5, alt: "HubSpot Academy Solution Partner",text:"HubSpot Solutions Partner",link:"https://app.hubspot.com/academy/achievements/kdcxj2ml/en/1/jaswinder-singh/hubspot-solutions-partner"},
 ];
 
 const Homeaward = () => {

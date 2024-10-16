@@ -36,12 +36,15 @@ const Homeaward = dynamic(
   { ssr: true }
 );
 
+const HomeTab = dynamic(() => import("@/components/homeComponents/03HomeTabber"), { ssr: true });
+
 import Featuredblog from "./components/homeComponents/09Featuredblog";
 
 export default function Home() {
   return (
     <>
       <HomeBanner />
+      <HomeTab/>
       <CounterHome />
       <HomeNumbers />
       <TechnicalHome />

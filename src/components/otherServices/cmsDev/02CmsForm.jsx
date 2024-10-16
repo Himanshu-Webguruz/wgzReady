@@ -70,7 +70,7 @@ const CmsForm = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 col-12 boost-ranking hub-ranking">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-12 hub-ranking">
            
               <WebdevForm/>
             </div>

@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <DynamicContact />
-        {/* <Addresshome /> */}
+        <Addresshome />
         <AddressChange/>
         <Footer />
       </body>

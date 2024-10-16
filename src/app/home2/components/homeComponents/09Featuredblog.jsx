@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-// import { fetchPosts } from "../../../lib/mongodb";
+
 import { fetchPosts } from '../../../../../lib/fetchData'
 
-// import { fetchPosts } from "../../../lib/mongodb";
+
 
 const Featuredblog = async () => {
   const posts = await fetchPosts();

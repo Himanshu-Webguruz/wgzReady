@@ -28,7 +28,7 @@ const PpcServiceForm = () => {
               </h2> */}
 
               <h2 className="color-wt">
-              Realize the true potential of your website with our <span> expert SEO services!</span>
+              Realize the true potential of your website with our <strong> expert SEO services!</strong>
               </h2>
               <p className="color-wt">
               With over a decade of experience, WebGuruz helps businesses dominate search engines through strategic, results-oriented SEO services. Our innovative approaches ensure you stay ahead of the competition, no matter the industry.
@@ -46,7 +46,7 @@ const PpcServiceForm = () => {
                 ))}
               </div>
             </div>
-            <div className="col-sm-6 col-xs-12 formppc boost-ranking hub-ranking">
+            <div className="col-sm-6 col-xs-12 formppc hub-ranking">
               {/* <HubspotForm /> */}
               <WebdevForm/>
             </div>

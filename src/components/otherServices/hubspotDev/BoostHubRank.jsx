@@ -12,14 +12,14 @@ import technicalsupport from '../../../../public/images/hubspotimages/newImages/
 const BoostHubRank = () => {
   return (
     <>
-      <section className="boost-ranking hub-ranking py-5">
+      <section className="scrfrm hub-ranking py-5">
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-xs-12 content-left heading-main">
-              <h2>
-                <span>Fast-Track Business Growth</span> with Hubspot
+              <h2 className="text-white">
+                <strong>Fast-Track Business Growth</strong> with Hubspot
               </h2>
-              <p className="mt-3 mb-4">
+              <p className="mt-3 mb-4 text-white">
               HubSpot offers a wide range of benefits for businesses of all sizes. By leveraging HubSpot&apos;s powerful features, you can streamline your sales and marketing processes, improve customer relationships, and drive growth. Some of the key benefits include:
               </p>
               <div className="py-4 hub-icons">

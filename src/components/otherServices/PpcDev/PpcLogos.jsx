@@ -21,7 +21,7 @@ const logos = [
 
 const PpcLogos = () => {
   return (
-    <section className="contact-logo py-5">
+    <section className="contact-logo ppc-contact-logo py-5">
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center pb-3">

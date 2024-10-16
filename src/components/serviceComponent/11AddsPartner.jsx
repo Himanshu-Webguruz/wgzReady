@@ -25,7 +25,7 @@ const AddsPartner = () => {
 
               {/* <br /> spent on the campaign accounted for. */}
             </p>
-            <Link className="explore-btn" href="/">
+            <Link className="explore-btn" href="/contact-us">
             Connect Now!
 
             </Link>

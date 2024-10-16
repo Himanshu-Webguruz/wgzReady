@@ -13,8 +13,7 @@ const PpcBanner = () => {
               </h1>
               <p className='mb-5'>
               Businesses need effective strategies to attract new customers- and that&apos;s where our PPC Management Services come in. At WebGuruz, we specialize in creating targeted paid advertising campaigns that drive measurable results. 
-Our expert team leverages data-driven insights to optimize your ad spend, ensuring that every dollar you invest brings in new leads and sales. Get ready to transform your advertising approach and achieve predictable growth!
-
+              Our expert team leverages data-driven insights to optimize your ad spend, ensuring that every dollar you invest brings in new leads and sales. Get ready to transform your advertising approach and achieve predictable growth!
               </p>
               <ul className="ppcbutton d-flex">
                 <li>

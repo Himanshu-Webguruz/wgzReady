@@ -497,7 +497,7 @@ a.navbar-brand img {
   border: solid #25c1d5;
   border-width: 1px 1px 6px;
   border-radius: 24px;
-  padding: 26px 12px;
+  padding: 26px 12px 14px;
   position: relative;
   display: inline-block;
   overflow: hidden;
@@ -623,7 +623,6 @@ a.about--btn svg {
   background-color: #fff;
 }
 a.about--btn {
-  text-align: left;
   color: #26c6da;
   line-height: 26px;
   position: relative;
@@ -721,7 +720,6 @@ ul.logos-main img {
   font-size: 28px;
   font-weight: 700;
   line-height: 38px;
-  text-align: left;
   margin-bottom: 11px;
 }
 .technical-main .content h3 span {
@@ -733,7 +731,7 @@ ul.logos-main img {
 .technical-main .row {
   max-width: 1320px;
   margin: auto;
-  padding: 50px 10px;
+  padding: 50px 20px;
 }
 .technical-main .container {
   max-width: 100%;
@@ -1201,11 +1199,9 @@ button.explore-btn:hover::before {
 .testimonial-main button.slick-arrow::before {
   display: none !important;
 }
-
 .slider-thumbnail img {
   width: 70px;
   height: 70px;
-  /* margin: auto; */
   border-radius: 50%;
 }
 .navtestimonial .slick-list {
@@ -1365,6 +1361,7 @@ button.explore-btn:hover::before {
 .contact-info-sub .content p {
   font-size: 14px;
   margin: 0px 0px 8px 0px;
+  text-align: left;
 }
 .contact-info-sub .content a {
   font-size: 14px;
@@ -2963,6 +2960,7 @@ div#hubspotForm-componentTwo.website-label.tpfrmbnr form ul.hs-error-msgs.inputs
 /* address home designingend */
 .footer-main {
   background-color: #000;
+  
 }
 
 /* hiring & getquote designing start */
@@ -3019,6 +3017,8 @@ button.btn.btn-primary.hiring-form {
   color: #fff;
   margin: 0px;
   font-weight: 400;
+  text-align: center;
+  padding: 10px 12px 20px;
 }
 .hiring-form-main .contact-right-form input::placeholder,
 .hiring-form-main .contact-right-form textarea::placeholder,
@@ -3057,9 +3057,7 @@ button.btn.btn-primary.hiring-form {
   color: #fff;
   padding: 9px 12px;
 }
-.hiring-form-main .contact-right-form select{
-  color: #fff;
-}
+
 .hs_add_file.hs-add_file >label {
   visibility: hidden;
 }
@@ -3165,13 +3163,21 @@ button.btn.btn-primary.hiring-form {
   border-radius: 4px !important;
   border: 1px solid #cdcdcd;
 }
-
-/* .card-seo-process h3 {
-  font-size: 18px;
-  margin-top: 20px;
-} */
-
-
+.contact-right span.loc-icon img {
+  width: 20px;
+  margin-right: 5px;
+}
+.hiring-form-main .contact-right-form {
+  background-color: #168b9a;
+  margin: 0;
+  height: auto;
+  padding: 12px 12px 30px;
+  border: 0;
+  border-radius: 0px;
+}
+.hiring-form-main.fade-scale .react-tel-input .selected-flag {
+  width: 46px;
+}
 /* / Responsive: Ensure content full width on small screens / */
 @media (max-width: 1260px) {
 
@@ -3180,14 +3186,14 @@ button.btn.btn-primary.hiring-form {
     padding-bottom: 70px;
 }
 
-  button.btn.btn-primary.hiring-form {
-    right: 0px;
-    left: unset;
-    bottom: 0px;
-    top: unset;
-    writing-mode: horizontal-tb;
-    padding: 18px 30px 18px 30px;
-    border-radius: 12px 0px 0px 0px;
+button.btn.btn-primary.hiring-form {
+  right: 20px;
+  left: unset;
+  bottom: 0px;
+  top: unset;
+  writing-mode: horizontal-tb;
+  padding: 12px 23px;
+  border-radius: 12px 12px 0px 0px;
 }
 
 }
@@ -3415,6 +3421,12 @@ button.btn.btn-primary.hiring-form {
 .get-quote-form .form {
   height: 570px;
 }
+.technical-main ul.logos-main li {
+  width: 130px;
+}
+ul.logos-main {
+  max-width: 80%;
+}
 }
 @media (max-width: 1199px) {
   h2,
@@ -3508,7 +3520,7 @@ button.navbar-toggler span.navbar-toggler-icon {
   .card a.btn-link {
     font-size: 12px;
   }
-  ul.logos-main li {
+  ul.logos-main li,.technical-main ul.logos-main li {
     width: 31%;
   }
   .diverse-main > div {
@@ -3596,6 +3608,9 @@ button.navbar-toggler span.navbar-toggler-icon {
 }
 .get-quote-form .modal-dialog div#hubspotFormV2 ul li {
   font-size: 14px;
+}
+ul.logos-main {
+  max-width: 100%;
 }
 }
 
@@ -3756,13 +3771,16 @@ button.navbar-toggler span.navbar-toggler-icon {
 .get-quote-form div#hubspotFormV2 .hs-input.hs-fieldtype-intl-phone select, 
 .get-quote-form .hs-input.hs-fieldtype-intl-phone input {
   min-height: 34px !important;}
-}
+
 .header-top .contact-right ul .loc-icon img {
   width: 20px;
   display: inline-block;
   margin: 0 8px 0 0;
-  vertical-align: middle;
+  vertical-align: middle;}
+
 }
+
+
 @media (max-width: 767px) {
 
   .counter-main .col.col-xs-12:nth-last-child(1) label {
@@ -3904,7 +3922,7 @@ button.navbar-toggler span.navbar-toggler-icon {
     width: 100%;
   }
   .tab-main {
-    padding: 0px 15px;
+    padding: 0px;
 }
   .counter-main label,
   .tab-main .content,
@@ -3989,6 +4007,7 @@ button.navbar-toggler span.navbar-toggler-icon {
     max-width: 320px;
     margin: auto;
     padding: 16px 0px 0px;
+    text-align: left;
   }
   .footer-bottom.left p {
     text-align: center;
@@ -4110,6 +4129,7 @@ button.navbar-toggler span.navbar-toggler-icon {
   .counter-main .container .row:nth-child(2) > div,
   .row.numbercard-main > div {
     width: 50%;
+    padding: 0px 6px;
   }
   .faq-content .accordionNew .according-heading {
     font-size: 18px;
@@ -4283,11 +4303,19 @@ button.navbar-toggler span.navbar-toggler-icon {
 .about-leader .content {
     min-height: 140px;
 }
-
+.hiring-form-main.fade-scale .react-tel-input .selected-flag {
+  width: 54px;
+}
 
 }
 @media (max-width: 575px) {
-
+  /* body, h1, h2, h3, h4, h5, h6{
+    text-align: center;
+  } */
+  .container .row > div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .location-details .col-lg-4 .location, .location-details .col-lg-4 .location-item {
     width: 100%;
 }
@@ -4430,7 +4458,6 @@ button.navbar-toggler span.navbar-toggler-icon {
     border-radius: 8px;
     font-size: 14px;
   }
-  .counter-main .container .row:nth-child(2) > div,
   .row.numbercard-main > div {
     width: 100%;
   }
@@ -4462,6 +4489,9 @@ button.navbar-toggler span.navbar-toggler-icon {
   .get-quote-form .image-form img{
     height: 260px;
   }
+  .counter-main .container .row:last-child {
+    margin: 0 auto;
+}
 }
 
 @media(max-width: 480px){

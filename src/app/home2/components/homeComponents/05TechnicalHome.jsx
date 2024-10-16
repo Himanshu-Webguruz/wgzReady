@@ -15,10 +15,10 @@ const splitTitle = (title) => {
   );
 };
 
-const animationVariants = {
-  hidden: { opacity: 0, y: 50 },
-  visible: { opacity: 1, y: 0 },
-};
+// const animationVariants = {
+//   hidden: { opacity: 0, y: 50 },
+//   visible: { opacity: 1, y: 0 },
+// };
 
 const TechnicalHome = () => {
   return (
@@ -28,9 +28,9 @@ const TechnicalHome = () => {
           className="row py-0"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={animationVariants}
-          transition={{ duration: 0.8 }}
+          // viewport={{ once: true, amount: 0.2 }}
+          // variants={animationVariants}
+          // transition={{ duration: 0.8 }}
         >
           <div className="col-sm-12 col-xs-12 heading-main text-center">
             <h2 className="mb-3">
@@ -45,9 +45,9 @@ const TechnicalHome = () => {
             key={index}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.2 }}
-            variants={animationVariants}
-            transition={{ duration: 0.8 }}
+            // viewport={{ once: true, amount: 0.2 }}
+            // variants={animationVariants}
+            // transition={{ duration: 0.8 }}
           >
             <div className="card-content">
               <div className="col-sm-6 col-xs-12 image">

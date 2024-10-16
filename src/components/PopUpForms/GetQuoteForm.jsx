@@ -1,4 +1,5 @@
 // components/ModalForm.js
+'use client'
 import React, { useEffect, useState } from "react";
 import useScript from "@/utils/formsHubspot/useScript";
 import Image from "next/image";
@@ -8,7 +9,9 @@ import Googlepartner from "../../../public/images/getaquote/google-partner-logo.
 import Hubspot from "../../../public/images/getaquote/HubSpot-Logo.webp"
 import Shopify from "../../../public/images/getaquote/shopify-logo.webp"
 import qoute from "../../../public/images/quote-img.webp";
+
 const ModalForm = () => {
+
   const isLoaded = useScript("https://js.hsforms.net/forms/embed/v2.js");
   const [showModal, setShowModal] = useState(false);
 
@@ -35,12 +38,11 @@ const ModalForm = () => {
 
   return (
     <>
-      {/* Button to trigger the modal */}
+   
+    
       <button type="button" className="btn btn-primary" onClick={handleOpen}>
         GET A QUOTE
       </button>
-
-      {/* Modal */}
       {showModal && (
         <div className="modal show d-block get-quote-form ">
           <div className="modal-dialog">

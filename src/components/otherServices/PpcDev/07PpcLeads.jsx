@@ -30,7 +30,7 @@ const PpcLeads = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={Immediate} alt="Immediate Results" />
+              <Image src={optimized} alt="Immediate Results" />
             </div>
           </div>
           </div>
@@ -43,7 +43,7 @@ const PpcLeads = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={Targeted} alt="Targeted Advertising" />
+              <Image src={socialmarketing} alt="Targeted Advertising" />
             </div>
           </div>
           </div>
@@ -56,7 +56,7 @@ const PpcLeads = () => {
               </p>
             </div>
             <div className="col-sm-6 col-xs-12 image">
-              <Image src={Measurable} alt="Measurable ROI" />
+              <Image src={contentmarkt} alt="Measurable ROI" />
             </div>
             </div>
           </div>

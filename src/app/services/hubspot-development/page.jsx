@@ -17,11 +17,13 @@ import { hubspotData} from '@/utils/accordionData'
 import HiringForm from '@/components/PopUpForms/hiringform'
 // export const dynamic = 'force-dynamic'
 
+import ImageHubspot from '@/components/otherServices/hubspotDev/ImageHubspot'
 const page = () => {
   return (
     <>
       <Hubspotbanner/>
       <HubServiceDisplay/>
+     <ImageHubspot/>
       <BoostHubRank/>
       <Serviceprovide/>
       <Hubspotdevelopment/>

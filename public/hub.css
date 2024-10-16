@@ -162,6 +162,7 @@ div#hubspotForm-componentTwo.website-label.tpfrmbnr {
 }
 div#hubspotForm-componentTwo.website-label.tpfrmbnr form fieldset.form-columns-2 input{
   color: #383838;
+  background-color: #fff;
 }
 div#hubspotForm-componentTwo.website-label.tpfrmbnr form fieldset.form-columns-2 > div:first-child .input:after {
   background-color: rgb(25 25 25 / 22%);
@@ -218,6 +219,7 @@ div#webdevForm {
   background-color: rgb(255 255 255 / 20%);
   border-radius: 20px;
   text-align: center;
+  margin-left: 40px;
 }
 div#webdevForm fieldset.form-columns-0, div#webdevForm fieldset.form-columns-1, div#webdevForm fieldset.form-columns-2 {
   width: 100% !important;
@@ -238,6 +240,7 @@ div#webdevForm .input input, .hs-fieldtype-intl-phone.hs-input .hs-input {
   padding: 7px;
   min-height: 42px;
   border-radius: 8px;
+  border: 0px;
 }
 div#webdevForm input.hs-button.primary.large {
   padding: 12px 54px;
@@ -477,6 +480,10 @@ div#hubspotFormV2 .hs_phone.hs-phone.hs-fieldtype-phonenumber ul.no-list.hs-erro
 .get-quote-form .form {
   height: 626px;
 }
+div#webdevForm ul.no-list.hs-error-msgs.inputs-list {
+  position: absolute;
+  bottom: -20px;
+}
 @media(max-width: 991px){
   .website-label.tpfrmbnr {
       max-width: 640px;
@@ -511,7 +518,6 @@ div#hubspotForm-componentOne.website-label.tpfrmbnr form fieldset.form-columns-2
 }
 .website-label.tpfrmbnr form input.hs-button.primary.large,
 .website-label.tpfrmbnr form fieldset.form-columns-2 input{
-  background-color: #fff;
   margin-bottom: 14px;
   border-radius: 50px;
 }
@@ -557,9 +563,10 @@ div#hubspotForm-componentOne.website-label.tpfrmbnr form ul.hs-error-msgs.inputs
   bottom: 0px;
   width: auto;
 }
-.boost-ranking.hub-ranking div#webdevForm{
+div#webdevForm{
   margin-left: 0px;
 }
+
 .bottom-form-quote p {
   margin: 0px;
   padding: 0px 0px 10px 0px;
