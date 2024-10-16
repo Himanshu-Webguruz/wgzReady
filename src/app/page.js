@@ -1,5 +1,5 @@
 
-import Home from './home/page'
+import Home2 from './home2/page'
 import SearchPage from './search/page'
 const page = ({searchParams}) => {
     if (searchParams.s) {
@@ -9,7 +9,7 @@ const page = ({searchParams}) => {
       }
     
       // Render HomePage by default
-      return <Home />;
+      return <Home2 />;
 }
 
 export default page

@@ -39,13 +39,14 @@ const Homeaward = dynamic(
 const HomeTab = dynamic(() => import("@/components/homeComponents/03HomeTabber"), { ssr: true });
 
 import Featuredblog from "./components/homeComponents/09Featuredblog";
-
+import HiringForm from "@/components/PopUpForms/hiringform";
 export default function Home() {
   return (
     <>
       <HomeBanner />
-      <HomeTab/>
       <CounterHome />
+      <HomeTab/>
+      
       <HomeNumbers />
       <TechnicalHome />
       <CustomizeHome
@@ -57,6 +58,7 @@ export default function Home() {
       <HomeTestimonial />
       <Featuredblog />
       <Homeaward />
+      <HiringForm/>
     </>
   );
 }

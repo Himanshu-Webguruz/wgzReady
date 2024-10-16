@@ -14,24 +14,24 @@ const AboutWhoweare = () => {
                     <div className="col-sm-6 col-xs-12 about-left heading-main">
                         <h2>Who <span>We Are</span></h2>
                         <p>With over decades of experience, WebGuruz Technologies help individuals and corporations navigate through their digital transformation journey by crafting custom applications in accordance to their requirements.</p>
-                        <Image src={gyf} alt='gyf'/>
+                        <Image src={gyf} alt='Best Digital Marketing Services Gif'/>
                     </div>
                     <div className="col-sm-6 col-xs-12 icon-content">
                         <div className="card-icon-content">
-                            <Image src={upworklogo} alt='upworklogo'/>
+                            <Image src={upworklogo} alt='Upwork Logo'/>
                             <p>Earned 99% of job success & “Top Rated” Badge on Upwork.</p>
                         </div>
                         <div className="card-icon-content">
-                            <Image src={clutch} alt='clutch'/>
+                            <Image src={clutch} alt='Clutch Logo'/>
                             <p>Recognized as Top App Developers by Clutch.</p>
                         </div>
                         <div className="card-icon-content">
-                            <Image src={goodfirm} alt='goodfirm'/>
+                            <Image src={goodfirm} alt='Good Firms Logo'/>
                             <p>Recognized as One of the Best Firms to Work At on Goodfirms.</p>
                             
                         </div>
                         <div className="card-icon-content">
-                            <Image src={googlebusiness} alt='googlebusiness'/>
+                            <Image src={googlebusiness} alt='Google My Business Logo'/>
                             <p>Top Searched For Businesses on GMB.</p>
                         </div>
                     </div>

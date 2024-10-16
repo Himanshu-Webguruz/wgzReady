@@ -9,7 +9,7 @@ const HomeBanner = () => {
           <div className="col-sm-12 col-xs-12 video-banner">
             <div className="col-sm-12 col-xs-12 video-banner">
               <Image
-                src="/video/videoImg.webp"
+                src="/images/bannerhomes.png"
                 alt="Banner Image"
                 width={1920}
                 height={1080}

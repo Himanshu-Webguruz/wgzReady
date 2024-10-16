@@ -2,6 +2,7 @@
 import india from "../../../public/images/india.png";
 import uk from "../../../public/images/uk.png";
 import usa from "../../../public/images/usa.png";
+import AustraliaBig from "../../../public/images/aus.svg";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 const addressdata = [
@@ -20,13 +21,18 @@ const addressdata = [
     title: "USA",
     para: "6917 Hovingham Court Centreville va 20121",
   },
+  {
+    img: AustraliaBig,
+    title: "Australia",
+    para: " 31 Newmarket Parade, Mickleham, VIC, 3064,Australia",
+  },
 ];
 
 function Addresshome() {
   const pathname = usePathname();
   return (
    <>
-   {pathname === '/home2' && (
+   {pathname === '/' && (
      <section className="adress-main">
      <div className="container">
        <div className="row">
@@ -36,7 +42,7 @@ function Addresshome() {
        </div>
        <div className="row ">
          {addressdata.map((addressconst, index) => (
-           <div className="col col-sm-4 col-xs-12" key={index}>
+           <div className="col col-sm-3 col-xs-12" key={index}>
              <div className="address-card">
                <Image src={addressconst.img}  alt="Image"/>
                <div className="content">

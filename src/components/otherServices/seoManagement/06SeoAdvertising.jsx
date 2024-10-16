@@ -49,7 +49,7 @@ const services = [
 const SeoAdvertising = () => {
   return (
     <>
-      <section className="ppcadvertising py-5">
+      <section className="ppcadvertising py-5 seoadvertising">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center mb-5">

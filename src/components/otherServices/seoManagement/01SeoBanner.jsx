@@ -7,7 +7,7 @@ const SeoBanner = () => {
       <section className="seobanner-main py-5 service-banner inner-page">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-sm-6 col-xs-12 heading-main">
+            <div className="col-sm-7 col-xs-12 heading-main">
               <h1>
               Maximize Your Online Visibility with Professional
                 <span>SEO SERVICES</span> 
@@ -28,7 +28,7 @@ const SeoBanner = () => {
                 </button> */}
               </div>
             </div>
-            <div className="col-sm-6 col-xs-12 banner-image-right">
+            <div className="col-sm-5 col-xs-12 banner-image-right">
               <Image src={seobannertop} alt="SEO Services" />
             </div>
           </div>

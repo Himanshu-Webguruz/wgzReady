@@ -639,12 +639,19 @@ a.about--btn:hover svg {
   transform: translateX(6px);
 }
 /* number css */
-.tab-main {
+.tab-main, .seo-counter-main, .seomangement {
   position: relative;
   background-image: url(/images/features-bg.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+.seoadvertising {
+  background-image:url(/images/bg-dots.webp);
+  background-position: center;
+}
+.seoadvertising .adverticingcard{
+  background-color: #fff;
 }
 .number-main{
   position: relative;
@@ -3178,6 +3185,10 @@ button.btn.btn-primary.hiring-form {
 .hiring-form-main.fade-scale .react-tel-input .selected-flag {
   width: 46px;
 }
+.history-sec .tab-content .image-cnt .image img {
+  height: 400px !important;
+  object-fit: cover;
+}
 /* / Responsive: Ensure content full width on small screens / */
 @media (max-width: 1260px) {
 
@@ -4306,7 +4317,9 @@ ul.logos-main {
 .hiring-form-main.fade-scale .react-tel-input .selected-flag {
   width: 54px;
 }
-
+.history-sec .tab-content .image-cnt .image img {
+  height: 310px !important;
+}
 }
 @media (max-width: 575px) {
   /* body, h1, h2, h3, h4, h5, h6{
