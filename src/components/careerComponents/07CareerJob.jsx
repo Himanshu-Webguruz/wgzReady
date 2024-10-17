@@ -1,7 +1,7 @@
 "use client"
-import Link from "next/link";
+// import Link from "next/link";
 import React from "react";
-import HomeClient from "../homeComponents/clientcomp/HomeClient";
+// import HomeClient from "../homeComponents/clientcomp/HomeClient";
 import BlogSubscribeForm from "@/utils/formsHubspot/BlogSubscribeForm";
 
 const CareerJob = () => {

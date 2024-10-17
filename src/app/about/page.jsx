@@ -2,7 +2,7 @@ import AboutBanner from "@/components/about/AboutBanner";
 import Aboutvision from "@/components/about/Aboutvision";
 import AboutWhoweare from "@/components/about/AboutWhoweare";
 import CounterHome from "@/components/homeComponents/02CounterHome";
-import HomeTestimonial from "@/components/homeComponents/07HomeTestimonial";
+import HomeTestimonial from '../home2/components/homeComponents/07HomeTestimonial'
 import WhyChoose from "@/components/serviceComponent/07WhyChoose";
 import Aboutleaders from "@/components/about/Aboutleaders";
 import "./style.css";

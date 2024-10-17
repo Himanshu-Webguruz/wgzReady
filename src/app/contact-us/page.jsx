@@ -6,8 +6,8 @@ import ContactMap from "@/components/contactComponents/05ContactMap";
 import AddsPartner from "@/components/contactComponents/06AddsPartner";
 import "./contact.css";
 import ContactLogo from "@/components/contactComponents/07ContactLogo";
-import ContactTestimonial from "@/components/contactComponents/ContactTestimonial";
-import HomeTestimonial from "@/components/homeComponents/07HomeTestimonial";
+// import ContactTestimonial from "@/components/contactComponents/ContactTestimonial";
+import HomeTestimonial from "../home2/components/homeComponents/07HomeTestimonial";
 import HiringForm from "@/components/PopUpForms/hiringform";
 
 

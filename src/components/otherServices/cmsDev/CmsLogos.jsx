@@ -1,14 +1,19 @@
 
 import Image from "next/image";
-import logo1 from "../../../../public/images/hubspotimages/hubspotclient1.svg";
-import logo2 from "../../../../public/images/hubspotimages/hubspotclient2.svg";
-import logo3 from "../../../../public/images/hubspotimages/hubspotclient3.svg";
-import logo4 from "../../../../public/images/hubspotimages/hubspotclient4.svg";
+import logo1 from "../../../../public/images/hubspotimages/newImages/buddyins-logo.webp";
+import logo2 from "../../../../public/images/hubspotimages/newImages/drive-insight.webp";
+import logo3 from "../../../../public/images/hubspotimages/newImages/fintalker.webp";
+import logo4 from "../../../../public/images/hubspotimages/newImages/inclusio_.webp";
+import logo5 from "../../../../public/images/hubspotimages/newImages/NewsDirect_logo.webp";
+import logo6 from "../../../../public/images/hubspotimages/newImages/RR_Logo_Helping_make_hospitals_safer__1_-removebg-preview.png";
+import logo7 from "../../../../public/images/hubspotimages/newImages/StratXSims_logo.webp";
+import logo8 from "../../../../public/images/hubspotimages/newImages/skin_consult_logo.svg";
 
-import logo5 from "/public/images/HomeTechExpert/techexpert01.svg";
-import logo6 from "/public/images/HomeTechExpert/techexpert2.svg";
-import logo7 from "/public/images/HomeTechExpert/techexpert3.svg";
-import logo8 from "/public/images/HomeTechExpert/techexpert4.svg";
+
+// import logo1 from "/public/images/HomeTechExpert/techexpert5.svg";
+// import logo2 from "/public/images/HomeTechExpert/techexpert6.svg";
+// import logo3 from "/public/images/HomeTechExpert/techexpert7.svg";
+// import logo4 from "/public/images/HomeTechExpert/techexpert8.svg";
 
 
 const logos = [

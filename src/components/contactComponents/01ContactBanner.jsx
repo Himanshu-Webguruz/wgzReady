@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ContactClient from "../homeComponents/clientcomp/ContactClient";
+// import ContactClient from "../homeComponents/clientcomp/ContactClient";
 import HubSpotFormV2 from "@/utils/formsHubspot/hubform";
 
 const ContactBanner = () => {

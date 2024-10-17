@@ -1,7 +1,7 @@
 // import BlogSubscribeForm from "@/utils/formsHubspot/BlogSubscribeForm";
 import NewLetterLogo from "../../../public/images/newLetter-logo.png";
 import Image from "next/image";
-import HomeClient from "../homeComponents/clientcomp/HomeClient";
+// import HomeClient from "../homeComponents/clientcomp/HomeClient";
 import BlogSubscribeForm from "@/utils/formsHubspot/BlogSubscribeForm";
 const BlogNewsletter = () => {
   return (

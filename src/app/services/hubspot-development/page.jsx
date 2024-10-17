@@ -31,6 +31,7 @@ const page = () => {
       <Hubspotcrm/>
       <WhyHubspot/>
       <Hubspotcms/>
+      <ImageHubspot/>
       <HubspotClients/>
       <OurTeamhubspot/>
       <ServiceFaq  accordionData={hubspotData}/>

@@ -61,12 +61,13 @@ const CounterHome = () => {
           <div className="col-sm-4 col-xs-12 counter-sub text-center hub-counting">
             <label>
             {inView ? (
-              <CountUp start={0} end={50} duration={2} suffix="K+" />
+              <CountUp start={0} end={50} duration={2} suffix="+" />
             ) : (
               <span>1M+</span>
             )}
-              <h3>Keywords Ranked</h3>
-              <p>Our team of skilled professionals brings a diverse range of expertise to every project.</p>
+              <h3>Talented Developers</h3>
+              <p>Our team of skilled professionals brings a diverse range of expertise to every project.
+              </p>
             </label>
           </div>
           <div className="col-sm-4 col-xs-12 counter-sub text-center hub-counting">

@@ -67,9 +67,9 @@ const SeoDisplayCards = () => {
           <div className="col col-xs-12">
             <label>
             {inView ? (
-            <CountUp start={0} end={5} duration={2} suffix="M+"   separator="" />
+            <CountUp start={0} end={50} duration={2} suffix="K+"   separator="" />
           ) : (
-                <span>1M+</span>
+                <span>1K+</span>
               )}
               <p>Keywords Ranked</p>
             </label>

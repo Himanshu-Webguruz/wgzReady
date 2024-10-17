@@ -7,7 +7,7 @@ import logo4 from "/public/images/contactimages/logo4.svg";
 import logo5 from "/public/images/contactimages/logo5.svg";
 import logo6 from "/public/images/contactimages/logo6.svg";
 import logo7 from "/public/images/contactimages/logo7.svg";
-
+import logo8 from "/public/images/hubspotimages/newImages/fintalker.webp";
 const logos = [
   { src: logo1, alt: "Marketing Cloud Logo" },
   { src: logo2, alt: "Service Max Logo" },
@@ -16,7 +16,7 @@ const logos = [
   { src: logo5, alt: "Constant Contact Logo" },
   { src: logo6, alt: "HubSpot Logo" },
   { src: logo7, alt: "VoRide Logo" },
-  { src: logo2, alt: "Service Max Logo" }
+  { src: logo8, alt: "FinTalker Logo" }
 ];
 
 const ContactLogo = () => {

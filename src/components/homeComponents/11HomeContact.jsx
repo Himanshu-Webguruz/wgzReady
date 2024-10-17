@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "react-phone-input-2/lib/style.css";
-import ContactClient from "./clientcomp/ContactClient";
+// import ContactClient from "./clientcomp/ContactClient";
 import HubSpotFormV2 from "../../utils/formsHubspot/hubform";
 import { usePathname } from "next/navigation";
 const Contact = () => {

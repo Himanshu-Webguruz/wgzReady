@@ -422,7 +422,7 @@ a.navbar-brand img {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
+  /* animation: textclip 2s linear infinite; */
   font-weight: 600;
 }
 /* counter  css */
@@ -3189,6 +3189,80 @@ button.btn.btn-primary.hiring-form {
   height: 400px !important;
   object-fit: cover;
 }
+
+
+#hubspotacademy img {
+  width: 300px;
+}
+#hubspotacademy {
+  position: relative;
+}
+#hubspotacademy:before {
+  content: "";
+  background: #f7f7f7;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+#hubspotacademy .sbsptcntp img {
+  max-width: 300px;
+}
+
+#hubspotacademy .sbsptcntp {
+  text-align: center;
+}
+#hubspotacademy .sbstpimg h3:hover {
+  color: #25c1d5;
+}
+
+#hubspotacademy .sbsptcntp h3, .sbstpimg h3 {
+  padding-top: 22px;
+  font-size: 34px;
+  line-height: 44px;
+  color: #168b9a;
+}
+#hubspotacademy .sbstpimg a {
+  display: block;
+  transition: 0.5s;
+}
+#hubspotacademy .sbstpimg a:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+}
+#hubspotacademy .sbstpimg a:hover h3 {
+  color: #25c1d5
+}
+#hubspotacademy .explore-btn {
+  padding: 16px 90px;
+  font-size: 18px;
+}
+#hubspotacademy .sbsptcntp p , .sbstpimg p{
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 0px;
+  margin-bottom: 5px;
+}
+.explrbtnsct {
+  text-align: center;
+  padding-top: 30px;
+}
+#hubspotacademy .sbstpimg img {
+  max-width: 380px;
+}
+
+#hubspotacademy .sbstpimg {
+  text-align: center;
+}
+
+
+
 /* / Responsive: Ensure content full width on small screens / */
 @media (max-width: 1260px) {
 
@@ -3623,6 +3697,15 @@ button.navbar-toggler span.navbar-toggler-icon {
 ul.logos-main {
   max-width: 100%;
 }
+#hubspotacademy .sbsptcntp h3, .sbstpimg h3 {
+  font-size: 28px;
+  line-height: 38px;
+}
+
+#hubspotacademy .sbsptcntp p, .sbstpimg p {
+  font-size: 18px;
+  line-height: 28px;
+}
 }
 
 @media (max-width: 991px) {
@@ -3789,7 +3872,19 @@ ul.logos-main {
   margin: 0 8px 0 0;
   vertical-align: middle;}
 
+  #hubspotacademy .sbsptcntp h3, .sbstpimg h3 {
+    font-size: 22px;
+    line-height: 32px;
 }
+
+#hubspotacademy .sbsptcntp p, .sbstpimg p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+}
+
+
 
 
 @media (max-width: 767px) {
@@ -4320,7 +4415,18 @@ ul.logos-main {
 .history-sec .tab-content .image-cnt .image img {
   height: 310px !important;
 }
+#hubspotacademy h2 span {
+  font-size: 22px;
+  line-height: 32px;
 }
+.hubspot-counting.counter-main label p {
+  font-size: 12px;
+}
+}
+
+
+
+
 @media (max-width: 575px) {
   /* body, h1, h2, h3, h4, h5, h6{
     text-align: center;
@@ -4516,6 +4622,11 @@ ul.logos-main {
 } */
 .get-quote-form .image-form .form form .hs_message .input textarea {
   width: 100% !important;
+}
+
+#hubspotacademy .explore-btn {
+  padding: 14px 60px;
+  font-size: 16px;
 }
 }
 @media(max-width: 444px){

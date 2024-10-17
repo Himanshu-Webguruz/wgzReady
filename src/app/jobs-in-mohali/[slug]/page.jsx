@@ -2,7 +2,7 @@ import CareerJob from "@/components/careerComponents/07CareerJob"
 import SingleCareerBanner from "@/components/careerSingleComponents/SingleCareerBanner"
 import SingleExperience from "@/components/careerSingleComponents/SingleExperience"
 import SingleJobDescription from "@/components/careerSingleComponents/SingleJobDescription"
-import HomeTestimonial from "@/components/homeComponents/07HomeTestimonial"
+import HomeTestimonial from "../../home2/components/homeComponents/07HomeTestimonial"
 import HiringForm from "@/components/PopUpForms/hiringform"
 
 const page=async({params})=>{

@@ -21,7 +21,7 @@ function Hubspotbanner() {
               HubSpot, the leading CRM and marketing platform, offers a comprehensive suite of tools to help you attract, engage, and delight customers. At WebGuruz, we deliver top-notch HubSpot development services tailored to your unique needs. Our team of skilled Hubspot developers and marketers will work closely with you to create a customized HubSpot solution that drives results.
               </p>
               <div className="gtintchbtn">
-                <Link className="explore-btn" href="/">
+                <Link className="explore-btn" href="/contact-us">
                   Get In Touch
                 </Link>
               </div>

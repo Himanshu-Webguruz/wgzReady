@@ -18,7 +18,7 @@ const WebDevBanner = () => {
               <p>
               Your website is your online storefront. At WebGuruz, we understand the importance of a visually appealing, user-friendly, and functional website. Our team of skilled developers is dedicated to crafting custom web solutions that not only captivate your audience but also drive business growth.
               </p>
-              <Link className="explore-btn" href="#">
+              <Link className="explore-btn" href="/contact-us">
                 Get Started!
               </Link>
             </div>

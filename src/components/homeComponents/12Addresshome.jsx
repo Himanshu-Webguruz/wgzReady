@@ -1,10 +1,10 @@
-'use client'
+
 import india from "../../../public/images/india.png";
 import uk from "../../../public/images/uk.png";
 import usa from "../../../public/images/usa.png";
 import AustraliaBig from "../../../public/images/aus.svg";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+
 const addressdata = [
   {
     img: india,
@@ -29,10 +29,10 @@ const addressdata = [
 ];
 
 function Addresshome() {
-  const pathname = usePathname();
+ 
   return (
    <>
-   {pathname !== '/home2' && (
+
      <section className="adress-main">
      <div className="container">
        <div className="row">
@@ -55,7 +55,7 @@ function Addresshome() {
        </div>
      </div>
    </section>
-   )}
+
    </>
   );
 }

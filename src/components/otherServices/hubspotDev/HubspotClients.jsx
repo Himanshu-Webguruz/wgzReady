@@ -10,14 +10,14 @@ import logo7 from "../../../../public/images/hubspotimages/newImages/StratXSims_
 import logo8 from "../../../../public/images/hubspotimages/newImages/skin_consult_logo.svg";
 // C:\Users\NEW\Desktop\wgzReady\public\images\hubspotimages\newImages\RR_Logo_Helping_make_hospitals_safer__1_-removebg-preview.png
 const logos = [
-  { src: logo1, alt: "logo1" },
-  { src: logo2, alt: "logo2" },
-  { src: logo3, alt: "logo3" },
-  { src: logo4, alt: "logo4" },
-  { src: logo5, alt: "logo5" },
+  { src: logo1, alt: "Buddyins Logo" },
+  { src: logo2, alt: "Drive Insight Logo" },
+  { src: logo3, alt: "Fin Talker Logo" },
+  { src: logo4, alt: "Inclusio Logo" },
+  { src: logo5, alt: "New Directs Logo" },
   { src: logo6, alt: "logo6" },
-  { src: logo7, alt: "logo7" },
-  { src: logo8, alt: "logo8" }
+  { src: logo7, alt: "StratXSims Logo" },
+  { src: logo8, alt: "Skin Consult Logo" }
 ];
 
 const HubspotClients = () => {

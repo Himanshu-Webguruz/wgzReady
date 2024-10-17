@@ -3,6 +3,7 @@ import reason1 from "../../../../public/images/hubspotimages/hubreason1.svg";
 import reason2 from "../../../../public/images/hubspotimages/hubreason2.svg";
 import reason3 from "../../../../public/images/hubspotimages/hubreason3.svg";
 import reason4 from "../../../../public/images/hubspotimages/hubreason4.svg";
+import Link from "next/link";
 const WhyHubspot = () => {
   return (
     <>
@@ -22,6 +23,9 @@ const WhyHubspot = () => {
               <p>
               We have a history of delivering successful HubSpot projects across various industries, demonstrating our expertise and ability to drive results.
               </p>
+              <Link className="explore-btn" href="#">
+               Read more
+              </Link>
             </div>
             <div className="col-sm-6 col-xs-12 image">
               <Image src={reason1} alt="Proven track record" />
@@ -35,6 +39,9 @@ const WhyHubspot = () => {
               <p>
               Our team consists of highly skilled developers and marketers with in-depth knowledge of HubSpot&apos;s features and best practices. They are dedicated to providing exceptional service and delivering tailored solutions.
               </p>
+              <Link className="explore-btn" href="#">
+               Read more
+              </Link>
             </div>
             <div className="col-sm-6 col-xs-12 image">
               <Image src={reason2} alt="Experienced and skilled team" />
@@ -48,6 +55,9 @@ const WhyHubspot = () => {
               <p>
               We work closely with our clients to understand their specific requirements and tailor our services accordingly, ensuring that our solutions align perfectly with their goals.  
               </p>
+              <Link className="explore-btn" href="#">
+               Read more
+              </Link>
             </div>
             <div className="col-sm-6 col-xs-12 image">
               <Image src={reason3} alt="Customized solutions" />
@@ -61,6 +71,9 @@ const WhyHubspot = () => {
               <p>
               Our dedicated team is always available to assist you with any questions or issues that may arise, ensuring a smooth and hassle-free experience.
               </p>
+              <Link className="explore-btn" href="#">
+               Read more
+              </Link>
             </div>
             <div className="col-sm-6 col-xs-12 image">
               <Image src={reason4} alt="Excellent customer support" />

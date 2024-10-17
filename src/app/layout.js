@@ -9,7 +9,8 @@ import Footer from "@/components/Footer";
 import BodyClassWrapper from "@/utils/BodyClassWrapper";
 import Addresshome from "@/components/homeComponents/12Addresshome";
 import DynamicContact from "@/utils/DynamicContact";
-import AddressChange from "@/components/homeComponents/12AddressChange";
+// import AddressChange from "@/components/homeComponents/12AddressChange";
+import Script from "next/script";
 
 // Import the Inter and Outfit fonts
 export const inter = Inter({
@@ -39,27 +40,25 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
       <head>
       <meta name="google-site-verification" content="HBSffUhqLmjL_SyultPiEJ33DSc-3x39LXSVJOOh4ZY" />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GX9DH5XMG1"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-GX9DH5XMG1');
-            `,
-          }}
-        />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-GX9DH5XMG1" strategy="afterInteractive"/>
+      <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GX9DH5XMG1');
+          `}
+        </Script>
       </head>
      
-      {/* Add both font classes */}
+    
       <body>
         <BodyClassWrapper />
         <Header />
         {children}
         <DynamicContact />
         <Addresshome />
-        <AddressChange/>
+        {/* <AddressChange/> */}
         <Footer />
       </body>
       

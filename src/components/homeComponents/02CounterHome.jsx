@@ -58,7 +58,7 @@ const CounterHome = () => {
               {inView ? (
                 <CountUp start={0} end={50} duration={2} suffix="K+" />
               ) : (
-                <span>1M+</span>
+                <span>1K+</span>
               )}
               <p>Keywords Ranked</p>
             </label>

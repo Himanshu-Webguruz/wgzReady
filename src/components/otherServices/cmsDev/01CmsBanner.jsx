@@ -22,7 +22,7 @@ const CmsBanner = () => {
                 </p>
               </div>
               <div className="getintchbtn">
-                <Link className="explore-btn" href="/">
+                <Link className="explore-btn" href="/contact-us">
                   Get In Touch {" "}
                   <FontAwesomeIcon
                           icon={faArrowRight}

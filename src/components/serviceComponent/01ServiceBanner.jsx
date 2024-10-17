@@ -16,7 +16,7 @@ const Service = () => {
               <p>
               WebGuruz can help you realize the power of digital marketing for business growth. We&apos;ve successfully implemented the best marketing strategies for our clients and can effectively put them to work for you as well.
               </p>
-              <Link className="explore-btn" href="#">
+              <Link className="explore-btn" href="/contact-us">
                 Get Started Now!
               </Link>
             </div>
