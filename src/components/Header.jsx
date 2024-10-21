@@ -123,10 +123,10 @@ const Header = () => {
             id="navbarScroll"
           >
             <ul className="navbar-nav me-0 ms-auto navbar-nav-scroll d-flex align-items-center">
-              <li className="px-3 py-2 mx-2">
+              <li className="px-3 py-2">
                 <Link href="/about">About</Link>
               </li>
-              <li className="px-3 py-2 mx-2 sub-menu" onClick={toggleDropdown}>
+              <li className="px-3 py-2 sub-menu" onClick={toggleDropdown}>
                 <Link href="#" onClick={(e) => e.preventDefault()}>
                   Services
                 </Link>
@@ -214,20 +214,25 @@ const Header = () => {
                   </ul>
                 )}
               </li>
-              <li className="px-3 py-2 mx-2">
+              <li className="px-3 py-2">
                 <Link href="/">Our Portfolio</Link>
               </li>
-              <li className="px-3 py-2 mx-2">
+              <li className="px-2 py-2">
                 <Link href="/blogs">Resources</Link>
               </li>
-              <li className="px-3 py-2 mx-2">
+              <li className="px-2 py-2">
                 <Link href="/careers">Join Us</Link>
               </li>
-              <li className="contactMain px-4">
+              <li className="contactMain px-2">
                 <Link href="/contact-us">
                   <span>Contact Us</span>
                 </Link>
               </li>
+              <li className="contactMain bookAppoint px-2">
+              <Link href="/book-an-appointment">
+                <span>Book An Appointment</span>
+              </Link>
+            </li>
             </ul>
           </div>
         </div>

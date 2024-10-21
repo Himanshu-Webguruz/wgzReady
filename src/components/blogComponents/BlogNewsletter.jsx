@@ -1,5 +1,5 @@
 // import BlogSubscribeForm from "@/utils/formsHubspot/BlogSubscribeForm";
-import NewLetterLogo from "../../../public/images/newLetter-logo.png";
+import NewLetterLogo from "../../../public/images/newLetter-logo.webp";
 import Image from "next/image";
 // import HomeClient from "../homeComponents/clientcomp/HomeClient";
 import BlogSubscribeForm from "@/utils/formsHubspot/BlogSubscribeForm";

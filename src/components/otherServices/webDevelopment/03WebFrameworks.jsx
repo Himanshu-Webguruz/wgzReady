@@ -7,7 +7,13 @@ import webimage5 from "/public/images/webimages/webservice5.webp";
 import webimage6 from "/public/images/webimages/webservice6.webp";
 import webimage7 from "/public/images/webimages/webservice7.webp";
 import webimage8 from "/public/images/webimages/webservice8.webp";
-import webicon from "/public/images/webimages/webicon.svg";
+import webicon1 from "/public/images/webimages/iconweb1.svg";
+import webicon2 from "/public/images/webimages/iconweb2.svg";
+import webicon3 from "/public/images/webimages/iconweb3.svg";
+import webicon4 from "/public/images/webimages/iconweb4.svg";
+import webicon5 from "/public/images/webimages/iconweb5.svg";
+import webicon6 from "/public/images/webimages/iconweb6.svg";
+import webicon7 from "/public/images/webimages/iconweb7.svg";
 
 const WebFrameworks = () => {
   return (
@@ -37,7 +43,7 @@ const WebFrameworks = () => {
                         </div>
                         <div className="content">
                           <div className="contentimg">
-                            <Image src={webicon} alt="Icon" />
+                            <Image src={webicon1} alt="Icon" />
                           </div>
                           <p className="color-wt">Front-end Development</p>
                         </div>
@@ -57,7 +63,8 @@ const WebFrameworks = () => {
                     </div>
                     <div className="content">
                       <div className="contentimg">
-                        <Image src={webicon} alt="webimage" />
+                        <Image src={webicon2} alt="webimage" />
+      
                       </div>
                       <p className="color-wt">E-Commerce Development</p>
                     </div>
@@ -79,7 +86,7 @@ const WebFrameworks = () => {
                     </div>
                     <div className="content">
                       <div className="contentimg">
-                        <Image src={webicon} alt="webimage" />
+                        <Image src={webicon3} alt="webimage" />
                       </div>
                       <p className="color-wt">CMS Development</p>
                     </div>
@@ -97,11 +104,11 @@ const WebFrameworks = () => {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                   <div className="image">
-                  <Image src={webimage} alt="Back-end development" />
+                  <Image src={webimage4} alt="Back-end development" />
                 </div>
                 <div className="content">
                   <div className="contentimg">
-                    <Image src={webicon} alt="webimage" />
+                          <Image src={webicon1} alt="webimage" />
                   </div>
                   <p className="color-wt">Back-end Development</p>
                 </div>
@@ -125,7 +132,7 @@ const WebFrameworks = () => {
                     </div>
                     <div className="content">
                       <div className="contentimg">
-                        <Image src={webicon} alt="webimage" />
+                        <Image src={webicon5} alt="webimage" />
                       </div>
                       <p className="color-wt">PWAs Development</p>
                     </div>
@@ -145,7 +152,8 @@ const WebFrameworks = () => {
                     </div>
                     <div className="content">
                       <div className="contentimg">
-                        <Image src={webicon} alt="webimage" />
+                      
+                        <Image src={webicon6} alt="webimage" />
                       </div>
                       <p className="color-wt">Custom Web Development</p>
                     </div>
@@ -167,7 +175,7 @@ const WebFrameworks = () => {
                     </div>
                     <div className="content">
                       <div className="contentimg">
-                        <Image src={webicon} alt="webimage" />
+                        <Image src={webicon7} alt="webimage" />
                       </div>
                       <p className="color-wt">Open Source Platform Development</p>
                     </div>
@@ -189,7 +197,8 @@ const WebFrameworks = () => {
                 </div>
                 <div className="content">
                   <div className="contentimg">
-                    <Image src={webicon} alt="webimage" />
+                  <Image src={webicon4} alt="webimage" />
+              
                   </div>
                   <p className="color-wt">Magento Development</p>
                 </div>

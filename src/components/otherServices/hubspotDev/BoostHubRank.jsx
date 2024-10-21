@@ -25,19 +25,19 @@ const BoostHubRank = () => {
               <div className="py-4 hub-icons">
                 <ul>
                   <li>
-                    <Image src={maintenance} alt="Support and Maintenance Icon"  style={{height:"20px", width:"20px"}} />
+                    <span className="number-hub">1</span>
                     <p>Expert Support and Maintenance</p>
                   </li>
                   <li>
-                    <Image src={expertise} alt="Expertise Icon"  style={{height:"20px", width:"20px"}} />
+                  <span className="number-hub">2</span>
                     <p>Extensive Experience and Expertise</p>
                   </li>
                   <li>
-                    <Image src={solution} alt="Affordable Solutions icon"  style={{height:"20px", width:"20px"}} />
+                  <span className="number-hub">3</span>
                     <p>Affordable and Scalable Solutions</p>
                   </li>
                   <li>
-                    <Image src={technicalsupport} alt="Technical Experts Icon"  style={{height:"20px", width:"20px"}} />
+                  <span className="number-hub">4</span>
                     <p>Dedicated Team of Technical Experts</p>
                   </li>
                 </ul>

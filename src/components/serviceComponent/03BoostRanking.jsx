@@ -1,5 +1,5 @@
 import Image from "next/image";
-import dollar from "../../../public/images/serviceImages/dollar-fig.png";
+import dollar from "../../../public/images/serviceImages/dollar-fig.webp";
 import ServiceFormCl from "./ServiceFormCl";
 import DigitalForm from "@/utils/formsHubspot/DigitalForm";
 

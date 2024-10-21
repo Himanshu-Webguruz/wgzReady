@@ -5,10 +5,9 @@ import logo2 from "../../../../public/images/hubspotimages/newImages/drive-insig
 import logo3 from "../../../../public/images/hubspotimages/newImages/fintalker.webp";
 import logo4 from "../../../../public/images/hubspotimages/newImages/inclusio_.webp";
 import logo5 from "../../../../public/images/hubspotimages/newImages/NewsDirect_logo.webp";
-import logo6 from "../../../../public/images/hubspotimages/newImages/RR_Logo_Helping_make_hospitals_safer__1_-removebg-preview.png";
+import logo6 from "../../../../public/images/hubspotimages/newImages/radiness.webp";
 import logo7 from "../../../../public/images/hubspotimages/newImages/StratXSims_logo.webp";
 import logo8 from "../../../../public/images/hubspotimages/newImages/skin_consult_logo.svg";
-// C:\Users\NEW\Desktop\wgzReady\public\images\hubspotimages\newImages\RR_Logo_Helping_make_hospitals_safer__1_-removebg-preview.png
 const logos = [
   { src: logo1, alt: "Buddyins Logo" },
   { src: logo2, alt: "Drive Insight Logo" },

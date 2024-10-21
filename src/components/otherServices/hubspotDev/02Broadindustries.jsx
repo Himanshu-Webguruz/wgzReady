@@ -39,7 +39,7 @@ function Broadindustries() {
   ];
 
   return (
-    <section id="brdindstries">
+    <section id="brdindstries" className="py-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-5 col-md-5 col-sm-12 col-12">

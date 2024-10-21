@@ -20,7 +20,6 @@
       width: 100%;
       padding: 14px 12px;
       border-radius: 4px;
-      /* margin-bottom: 26px; */
       border: 1px solid #DDDDDD;
       font-size: 14px;
       color: #9B9B9B;
@@ -256,6 +255,10 @@ div#webdevForm input.hs-button.primary.large {
 .hs-input.hs-fieldtype-intl-phone {
   width: 100% !important;
 }
+.hs-fieldtype-intl-phone.hs-input select {
+  border: 1px solid #dddddd !important;
+  border-radius: 4px !important;
+}
 div#webdevForm .hs_submit.hs-submit {
   text-align: left;
 }
@@ -302,6 +305,7 @@ div#webdevForm .hs_submit.hs-submit {
 .contact-main .contact-right-form textarea {
   min-height: 100px;
   padding: 6px 12px;
+  margin-bottom: 0px;
 }
 div#blogSubscribeForm .input input {
   width: 100%;

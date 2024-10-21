@@ -30,7 +30,7 @@ const customizeContent = [
 
 const CustomizeHome = ({heading,paragraph,subheading}) => {
   return (
-    <section className="customized-approach">
+    <section className="customized-approach py-5 position-relative">
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12 heading-main text-center mb-2">

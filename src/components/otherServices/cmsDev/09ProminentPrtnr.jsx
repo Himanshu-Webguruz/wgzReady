@@ -1,5 +1,5 @@
 import Image from "next/image";
-import promintimg from "../../../../public/images/drupalimg/prmnt.png";
+import promintimg from "../../../../public/images/drupalimg/prmnt.webp";
 
 // Array for features of the Drupal web development partner
 const features = [
@@ -33,11 +33,12 @@ function ProminentPrtnr() {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main text-center">
               <h2>
-              Our <span>Technology Stack</span>
+                Our <span>Technology Stack</span>
               </h2>
               <span className="d-inline-block mb-4">
-              At WebGuruz, we utilize a diverse tech stack to deliver exceptional <strong>CMS development services</strong>.  
-                <br/>
+                At WebGuruz, we utilize a diverse tech stack to deliver
+                exceptional <strong>CMS development services</strong>.
+                <br />
                 Our expertise spans popular platforms such as:
               </span>
             </div>

@@ -54,9 +54,9 @@ const CmsWebServices = () => {
             <div className="col-lg-5 col-md-5 col-sm-12 col-12">
               <div className="lftbg"></div>
               <div className="heading-main">
-                <h2 className="text-white">
-                Our CMS Web <br />
-                Development Services
+                <h2 className="text-white pb-4">
+                  Our CMS Web <br />
+                  <strong>Development Services</strong>
                 </h2>
                 <div className="drplimg">
                   <Image

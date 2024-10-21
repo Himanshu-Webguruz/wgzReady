@@ -1,19 +1,19 @@
 import Image from "next/image";
-import Abtimg from "../../../../public/images/drupalimg/aboutimg.png";
+import Abtimg from "../../../../public/images/drupalimg/aboutimg.webp";
 
 const CmsAboutIt = () => {
   return (
     <>
       <section className="abts py-5">
         <div className="container">
-          <div className="row">
+          <div className="row reverse align-items-center">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <div className="abtimg">
                 <Image src={Abtimg} className="img-fluid"  alt="Image" />
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-              <div className="heading-main">
+              <div className="heading-main pb-4">
                 <h2>
                 Future Scope of <span>CMS Website Development</span>
                 </h2>

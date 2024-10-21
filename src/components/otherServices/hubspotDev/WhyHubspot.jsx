@@ -16,7 +16,7 @@ const WhyHubspot = () => {
               </h2>
             </div>
           </div>
-          <div className="row d-flex align-items-center py-3">
+          <div className="row d-flex align-items-center py-4">
           <div className="card-content d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Proven track record of success</h3>
@@ -32,7 +32,7 @@ const WhyHubspot = () => {
             </div>
           </div>
           </div>
-          <div className="row py-3">
+          <div className="row py-4">
           <div className="card-content reverse d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Experienced and skilled team</h3>
@@ -48,7 +48,7 @@ const WhyHubspot = () => {
             </div>
           </div>
           </div>
-          <div className="row py-3">
+          <div className="row py-4">
           <div className="card-content d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Customized solutions</h3>
@@ -64,7 +64,7 @@ const WhyHubspot = () => {
             </div>
           </div>
           </div>
-          <div className="row py-3">
+          <div className="row py-4">
           <div className="card-content reverse d-flex align-items-center">
             <div className="col-sm-6 col-xs-12 content">
               <h3 className="mb-3">Excellent customer support</h3>

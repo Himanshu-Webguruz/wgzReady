@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import ExploreIcon from "/public/images/blogimages/blogexplore1.svg";
-import ExploreArrow from "/public/images/explore-next-icons.png";
+import ExploreArrow from "/public/images/explore-next-icons.webp";
 
 import Leftseo from "/public/images/blogimages/blogexplore2.svg";
 import Leftppc from "/public/images/blogimages/blogexplore3.svg";

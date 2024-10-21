@@ -41,7 +41,7 @@ const services = [
 
 function Serviceprovide() {
   return (
-    <section id="serviceprovide">
+    <section id="serviceprovide" className="py-5">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">

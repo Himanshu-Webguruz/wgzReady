@@ -1,5 +1,3 @@
-
-
 import Image from "next/image";
 import Hbteam from "../../../../public/images/hubspotimages/m-team.png";
 
@@ -11,11 +9,8 @@ function OurTeamhubspot() {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="heading-main text-center">
               <h2>
-              The One-Stop Solution for All Your  <span> SEO Needs</span>
+                Why Choose <span> HubSpot?</span>
               </h2>
-              <p>
-              When it comes to SEO, WebGuruz is your ultimate partner. Here’s how we provide comprehensive solutions:
-            </p>
             </div>
           </div>
         </div>
@@ -24,38 +19,35 @@ function OurTeamhubspot() {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="hbstsct">
               <div className="hbstm">
-                <Image src={Hbteam} className="img-fluid"  alt="Hubspot Professional Services" />
+                <Image
+                  src={Hbteam}
+                  className="img-fluid"
+                  alt="Hubspot Professional Services"
+                />
               </div>
               <div className="svypmng">
                 <div className="svypmnginr">
-                  <h3> All-Inclusive SEO Services</h3>
+                  <h3>All-in-one platform</h3>
                   <p>
-                  From on-page to technical SEO, we handle it all.
+                    HubSpot offers a comprehensive suite of tools for marketing,
+                    sales, and customer service.
                   </p>
                 </div>
                 <div className="svypmnginr">
-                  <h3> Custom Strategies </h3>
-                  <p>
-                  We create unique SEO plans tailored to your business needs.
-                  </p>
+                  <h3>User-friendly Interface</h3>
+                  <p>HubSpot is easy to learn and use.</p>
                 </div>
                 <div className="svypmnginr">
-                  <h3> Expert Team</h3>
-                  <p>
-                  Our team comprises SEO veterans with years of experience.
-                  </p>
+                  <h3>Scalability</h3>
+                  <p>HubSpot can grow with your business.</p>
                 </div>
                 <div className="svypmnginr">
-                  <h3>Cutting-Edge Tools</h3>
-                  <p>
-                  We leverage the latest SEO tools to ensure maximum efficiency.
-                  </p>
+                  <h3>Integration with other tools</h3>
+                  <p>HubSpot can be integrated with your existing systems.</p>
                 </div>
                 <div className="svypmnginr">
-                  <h3> Continuous Support</h3>
-                  <p>
-                  Our team is always available to answer your questions and provide ongoing SEO assistance.
-                  </p>
+                  <h3>Strong community and support</h3>
+                  <p>HubSpot has a large and active community of users.</p>
                 </div>
               </div>
             </div>

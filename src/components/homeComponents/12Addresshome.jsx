@@ -1,7 +1,7 @@
 
-import india from "../../../public/images/india.png";
-import uk from "../../../public/images/uk.png";
-import usa from "../../../public/images/usa.png";
+import india from "../../../public/images/india-old.webp";
+import uk from "../../../public/images/uk-old.webp";
+import usa from "../../../public/images/usa-old.webp";
 import AustraliaBig from "../../../public/images/aus.svg";
 import Image from "next/image";
 
