@@ -9,7 +9,7 @@ const MeetingBanner = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main text-center my-4 inner-page">
               <h1>
-                Free <span>Digital Marketing Consultation</span>
+              Ready to Grow? Book Your <span>Free Digital Marketing Consultation</span>
               </h1>
             </div>
             <div className="col-sm-12 col-xs-12 wgz-meet">

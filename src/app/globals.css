@@ -63,6 +63,13 @@ button.btn-submit {
   position: relative;
   margin-top: 12px;
 }
+button.explore-btn:hover,
+button.btn-submit:hover, a.explore-btn:hover, 
+.contact-main .contact-right-form input.hs-button.primary.large:hover, 
+.quote-content input.hs-button.primary.large:hover, .contact-right-form button:hover, 
+.contact-right-form input.hs-button.primary.large:hover {
+  box-shadow: 0px 3px 0px #169aac;
+}
 span.error {
   color: #ff0000;
   font-size: 12px;
@@ -246,7 +253,7 @@ a.navbar-brand img {
   color: #fff;
   transition: 0.3s ease-in-out 0s;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 /* .navigation-main ul li {
@@ -282,6 +289,7 @@ a.navbar-brand img {
 .menu ul li.contactMain a span {
   color: #fff;
   position: relative;
+  font-size: 16px;
 }
 .menu ul li.contactMain a:hover::before {
   right: 0;
@@ -590,14 +598,15 @@ a.about--btn:hover svg {
 }
 /* number css */
 .tab-main, .seo-counter-main, .seomangement, .comprhsvprt,#hubspotacademy, 
-.revolution-consultancy {
+.revolution-consultancy, .deliver-organic-sec-section, .creativeportfolio {
   position: relative;
   background-image: url(/images/features-bg.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-.seoadvertising, .drplscl1, .whyhrs,#ourTeamhbspt{
+.seoadvertising, .drplscl1, .whyhrs,#ourTeamhbspt, 
+.seo-organic-process-service, .contact-logo, .whychoose, .teamservice{
   background-image:url(/images/bg-dots.webp);
   background-position: center;
 }
@@ -1225,7 +1234,7 @@ button.explore-btn:hover::before {
 }
 .contact-banner .contact-right-form
 {
-  height: 636px;
+  height: 596px;
 }
 .contact-right-form h3 {
   font-size: 28px;
@@ -3286,8 +3295,12 @@ ul.attention-main li {
   padding-left: 25px;
   position: relative;
 }
-
-
+.ppcadvertising .row:last-child >div:nth-child(odd) .adverticingcard {
+  background-color: #fffbf7;
+}
+div#webdevForm input.hs-button.primary.large:hover {
+  box-shadow: 0px 3px 0px #1b8e9d;
+}
 /* / Responsive: Ensure content full width on small screens / */
 @media (max-width: 1260px) {
 

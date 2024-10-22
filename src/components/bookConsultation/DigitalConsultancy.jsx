@@ -15,7 +15,7 @@ const DigitalConsultancy = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 heading-main inner-pages pb-4 text-center">
               <h2>
-                Benefits of 1-1 <span>Digital Marketing Consultancy</span>
+                Why WebGuruz? Here&apos;s <span>What Sets Us Apart</span>
               </h2>
             </div>
           </div>
@@ -26,10 +26,10 @@ const DigitalConsultancy = () => {
               </div>
               <h3>Tailored Strategy</h3>
               <p>
-                You will get access to a 1-1 digital marketing consultation. The
-                consultant will create a customized strategy specifically
-                tailored to your business requirements, goals, and target
-                audience.
+                WebGuruz delivers a fully customized marketing strategy that
+                targets your specific business goals, helping you stand out in
+                your industry. We analyze your needs and create plans that drive
+                growth and enhance brand visibility.
               </p>
             </div>
             <div className="col-sm-4 col-xs-12 digital-consult-sub">
@@ -38,11 +38,10 @@ const DigitalConsultancy = () => {
               </div>
               <h3>Personalized Attention</h3>
               <p>
-                Rather than treating our clients like a business like other
-                marketing companies do, we provide you with a dedicated
-                consultant for personalized attention to your project needs. Our
-                consultant will always be available so you can freely
-                communicate and get a more focused approach.
+                You receive personalized attention from our experts, ensuring
+                that every aspect of your digital marketing aligns with your
+                business vision. WebGuruz dedicates time to understand your
+                unique needs and provides hands-on guidance.
               </p>
             </div>
             <div className="col-sm-4 col-xs-12 digital-consult-sub">
@@ -51,10 +50,10 @@ const DigitalConsultancy = () => {
               </div>
               <h3>Expertise</h3>
               <p>
-                Our digital marketing consultants have a high level of expertise
-                and more than two decades of experience. They stay updated on
-                the latest trends, tools, and strategies to bring your business
-                the most effective solutions.
+                With years of experience in digital marketing, WebGuruz provides
+                you with expert advice and solutions that keep you ahead of the
+                competition. Our strategies are built on a deep understanding of
+                the latest industry trends.
               </p>
             </div>
             <div className="col-sm-4 col-xs-12 digital-consult-sub">
@@ -63,9 +62,10 @@ const DigitalConsultancy = () => {
               </div>
               <h3>Cost-Effectiveness</h3>
               <p>
-                Hiring our consultant is a smart move for small and medium-sized
-                businesses looking to save costs. In fact, it can be more
-                cost-effective than hiring a full-time in-house marketing team.
+                WebGuruz offers affordable yet effective marketing solutions
+                that save you money while delivering high-quality services. Our
+                consultancy ensures you get the most out of your marketing
+                budget without compromising on results.
               </p>
             </div>
             <div className="col-sm-4 col-xs-12 digital-consult-sub">
@@ -74,9 +74,10 @@ const DigitalConsultancy = () => {
               </div>
               <h3>Efficiency</h3>
               <p>
-                With our one-on-one consultation, decisions can be made quickly,
-                and adjustments can be implemented promptly. It is very crucial
-                in the fast-paced world of digital marketing.
+                WebGuruz ensures your marketing campaigns are executed
+                efficiently, saving you time and resources. Our streamlined
+                processes help you achieve your digital marketing goals quickly
+                and effectively, allowing you to focus on growth.
               </p>
             </div>
             <div className="col-sm-4 col-xs-12 digital-consult-sub">
@@ -85,10 +86,10 @@ const DigitalConsultancy = () => {
               </div>
               <h3>Focus on Results</h3>
               <p>
-                Our consultant is usually result-oriented. They focus on
-                achieving measurable results and ROI for your business.
-                Moreover, they ensure that our digital marketing efforts align
-                with your overall business objectives.
+                We focus on delivering measurable results for your business.
+                WebGuruz&apos;s strategies are data-driven and designed to meet your
+                specific objectives, ensuring you see real improvements in your
+                online performance and ROI.
               </p>
             </div>
           </div>

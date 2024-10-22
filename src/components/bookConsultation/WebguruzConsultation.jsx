@@ -8,7 +8,7 @@ const WebguruzConsultation = () => {
           <div className="row">
             <div className="col-sm-12 col-xs-12 inner-page heading-main text-center mb-4">
               <h2>
-                How WebGuruz Free <span> Consultation Works?</span>
+                Start Smart: Book <span> Free Consultation Today</span>
               </h2>
             </div>
           </div>
@@ -18,12 +18,11 @@ const WebguruzConsultation = () => {
                 <div className="numbers">
                   <span>01</span>
                 </div>
-                <h3>Schedule a Call</h3>
+                <h3>Schedule the Call</h3>
                 <p>
-                  Click on the link below for a free consultation call based on
-                  your availability. We&apos;ll reach out to you within 24 hours and
-                  send you a confirmation email with the meeting link and
-                  instructions on how to join.
+                  Visit our website and schedule your free consultation at a
+                  time that works best for you. We make it easy and quick to get
+                  started with a simple booking process.
                 </p>
               </div>
             </div>
@@ -32,13 +31,12 @@ const WebguruzConsultation = () => {
                 <div className="numbers">
                   <span>02</span>
                 </div>
-                <h3>Describe your Problem</h3>
+                <h3>Receive a Custom Marketing Plan</h3>
                 <p>
-                  The better you describe your business challenges/problem, the
-                  more it makes the process smoother. We always recommend that
-                  you let us know your business&apos;s current situation and where
-                  you want it to be. So we can customize the solution as per the
-                  requirements and needs.
+                  Based on your business needs, we&apos;ll craft a tailored
+                  digital marketing strategy. This plan is designed to solve
+                  your specific challenges and drive real results, making sure
+                  every solution fits perfectly with your goals.
                 </p>
               </div>
             </div>
@@ -47,14 +45,12 @@ const WebguruzConsultation = () => {
                 <div className="numbers">
                   <span>03</span>
                 </div>
-                <h3>Analyze your Business Needs </h3>
+                <h3>Tell Us About Your Business</h3>
                 <p>
-                  During the consultation call, we will analyze your current
-                  business &amp; marketing efforts and identify the areas of
-                  improvement. We will ask you questions to understand your
-                  business goals, target audience, and competition. We will
-                  prepare a custom strategy for your business based on your
-                  answers.
+                  During the consultation, we&apos;ll take the time to learn
+                  about your business, your goals, and your challenges. This
+                  personalized approach helps us understand your unique needs
+                  and where we can help.
                 </p>
               </div>
             </div>
@@ -63,13 +59,12 @@ const WebguruzConsultation = () => {
                 <div className="numbers">
                   <span>04</span>
                 </div>
-                <h3>Roadmap to Business Success</h3>
+                <h3>Implementation Support</h3>
                 <p>
-                  After the consultation call, we will send you the custom
-                  strategy and outline of the blueprint we suggest to achieve
-                  the goals. This implementation plan would include services
-                  breakdown, budget estimates &amp; timeline to help you achieve
-                  the goals that you have been looking for.
+                  We don&apos;t just stop at delivering a plan! Our team will
+                  guide you through the implementation, offering personalized
+                  support to ensure the strategies are executed smoothly and
+                  effectively.
                 </p>
               </div>
             </div>
@@ -78,12 +73,12 @@ const WebguruzConsultation = () => {
                 <div className="numbers">
                   <span>05</span>
                 </div>
-                <h3>Implement the Plan</h3>
+                <h3>Problem Diagnosis</h3>
                 <p>
-                  No matter what digital marketing services you have opted for,
-                  our dedicated team will start implementing the strategies
-                  according to the plan/roadmap. Also, you&apos;ll get transparent
-                  reports on our digital marketing efforts regularly.
+                  Next, we dive deep into your current digital marketing
+                  efforts. We&apos;ll identify any gaps, bottlenecks, or areas
+                  for improvement, ensuring we have a full understanding of the
+                  problem.
                 </p>
               </div>
             </div>
@@ -92,13 +87,12 @@ const WebguruzConsultation = () => {
                 <div className="numbers">
                   <span>06</span>
                 </div>
-                <h3>On-Going Support</h3>
+                <h3>Ongoing Consultation and Support</h3>
                 <p>
-                  If you need any assistance while our digital marketing experts
-                  work on your project, you can talk to us without any
-                  hesitation. Our consultant would be delighted to assist with
-                  anything, whether you want any modifications in the plan or
-                  something else.
+                  We continue to stay by your side, offering ongoing support and
+                  regular check-ins. As your business evolves, we fine-tune
+                  strategies to keep you ahead in the digital game, ensuring
+                  long-term success.
                 </p>
               </div>
             </div>

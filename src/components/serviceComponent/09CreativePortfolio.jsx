@@ -86,7 +86,7 @@ const CreativePortfolio = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-xs-12">
-            <div className="heading-main text-center pb-2 heading-content">
+            <div className="heading-main text-center pb-2 heading-content mb-3">
               <h2>
                 Our <span>Portfolio</span>
               </h2>

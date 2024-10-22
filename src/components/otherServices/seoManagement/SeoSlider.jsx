@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules'; // Import Autoplay
 
 // Import Swiper styles
 import 'swiper/css';
@@ -21,39 +21,38 @@ const SwiperSlider = () => {
 
   return (
     <Swiper
-      slidesPerView={5} // Default value for large screens
+      slidesPerView={3} // Default value for large screens
       spaceBetween={10}
       grabCursor={true}
       pagination={{
         clickable: true,
       }}
       loop={true}
-      modules={[Pagination]}
+      autoplay={{ // Autoplay settings
+        delay: 1500, // Delay between slides in ms (3 seconds)
+        disableOnInteraction: false, // Continue autoplay after user interaction
+      }}
+      modules={[Pagination, Autoplay]} // Add Autoplay module
       className="mySwiper"
       breakpoints={{
-        // when window width is >= 320px
         320: {
           slidesPerView: 1,
           spaceBetween: 10,
         },
-        // when window width is >= 480px
         480: {
           slidesPerView: 2,
           spaceBetween: 10,
         },
-        // when window width is >= 768px
         768: {
           slidesPerView: 3,
           spaceBetween: 15,
         },
-        // when window width is >= 1024px
         1024: {
-          slidesPerView: 4,
+          slidesPerView: 3,
           spaceBetween: 20,
         },
-        // when window width is >= 1200px
         1200: {
-          slidesPerView: 5,
+          slidesPerView: 4,
           spaceBetween: 30,
         },
       }}

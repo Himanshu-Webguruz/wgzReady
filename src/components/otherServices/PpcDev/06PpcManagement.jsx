@@ -23,7 +23,7 @@ const cardData = [
   {
     image: linkedinadsicon,
     alt: 'LinkedIn',
-    heading:"LinkedIn Ads Icon",
+    heading:"LinkedIn Ads",
     text: 'Connect with professionals and businesses to generate quality B2B leads.',
   },
   {

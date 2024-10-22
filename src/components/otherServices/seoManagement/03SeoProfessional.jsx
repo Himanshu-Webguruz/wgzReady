@@ -3,6 +3,9 @@ import techseo1 from '../../../../public/images/seoimages/techseo-1.svg'
 import techseo2 from '../../../../public/images/seoimages/techseo-2.svg'
 import techseo3 from '../../../../public/images/seoimages/techseo-3.svg'
 import techseo4 from '../../../../public/images/seoimages/techseo-4.svg'
+import techseo5 from '../../../../public/images/seoimages/techseo-5.webp'
+import techseo6 from '../../../../public/images/seoimages/techseo-6.webp'
+import techseo7 from '../../../../public/images/seoimages/techseo-7.webp'
 
 const SeoProfessional = () => {
   return (
@@ -15,23 +18,23 @@ const SeoProfessional = () => {
               Our SEO <span> Services</span>
               </h2>
               <span className='d-inline-block'>
-              Our comprehensive suite of SEO services includes: 
+              Our comprehensive suite of SEO services includes: 
               </span>
             </div>
           </div>
           <div className="row">
             <div className="col-sm-3  col-xs-12">
               <div className="seo-card flexd-column d-flex align-items-center">
-                <Image src={techseo1} alt="OnPage SEO" />
-                <h3>OnPage SEO</h3>
+                <Image src={techseo1} alt="ON Page SEO" />
+                <h3>ON Page SEO</h3>
                 <p>Optimizing website content, meta tags, and internal linking to improve relevance and search engine rankings.</p>
                 {/* <button className="explore-btn">Get Started</button> */}
               </div>
             </div>
             <div className="col-sm-3 col-xs-12">
               <div className="seo-card flexd-column d-flex align-items-center">
-                <Image src={techseo2} alt="Off-Page SEO" />
-                <h3>Off-Page SEO</h3>
+                <Image src={techseo2} alt="OFF Page SEO" />
+                <h3>OFF Page SEO</h3>
                 <p>Building authoritative backlinks and improving online reputation through targeted outreach and content marketing.</p>
                 {/* <button className="explore-btn">Get Started</button> */}
               </div>
@@ -54,7 +57,7 @@ const SeoProfessional = () => {
             </div>
             <div className="col-sm-3 col-xs-12 mt-3">
               <div className="seo-card flexd-column d-flex align-items-center">
-                <Image src={techseo4} alt="E-commerce SEO" />
+                <Image src={techseo6} alt="E-commerce SEO" />
                 <h3> E-commerce SEO</h3>
                 <p>Boosting your product pages and ensuring your online store ranks highly for relevant searches.  </p>
                 {/* <button className="explore-btn">Get Started</button> */}
@@ -62,7 +65,7 @@ const SeoProfessional = () => {
             </div>
             <div className="col-sm-3 col-xs-12 mt-3">
               <div className="seo-card flexd-column d-flex align-items-center">
-                <Image src={techseo4} alt="SEO Audits" />
+                <Image src={techseo5} alt="SEO Audits" />
                 <h3> SEO Audits</h3>
                 <p>Analyzing your current SEO performance to identify areas for improvement and growth.</p>
                 {/* <button className="explore-btn">Get Started</button> */}
@@ -70,7 +73,7 @@ const SeoProfessional = () => {
             </div>
             <div className="col-sm-3 col-xs-12 mt-3">
               <div className="seo-card flexd-column d-flex align-items-center">
-                <Image src={techseo4} alt="SEO Content" />
+                <Image src={techseo7} alt="SEO Content" />
                 <h3> SEO Content</h3>
                 <p>Crafting keyword-optimized content that resonates with your audience and ranks well on search engines.</p>
                 {/* <button className="explore-btn">Get Started</button> */}

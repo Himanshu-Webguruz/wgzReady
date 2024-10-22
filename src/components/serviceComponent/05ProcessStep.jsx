@@ -1,4 +1,4 @@
-import process from "../../../public/images/serviceImages/creative agency.webp";
+import process from "../../../public/images/serviceImages/work-intelligence.webp";
 import Image from "next/image";
 
 const ProcessStep = () => {

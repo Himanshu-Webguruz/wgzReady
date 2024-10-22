@@ -9,8 +9,7 @@ const SeoBanner = () => {
           <div className="row align-items-center">
             <div className="col-sm-7 col-xs-12 heading-main">
               <h1>
-              Maximize Your Online Visibility with Professional
-                <span>SEO SERVICES</span> 
+              Maximize Your Online Visibility with Professional <span>SEO SERVICES</span> 
               </h1>
               <p className="strong-contnt">
               Having a powerful online presence is essential for success. At WebGuruz, we specialize in delivering customized SEO solutions that drive organic traffic, improve search engine rankings, and help businesses of all sizes achieve their goals. 
@@ -23,9 +22,6 @@ const SeoBanner = () => {
               </p>
               <div className="button-merge">
                 <button className="explore-btn">Consult Now</button>
-                {/* <button className="explore-btn without-bg">
-                  Call Us: +918420197208
-                </button> */}
               </div>
             </div>
             <div className="col-sm-5 col-xs-12 banner-image-right">

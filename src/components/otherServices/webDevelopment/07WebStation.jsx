@@ -27,8 +27,7 @@ const WebStation = () => {
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon1} alt="Creative Team Icon" />
                 <h3 className="station-develop-title">
-                  {" "}
-                  Cost-Effective Process{" "}
+                  Cost-Effective Process
                 </h3>
                 <p className="station-develop-peragraph">
                   We work closely with you to understand your budget constraints
@@ -38,10 +37,18 @@ const WebStation = () => {
               </div>
 
               <div className="inner-flex-statins-list">
-                <Image src={StationIcon2} alt="All Services Under One Roof Icon" />
-                <h3 className="station-develop-title"> All Services Under One Roof </h3>
+                <Image
+                  src={StationIcon2}
+                  alt="All Services Under One Roof Icon"
+                />
+                <h3 className="station-develop-title">
+                  {" "}
+                  All Services Under One Roof{" "}
+                </h3>
                 <p className="station-develop-peragraph">
-                By partnering with WebGuruz, you can streamline your project management process and enjoy the convenience of having a single point of contact.
+                  By partnering with WebGuruz, you can streamline your project
+                  management process and enjoy the convenience of having a
+                  single point of contact.
                 </p>
               </div>
 
@@ -49,7 +56,10 @@ const WebStation = () => {
                 <Image src={StationIcon3} alt="Creative Team Icon" />
                 <h3 className="station-develop-title"> Creative Team </h3>
                 <p className="station-develop-peragraph">
-                Our creative experts will work closely with you to understand your brand identity and target audience, and then develop a unique and engaging online presence that sets you apart from the competition.
+                  Our creative experts will work closely with you to understand
+                  your brand identity and target audience, and then develop a
+                  unique and engaging online presence that sets you apart from
+                  the competition.
                 </p>
               </div>
 
@@ -57,29 +67,37 @@ const WebStation = () => {
                 <Image src={StationIcon4} alt="24/7 Support Icon" />
                 <h3 className="station-develop-title"> 24/7 Support </h3>
                 <p className="station-develop-peragraph">
-                Whether you need help troubleshooting a technical issue or simply have a query about your website&apos;s performance, we&apos;re here to provide prompt assistance.
+                  Whether you need help troubleshooting a technical issue or
+                  simply have a query about your website&apos;s performance,
+                  we&apos;re here to provide prompt assistance.
                 </p>
               </div>
 
               <div className="inner-flex-statins-list">
-                <Image src={StationIcon5} alt="New Technology Integration Icon" />
+                <Image
+                  src={StationIcon5}
+                  alt="New Technology Integration Icon"
+                />
                 <h3 className="station-develop-title">
-                  {" "}
-                  New Technology Integration{" "}
+                  New Technology Integration
                 </h3>
                 <p className="station-develop-peragraph">
-                We leverage innovative tools and techniques to enhance your website&apos;s functionality, performance, and user experience.
+                  We leverage innovative tools and techniques to enhance your
+                  website&apos;s functionality, performance, and user
+                  experience.
                 </p>
               </div>
 
               <div className="inner-flex-statins-list">
                 <Image src={StationIcon6} alt="Post-Deployment Services Icon" />
                 <h3 className="station-develop-title">
-                  {" "}
-                  Post-Deployment Services{" "}
+                  Post-Deployment Services
                 </h3>
                 <p className="station-develop-peragraph">
-                Our commitment to your success doesn&apos;t end once your website goes live. We offer ongoing maintenance and support services to ensure that your website remains optimized, secure, and up-to-date, always.
+                  Our commitment to your success doesn&apos;t end once your
+                  website goes live. We offer ongoing maintenance and support
+                  services to ensure that your website remains optimized,
+                  secure, and up-to-date, always.
                 </p>
               </div>
             </div>

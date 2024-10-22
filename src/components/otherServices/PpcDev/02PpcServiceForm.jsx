@@ -5,11 +5,11 @@ import logoppc3 from  "../../../../public/images/HomeTechExpert/techexpert13.svg
 import HubspotForm from "../hubspotDev/clientHubForm/HubspotForm";
 import WebdevForm from "@/utils/formsHubspot/Webdeveform";
 
-const PpcServiceForm = () => {
+const PpcServiceForm = ({heading, subheading,paragraph}) => {
  
   const points = [
     "Prover Expertise",
-    "Result Oriented Approach",
+    "Results-Oriented Approach",
     "Experienced Professionals",
     "Data-Driven Approach",
     // "Regular Campaign Reports",
@@ -28,10 +28,10 @@ const PpcServiceForm = () => {
               </h2> */}
 
               <h2 className="color-wt">
-              Realize the true potential of your website with our <strong> expert SEO services!</strong>
+              {heading} <strong> {subheading}</strong>
               </h2>
               <p className="color-wt">
-              With over a decade of experience, WebGuruz helps businesses dominate search engines through strategic, results-oriented SEO services. Our innovative approaches ensure you stay ahead of the competition, no matter the industry.
+              {paragraph}
               </p>
               <ul className="ppctab-main d-flex align-items-center">
                 {points.map((point, index) => (

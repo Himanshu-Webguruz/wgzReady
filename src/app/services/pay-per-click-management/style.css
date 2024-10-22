@@ -1,43 +1,7 @@
 .ppcbanner.service-banner .heading-main h2 {
     max-width: unset;
 }
-ul.ppcbutton{
-    flex-wrap: wrap; 
-}
-ul.ppcbutton li button {
-    border-radius: 50px;
-    position: relative;
-    padding: 12px 64px 12px 50px;
-    transition: 0.3s ease-in-out 0s;
-    border: 0px;
-    color: #fff;
-    background-color: #26c6da;
-}
-ul.ppcbutton li button img {
-    width: 43px;
-    height: 43px;
-    position: absolute;
-    top: 2px;
-    transition: 0.3s ease-in-out 0s;
-    transform: translateX(17px);
-}
 
-ul.ppcbutton li {
-    margin: 0px 10px 8px 0px;
-    display: inline-block;
-}
-ul.ppcbutton li:nth-child(2) button {
-    background-color: #596874;
-}
-ul.ppcbutton li:nth-child(3) button {
-    background-color: #94ACBF;
-}
-ul.ppcbutton li:nth-child(4) button {
-background-color: #168B9A;
-}
-ul.ppcbutton li button:hover {
-    background-color: #25c1d5;
-}
 .service-banner .heading-main h1 {
     font-size: 44px;
     margin-bottom: 20px;
@@ -82,8 +46,8 @@ ul.ppctab-main {
 }
 .logoimage-main img {
     width: 100%;
-    max-width: 86px;
-    margin: 0px 30px 0px 0px;
+    max-width: 140px;
+    margin: 0px 14px 0px 0px;
 }
 .adverticingcard img {
     width: 100%;
@@ -224,21 +188,8 @@ ul.ppctab-main {
 .ppc-card img {
     width: 54px;
 }
-.ppc-slider .card-name h4 {
-    position: absolute;
-    bottom: 9px;
-    margin: 0px;
-    color: #383838;
-    padding: 8px 32px;
-    background-color: #fff;
-    border-radius: 4px;
-    font-size: 18px;
-    left: 10px;
-}
-.ppc-slider .card-name {
-    margin: 0px 12px;
-    position: relative;
-}
+
+
 .ppc-slider {
     display: flex;
     align-items: center;
@@ -324,33 +275,16 @@ ul.ppctab-main {
     .ppc-cater .heading-main {
         padding-bottom: 30px;
     }
-    .ppc-slider .card-name {
-        margin: 0px 20px;
-        position: relative;
-    }
     .ppc-slider{
         flex-direction: column;
     }
     .service-banner .heading-main h1, .service-banner .heading-main h1 span {
         font-size: 34px;
     }
-    ul.ppcbutton li button {
-        padding: 8px 42px 8px 11px;
-    }
-    ul.ppcbutton li button img {
-        width: 28px;
-        height: 28px;
-        right: 5px;
-        top: 6px;
-        transform: none;
-    }
     .ppcbannerservice .logoimage-main {
         padding-bottom: 40px;
     }
-    ul.ppctab-main li {
-        padding: 7px 16px;
-        margin: 0px 8px 12px 0px;
-    }
+
     .card-process::after, .processppc::before{
         display: none;
     }
@@ -377,6 +311,10 @@ ul.ppctab-main {
     .ppc-card img {
         width: 26px;
       }
+      .ppcservicecontent img {
+        max-width: 101px;
+        margin: 0px 9px 0px 0px;
+    }
 }
 
 

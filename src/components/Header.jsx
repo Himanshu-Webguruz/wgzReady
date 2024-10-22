@@ -183,7 +183,7 @@ const Header = () => {
                             Content Management System
                           </Link>
                         </li>
-                        {/* <li
+                        <li
                           onClick={closeDropdown}
                           className={
                             activeService ===
@@ -195,8 +195,8 @@ const Header = () => {
                           <Link href="/services/pay-per-click-management">
                             PPC Service
                           </Link>
-                        </li> */}
-                        {/* <li
+                        </li>
+                        <li
                           onClick={closeDropdown}
                           className={
                             activeService ===
@@ -208,7 +208,7 @@ const Header = () => {
                           <Link href="/services/search-engine-optimization">
                             SEO Management
                           </Link>
-                        </li> */}
+                        </li>
                       </div>
                     </div>
                   </ul>
