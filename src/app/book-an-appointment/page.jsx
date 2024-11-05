@@ -7,7 +7,7 @@ import AddsPartner from "@/components/contactComponents/06AddsPartner";
 import ProminentPrtnr from "@/components/otherServices/cmsDev/09ProminentPrtnr";
 import ServiceFaq from "@/components/serviceComponent/12ServiceFaq";
 import { accordionData } from "@/utils/accordionData";
-import BookComphrehensive from "@/components/bookConsultation/BookCOmphrehensive";
+import BookComphrehensive from "@/components/bookConsultation/BookComphrehensive";
 const page = () => {
   return (
     <>
